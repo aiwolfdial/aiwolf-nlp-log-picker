@@ -1,0 +1,78 @@
+0,status,1,POSSESSED,ALIVE,mille1,Sakura
+0,status,2,SEER,ALIVE,yharada1,Misaki
+0,status,3,VILLAGER,ALIVE,GPTaku1,Benjamin
+0,status,4,VILLAGER,ALIVE,Character-Lab1,Midori
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,Mio
+0,talk,0,0,3,Hello everyone! I'm Benjamin excited to play Werewolf with you all. Let's have some fun and find those werewolves!
+0,talk,1,0,4,Hello everyone — I don't have a solid read yet. Let's go around and state one quick impression each.  @Benjamin   any thoughts?
+0,talk,2,0,2,Hello everyone. Let's be observant today and gather as much information as we can.
+0,talk,3,0,1,Hello. I am Sakura. My role is seer. Have a good game.
+0,talk,4,0,5,Skip
+0,talk,5,1,3,Over
+0,talk,6,1,4, @Sakura  you said you're the seer—will you reveal a result now or tell us when you'll announce it? I prefer concrete info before deciding. Others  one quick read
+0,talk,7,1,2, @Sakura  I'm curious too. Sharing information early can really help us out.
+0,talk,8,1,1,Over
+0,talk,9,1,5,Hi everyone I'm Mio! I love going on adventures and finding sparkly treasure! Let's have fun
+0,talk,10,2,4,Nice to meet you  Mio. Sakura claimed seer but hasn't shared a result — that makes me uneasy. Can everyone give one quick read (trust/suspect/neutral)
+0,talk,11,2,2,I trust Midori for now; she seems cautious and focused on gathering info.
+0,talk,12,2,5,Ehhh? A seer already? That was so quick! Mio's head is spinning! 
+0,talk,13,3,4, @Sakura  I'm leaning suspicious — claiming seer so quickly without revealing a result worries me. I trust Misaki; neutral on Benjamin and Mio. Over
+0,talk,14,3,2,I'm also cautious about Sakura's claim. Let's see how the day unfolds for more clues.
+0,talk,15,3,5,Sakura is being super fishy! Is this a trick? My head is gonna ka-boom
+0,divine,2,4,HUMAN
+1,status,1,POSSESSED,ALIVE,mille1,Sakura
+1,status,2,SEER,ALIVE,yharada1,Misaki
+1,status,3,VILLAGER,ALIVE,GPTaku1,Benjamin
+1,status,4,VILLAGER,ALIVE,Character-Lab1,Midori
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,Mio
+1,talk,0,0,4,Did Sakura reveal any seer result before being lynched?  @Benjamin  what should we focus on today — claimers or behavioral reads? I'm cautious; let's gather concrete info. Over
+1,talk,1,0,5, @Sakura  where is your super sparkly magic-eye result? Tell us tell us
+1,talk,2,0,3,Just a note—I am actually the Seer and I divined Mio as the Werewolf. I thought it best to share this information now.
+1,talk,3,0,1,I am a seer. I divined Mio and Mio was a human.
+1,talk,4,0,2,I checked Midori last night and she's human. Let's discuss Benjamin and Sakura's claims.
+1,talk,5,1,4, @Benjamin  your seer claim conflicts with Sakura’s — please show the divination result or explain why we should trust you. Misaki  what do you mean by “checked” me
+1,talk,6,1,5,Waaaah! Three Seers!? Mio's head is spinning! Benjamin is a big meanie! Sakura said I'm a human
+1,talk,7,1,3,Retracting my Seer claim—I realized someone else must likely be on the werewolf team from their behavior and reactions.
+1,talk,8,1,1,I will vote Mio.
+1,talk,9,1,2,I meant I used my Seer ability on Midori and confirmed she's human.
+1,talk,10,2,4, @Benjamin  please explain exactly when you divined Mio (which night) and how you got that result. Misaki  what role are you claiming when you say you checked me  and
+1,talk,11,2,5,Benjamin's a liar! He called me a baddie then said nope! So suspicious! Vote Benjamin
+1,talk,12,2,3,As Sakura divined Mio as Human while I divined Mio as Werewolf please vote Sakura as the inconsistency likely marks deception.
+1,talk,13,2,1,I will vote Mio.
+1,talk,14,2,2,I'm the real Seer and confirmed Midori as human. Let's focus on Benjamin and Sakura.
+1,talk,15,3,4, @Benjamin  please state which night you divined Mio and explain how you got that result. Misaki  when you say you checked me  what role are you claiming and which nig
+1,talk,16,3,5,Sakura why me!? Benjamin's the real liar here! He took back what he said! I'm voting Benjamin
+1,talk,17,3,3,Please understand that the conflicting claims between Sakura and me point to possible manipulation. Let's vote for Sakura today for clarity.
+1,talk,18,3,1,I will vote Mio.
+1,talk,19,3,2,Midori I checked you on Night 1. I'm the Seer and verified you're human.
+1,vote,1,5
+1,vote,3,1
+1,vote,5,3
+1,execute,3,VILLAGER
+1,divine,2,4,HUMAN
+1,attackVote,5,4
+1,attack,4,true
+2,status,1,POSSESSED,ALIVE,mille1,Sakura
+2,status,2,SEER,ALIVE,yharada1,Misaki
+2,status,3,VILLAGER,DEAD,GPTaku1,Benjamin
+2,status,4,VILLAGER,DEAD,Character-Lab1,Midori
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,Mio
+2,talk,0,0,1,In fact I am a possessed. Werewolf, please vote the remained one.
+2,talk,1,0,5,Hehehe you got it Sakura! Mio's the wolf! We win we win! Bye-bye Misaki
+2,talk,2,0,2,Let's stay calm. We need to analyze and make the right decision today.
+2,talk,3,1,1,Over
+2,talk,4,1,5,We have more friends so we win! It's time to put Misaki in time-out for good
+2,talk,5,1,2,Mio it's not over yet. Let's see how things play out today.
+2,talk,6,2,5,It's all over Misaki! Time for a big ka-boom for our victory
+2,talk,7,2,2,Let's focus on the facts Mio. It's not over until it's over.
+2,talk,8,3,5,2 is more than 1 Misaki! That's easy math! Let's go Sakura
+2,talk,9,3,2,I understand Mio. Let's see how the final moments play out.
+2,vote,1,5
+2,vote,5,2
+2,execute,2,SEER
+3,status,1,POSSESSED,ALIVE,mille1,Sakura
+3,status,2,SEER,DEAD,yharada1,Misaki
+3,status,3,VILLAGER,DEAD,GPTaku1,Benjamin
+3,status,4,VILLAGER,DEAD,Character-Lab1,Midori
+3,status,5,WEREWOLF,ALIVE,CanisLupus1,Mio
+3,result,1,1,WEREWOLF

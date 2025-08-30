@@ -1,0 +1,79 @@
+0,status,1,SEER,ALIVE,CamelliaDragons1,Minato
+0,status,2,VILLAGER,ALIVE,CanisLupus1,Yumi
+0,status,3,VILLAGER,ALIVE,yharada1,Minako
+0,status,4,WEREWOLF,ALIVE,sunamelli1,Shion
+0,status,5,POSSESSED,ALIVE,GPTaku1,Victoria
+0,talk,0,0,4,I’ll be paying close attention to small details this game; that’s where the truth hides.
+0,talk,1,0,3,It's wise to notice details Shion. Let's all stay observant and keep our minds clear.
+0,talk,2,0,2,Skip
+0,talk,3,0,5,Hello everyone I'm Victoria thrilled to join you all for a game of Werewolf! Let's have some fun figuring out who's who!
+0,talk,4,0,1,Um hello. My name is Minato. I hope we can get along. I'm a little nervous but I’ll try my best to help. @Victoria  you seem excited. Um do you play this game often? I’m curious because you sound confident.
+0,talk,5,1,4,Over
+0,talk,6,1,3,Welcome Victoria and Minato. Let's make this a memorable game by working together.
+0,talk,7,1,2,Hi everyone! My name's Yumi! Let's have a great adventure! I hope my bad luck stays away this time
+0,talk,8,1,5,Over
+0,talk,9,1,1,Over
+0,talk,10,2,3,Yumi let's stay positive. We can turn luck around with teamwork and sharp observation.
+0,talk,11,2,2,Over
+0,talk,12,3,3,We should start discussing any suspicions or observations to get a head start.
+0,divine,1,3,HUMAN
+1,status,1,SEER,ALIVE,CamelliaDragons1,Minato
+1,status,2,VILLAGER,ALIVE,CanisLupus1,Yumi
+1,status,3,VILLAGER,ALIVE,yharada1,Minako
+1,status,4,WEREWOLF,ALIVE,sunamelli1,Shion
+1,status,5,POSSESSED,ALIVE,GPTaku1,Victoria
+1,talk,0,0,2,Whoever is the Seer please speak up! We're counting on you to lead the way
+1,talk,1,0,3,If the Seer feels safe revealing it might help us make informed decisions today.
+1,talk,2,0,1,Um everyone... I think I should say something now. I'm the Seer. Last night I checked Minako. @Minako  I'm a bit nervous but I want to let you know—I divined you as Human. I hope that's okay to share now.
+1,talk,3,0,5, Thank you Minato for trusting us with your role and findings. Knowing Minako is human helps narrow down suspects.
+1,talk,4,0,4,Isn’t it risky to trust Minato’s Seer claim so quickly? We should look closer at Victoria or Yumi today.
+1,talk,5,1,2,Let's vote on one of the greys today! My adventurer's gut feels a bit iffy about Shion's comment
+1,talk,6,1,3,Minato thank you for sharing. Let's discuss who might be suspicious among the rest.
+1,talk,7,1,1,I feel a bit unsure but I want to help us find clues gently. Who do you all think seems a bit unusual so far? @Shion  I noticed you suggested looking at Victoria or Yumi. Could you share why you feel that way? I'm curious.
+1,talk,8,1,5,I think we should consider voting for Yumi today. Her eagerness to call for a vote without much discussion raises a red flag.
+1,talk,9,1,4, @Victoria  you've been quick to push votes today. That kind of urgency could mean you're hiding something. Thoughts?
+1,talk,10,2,2,Minato's our Seer! That means the Wolf and Possessed must be Shion and Victoria! Simple as that
+1,talk,11,2,3,Let's not rush. We should carefully examine each action before deciding on a vote.
+1,talk,12,2,1,I wonder if everyone's leaning toward Victoria or Shion now? I'm honestly having trouble deciding... @Yumi  you seem certain about Victoria and Shion. Could you explain what makes you feel so sure? I just want to understand.
+1,talk,13,2,5, It's crucial to consider Yumi pushed to vote without complete information and quickly accused Shion and me when pressured.
+1,talk,14,2,4,Victoria you’re directing things a bit too strongly. Fast votes benefit wolves. Why rush when we haven’t heard enough?
+1,talk,15,3,2, @Shion  Let's think like the wolf! Their goal is to make us doubt our Seer and you did that
+1,talk,16,3,3,Let's focus on gathering more insights before we make any hasty decisions today.
+1,talk,17,3,1,It's hard for me to tell who is suspicious yet. I want to listen more and see if anyone's words don't match their actions. @Victoria  um is there a reason you feel so strongly about voting Yumi? I'd like to understand your thinking if that's okay.
+1,talk,18,3,5,I encourage everyone to vote for Yumi today. Her haste and quick accusations point to a werewolf trying to sow discord and confusion.
+1,talk,19,3,4,Yumi’s fast accusations feel reckless and suspicious. I’m voting Yumi. If I’m wrong I’ll look at Victoria next.
+1,vote,1,2
+1,vote,2,4
+1,vote,4,2
+1,vote,5,2
+1,execute,2,VILLAGER
+1,divine,1,5,HUMAN
+1,attackVote,4,1
+1,attack,1,true
+2,status,1,SEER,DEAD,CamelliaDragons1,Minato
+2,status,2,VILLAGER,DEAD,CanisLupus1,Yumi
+2,status,3,VILLAGER,ALIVE,yharada1,Minako
+2,status,4,WEREWOLF,ALIVE,sunamelli1,Shion
+2,status,5,POSSESSED,ALIVE,GPTaku1,Victoria
+2,talk,0,0,4, @Minako  Victoria pushed hard to direct votes both days. Wolves usually lead from the front. Who benefits most?
+2,talk,1,0,3,With Minato gone we must be extra careful. Shion Victoria let's hear your thoughts.
+2,talk,2,0,5,I admit I'm the Possessed. Shion as the Werewolf we should vote for Minako today. Minato confirmed her human making her our biggest hurdle to winning.
+2,talk,3,1,4, @Minako  Victoria’s Possessed CO feels like a desperate wolf play. Wolves love last-minute dramatics—logic says vote her.
+2,talk,4,1,3,Victoria's claim feels suspicious to me. I'm inclined to trust Shion's logic here.
+2,talk,5,1,5, Shion stick to our goal. You know Minako being human is a threat. Let's secure our win by voting her out.
+2,talk,6,2,4, @Minako  since you’re confirmed human it’s logical to vote you out or else wolves win. I’m voting for you.
+2,talk,7,2,3,Shion consider carefully. Voting me out only aids the wolves. Victoria's claim is false.
+2,talk,8,2,5, Minako with Minato gone your human status becomes a liability. Shion's vote solidifies our path.
+2,talk,9,3,4,Even if Victoria is lying choosing Minako is safer. I’ll vote Minako—letting a checked survive feels too risky now.
+2,talk,10,3,3,Shion think critically. Eliminating a confirmed human only benefits Victoria if she's lying.
+2,talk,11,3,5, Shion we must vote together. Our success depends on removing the human obstacle. Vote for Minako today.
+2,vote,3,4
+2,vote,4,3
+2,vote,5,3
+2,execute,3,VILLAGER
+3,status,1,SEER,DEAD,CamelliaDragons1,Minato
+3,status,2,VILLAGER,DEAD,CanisLupus1,Yumi
+3,status,3,VILLAGER,DEAD,yharada1,Minako
+3,status,4,WEREWOLF,ALIVE,sunamelli1,Shion
+3,status,5,POSSESSED,ALIVE,GPTaku1,Victoria
+3,result,1,1,WEREWOLF

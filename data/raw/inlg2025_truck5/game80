@@ -1,0 +1,56 @@
+0,status,1,VILLAGER,ALIVE,Character-Lab1,Victoria
+0,status,2,VILLAGER,ALIVE,CanisLupus1,George
+0,status,3,WEREWOLF,ALIVE,sunamelli1,Rin
+0,status,4,POSSESSED,ALIVE,mille1,Takumi
+0,status,5,SEER,ALIVE,GPTaku1,Benjamin
+0,talk,0,0,4,Hello. I am Takumi. My role is seer. Have a good game.
+0,talk,1,0,3,Hi everyone I'm Rin! Ready to sniff out trouble and maybe trip over some clues—who wants to go first and share a secret?
+0,talk,2,0,5,Hello everyone! I'm Benjamin ready to hunt or be hunted in this thrilling game. Who's ready?
+0,talk,3,0,1, @Takumi  Since you claim seer  please tell us who you divined and the result. Rin and Benjamin  any concrete suspicions or role claims to share? I prefer specific
+0,talk,4,0,2,Skip
+0,talk,5,1,4,Over
+0,talk,6,1,3,Over
+0,talk,7,1,5,Over
+0,talk,8,1,1, @Takumi  please tell us who you divined and the result. Silence from a seer would be troubling. Benjamin  Rin  George — any concrete claims or observations? Over
+0,talk,9,1,2,I am George. I am here to observe this contract's unfolding.
+0,talk,10,2,1, @Benjamin  you've been quiet—do you have any suspicions or a role claim to share? George  anything specific you've observed? Over
+0,talk,11,2,2,I am George. I enjoy quiet contemplation and well-structured arguments.
+0,talk,12,3,1, @Takumi  if you're the seer  please reveal your divination result now—who did you check and what was the result? Benjamin  Rin  George  any concrete suspicions or
+0,talk,13,3,2,The flow of time is absolute. Claims must respect its sequence.
+0,divine,5,4,HUMAN
+1,status,1,VILLAGER,ALIVE,Character-Lab1,Victoria
+1,status,2,VILLAGER,ALIVE,CanisLupus1,George
+1,status,3,WEREWOLF,ALIVE,sunamelli1,Rin
+1,status,4,POSSESSED,ALIVE,mille1,Takumi
+1,status,5,SEER,ALIVE,GPTaku1,Benjamin
+1,talk,0,0,3, @Takumi  could you share your divination result? That info will help us catch the wolf before it’s too late!
+1,talk,1,0,4,I am a seer. I divined Victoria and Victoria was a human.
+1,talk,2,0,1,Takumi  if you divined me and got human that’s important — thanks for the info  but one check isn’t definitive. Did you check anyone else or can you confir @Benjamin  do you trust Takumi’s claim or do you see anything odd in his timing/phrasing? I won’t vote without more concrete reasons. Over
+1,talk,3,0,5, I actually divined Takumi last night and he is human. The result aligns with his claim so I trust him for now.
+1,talk,4,0,2,Two claimants implies a Seer and a Possessed. The Werewolf must lie outside this conflict. My gaze falls on Rin.
+1,talk,5,1,3, @George  you’re just guessing based on meta logic—do you have any actual evidence I should worry about?
+1,talk,6,1,4,I will vote Rin.
+1,talk,7,1,1,Two divination claims could be genuine or a coordinated lie — we need specifics before lynching.  @Benjamin  which night did you divine Takumi  and can you share any exact timing or phrasing that proves it wasn’t a copy? George  what concrete behaviour makes you
+1,talk,8,1,5, I must correct myself - I am the real Seer and Takumi lied. I divine Rin tonight to prove my role.
+1,talk,9,1,2,Benjamin's contract is broken. Judgment must pass upon the unconfirmed. My gaze remains fixed on Rin.
+1,talk,10,2,3, @George  picking me just by elimination isn’t logic—shouldn’t we dig into Takumi and Benjamin’s claims more seriously?
+1,talk,11,2,4,I will vote Rin.
+1,talk,12,2,1, @Benjamin  which night did you divine Takumi and what exactly was your result phrasing? Takumi  can you confirm the night you were checked? George  what specific b
+1,talk,13,2,5, I made a mistake in my earlier statement. I am the real seer and Takumi is false. I divined Takumi and he is the werewolf.
+1,talk,14,2,2,Benjamin's words are without foundation. Takumi's claim is sound. Therefore my judgment falls upon Rin.
+1,talk,15,3,3,Takumi and George fixed on me from start with no proof. That’s suspect—my vote is for George. Victoria please dig deeper.
+1,talk,16,3,4,I will vote Rin.
+1,talk,17,3,1,Two matching seer claims worry me.  @Benjamin  please tell us the night you divined Takumi and the exact phrasing of your result. Everyone else — who are you planning to vote for and why? Over
+1,talk,18,3,5, I am undoubtedly the real Seer and Takumi is misleading everyone. My divination revealed Takumi as a werewolf last night.
+1,talk,19,3,2,Over
+1,vote,2,3
+1,vote,3,2
+1,vote,4,3
+1,vote,5,4
+1,execute,3,WEREWOLF
+2,status,1,VILLAGER,ALIVE,Character-Lab1,Victoria
+2,status,2,VILLAGER,ALIVE,CanisLupus1,George
+2,status,3,WEREWOLF,DEAD,sunamelli1,Rin
+2,status,4,POSSESSED,ALIVE,mille1,Takumi
+2,status,5,SEER,ALIVE,GPTaku1,Benjamin
+2,result,4,0,VILLAGER

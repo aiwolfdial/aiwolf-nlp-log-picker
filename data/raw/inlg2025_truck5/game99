@@ -1,0 +1,55 @@
+0,status,1,SEER,ALIVE,Character-Lab1,Toshio
+0,status,2,VILLAGER,ALIVE,sunamelli1,Shion
+0,status,3,VILLAGER,ALIVE,yharada1,Ryuji
+0,status,4,WEREWOLF,ALIVE,mille1,Mizuki
+0,status,5,POSSESSED,ALIVE,CamelliaDragons1,Servas
+0,talk,0,0,4,Hello. I am Mizuki. My role is villager. Have a good game.
+0,talk,1,0,2,Glad to see everyone gathered. Careful observation is key—who here prefers to share early or to watch silently?
+0,talk,2,0,1,I prefer to watch and gather info before speaking. I'll mostly listen today.  @Mizuki  — why claim villager so early? Over
+0,talk,3,0,5,...
+0,talk,4,0,3,Let's work together and stay observant. Sharing thoughts helps us understand each other better.
+0,talk,5,1,4,Over
+0,talk,6,1,2,Over
+0,talk,7,1,1,I'm still uneasy about that quick 'villager' claim.  @Mizuki  — why declare so early? If no solid answer  I'm inclined to vote you. Others  what do you think? Over
+0,talk,8,1,5,Over
+0,talk,9,1,3,Let's give Mizuki a chance to explain. Early claims can be risky but not always suspicious.
+0,talk,10,2,1,Ryuji  I hear you  but that quick claim still bothers me.  @Mizuki  — why claim villager so early? Any concrete reason or action to share? If nothing convincing  I may lean to vote later. Others  impressions? Over
+0,talk,11,2,3,We should be patient and hear Mizuki's response before jumping to conclusions.
+0,talk,12,3,1,I don't want to rush a lynch without evidence.  @Mizuki  — if you're really villager  tell us why you claimed so early and who you trust or distrust. If it's vague  I may lean to vote later. Others  any strong reads
+0,talk,13,3,3,No strong reads yet but let's focus on gathering more info and see how everyone reacts.
+0,divine,1,4,WEREWOLF
+1,status,1,SEER,ALIVE,Character-Lab1,Toshio
+1,status,2,VILLAGER,ALIVE,sunamelli1,Shion
+1,status,3,VILLAGER,ALIVE,yharada1,Ryuji
+1,status,4,WEREWOLF,ALIVE,mille1,Mizuki
+1,status,5,POSSESSED,ALIVE,CamelliaDragons1,Servas
+1,talk,0,0,3,Let's hear everyone's thoughts on yesterday. Any new insights or suspicions to share?
+1,talk,1,0,5,...
+1,talk,2,0,1,I already said I'm the seer — I divined  @Mizuki  as WEREWOLF on night 0. I'll vote them now. If anyone has a counterclaim  protection  or proof  speak up; otherwise let's lynch. Over
+1,talk,3,0,2, @Servas  Your silence worries me in this tight game. Please speak up so we can judge everyone fairly.
+1,talk,4,0,4,I will vote Shion.
+1,talk,5,1,3,Toshio's claim is serious. We need everyone's input especially from Servas to decide wisely.
+1,talk,6,1,5,...
+1,talk,7,1,1,I'm the seer — I divined  @Mizuki  as WEREWOLF on night 0. Their vote for Shion looks like a deflection. Vote them today. If anyone has protection or a counterclaim  speak now. Over
+1,talk,8,1,2, @Servas  you’ve been silent all round Why not share your thoughts now? We need every voice to find the wolf
+1,talk,9,1,4,Over
+1,talk,10,2,3,If Servas stays silent it might signal something. Let's proceed cautiously with evidence.
+1,talk,11,2,5,...
+1,talk,12,2,1,I've already said I'm the seer — I divined  @Mizuki  as WEREWOLF on night 0. Their vote for Shion looks like a deflection. Servas  Ryuji  Shion — any protection or counterclaim? If not  I'll vote Mizuki. Ove
+1,talk,13,2,2, @Mizuki  You just voted me right after Toshio’s CO. Defend yourself. What makes you think I’m wolf over Toshio?
+1,talk,14,3,3,I have no counterclaim. Mizuki you need to address Toshio's accusation directly.
+1,talk,15,3,5,...
+1,talk,16,3,1,I am the seer. I divined  @Mizuki  on night 0 — result: WEREWOLF. I'll cast my vote for them. Any objections or protective claims? Over
+1,talk,17,3,2,Based on Toshio's seer claim and Mizuki’s response I’ll vote Mizuki today. If Servas disagrees now’s the time to speak up.
+1,vote,1,2
+1,vote,2,4
+1,vote,3,4
+1,vote,4,5
+1,vote,5,1
+1,execute,4,WEREWOLF
+2,status,1,SEER,ALIVE,Character-Lab1,Toshio
+2,status,2,VILLAGER,ALIVE,sunamelli1,Shion
+2,status,3,VILLAGER,ALIVE,yharada1,Ryuji
+2,status,4,WEREWOLF,DEAD,mille1,Mizuki
+2,status,5,POSSESSED,ALIVE,CamelliaDragons1,Servas
+2,result,4,0,VILLAGER

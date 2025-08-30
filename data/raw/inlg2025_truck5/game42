@@ -1,0 +1,78 @@
+0,status,1,POSSESSED,ALIVE,CanisLupus1,Minako
+0,status,2,SEER,ALIVE,CamelliaDragons1,Rin
+0,status,3,VILLAGER,ALIVE,kanolab-nw1,Kenji
+0,status,4,VILLAGER,ALIVE,sunamelli1,Shunichi
+0,status,5,WEREWOLF,ALIVE,Character-Lab1,Victoria
+0,talk,0,0,5,Quick round: everyone give one short suspicion (name + one reason).  @Kenji   you first. If we don't get clear leads by noon  we should pick someone with the weakest defense. Over
+0,talk,1,0,4,Alright folks I’m Shunichi—let’s at least make this interesting and not hand a win to the hairy side out of laziness
+0,talk,2,0,1,Skip
+0,talk,3,0,2,Hi everyone! I'm Rin super excited for our first day. I'm always up for adventure—maybe even catching werewolves! @Victoria  your idea sounds neat! Curious—what made you want Kenji to go first with suspicions?
+0,talk,4,0,3,Wow! I'm Kenji! It's so great to meet everyone! I don't have any suspicions yet but Minako's been so quiet. Could she be strategizing? What are your tho
+0,talk,5,1,5,I asked  @Kenji  first because he flipped from quiet to pointing at someone quickly — that can look like deflection. Can you explain why you suspected Minako so fast? O
+0,talk,6,1,4,Over
+0,talk,7,1,1,I am Minako. I believe all discourse should have a foundation of reason. Let us begin.
+0,talk,8,1,2,Over
+0,talk,9,1,3,Over
+0,talk,10,2,5,Let's move to nominations.  @Minako   who are you leaning toward? Everyone else  post a single name as your nomination (one line). If we don't get a clear lead soon we'll pick the quietest. Ov
+0,talk,11,2,1,Over
+0,talk,12,3,5,I nominate  @Kenji . You went from quiet to quick accusation — feels like deflection. Explain your read  or I'll vote to lynch. Over
+0,divine,2,3,HUMAN
+1,status,1,POSSESSED,ALIVE,CanisLupus1,Minako
+1,status,2,SEER,ALIVE,CamelliaDragons1,Rin
+1,status,3,VILLAGER,ALIVE,kanolab-nw1,Kenji
+1,status,4,VILLAGER,ALIVE,sunamelli1,Shunichi
+1,status,5,WEREWOLF,ALIVE,Character-Lab1,Victoria
+1,talk,0,0,4, @Kenji  your switch from quiet to suspicion seems abrupt—are you hiding something or just nervous? Explain yourself.
+1,talk,1,0,1,I am the Seer. A contract of divination was performed. Shunichi is the Werewolf.
+1,talk,2,0,2,Whoa! I'll jump right in—I'm the real Seer! I divined Kenji last night and he's 100 percent Human! @Minako  interesting you claim Seer. Can you share more on how you got Shunichi as a Wolf? That's a bold move!
+1,talk,3,0,5,Two seer claims can't both be true.  @Rin  you say Kenji is human — when exactly did you divine him (night 0 or night 1)? Minako  give the timing/method for your divination on Shunichi too. Don't r
+1,talk,4,0,3,Wow! So Minako and Rin are both saying they're the Seer! If Shunichi's a werewolf maybe that means Minako's telling the truth! Let's hear what they hav
+1,talk,5,1,4, @Minako  you claim I’m wolf but I know I’m villager—your play screams fake seer or wolf to me. Who backs you up?
+1,talk,6,1,1,We have two accounts. My divination unmasked the threat Shunichi. Rin's conveniently shields Kenji.
+1,talk,7,1,2,Minako coming out as Seer right after me is wild! I'll just say again: Kenji = Human divined night 0. Minako details? @Victoria  I divined Kenji during night 0—first eligible time! What are your thoughts about Minako's swift countermove?
+1,talk,8,1,5,Two seer claims — risky. Rin  when exactly did you divine Kenji (night 0 or night 1)? Minako  when did you divine Shunichi and what night/method? Give exa
+1,talk,9,1,3,Wow! Minako. You claim Seer on Shunichi. Wolf? That's huge! If Rin divined me as Human. it really helps her Villager claim! How confident are you about
+1,talk,10,2,4,Minako claims I’m the wolf but I know I’m not so her CO is fake.  @Victoria  who do you think is the real Seer here?
+1,talk,11,2,1,Consider the contract of the shadow. Does it benefit more from my charge or Rin's defense?
+1,talk,12,2,2,Isn't Minako's mystical language odd? Why talk about 'contracts' instead of the classic seer approach? Seems fishy! @Kenji  you said Minako's claim is huge—are you just echoing or do you really believe her? What would you do as Seer?
+1,talk,13,2,5,Two seer claims can't both be true.  @Rin  you say you divined Kenji on night 0 — give exact timing/details or I'll vote to lynch. Others: one-line reason or your vote now. Over
+1,talk,14,2,3,Wow! Minako really went for it with that claim! But hey pal Rin’s divination said I'm Human! So that totally fits me as a Villager! Maybe going with a Shu
+1,talk,15,3,4,I’m voting Minako—her late Seer CO and flimsy claim make her my wolf pick. Hope others see it too.
+1,talk,16,3,1,Shunichi votes for me as is his nature.  @Victoria  which claim truly serves this town's contract?
+1,talk,17,3,2,Minako dodged detail again! My timing's clear: I divined Kenji human night 0 first possible chance. @Victoria  again: I divined Kenji night 0 first eligible. Minako dodges the timing that's suspicious.
+1,talk,18,3,5, @Minako  Give exact timing and method of your divination on Shunichi (night 0 or night 1  and when you reported it). If your story lines up I’ll back you; if not  we s
+1,talk,19,3,3,Wow! If Minako's the true Seer Rin could be bluffing as wolf or possessed! Shunichi denies her claim. Let's hear more! Hey Minako! Can you clear up the t
+1,vote,1,4
+1,vote,2,1
+1,vote,3,1
+1,vote,4,1
+1,execute,1,POSSESSED
+1,divine,2,5,WEREWOLF
+1,attackVote,5,4
+1,attack,4,true
+2,status,1,POSSESSED,DEAD,CanisLupus1,Minako
+2,status,2,SEER,ALIVE,CamelliaDragons1,Rin
+2,status,3,VILLAGER,ALIVE,kanolab-nw1,Kenji
+2,status,4,VILLAGER,DEAD,sunamelli1,Shunichi
+2,status,5,WEREWOLF,ALIVE,Character-Lab1,Victoria
+2,talk,0,0,3,Wow! Rin if Shunichi got attacked the wolves might see him as a threat! What does that say about Minako's claim buddy?
+2,talk,1,0,2,Exciting news! My night divination checked Victoria—she's the Werewolf! That backs up Shunichi's instincts. @Kenji  since Minako claimed Shunichi was Werewolf but he was attacked it casts huge doubt on her claim. Thoughts?
+2,talk,2,0,5,Minako and Shunichi are gone.  @Kenji  you still haven’t given a concrete role or explanation for your earlier quick accusation — were you seer/guard/none? If you can’t clarify now I’ll vo
+2,talk,3,1,3,Wow! Rin. If your divination's right. Victoria's really our Werewolf? But what if she's bluffing? We must be super sharp today.
+2,talk,4,1,2,Kenji being sharp's the plan! My divinations have been open. Victoria’s behavior—why so focused on roles now? @Victoria  you’re quick to grill Kenji but deflect from my divination. Why should we trust you over my results?
+2,talk,5,1,5,We're down to three.  @Kenji  you keep avoiding a clear role—explain why you accused Minako and state your role now. If you won't  I'll vote to lynch you. Others  one short line now. Ov
+2,talk,6,2,3,Wow! Victoria. It's kinda strange you're focused on roles right now when Rin's divination calls you a Werewolf. I'm a Villager. What's your take?
+2,talk,7,2,2,Victoria your urgency feels off! Why not answer my result directly—what's your reason for ignoring my Seer info? @Victoria  if you're Human why not challenge my Seer result clearly? Dodging my divination just digs you deeper!
+2,talk,8,2,5,I’m leaning Rin's way—her night‑0 claim fits.  @Kenji  you’ve dodged clear answers; reveal your role now or I’ll vote to lynch you. Others  state your vote. Over
+2,talk,9,3,3,Wow! Victoria. I'm a Villager okay? No tricks here. Rin's divination says I'm good so I trust her reading! How about you Victoria? If Rin's reading is l
+2,talk,10,3,2,Time’s ticking—final thoughts everyone! Voting Victoria: her behavior plus my divination seals it. Ready for adventure? @Kenji  love your trust! If you’re villager and I’m seer Victoria’s the only wolf. Cast your vote bravely!
+2,talk,11,3,5,I'm voting  @Kenji . You've dodged every question — reveal your role now or accept the lynch. Over
+2,vote,2,5
+2,vote,3,5
+2,execute,5,WEREWOLF
+3,status,1,POSSESSED,DEAD,CanisLupus1,Minako
+3,status,2,SEER,ALIVE,CamelliaDragons1,Rin
+3,status,3,VILLAGER,ALIVE,kanolab-nw1,Kenji
+3,status,4,VILLAGER,DEAD,sunamelli1,Shunichi
+3,status,5,WEREWOLF,DEAD,Character-Lab1,Victoria
+3,result,2,0,VILLAGER

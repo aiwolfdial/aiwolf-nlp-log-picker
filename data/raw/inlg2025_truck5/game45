@@ -1,0 +1,78 @@
+0,status,1,POSSESSED,ALIVE,sunamelli1,Mio
+0,status,2,SEER,ALIVE,kanolab-nw1,Rin
+0,status,3,VILLAGER,ALIVE,GPTaku1,Minato
+0,status,4,VILLAGER,ALIVE,Character-Lab1,Shion
+0,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+0,talk,0,0,2,Hey everyone! I'm Rin and I'm so excited to play this game with you all! Let's keep it lively and super friendly. Over!
+0,talk,1,0,4, @Rin  Nice to meet you. Keep it brief: who do you suspect right now  and do you have any role claim? Over
+0,talk,2,0,3,Hello everyone! I'm Minato ready to dive into this game of mystery and strategy. Let's have fun and find that werewolf!
+0,talk,3,0,5,I'm Ryuji. My approach is logical and direct. I'll claim Seer today. I'm the Seer awaiting my first vision result. @Shion  you urge brevity and role claims. I have no suspicions yet; I'm claiming Seer vision result comes tomorrow.
+0,talk,4,0,1,Hey hey everyone I’m Mio and I can’t wait to get started! Does anyone else get nervous on Night 0 or is it just me?
+0,talk,5,1,2,Over
+0,talk,6,1,4, @Ryuji  Claiming Seer and saying the vision comes tomorrow is odd — why delay? If you're genuine  give us your reasoning or a small test to earn trust.
+0,talk,7,1,3,Over
+0,talk,8,1,5,Over
+0,talk,9,1,1,Over
+0,talk,10,2,4, @Ryuji  If you're the Seer  why say the vision comes tomorrow? Delaying helps wolves. Give a clear reason or a small test to earn trust (for example  who you won't
+0,talk,11,3,4, @Ryuji  If you're really the Seer  name one person you refuse to vote for today and give a brief reason — that test makes your claim more credible. If you dodge  I wo
+0,divine,2,5,WEREWOLF
+1,status,1,POSSESSED,ALIVE,sunamelli1,Mio
+1,status,2,SEER,ALIVE,kanolab-nw1,Rin
+1,status,3,VILLAGER,ALIVE,GPTaku1,Minato
+1,status,4,VILLAGER,ALIVE,Character-Lab1,Shion
+1,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+1,talk,0,0,4, @Ryuji  Explain now why you delayed your Seer reveal. No reasonable reason = my vote. Anyone else have a clearer suspect? Over
+1,talk,1,0,2,Oh my gosh! Big bro I divined Ryuji as a Werewolf last night! Wow! Let's focus our votes on him and stay safe okay?
+1,talk,2,0,1, @Ryuji  two people claim Seer but your stories don’t match. Can you explain more? If not we’ll just get more confused.
+1,talk,3,0,5,I am the real Seer. Last night I divined Minato—Villager. If anyone else claims Seer they're a liar. @Mio If you're confused let's organize: I checked Minato last night and he is a Villager. Rin's claim is false.
+1,talk,4,0,3,I divined Mio last night and confirmed she is human. With conflicting seer claims the wolves are sowing confusion. Let's stay calm and think this thro
+1,talk,5,1,4, @Rin  You claimed Ryuji as Werewolf — explain how you divined him so confidently on Night 0. Your result directly conflicts with Ryuji and Minato’s checks.
+1,talk,6,1,2,Wow! Hey big bro. I divined Ryuji and guess what? He's a Werewolf! So! Let's keep our cool when voting. It'll clear things up!
+1,talk,7,1,1,Three Seer claims are wild—someone’s tricking us.  @Shion  you’re steering hard today. Why so decisive already?
+1,talk,8,1,5,There are three Seer claims but only one can be telling the truth. Let's calmly sort through each claim rationally. @Minato  your Seer claim just added more doubt. Can you clarify when you decided to claim and why you checked Mio?
+1,talk,9,1,3,Please vote for Ryuji today. Rin divined him as a Werewolf while he claimed I was human. This contradiction and urgency emphasize his danger. Let's se
+1,talk,10,2,4,Mio  three seer claims with direct contradictions will drown the town — that's why I'm decisive. Ryuji said he'd wait then gave a result; Rin claims a Ni @Ryuji  explain your delay now or accept my vote. Over
+1,talk,11,2,2,Let's vote for Ryuji! Oh my gosh big bro Minato do you think he's bluffing? I divined him as a Werewolf and he claimed you're a Villager!
+1,talk,12,2,1,Three Seers is wild!  @Shion  who do you actually trust most right now? Any gut feeling besides the claimants?
+1,talk,13,2,5,Three Seer claims mean someone is lying. My check on Minato showed Villager—no benefit in lying there. Stay logical. @Shion  your suspicion is valid but rash conclusions do not help. Examine motives behind the claims not only timing.
+1,talk,14,2,3,It's crucial to think about the contradictions. Rin's divination of Ryuji as a Werewolf clashes with his own claim. This dispute points to Ryuji as th
+1,talk,15,3,4,Let's organize: each person state (1) role claim  (2) night result if any  (3) who you're voting today.  @Minato  please restate your divination result and when you made your claim. Over
+1,talk,16,3,2,Oh my gosh! Ryuji's acting just like a werewolf! Wow! Can you believe it? If we trust him. We'll be in big trouble. Let's vote Ryuji today!
+1,talk,17,3,1,Honestly it’s chaos—Shion’s decisive moves could be a cover. I’m siding with my gut and voting Shion tonight.
+1,talk,18,3,5,My stance remains clear: I am the Seer and Minato is innocent. Rash votes only help the real wolf hide. @Mio  you urge clarity so here's mine: I am the Seer and my check on Minato was intentional and timely. Stick to facts.
+1,talk,19,3,3,Vote for Ryuji today. Both I and Rin have divination results pointing to him which increases his likelihood as a werewolf. Sticking to logical deduct
+1,vote,1,4
+1,vote,2,5
+1,vote,3,5
+1,vote,5,4
+1,execute,4,VILLAGER
+1,divine,2,3,HUMAN
+1,attackVote,5,2
+1,attack,2,true
+2,status,1,POSSESSED,ALIVE,sunamelli1,Mio
+2,status,2,SEER,DEAD,kanolab-nw1,Rin
+2,status,3,VILLAGER,ALIVE,GPTaku1,Minato
+2,status,4,VILLAGER,DEAD,Character-Lab1,Shion
+2,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+2,talk,0,0,1,Minato gave clear results from the start while Ryuji’s answers felt shaky. I’m leaning toward trusting Minato today.
+2,talk,1,0,3,Ryuji's actions are suspect and Rin's divination strongly indicates him as the Werewolf. Aligning our votes against him is strategic for our surviv
+2,talk,2,0,5,There are still inconsistencies in both Minato’s and Rin’s claims. Quick alignment feels rushed. Let’s review carefully. @Mio  you said my answers were shaky but Minato only copied Rin’s stance. Isn’t that equally suspect?
+2,talk,3,1,1, @Ryuji  Minato’s Seer claim cleared me so logically you’re the one I suspect most and will vote for today.
+2,talk,4,1,3,Ryuji divined me as Human but Rin identified him as the Werewolf. Considering their conflicting results and Shion's exile Ryuji's claim is dubious.
+2,talk,5,1,5,With only one Werewolf and three Seer claims it's absurd to trust both Rin and Minato together. That logic is flawed. @Minato  you repeated Rin's claim after the fact. Why didn't you counter Ryuji's Seer claim immediately on Day 0?
+2,talk,6,2,1,Minato cleared me with his divination so I trust him Ryuji’s claims just don’t feel consistent to me
+2,talk,7,2,3,Ryuji's behavior increases suspicions given Rin's reliable divination. Voting for him secures our safety and upholds village interests.
+2,talk,8,2,5,Minato’s sequence still doesn’t add up. Declaring after Rin and mirroring her result casts doubt on their intentions. @Mio  relying solely on Minato clearing you is risky—his Seer claim mirrors Rin’s narrative. Question the timing.
+2,talk,9,3,1,Ryuji keeps trying to shift blame but Minato consistently claimed me as human. I have no reason to doubt him.
+2,talk,10,3,3,Ryuji's claim is undermined by his inconsistent explanations while Rin's divination directly pointed to him as the Werewolf. Your vote is key for th
+2,talk,11,3,5,Rin and Minato acting in tandem undermines trust. Their synchronized claims should be analyzed for coordination. @Minato Mirroring another Seer’s results post-fact isn’t logical Minato. Why the delay in your assertion relative to mine?
+2,vote,1,5
+2,vote,3,5
+2,vote,5,3
+2,execute,5,WEREWOLF
+3,status,1,POSSESSED,ALIVE,sunamelli1,Mio
+3,status,2,SEER,DEAD,kanolab-nw1,Rin
+3,status,3,VILLAGER,ALIVE,GPTaku1,Minato
+3,status,4,VILLAGER,DEAD,Character-Lab1,Shion
+3,status,5,WEREWOLF,DEAD,CamelliaDragons1,Ryuji
+3,result,2,0,VILLAGER

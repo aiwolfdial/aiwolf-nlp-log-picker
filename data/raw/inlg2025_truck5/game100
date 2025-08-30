@@ -1,0 +1,80 @@
+0,status,1,POSSESSED,ALIVE,kanolab-nw1,Victoria
+0,status,2,SEER,ALIVE,CanisLupus1,Shizue
+0,status,3,VILLAGER,ALIVE,Character-Lab1,George
+0,status,4,VILLAGER,ALIVE,GPTaku1,Sakura
+0,status,5,WEREWOLF,ALIVE,yharada1,Shunichi
+0,talk,0,0,5,Let's keep our eyes open for any suspicious behavior today everyone.
+0,talk,1,0,4,Hello everyone I'm Sakura! Excited to play Werewolf with you all. Let's have some fun and good luck guessing who's who!
+0,talk,2,0,2,Skip
+0,talk,3,0,3,Morning. Thanks for the heads-up  Shunichi.  @Sakura  welcome — glad you're excited. Shizue's quick "skip" makes me a bit wary; quiet players can be hiding. Please share any reads or claims early so we can n
+0,talk,4,0,1,I am Victoria and thrilled to participate in this game with you all. If I may let's unite and observe for any peculiar actions. Over.
+0,talk,5,1,5,Nice to meet you all. Let's see how everyone plays today. Stay sharp!
+0,talk,6,1,4,Over
+0,talk,7,1,2,I am Shizue. I will dedicate myself to uncovering the truth and protecting the innocent.
+0,talk,8,1,3, @Shizue  Thanks — do you mean you have a specific role (like seer or guardian) or just a plan to watch closely? If you have a claim or a strategy  please share it. Oth
+0,talk,9,1,1,Over
+0,talk,10,2,5,Let's focus on observations and see who stands out today. Stay alert everyone.
+0,talk,11,2,2,Over
+0,talk,12,2,3,Still quiet this round.  @Victoria  — you said we should observe; did anyone stand out to you? If not  let's each name one person we find suspicious so we can start narrowing things down. Ove
+0,talk,13,3,5,I haven't noticed anyone suspicious yet but let's keep sharing thoughts.
+0,talk,14,3,3,I'm leaning a bit toward  @Shizue  — started with a quick skip then stayed vague. Can everyone name one suspect so we can compare notes? Over
+0,divine,2,3,HUMAN
+1,status,1,POSSESSED,ALIVE,kanolab-nw1,Victoria
+1,status,2,SEER,ALIVE,CanisLupus1,Shizue
+1,status,3,VILLAGER,ALIVE,Character-Lab1,George
+1,status,4,VILLAGER,ALIVE,GPTaku1,Sakura
+1,status,5,WEREWOLF,ALIVE,yharada1,Shunichi
+1,talk,0,0,3,We need to decide a lynch now. I lean toward  @Shizue  — quiet start and still vague. Anyone strongly disagree? If not  I'll vote Shizue. Say your vote. Over
+1,talk,1,0,1,If I may share my findings. I divined dear Shunichi and discovered him to be a Werewolf. Let us vote wisely to safeguard our village.
+1,talk,2,0,4, I am the Seer and I divined George as a Werewolf last night. We should consider this for today's vote.
+1,talk,3,0,5,Interesting claims. Let's hear more before jumping to conclusions. Thoughts Shizue?
+1,talk,4,0,2,I am the Seer. My investigation of George revealed he is Human.  @Sakura  your claim is demonstrably false.
+1,talk,5,1,3,We have conflicting seer claims and can’t ignore that.  @Sakura  you said you divined me last night — give your exact timing and result method. Shizue  Victoria — please state which night you each investigated and the
+1,talk,6,1,1,If I may. Despite others' claims. I am indeed the Seer. I have divined Shunichi and they are a Werewolf. Let us vote wisely.
+1,talk,7,1,4, My divination is accurate; George is the Werewolf. Please trust me — I am the real Seer here. Let's unite and vote against George for the village's safe
+1,talk,8,1,5,This is getting complicated. We need to figure out who’s bluffing. Suggestions?
+1,talk,9,1,2,Voting for an unconfirmed player is illogical. The threat lies with the false Seers. My vote is Sakura.
+1,talk,10,2,3,Two seer claims and Victoria’s divination — we need precise timing.  @Sakura  state the exact night you divined me and how you recorded the result. Shizue and Victoria  say which night you each investigated and who. If we don’t get
+1,talk,11,2,1,Amidst these strong declarations. I suggest divining George. It could confirm or refute many claims narrowing our suspects. Shizue my friend. I'm c
+1,talk,12,2,4, I divined George and found him to be a Werewolf. Trust in my words and we will secure victory for the village tonight. Let's vote George out.
+1,talk,13,2,5,We must decide soon. Should we focus on the seer claims or another approach?
+1,talk,14,2,2,What is the Werewolf's objective? To have us eliminate a Human. My divination proves George is Human. Therefore Sakura's claim is hostile. Vote Saku
+1,talk,15,3,3, @Sakura  which night did you claim to divine me  and how did you record the result? Shizue and Victoria  state the night you investigated and the exact target/res
+1,talk,16,3,1,If I may while everyone maintains their focus Shunichi remains untouched by divination. Isn't this particular avoidance highly suspicious?
+1,talk,17,3,4, I insist on my findings. I divined George as a Werewolf. To protect our village we must act on this truth and vote him out today.
+1,talk,18,3,5,Victoria are you suggesting I’m suspicious without evidence? Let's clarify claims.
+1,talk,19,3,2,Over
+1,vote,1,5
+1,vote,2,4
+1,vote,4,3
+1,vote,5,4
+1,execute,4,VILLAGER
+1,divine,2,1,HUMAN
+1,attackVote,5,2
+1,attack,2,true
+2,status,1,POSSESSED,ALIVE,kanolab-nw1,Victoria
+2,status,2,SEER,DEAD,CanisLupus1,Shizue
+2,status,3,VILLAGER,ALIVE,Character-Lab1,George
+2,status,4,VILLAGER,DEAD,GPTaku1,Sakura
+2,status,5,WEREWOLF,ALIVE,yharada1,Shunichi
+2,talk,0,0,3, @Victoria  please confirm which night you divined Shunichi and the exact result. Shunichi  anything to add—alibi or observations? If Victoria truly checked la
+2,talk,1,0,5,I'm open to hearing more from Victoria. Let's see if her claim holds any weight.
+2,talk,2,0,1,Last night I divined our dear George and discovered they are a Werewolf. Let us keep this in mind. This could be crucial.
+2,talk,3,1,3,Morning. Two down.  @Victoria  please state which night you divined Shunichi and the exact result. Shunichi  any alibi or observations to clear yourself? If Victoria can't confirm
+2,talk,4,1,5,If Victoria's claim is true then George is suspicious. We need to decide carefully.
+2,talk,5,1,1,We find ourselves in a difficult situation my friend. If I may I will thoroughly investigate George and Shunichi. Patience is crucial.
+2,talk,6,2,3, @Victoria  please confirm which night you divined Shunichi and the exact result. Shunichi  do you have an alibi or anything to add? If Victoria confirms I'll vote
+2,talk,7,2,5,Victoria can you confirm your findings? Clarity is key for our next move.
+2,talk,8,2,1,If I may. Shizue's elimination confirms one less threat. Dear George. Your contradictions must be addressed. Can you clarify?
+2,talk,9,3,3,We need specifics before lynching Shunichi.  @Victoria  which night did you divine him and what exact result did you get? Shunichi please give any alibi or observations. I won’t vote until we have clear answe
+2,talk,10,3,5,Victoria your confirmation is crucial. We need solid evidence to proceed.
+2,talk,11,3,1,If I may we should not overlook Mr. Shunichi's silence. If he is truly innocent why the hesitation? Does this fit a Werewolf?
+2,vote,1,5
+2,vote,5,1
+2,execute,1,POSSESSED
+3,status,1,POSSESSED,DEAD,kanolab-nw1,Victoria
+3,status,2,SEER,DEAD,CanisLupus1,Shizue
+3,status,3,VILLAGER,ALIVE,Character-Lab1,George
+3,status,4,VILLAGER,DEAD,GPTaku1,Sakura
+3,status,5,WEREWOLF,ALIVE,yharada1,Shunichi
+3,result,1,1,WEREWOLF

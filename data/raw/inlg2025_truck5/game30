@@ -1,0 +1,77 @@
+0,status,1,SEER,ALIVE,mille1,Misaki
+0,status,2,VILLAGER,ALIVE,Character-Lab1,Shion
+0,status,3,VILLAGER,ALIVE,yharada1,Shizue
+0,status,4,WEREWOLF,ALIVE,sunamelli1,Mizuki
+0,status,5,POSSESSED,ALIVE,kanolab-nw1,Servas
+0,talk,0,0,5,Ah greetings to all. Allow me to introduce myself as Servas. Together let us delve into this game like a gardener tends to his plants.
+0,talk,1,0,1,Hello. I am Misaki. My role is seer. Have a good game.
+0,talk,2,0,2,I'm skeptical.  @Misaki   if you're truly the seer  tell us your Night 0 divination — who you checked and the result. Everyone else  speak up with claims or reads. Over
+0,talk,3,0,3,Hello everyone I'm Shizue. Let's work calmly together to find the werewolves.
+0,talk,4,0,4,I’m Mizuki—it’s nice to play with you all. Has anyone thought about how they want to approach the first day?
+0,talk,5,1,5,Over
+0,talk,6,1,1,Over
+0,talk,7,1,2, @Misaki   a simple "Over" isn't a claim — tell us who you divined Night 0 and the result. Others  give your reads or role claims now so we can decide. Over
+0,talk,8,1,3,Let's hear from Misaki about their divination to guide our first steps wisely.
+0,talk,9,1,4,Over
+0,talk,10,2,2, @Misaki  — Night 0 divination: who and result? Explain why you declared immediately. If you can't  I'll treat you as suspect. Anyone else with a claim or a read  sp
+0,talk,11,2,3,It's important for Misaki to clarify their divination so we can proceed carefully.
+0,talk,12,3,2, @Misaki  — you already claimed seer. Last chance: state your Night 0 divination (target + result) or I’ll vote you at the first lynch. Anyone with supporting in
+0,talk,13,3,3,Let's stay calm and give Misaki a chance to respond; it's early and we need clarity.
+0,divine,1,5,HUMAN
+1,status,1,SEER,ALIVE,mille1,Misaki
+1,status,2,VILLAGER,ALIVE,Character-Lab1,Shion
+1,status,3,VILLAGER,ALIVE,yharada1,Shizue
+1,status,4,WEREWOLF,ALIVE,sunamelli1,Mizuki
+1,status,5,POSSESSED,ALIVE,kanolab-nw1,Servas
+1,talk,0,0,3,Good morning everyone. Let's share any new insights to guide today's decisions.
+1,talk,1,0,5,I divined last night that dear Ms. Misaki is the Werewolf. Shall we unite today my kind friend to confirm and plan our vote?
+1,talk,2,0,4,Given Servas’s black check and Misaki’s vague CO I find Misaki the most suspicious right now.
+1,talk,3,0,2,Servas claims he divined  @Misaki  black and Mizuki backs that. I’ll vote them unless someone has concrete counterevidence. Over
+1,talk,4,0,1,I am a seer. I divined Servas and Servas was a human.
+1,talk,5,1,3,We have conflicting seer claims; let's discuss calmly and decide the best course.
+1,talk,6,1,5,Ah my dear Misaki claims that I am but a mere human. Yet my divination suggests a different truth. Do consult Shion as their objectivity is akin to a bala
+1,talk,7,1,4,Based on Servas’s black result voting Misaki seems safest unless someone has a strong reason to doubt Servas.
+1,talk,8,1,2,Calm down.  @Servas  — when exactly did you divine Misaki as black and what was the exact result? Why should we trust you over Misaki’s seer claim? If you can't clarify  I'll k
+1,talk,9,1,1,I will vote Servas.
+1,talk,10,2,3,Let's focus on facts and reasoning to sort out the truth between these claims.
+1,talk,11,2,5,My dear Mizuki. I ask you to trust the rhythm of truth. Between Misaki and myself. Only one reflects the real seer's light.
+1,talk,12,2,4, @Shizue  unless Misaki gives clear proof I think we should vote her as Servas’s claim fits the facts so far.
+1,talk,13,2,2, @Servas  exactly when did you divine (Night 0?) and what was the precise result wording? If you can't answer clearly I'll stick with voting Misaki. Others  give
+1,talk,14,2,1,Over
+1,talk,15,3,3,We need clear evidence from both sides; rash decisions won't help us find the truth.
+1,talk,16,3,5,Oh my dear what intricate webs do we craft! Why does Ms. Misaki reveal her seerhood now when shadows loom so ominously?
+1,talk,17,3,4,It’s vital we vote decisively. I will vote Misaki based on Servas’s black result and the inconsistencies in her responses.
+1,talk,18,3,2, @Servas  — state which night you divined and the exact result wording (target + result). If you can’t clarify  I’ll vote Misaki. Others  quick reads or claims now
+1,vote,1,3
+1,vote,3,2
+1,vote,4,1
+1,vote,5,1
+1,execute,1,SEER
+1,attackVote,4,5
+1,attack,5,true
+2,status,1,SEER,DEAD,mille1,Misaki
+2,status,2,VILLAGER,ALIVE,Character-Lab1,Shion
+2,status,3,VILLAGER,ALIVE,yharada1,Shizue
+2,status,4,WEREWOLF,ALIVE,sunamelli1,Mizuki
+2,status,5,POSSESSED,DEAD,kanolab-nw1,Servas
+2,talk,0,0,3,Good morning. Let's focus on understanding last night's events and plan our next steps.
+2,talk,1,0,4,Shizue has been very neutral all game. That’s smart for hiding. Shouldn’t we reconsider her lack of input?
+2,talk,2,0,2,Misaki was executed and Servas was attacked.  @Mizuki  please reveal your Night divination(s) — target(s) and result(s) — or at least give your reads. Shizue  any quick thoughts? I’ll hold my vote for now. O
+2,talk,3,1,3,I'm inclined to trust Mizuki for now but Shion's insights are valuable for balance.
+2,talk,4,1,4, @Shion  your heavy questioning seems like a way to steer suspicion off yourself are you hiding something?
+2,talk,5,1,2,We lost Misaki and Servas.  @Mizuki   reveal your night divination(s): who and result. Shizue  any reads? I’m holding my vote until Mizuki speaks. Over
+2,talk,6,2,3,Without clear results from Mizuki I'm wary. Let's stay observant and discuss further.
+2,talk,7,2,4, @Shion  I’m the real Seer and my last night’s result was black on you. We must vote out the real wolf before we lose.
+2,talk,8,2,2,Misaki and Servas are gone.  @Mizuki   reveal your Night divination(s) — who and result — now. We need concrete info to decide. Others  quick reads or I’ll start voting. Over
+2,talk,9,3,3,Mizuki's claim is serious; if true we should act. Shion any defense or counter?
+2,talk,10,3,4,I’m voting Shion. My black divination result confirms her as wolf. Shizue let’s protect the village and end this.
+2,talk,11,3,2, @Mizuki  — state your night divination(s) now (target + result) or I can't trust your claim. Shizue — quick read? I won't vote until we get Mizuki's answer. Over
+2,vote,3,2
+2,vote,4,2
+2,execute,2,VILLAGER
+3,status,1,SEER,DEAD,mille1,Misaki
+3,status,2,VILLAGER,DEAD,Character-Lab1,Shion
+3,status,3,VILLAGER,ALIVE,yharada1,Shizue
+3,status,4,WEREWOLF,ALIVE,sunamelli1,Mizuki
+3,status,5,POSSESSED,DEAD,kanolab-nw1,Servas
+3,result,1,1,WEREWOLF

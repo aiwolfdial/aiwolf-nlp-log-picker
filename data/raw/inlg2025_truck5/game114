@@ -1,0 +1,78 @@
+0,status,1,VILLAGER,ALIVE,kanolab-nw1,Benjamin
+0,status,2,VILLAGER,ALIVE,mille1,Mizuki
+0,status,3,WEREWOLF,ALIVE,sunamelli1,Shizue
+0,status,4,POSSESSED,ALIVE,CanisLupus1,May
+0,status,5,SEER,ALIVE,GPTaku1,Sakura
+0,talk,0,0,5,Hello everyone! I'm Sakura excited to play Werewolf with you all. Let's have some thrilling fun together!
+0,talk,1,0,4,Skip
+0,talk,2,0,1,Well. In my opinion. A game of strategy and deceit sounds intriguing. Looking forward to our cerebral sparring. Let's begin!
+0,talk,3,0,2,Hello. I am Mizuki. My role is villager. Have a good game.
+0,talk,4,0,3,Hello everyone it’s lovely to gather as a village tonight I hope we’ll find truth through kind words and open hearts
+0,talk,5,1,5,Over
+0,talk,6,1,4,I am May. I do enjoy a good story. I hope ours is an exciting one.
+0,talk,7,1,1,Over
+0,talk,8,1,2,Over
+0,talk,9,1,3,Over
+0,talk,10,2,4,Over
+0,divine,5,4,HUMAN
+1,status,1,VILLAGER,ALIVE,kanolab-nw1,Benjamin
+1,status,2,VILLAGER,ALIVE,mille1,Mizuki
+1,status,3,WEREWOLF,ALIVE,sunamelli1,Shizue
+1,status,4,POSSESSED,ALIVE,CanisLupus1,May
+1,status,5,SEER,ALIVE,GPTaku1,Sakura
+1,talk,0,0,2,I will vote Sakura.
+1,talk,1,0,5,I divined May last night and discovered she is human. We can trust her. Let's focus our discussions elsewhere.
+1,talk,2,0,4,Oh my Sakura that is quite the performance. I am the Seer and Mizuki is the Werewolf.
+1,talk,3,0,1,Well in my opinion. The unfolding scenario with Sakura and May is quite intriguing. Trust them with caution. Verification is paramount.
+1,talk,4,0,3,With two Seers and opposing results it’s risky to decide fast.  @Benjamin  do you sense which claim is more trustworthy?
+1,talk,5,1,2,I will vote Sakura.
+1,talk,6,1,5,Please vote for May. Based on my divination we know she is not telling the truth about being a Seer which makes her suspicious. Let's be cautious and vot
+1,talk,7,1,4,My my Sakura your story has a plot hole. Declaring me human then a liar? The wolf is Mizuki.
+1,talk,8,1,1,Well in my opinion given the contradictions Mizuki should be divined. Ms. Shizue your thoughts? Any unique insights between May and Sakura?
+1,talk,9,1,3, @Benjamin  between Sakura and May’s Seer claims who do you trust more now? Should we focus on their results or look elsewhere?
+1,talk,10,2,2,I will vote Sakura.
+1,talk,11,2,5, Please keep in mind my consistent account of last night's divination. May’s claim contradicts her status established by my Seer abilities. Focus on
+1,talk,12,2,4,Sakura's logic is flawed she clears a human then calls for a vote. I vote for the wolf Mizuki.
+1,talk,13,2,1,Well. In my opinion. Mr. Mizuki has become quite the center of attention. A divination on her might just dispel this delightful chaos!
+1,talk,14,2,3,With both Sakura and May insisting they are Seer it’s hard to trust either. Should we consider voting outside that pair?
+1,talk,15,3,2,I will vote Sakura.
+1,talk,16,3,5,Let's vote for May as her statements conflict with the evidence provided by my Seer divination that identified her as human yet she claims she is a Seer
+1,talk,17,3,4,A Seer executing a confirmed human? Fufufu what a contradiction. The story demands a vote on Mizuki.
+1,talk,18,3,1,Well. In my opinion. This is quite a conundrum. I'll lean towards voting for Mizuki given both Seer claims conflict. Thoughts? Mr. Shizue. I would val
+1,talk,19,3,3,I’m voting Mizuki. With Seer claims divided a clear decision today will help our village trust tomorrow.
+1,vote,1,2
+1,vote,2,3
+1,vote,3,2
+1,vote,4,2
+1,vote,5,4
+1,execute,2,VILLAGER
+1,divine,5,3,WEREWOLF
+1,attackVote,3,5
+1,attack,5,true
+2,status,1,VILLAGER,ALIVE,kanolab-nw1,Benjamin
+2,status,2,VILLAGER,DEAD,mille1,Mizuki
+2,status,3,WEREWOLF,ALIVE,sunamelli1,Shizue
+2,status,4,POSSESSED,ALIVE,CanisLupus1,May
+2,status,5,SEER,DEAD,GPTaku1,Sakura
+2,talk,0,0,3, @Benjamin  yesterday May was so certain about Mizuki but I’m not sure we truly found a wolf
+2,talk,1,0,4,Ara ara? It seems the game is over. With myself the Possessed and my wolf ally we claim victory.
+2,talk,2,0,1,Well in my opinion Ms. Shizue does May's story strike any new nerves? It's interesting to note how consistent with reality it seems.
+2,talk,3,1,3, @Benjamin  isn’t May’s sudden surrender strange? It feels like she’s trying to trick us and might be the real wolf.
+2,talk,4,1,4,How adorable you still think you can win.  @Benjamin  let's finish this little story.
+2,talk,5,1,1,Well in my opinion. Attempting to conclude the game early seems a tad hasty doesn't it? Mr. May care to share your thoughts on Shizue?
+2,talk,6,2,3, @Benjamin  May’s eagerness to declare victory seems off don’t you think? I truly believe she’s been misleading us.
+2,talk,7,2,4,Her desperation is quite cute isn't it  @Benjamin ? Shall we vote for Shizue and end her tale?
+2,talk,8,2,1,Well. In my opinion. May's rush to wrap things up is intriguing.  @Shizue  I'm starting to value your insights more. Shall we analyze her tale?
+2,talk,9,3,3, @Benjamin  if you were a villager would you ever claim victory so boldly before the vote? That’s why I’m sure May’s the wolf—I
+2,talk,10,3,4,Analyzing her final words? Fufufu.  @Benjamin  must we really prolong the inevitable?
+2,talk,11,3,1,Well. It's interesting to note that May's claim yesterday seemed quite suspicious. Trust your instincts. We must watch closely.
+2,vote,1,4
+2,vote,3,4
+2,vote,4,3
+2,execute,4,POSSESSED
+3,status,1,VILLAGER,ALIVE,kanolab-nw1,Benjamin
+3,status,2,VILLAGER,DEAD,mille1,Mizuki
+3,status,3,WEREWOLF,ALIVE,sunamelli1,Shizue
+3,status,4,POSSESSED,DEAD,CanisLupus1,May
+3,status,5,SEER,DEAD,GPTaku1,Sakura
+3,result,1,1,WEREWOLF

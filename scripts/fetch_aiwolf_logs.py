@@ -88,8 +88,9 @@ def main():
             print("Dataset name is required. Exiting.")
             return 1
     
-    # Create output directory
-    output_dir = f"../data/raw/{dir_name}"
+    # Create output directory - use absolute path from script location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.join(script_dir, "..", "data", "raw", dir_name)
     os.makedirs(output_dir, exist_ok=True)
     print(f"\nOutput directory: {output_dir}")
     

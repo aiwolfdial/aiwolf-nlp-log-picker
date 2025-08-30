@@ -1,0 +1,78 @@
+0,status,1,POSSESSED,ALIVE,yharada1,Minato
+0,status,2,SEER,ALIVE,CamelliaDragons1,Minako
+0,status,3,VILLAGER,ALIVE,mille1,Shunichi
+0,status,4,VILLAGER,ALIVE,Character-Lab1,Rin
+0,status,5,WEREWOLF,ALIVE,GPTaku1,Midori
+0,talk,0,0,2,...
+0,talk,1,0,3,Hello. I am Shunichi. My role is villager. Have a good game.
+0,talk,2,0,5,Hello everyone! I'm Midori excited to play Werewolf with you all. Let's have some fun and enjoy the game together!
+0,talk,3,0,4,Hi! I'm Rin.  @Midori  you seem a bit too cheerful — that makes me suspicious. Shunichi said villager and Minako's quiet. Who do you trust or suspect? Any role claims? Let's s
+0,talk,4,0,1,Hi everyone! I'm Minato. Let's all work together and have a great game!
+0,talk,5,1,2,Over
+0,talk,6,1,3,Over
+0,talk,7,1,5,Over
+0,talk,8,1,4,Hi! Rin here. I'm getting suspicious of  @Minako  — being so quiet makes me nervous. Does anyone have a reason to trust them or any role claims? Let's talk before voting. Over
+0,talk,9,1,1,I trust Minako for now. Let's hear from everyone else before deciding.
+0,talk,10,2,4,Hey  @Minato   why do you trust Minako? She's been super quiet and that makes me nervous. Minako  say something so we know you're not hiding! Over
+0,talk,11,2,1,I just think Minako might be shy. Let's give them a little more time to speak.
+0,talk,12,3,4,I'm still uneasy about Minako.  @Minako  — even one sentence: who do you suspect or why are you staying quiet? Minato thinks you're shy  but silence makes me nervous. Anyone else? Over
+0,talk,13,3,1,Let's stay calm and give Minako space. Anyone else have thoughts on the situation?
+0,divine,2,1,HUMAN
+1,status,1,POSSESSED,ALIVE,yharada1,Minato
+1,status,2,SEER,ALIVE,CamelliaDragons1,Minako
+1,status,3,VILLAGER,ALIVE,mille1,Shunichi
+1,status,4,VILLAGER,ALIVE,Character-Lab1,Rin
+1,status,5,WEREWOLF,ALIVE,GPTaku1,Midori
+1,talk,0,0,2,...
+1,talk,1,0,5, I divined Minato last night and the result showed him as Human. We should focus on those who haven't been divined yet.
+1,talk,2,0,4,Thanks  @Midori  — if Minato is human then let's focus on people who haven't been divined. Minako has been super quiet  so I'm leaning toward voting them. Minako  say some
+1,talk,3,0,1,Thank you Midori. Let's keep listening to everyone. Minako please share your thoughts.
+1,talk,4,0,3,I will vote Minako.
+1,talk,5,1,2,...
+1,talk,6,1,5,Please vote for Minako.
+1,talk,7,1,4,I agree — let's vote Minako.  @Minako  one last chance: say something! Who else will vote with us? Over
+1,talk,8,1,1,Minako please speak up. I'm unsure about voting without hearing from you.
+1,talk,9,1,3,I will vote Minako.
+1,talk,10,2,2,...
+1,talk,11,2,5, Minako's silence and lack of participation could indicate a strategy typical of a Werewolf or Possessed hiding. Vote for Minako for the safety of the
+1,talk,12,2,4,I'll vote  @Minako  if they don't speak up now. Anyone changing their mind? Over
+1,talk,13,2,1,I'm still undecided. Let's hear Minako or consider other options before voting.
+1,talk,14,2,3,I will vote Minako.
+1,talk,15,3,2,...
+1,talk,16,3,5,Minako's continual silence is highly suspicious. Silence in this game often means someone is trying to avoid detection. Vote Minako to protect the v
+1,talk,17,3,4,Good morning! Do we know who got lynched?  @Midori  you said you divined Minato — did anything else happen last night? Anyone suspicious today? Over
+1,talk,18,3,1,I'm still not sure about Minako. Let's gather more info before deciding.
+1,talk,19,3,3,I will vote Minako.
+1,vote,2,5
+1,vote,3,2
+1,vote,4,2
+1,vote,5,2
+1,execute,2,SEER
+1,attackVote,5,1
+1,attack,1,true
+2,status,1,POSSESSED,DEAD,yharada1,Minato
+2,status,2,SEER,DEAD,CamelliaDragons1,Minako
+2,status,3,VILLAGER,ALIVE,mille1,Shunichi
+2,status,4,VILLAGER,ALIVE,Character-Lab1,Rin
+2,status,5,WEREWOLF,ALIVE,GPTaku1,Midori
+2,talk,0,0,4,Oh no  poor Minato...  @Midori  did you divine anyone last night? If not  I'm leaning to vote Shunichi — who agrees? Over
+2,talk,1,0,5, I divined Shunichi as a Werewolf. Rin you are Human so please trust me and let's vote out Shunichi today to win! Shunichi is the real threat.
+2,talk,2,0,3,I will vote Midori.
+2,talk,3,1,4,So scary... Minato got attacked.  @Midori  did you check anyone last night? If not  I'm suspicious of Shunichi — he said he's villager but that could be fake. Who's with me? Over
+2,talk,4,1,5,My divination result shows Shunichi is a Werewolf. I checked his status last night. Please trust me Rin and vote Shunichi to ensure our safety.
+2,talk,5,1,3,I will vote Midori.
+2,talk,6,2,4,I still want to lynch Shunichi.  @Midori  did you check anyone last night or can you confirm a result? Shunichi  what's your role — speak up now! Who votes with me? Over
+2,talk,7,2,5, Yes Rin my divination revealed Shunichi as the Werewolf. We must vote him out today. Please vote for Shunichi to help us win.
+2,talk,8,2,3,I will vote Midori.
+2,talk,9,3,4,I'm voting Shunichi now if no one objects.  @Midori  please tell us your divination result or who you trust — we need it. Shunichi  what's your role? Over
+2,talk,10,3,5, Rin I have divined Shunichi as the Werewolf. We must vote him out today to win. Vote Shunichi; he's our biggest threat now.
+2,talk,11,3,3,I will vote Midori.
+2,vote,3,5
+2,vote,5,3
+2,execute,3,VILLAGER
+3,status,1,POSSESSED,DEAD,yharada1,Minato
+3,status,2,SEER,DEAD,CamelliaDragons1,Minako
+3,status,3,VILLAGER,DEAD,mille1,Shunichi
+3,status,4,VILLAGER,ALIVE,Character-Lab1,Rin
+3,status,5,WEREWOLF,ALIVE,GPTaku1,Midori
+3,result,1,1,WEREWOLF

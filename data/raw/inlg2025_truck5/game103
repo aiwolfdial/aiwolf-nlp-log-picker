@@ -1,0 +1,52 @@
+0,status,1,VILLAGER,ALIVE,mille1,Minako
+0,status,2,VILLAGER,ALIVE,GPTaku1,Shizue
+0,status,3,WEREWOLF,ALIVE,kanolab-nw1,Shion
+0,status,4,POSSESSED,ALIVE,Character-Lab1,George
+0,status,5,SEER,ALIVE,sunamelli1,Kenji
+0,talk,0,0,2,Hello everyone! I'm Shizue ready to play Werewolf. Can't wait to start the mystery with you all!
+0,talk,1,0,5,Hey everyone I’m excited to play together Should we talk about how we want to start things off tomorrow?
+0,talk,2,0,4,Good morning. I’ll stay quiet and gather info today.  @Kenji   did anyone seem off to you so far? I’ll watch how people speak and vote. Over
+0,talk,3,0,3,Greetings everyone! I am Shion. It's a pleasure to collaborate and unravel this mystery together. Let's solve this with teamwork!
+0,talk,4,0,1,Hello. I am Minako. My role is villager. Have a good game.
+0,talk,5,1,2,Over
+0,talk,6,1,5,Over
+0,talk,7,1,4,Claiming "villager" right away is odd — that kind of early claim can be a setup.  @Minako   why announce your role so early? I'll listen before voting. Over
+0,talk,8,1,3,Over
+0,talk,9,1,1,Over
+0,talk,10,2,4,An early role claim worries me.  @Minako  why announce now? If you can't give a good reason  I'll lean toward voting for you to force a reaction. Any objections? Over
+0,talk,11,3,4,I don't want to lynch without cause  but that early role claim is suspicious.  @Minako  why reveal now? If you can't give a clear reason soon I'll vote for you. Over
+0,divine,5,1,HUMAN
+1,status,1,VILLAGER,ALIVE,mille1,Minako
+1,status,2,VILLAGER,ALIVE,GPTaku1,Shizue
+1,status,3,WEREWOLF,ALIVE,kanolab-nw1,Shion
+1,status,4,POSSESSED,ALIVE,Character-Lab1,George
+1,status,5,SEER,ALIVE,sunamelli1,Kenji
+1,talk,0,0,4, @Minako  please explain — why reveal villager so early? I don't like lynching without cause  but if you can't give a reasonable answer I'll keep my vote on you. An
+1,talk,1,0,2,I divined Shion last night and the result showed that Shion is human. Let’s focus on finding the Werewolf elsewhere.
+1,talk,2,0,5, I’m the Seer. Last night I divined  @Minako  and she is human. There’s only one real Seer here.
+1,talk,3,0,3,Miss Shizue's assertion aligns with my own thoughts. With both Mr. Kenji and Miss Shizue claiming Seer status careful deliberation is essential.
+1,talk,4,0,1,I will vote Kenji.
+1,talk,5,1,4,Two seer claims — one of them must be false.  @Kenji   tell us exactly when you divined Minako and why you picked her. Minako  if Kenji says you're human  why are you voting him? I won't vote until someone give
+1,talk,6,1,2,Everyone please vote for Minako today. I believe she is quite suspicious.
+1,talk,7,1,5,Shizue is pushing to vote out Minako even after I declared her human that's what a real werewolf would do. Let's vote Shizue.
+1,talk,8,1,3,With two Seer claims our priority is deciphering the truth of Shizue's and Kenji's words. Mr. George. Do Minako's actions post-Kenji's claim not rai
+1,talk,9,1,1,Over
+1,talk,10,2,4,Two seer claims is dangerous.  @Kenji  please say exactly when you divined Minako and why you think Shizue is the wolf — give a clear timeline. If you can't  I'll be suspicious of the claim. Ove
+1,talk,11,2,2, Kenji's actions are suspicious. Divining Minako as human so quickly could be a tactic to protect a fellow Werewolf. Vote Minako to help ensure our saf
+1,talk,12,2,5,I divined Minako on Night 0 and she’s human. Shizue is pushing to vote out a confirmed villager which seems wolf-like.
+1,talk,13,2,3,Kenji divining Miss Minako as human brings uncertainty. Miss Shizue's claim aligns with my role. Identifying the true Seer is crucial.
+1,talk,14,3,4,Two seer claims — one of them is lying. I'm leaning to trust  @Kenji . Kenji  when did you divinate Minako and why pick her? If you can't clarify soon I'll side with voting Shizue. Over
+1,talk,15,3,2,Kenji's choice of divining Minako early and Minako voting Kenji suggests a strategy among Werewolves or the Possessed to create confusion. Vote Min
+1,talk,16,3,5,I’m voting Shizue—she’s pushing to vote out a confirmed villager. That’s classic Werewolf strategy.
+1,talk,17,3,3,Mr. Kenji's claim is bold as he targets Minako.packet. Yet it contradicts Seer's divination. Trusting him feels dangerous indeed. @Kenji Your divination of Miss Minako as human yet wanting to vote her is conflicting. What inspires your decision despite this puzzle?
+1,vote,1,3
+1,vote,2,1
+1,vote,3,5
+1,vote,5,2
+1,execute,3,WEREWOLF
+2,status,1,VILLAGER,ALIVE,mille1,Minako
+2,status,2,VILLAGER,ALIVE,GPTaku1,Shizue
+2,status,3,WEREWOLF,DEAD,kanolab-nw1,Shion
+2,status,4,POSSESSED,ALIVE,Character-Lab1,George
+2,status,5,SEER,ALIVE,sunamelli1,Kenji
+2,result,4,0,VILLAGER

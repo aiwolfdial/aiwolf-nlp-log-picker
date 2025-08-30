@@ -1,0 +1,78 @@
+0,status,1,VILLAGER,ALIVE,GPTaku1,Yumi
+0,status,2,VILLAGER,ALIVE,CanisLupus1,Daisuke
+0,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Rin
+0,status,4,POSSESSED,ALIVE,mille1,Servas
+0,status,5,SEER,ALIVE,yharada1,Jonathan
+0,talk,0,0,3,...
+0,talk,1,0,5,Hello everyone. Let's work together and share insights to find the werewolves.
+0,talk,2,0,2,Skip
+0,talk,3,0,1,Hello everyone! I'm Yumi excited to join you for a game of Werewolf. Let's have some fun!
+0,talk,4,0,4,Hello. I am Servas. My role is seer. Have a good game.
+0,talk,5,1,3,Over
+0,talk,6,1,5,Servas it's interesting you claimed seer. Let's see how things unfold.
+0,talk,7,1,2,My name is Daisuke. Nice to meet everyone. I'll try my best to stay focused.
+0,talk,8,1,1,Over
+0,talk,9,1,4,Over
+0,talk,10,2,5,Rin what are your thoughts on Servas claiming seer?
+0,talk,11,2,2,Over
+0,talk,12,3,5,Everyone let's stay observant and share any insights we gather.
+0,divine,5,3,WEREWOLF
+1,status,1,VILLAGER,ALIVE,GPTaku1,Yumi
+1,status,2,VILLAGER,ALIVE,CanisLupus1,Daisuke
+1,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Rin
+1,status,4,POSSESSED,ALIVE,mille1,Servas
+1,status,5,SEER,ALIVE,yharada1,Jonathan
+1,talk,0,0,4,I am a seer. I divined Yumi and Yumi was a human.
+1,talk,1,0,1,I'm the real Seer and I divined Servas last night. Turns out Servas is the Werewolf.
+1,talk,2,0,5,Rin is a werewolf. Let's focus on them today.
+1,talk,3,0,2,Jonathan your accusation against Rin has no basis. We should focus on Servas and Yumi.
+1,talk,4,0,3,...
+1,talk,5,1,4,I will vote Yumi.
+1,talk,6,1,1, Stick to the truth everyone. I am the genuine Seer and my results revealed Servas as the Werewolf. Please believe me.
+1,talk,7,1,5,Daisuke as the real Seer I know Rin is a werewolf. Please trust my insight.
+1,talk,8,1,2,Three seers means Rin is human. Jonathan's divination is a lie. He should be the one we vote for.
+1,talk,9,1,3,...
+1,talk,10,2,4,I will vote Yumi.
+1,talk,11,2,1, I remain firm. My divine insight as the Seer has shown Servas to be the Werewolf. I urge everyone to vote wisely.
+1,talk,12,2,5,Daisuke trust my vision. I saw Rin as a werewolf. Let's make the right choice.
+1,talk,13,2,2,My head hurts but the logic holds. Jonathan's claim about Rin is an impossibility.
+1,talk,14,2,3,...
+1,talk,15,3,4,I will vote Yumi.
+1,talk,16,3,1, Remember my vision is the true one. Do not be swayed by false claims. Servas is the threat here. Let’s vote out the werewolf.
+1,talk,17,3,5,Daisuke I understand your doubts but Rin is the werewolf. Let's act decisively.
+1,talk,18,3,2,Over
+1,talk,19,3,3,...
+1,vote,1,4
+1,vote,2,5
+1,vote,4,1
+1,vote,5,1
+1,execute,1,VILLAGER
+1,divine,5,3,WEREWOLF
+1,attackVote,3,4
+1,attack,4,true
+2,status,1,VILLAGER,DEAD,GPTaku1,Yumi
+2,status,2,VILLAGER,ALIVE,CanisLupus1,Daisuke
+2,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Rin
+2,status,4,POSSESSED,DEAD,mille1,Servas
+2,status,5,SEER,ALIVE,yharada1,Jonathan
+2,talk,0,0,2,The werewolf attacked Servas. That proves Yumi was a Possessed who lied. Jonathan it must be you.
+2,talk,1,0,3,...
+2,talk,2,0,5,Daisuke I confirmed Rin as a werewolf again. We need to act on this information.
+2,talk,3,1,2,Jonathan the star chart is clear. Servas was attacked so you must be the werewolf.
+2,talk,4,1,3,...
+2,talk,5,1,5,Daisuke trust my readings. Rin is the werewolf. Let's make the right decision.
+2,talk,6,2,2,The puzzle is solved. Servas's attack proves Yumi was Possessed. You're the wolf Jonathan.
+2,talk,7,2,3,...
+2,talk,8,2,5,Daisuke I assure you Rin is the true threat. We must act now to stop them.
+2,talk,9,3,2,The logic is sound. Servas was attacked proving Yumi lied. You are the werewolf Jonathan.
+2,talk,10,3,3,...
+2,talk,11,3,5,Daisuke I understand your reasoning but Rin is the true enemy. Let's act wisely.
+2,vote,2,5
+2,vote,3,5
+2,execute,5,SEER
+3,status,1,VILLAGER,DEAD,GPTaku1,Yumi
+3,status,2,VILLAGER,ALIVE,CanisLupus1,Daisuke
+3,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Rin
+3,status,4,POSSESSED,DEAD,mille1,Servas
+3,status,5,SEER,DEAD,yharada1,Jonathan
+3,result,1,1,WEREWOLF

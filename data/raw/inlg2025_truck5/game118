@@ -1,0 +1,80 @@
+0,status,1,WEREWOLF,ALIVE,yharada1,Daisuke
+0,status,2,POSSESSED,ALIVE,CamelliaDragons1,Victoria
+0,status,3,SEER,ALIVE,sunamelli1,May
+0,status,4,VILLAGER,ALIVE,CanisLupus1,Mizuki
+0,status,5,VILLAGER,ALIVE,mille1,Shion
+0,talk,0,0,1,Hey everyone let's try to stay calm and see if we can figure out anything suspicious.
+0,talk,1,0,5,Hello. I am Shion. My role is villager. Have a good game.
+0,talk,2,0,2,...
+0,talk,3,0,4,Skip
+0,talk,4,0,3, @Daisuke  I’m already watching your poker face mustache for hidden clues this round—don’t think you’re safe yet!
+0,talk,5,1,1,May I'm just trying to figure things out like everyone else. Let's work together.
+0,talk,6,1,5,Over
+0,talk,7,1,2,Over
+0,talk,8,1,4,I am Mizuki. I value discipline and order. Let us see this duty through together.
+0,talk,9,1,3,Over
+0,talk,10,2,1,Mizuki I appreciate your approach. Let's stay focused and keep an eye on details.
+0,talk,11,2,4,Over
+0,talk,12,3,1,Victoria you've been quiet. Any thoughts on what we should look out for?
+0,divine,3,5,HUMAN
+1,status,1,WEREWOLF,ALIVE,yharada1,Daisuke
+1,status,2,POSSESSED,ALIVE,CamelliaDragons1,Victoria
+1,status,3,SEER,ALIVE,sunamelli1,May
+1,status,4,VILLAGER,ALIVE,CanisLupus1,Mizuki
+1,status,5,VILLAGER,ALIVE,mille1,Shion
+1,talk,0,0,4,Let us begin the day's proceedings. I call upon the Seer to deliver their report at once.
+1,talk,1,0,1,I'm curious to hear what the Seer has discovered. Let's stay alert everyone.
+1,talk,2,0,3,I’m the Seer Shion is Human confirmed Victoria your silence worries me—please state your role.
+1,talk,3,0,2,...
+1,talk,4,0,5,I will vote Victoria.
+1,talk,5,1,4,A single Seer claim strongly suggests May is the true Seer. The Possessed would not remain silent.
+1,talk,6,1,1,Victoria please share your role so we can understand your silence better.
+1,talk,7,1,3, @Victoria  unless you state your role now targeting you for vote is safest—your silence risks the village.
+1,talk,8,1,2,...
+1,talk,9,1,5,I will vote Victoria.
+1,talk,10,2,4,Order dictates we address the greatest anomaly. Victoria's silence warrants execution.
+1,talk,11,2,1,I agree that Victoria's silence is concerning. We need to act cautiously though.
+1,talk,12,2,3,I’m the Seer CO and checked Shion—he’s Human. Victoria’s silence is risky I think we should vote her out today.
+1,talk,13,2,2,...
+1,talk,14,2,5,I will vote Victoria.
+1,talk,15,3,4,I concur with the judgment against Victoria. Her silence leaves no other recourse. My vote is cast.
+1,talk,16,3,1,It seems we have no choice. I will vote for Victoria as well. Let's stay careful.
+1,talk,17,3,3, @Victoria  my vote’s set on you today—your silence is the biggest threat facing the village right now.
+1,talk,18,3,2,...
+1,talk,19,3,5,Over
+1,vote,1,4
+1,vote,2,4
+1,vote,3,2
+1,vote,4,2
+1,vote,5,2
+1,execute,2,POSSESSED
+1,divine,3,4,HUMAN
+1,attackVote,1,5
+1,attack,5,true
+2,status,1,WEREWOLF,ALIVE,yharada1,Daisuke
+2,status,2,POSSESSED,DEAD,CamelliaDragons1,Victoria
+2,status,3,SEER,ALIVE,sunamelli1,May
+2,status,4,VILLAGER,ALIVE,CanisLupus1,Mizuki
+2,status,5,VILLAGER,DEAD,mille1,Shion
+2,talk,0,0,4,This ends now. I am the Possessed. The Werewolf is Daisuke. He is our target for execution.
+2,talk,1,0,3, @Daisuke  my Seer checks revealed Shion and Mizuki are Human. That only leaves you—why shouldn’t we vote you out today?
+2,talk,2,0,1,May Mizuki's sudden claim is suspicious. Let's think about this calmly.
+2,talk,3,1,4, @Daisuke  My claim was a necessary tactic. May's report confirms you are the final threat.
+2,talk,4,1,3, @Daisuke  My divine checks cleared Shion and Mizuki. With Mizuki’s CO you’re the last wolf—any defense?
+2,talk,5,1,1,I understand your suspicion but let's consider all possibilities before deciding.
+2,talk,6,2,4, @Daisuke  Your protests are futile. The Seer's report leaves no doubt. Our course of action is clear.
+2,talk,7,2,3,Mizuki was Human in my Seer check so Daisuke is our only wolf candidate. I’ll vote Daisuke. Are you with me  @Mizuki ?
+2,talk,8,2,1,May Mizuki I'm not the wolf. Please reconsider before making a final decision.
+2,talk,9,3,4, @May  My resolve is firm. The logical conclusion is the execution of Daisuke. It is decided.
+2,talk,10,3,3,With my Seer checks clear Daisuke is the only wolf left. I’m voting Daisuke— @Mizuki  let’s finish this together.
+2,talk,11,3,1,I urge you both to reconsider. A wrong decision could lead to the village's downfall.
+2,vote,1,4
+2,vote,3,1
+2,vote,4,1
+2,execute,1,WEREWOLF
+3,status,1,WEREWOLF,DEAD,yharada1,Daisuke
+3,status,2,POSSESSED,DEAD,CamelliaDragons1,Victoria
+3,status,3,SEER,ALIVE,sunamelli1,May
+3,status,4,VILLAGER,ALIVE,CanisLupus1,Mizuki
+3,status,5,VILLAGER,DEAD,mille1,Shion
+3,result,2,0,VILLAGER

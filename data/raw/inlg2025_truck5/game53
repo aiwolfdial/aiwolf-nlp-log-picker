@@ -1,0 +1,77 @@
+0,status,1,POSSESSED,ALIVE,mille1,Sakura
+0,status,2,SEER,ALIVE,CamelliaDragons1,Ryuji
+0,status,3,VILLAGER,ALIVE,sunamelli1,George
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Victoria
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,Minato
+0,talk,0,0,3,Good morning everyone. Let’s keep our wits about us and stay focused right from the start.
+0,talk,1,0,4,In truth. I am Victoria. Delighted to join you. Let us discover the truth about this werewolf. What are your thoughts on this?
+0,talk,2,0,1,Hello. I am Sakura. My role is seer. Have a good game.
+0,talk,3,0,2,Good morning. I am Ryuji. I value logical discussion and calm analysis throughout this game. @Sakura  I noticed you claimed seer early. Could you explain your reasoning for this decision?
+0,talk,4,0,5,Skip
+0,talk,5,1,3,Over
+0,talk,6,1,4,Over
+0,talk,7,1,1,Over
+0,talk,8,1,2,Over
+0,talk,9,1,5,I'm Minato. I like sweet fruits and listening to stories.
+0,talk,10,2,5,Over
+0,divine,2,1,HUMAN
+1,status,1,POSSESSED,ALIVE,mille1,Sakura
+1,status,2,SEER,ALIVE,CamelliaDragons1,Ryuji
+1,status,3,VILLAGER,ALIVE,sunamelli1,George
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Victoria
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,Minato
+1,talk,0,0,1,I am a seer. I divined Victoria and Victoria was a human.
+1,talk,1,0,3, @Minato  you’ve been quiet. We need your opinion. Who do you suspect most right now?
+1,talk,2,0,4,If I may suggest: Minato's silence intrigues me. A tactic perhaps? Who among us do we suspect of being the werewolf so far?
+1,talk,3,0,5,I was just thinking about everyone's words. Is Sakura's vision the only one from the dream?
+1,talk,4,0,2,Sakura's early seer claim still concerns me. I am the real Seer. Last night I checked Sakura: she is Human. @Victoria  your focus on Minato's silence is noted. I believe open analysis will help town reach clarity.
+1,talk,5,1,1,I will vote Victoria.
+1,talk,6,1,3, @Sakura  your vote for Victoria confuses me since you called her human. Can you explain your reasoning?
+1,talk,7,1,4,Dear Sakura. Uncertainties linger with two seers present. Clarity is crucial to unveil truths.  @Ryuji  Your insights guide us.
+1,talk,8,1,5,Two seers exist now. This must mean a real seer and a possessed are among us.
+1,talk,9,1,2,With two seer claims logic dictates either Sakura or I am not truthful. I stand by my claim. Discussion is key. @Minato  your point is solid. Werewolves often claim seer. Let's deduce who is truly trustworthy together.
+1,talk,10,2,1,Over
+1,talk,11,2,3, @Sakura  you said Victoria is human but still voted her. Why? That feels off. Can you clarify your logic?
+1,talk,12,2,4,If I may suggest. Let us deliberate on the credibility of Sakura and Ryuji. In truth. Our choice impacts us deeply.
+1,talk,13,2,5,Let us think from another view. What is the goal of the shadow wolf today?
+1,talk,14,2,2,The contradiction between Sakura's words and vote is concerning. Consistency in behavior is important when revealing roles. @George  your questioning of Sakura's voting logic is appropriate. Her actions lack internal consistency.
+1,talk,15,3,3,Sakura’s vote for Victoria does not add up. I will vote Sakura. Town should not ignore clear contradictions.
+1,talk,16,3,4,Two seer claims complicate matters. Let's focus on contradictions and consistency. Sakura's vote for me seems illogical. Mr. Minato. Think about y
+1,talk,17,3,5,George I understand your view but removing a possessed could be a trap for us. Let us reconsider this path.
+1,talk,18,3,2,Given Sakura's voting and seer claim contradiction voting her safeguards town logic. Consistency is essential to trust. @Minato  your caution on Possessed is rational but Sakura's errors threaten town integrity and can't be ignored.
+1,vote,1,4
+1,vote,2,1
+1,vote,3,1
+1,vote,4,1
+1,vote,5,4
+1,execute,1,POSSESSED
+1,divine,2,5,WEREWOLF
+1,attackVote,5,2
+1,attack,2,true
+2,status,1,POSSESSED,DEAD,mille1,Sakura
+2,status,2,SEER,DEAD,CamelliaDragons1,Ryuji
+2,status,3,VILLAGER,ALIVE,sunamelli1,George
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Victoria
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,Minato
+2,talk,0,0,3, @Minato  it’s down to us now. Honestly who do you think is most likely the werewolf after yesterday’s vote out?
+2,talk,1,0,4,Ryuji's lost. Our brave seer is missed. Suspecting George. Minato your silence breeds suspicion. Dear Minato. Speak to find truth.
+2,talk,2,0,5,The true seer Ryuji said Sakura was human. Why did George lead the vote against her? That feels wrong.
+2,talk,3,1,3, @Minato  you questioned me after Sakura went out—can you state clearly now who you plan to vote and why?
+2,talk,4,1,4,If I may suggest. Ryuji’s insights have significant value. Mr. George has made some dubious votes. Minato should be divined to clarify his quiet role
+2,talk,5,1,5,George I must vote for you. You went against our seer's insight about Sakura. That is my reason.
+2,talk,6,2,3, @Victoria  you cast suspicion on both of us but never pick a side. Isn’t that just covering for yourself?
+2,talk,7,2,4,We've lost our true seer. Ryuji's reading of Sakura adds weight. Minato. May I ask your rationale for George's current vote? George. I trust Ryuji's s
+2,talk,8,2,5, @George  The truth we found yesterday points only to you. It's a sad but logical conclusion.
+2,talk,9,3,3,Victoria you dodge every clear answer and avoid committing I suspect you’re the werewolf I’m voting for you
+2,talk,10,3,4,Minato. George. If I may suggest. We should heed Ryuji's divination. Ryuji ought to divine George. His actions contradict him.
+2,talk,11,3,5,George's doubt is a shadow meant to confuse us. The seer's truth points to his actions.
+2,vote,3,4
+2,vote,4,3
+2,vote,5,3
+2,execute,3,VILLAGER
+3,status,1,POSSESSED,DEAD,mille1,Sakura
+3,status,2,SEER,DEAD,CamelliaDragons1,Ryuji
+3,status,3,VILLAGER,DEAD,sunamelli1,George
+3,status,4,VILLAGER,ALIVE,kanolab-nw1,Victoria
+3,status,5,WEREWOLF,ALIVE,CanisLupus1,Minato
+3,result,1,1,WEREWOLF

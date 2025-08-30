@@ -1,0 +1,56 @@
+0,status,1,POSSESSED,ALIVE,mille1,Midori
+0,status,2,SEER,ALIVE,yharada1,Sakura
+0,status,3,VILLAGER,ALIVE,CanisLupus1,Shion
+0,status,4,VILLAGER,ALIVE,sunamelli1,Minako
+0,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+0,talk,0,0,2,Hey everyone! Let's solve this mystery together! Any ideas on who we should watch carefully?
+0,talk,1,0,4,Hello everyone I’m Minako. Let’s stay calm and observant so we avoid any hasty mistakes on the first day.
+0,talk,2,0,3,Skip
+0,talk,3,0,1,Hello. I am Midori. My role is seer. Have a good game.
+0,talk,4,0,5,...
+0,talk,5,1,2,Midori that's interesting! Let's see who else claims seer or what others think.
+0,talk,6,1,4,Over
+0,talk,7,1,3,I am Shion. I detest pointless chatter. Let's get this farce over with.
+0,talk,8,1,1,Over
+0,talk,9,1,5,Over
+0,talk,10,2,2,Let's keep chatting and see if anyone has info to share! We need clues everyone!
+0,talk,11,2,3,Over
+0,talk,12,3,2,Anyone have any theories or suspicions? Let's brainstorm together!
+0,divine,2,3,HUMAN
+1,status,1,POSSESSED,ALIVE,mille1,Midori
+1,status,2,SEER,ALIVE,yharada1,Sakura
+1,status,3,VILLAGER,ALIVE,CanisLupus1,Shion
+1,status,4,VILLAGER,ALIVE,sunamelli1,Minako
+1,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+1,talk,0,0,4, @Ryuji  you’ve been quiet so far can you share your current suspicions before we talk about vote targets?
+1,talk,1,0,3,This is pointless.  @Midori  you claimed seer. Spit out your divine result. Now.
+1,talk,2,0,5,...
+1,talk,3,0,2,I checked Shion last night and they're human. Midori what did you find?
+1,talk,4,0,1,I am a seer. I divined Shion and Shion was a human.
+1,talk,5,1,4,Sakura and Midori both checked Shion as human. I feel one CO might be fake. Who do you trust more right now?
+1,talk,6,1,3,Both so-called seers cleared me. A pointless revelation. The silent fool  @Ryuji  is the real threat.
+1,talk,7,1,5,...
+1,talk,8,1,2,It's tricky Minako. I'm unsure now but Ryuji's silence is suspicious. What do you think?
+1,talk,9,1,1,I will vote Minako.
+1,talk,10,2,4, @Midori  you voted for me without any clear reason. Can you explain what makes me suspicious in your eyes?
+1,talk,11,2,3,Your seer squabble is a bore. Ryuji's silence is the only real clue. I am voting for him.
+1,talk,12,2,5,...
+1,talk,13,2,2,We need more input from Ryuji. Silence won't help us solve this mystery!
+1,talk,14,2,1,I will vote Minako.
+1,talk,15,3,4,I'll be voting Ryuji—his silence through two Seer COs is too dangerous.  @Sakura  can you join me for a decisive vote?
+1,talk,16,3,3,The choice is obvious. The silent fool Ryuji hangs today. Do not waste my time.
+1,talk,17,3,5,...
+1,talk,18,3,2,Alright Minako. I'll join you and Shion in voting for Ryuji. Let's get answers.
+1,talk,19,3,1,I will vote Sakura.
+1,vote,1,2
+1,vote,2,5
+1,vote,3,5
+1,vote,4,5
+1,vote,5,1
+1,execute,5,WEREWOLF
+2,status,1,POSSESSED,ALIVE,mille1,Midori
+2,status,2,SEER,ALIVE,yharada1,Sakura
+2,status,3,VILLAGER,ALIVE,CanisLupus1,Shion
+2,status,4,VILLAGER,ALIVE,sunamelli1,Minako
+2,status,5,WEREWOLF,DEAD,CamelliaDragons1,Ryuji
+2,result,4,0,VILLAGER

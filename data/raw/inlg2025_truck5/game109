@@ -1,0 +1,78 @@
+0,status,1,POSSESSED,ALIVE,sunamelli1,Midori
+0,status,2,SEER,ALIVE,CamelliaDragons1,Mio
+0,status,3,VILLAGER,ALIVE,kanolab-nw1,Shizue
+0,status,4,VILLAGER,ALIVE,GPTaku1,Daisuke
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,Yumi
+0,talk,0,0,5,Skip
+0,talk,1,0,2,Hi everyone! Mio here super excited to play with you all! By the way I'm the seer and I'll share what I find!
+0,talk,2,0,1,Good morning everyone—I’m glad to play with you all today let’s approach this round kindly and listen to each other
+0,talk,3,0,3,Hello my dear friends! I'm Shizue. Let's enjoy a wonderful game together and share our thoughts with open hearts. Can't wait!
+0,talk,4,0,4,Hello everyone! I'm Daisuke ready to howl and play some Werewolf with you all! Let's have fun!
+0,talk,5,1,5,Hi everyone I'm Yumi! Ready for an awesome adventure! I'll try not to trip
+0,talk,6,1,2,Over
+0,talk,7,1,1,Over
+0,talk,8,1,3,Over
+0,talk,9,1,4,Over
+0,talk,10,2,5,Over
+0,divine,2,4,HUMAN
+1,status,1,POSSESSED,ALIVE,sunamelli1,Midori
+1,status,2,SEER,ALIVE,CamelliaDragons1,Mio
+1,status,3,VILLAGER,ALIVE,kanolab-nw1,Shizue
+1,status,4,VILLAGER,ALIVE,GPTaku1,Daisuke
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,Yumi
+1,talk,0,0,1,I’ll be honest—I’m also the Seer. I checked  @Daisuke  and he was white. I want everyone to think calmly before voting.
+1,talk,1,0,3,Dear ones. Having both seers divine  @Yumi  tonight seems wise. Clarity for tomorrow is always a comfort wouldn't you agree?
+1,talk,2,0,4, Midori if we have two seers what do you make of Mio's claim? Shouldn't we clarify this issue first?
+1,talk,3,0,5,Aw geez two Seers? This is some of my trademark bad luck for sure! What do we do?
+1,talk,4,0,2,Alright I'll go first—I'm the Seer and last night I checked Daisuke. He was Human! Let's share thoughts openly! @Midori  curious what made you decide to claim Seer too? Feels like a big coincidence huh!
+1,talk,5,1,1,Having two Seers means one of us is lying. If we both check  @Yumi  maybe it narrows things down.
+1,talk,6,1,3, @Yumi  My dear Yumi. Between Mio and Midori. Whom do you find holds the truth? Your insight could guide us warmly.
+1,talk,7,1,4, My fellow friends let's focus. I divined Mio as a Werewolf. Trust in my words we must unite and vote for Mio today.
+1,talk,8,1,5,Whoa three Seers! This is wild! We have to vote for one of them today right? It's our only clue
+1,talk,9,1,2,Whew what a twist! Three Seers? Okay everyone let's stay chill and look for slip-ups! Who feels fishy to you all? @Daisuke  you say you "divined" me as Wolf but you didn't claim Seer until now! Why hide it at first? That's odd!
+1,talk,10,2,1,It’s odd Daisuke only claimed Seer after Mio’s result. Feels like reacting not leading. Shouldn’t we question that?
+1,talk,11,2,3,Dears with Daisuke's claim arriving late it does sow seeds of doubt. Wouldn't following Midori or Mio lead to clarity now?
+1,talk,12,2,4, It's crucial to discern the truth clearly—my late claim was strategic to observe reactions. Stand by my divination—Mio is the Werewolf.
+1,talk,13,2,5,Yeah Midori and Shizue are right! Daisuke's late claim is super suspicious! My vote goes there
+1,talk,14,2,2,Okay with three Seer claims things are more tangled than a bowl of spaghetti! Let's untangle carefully team! @Shizue  your calm is like a warm cup of tea! Who feels more trustworthy to you—Midori or Daisuke? Just curious!
+1,talk,15,3,1, @Daisuke ’s late CO feels forced—I vote Daisuke today but Mio shouldn’t be trusted blindly. Let’s keep eyes open.
+1,talk,16,3,3,Good friends. Midori's insight brings clarity. For tomorrow's chat.  @Mio  My dear. Like sweet tea calming a storm. Do you agree?
+1,talk,17,3,4, Trust cannot be gauged by timing but truth. I stand by my claim: Mio is the Werewolf. Let reason prevail not doubt.
+1,talk,18,3,5,Over
+1,talk,19,3,2,Three Seers is so wild! Everyone's ideas today spark my curiosity. Let's really listen close and ask questions okay? @Shizue  you have such a gentle vibe! Between Daisuke and Midori whose Seer claim feels real? I want your honest take!
+1,vote,1,4
+1,vote,2,4
+1,vote,3,4
+1,vote,4,2
+1,vote,5,4
+1,execute,4,VILLAGER
+1,divine,2,1,HUMAN
+1,attackVote,5,3
+1,attack,3,true
+2,status,1,POSSESSED,ALIVE,sunamelli1,Midori
+2,status,2,SEER,ALIVE,CamelliaDragons1,Mio
+2,status,3,VILLAGER,DEAD,kanolab-nw1,Shizue
+2,status,4,VILLAGER,DEAD,GPTaku1,Daisuke
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,Yumi
+2,talk,0,0,1, @Yumi  Let’s not assume Mio’s first claim makes her real—clever wolves know that’s what we expect.
+2,talk,1,0,2,Okay! I checked Midori last night—Midori is Human! Wild but true and yeah I'm THE real Seer! Happy to answer questions. @Yumi  how do you feel about Midori's push on me? I know I'm clear but that feels odd right?
+2,talk,2,0,5,Whoops! Looks like this adventurer is one of the bad guys! I'm the werewolf! We win
+2,talk,3,1,1, @Yumi  are you really the Werewolf or just joking? A true wolf rarely reveals so let’s think before voting.
+2,talk,4,1,2,Whoa plot twist! Did Yumi really just claim Werewolf out of the blue? That's gutsy! How's everyone feeling now? @Midori  you say clever wolves claim early but I went first because I'm truly the Seer! Why double-doubt me?
+2,talk,5,1,5,No joke I'm the wolf! Let's vote Midori and wrap this adventure up
+2,talk,6,2,1,Yumi your open wolf claim feels risky—are you serious or just trying to mislead us? Let’s not rush our vote yet.
+2,talk,7,2,2,Yumi's claim is wild! If she's really the wolf that's a twisty ending—should we take her at her word or be cautious? @Midori  you’re super careful today! If Yumi’s confession is real what reason could she have to fake it at this point?
+2,talk,8,2,5,It's not a trick I promise! Bad luck for you Midori! My vote's on you
+2,talk,9,3,1, @Mio  your results always benefit you so I’ll vote for Mio today since Yumi’s claim might be a risky bluff
+2,talk,10,3,2,Yumi just open-wolfed so I'm seriously leaning toward voting her! That was so bold even for this game! @Midori  I get your caution but Yumi's claim is way too confident to be a bluff don't you think?
+2,talk,11,3,5, @Mio  it's our win! Let's wrap this up! I'm voting for Midori for sure
+2,vote,1,2
+2,vote,2,5
+2,vote,5,1
+2,execute,1,POSSESSED
+3,status,1,POSSESSED,DEAD,sunamelli1,Midori
+3,status,2,SEER,ALIVE,CamelliaDragons1,Mio
+3,status,3,VILLAGER,DEAD,kanolab-nw1,Shizue
+3,status,4,VILLAGER,DEAD,GPTaku1,Daisuke
+3,status,5,WEREWOLF,ALIVE,CanisLupus1,Yumi
+3,result,1,1,WEREWOLF

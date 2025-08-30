@@ -1,0 +1,82 @@
+0,status,1,POSSESSED,ALIVE,Character-Lab1,Victoria
+0,status,2,SEER,ALIVE,CanisLupus1,Minako
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Takumi
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Shunichi
+0,status,5,WEREWOLF,ALIVE,yharada1,Asuka
+0,talk,0,0,5,Let's focus on gathering information and observing behaviors carefully today.
+0,talk,1,0,4,Hey team. Shunichi here. Eager to dive into this game with you all. Let's keep it mellow and win as a unit. Over.
+0,talk,2,0,1,I'll stay quiet and watch for slips.  @Asuka  — since you want to observe  who caught your eye first and why? Over
+0,talk,3,0,2,Skip
+0,talk,4,0,3,...
+0,talk,5,1,5,It's early but Shunichi's enthusiasm stands out. Let's see how the day unfolds.
+0,talk,6,1,4,Over
+0,talk,7,1,1,Takumi's silence worries me—quiet players often hide something.  @Takumi  any early read or are you just observing? If no answer  I'll watch you closely. Over
+0,talk,8,1,2,I am Minako. It is a pleasure to make your acquaintance. .
+0,talk,9,1,3,Over
+0,talk,10,2,5,Victoria I agree that silence can be telling. Let's keep an eye on Takumi.
+0,talk,11,2,1, @Asuka  you were quick to pin Takumi — what exactly made you suspect him? Say it plainly so we can judge. Over
+0,talk,12,2,2,This initial maneuvering is noted. True intentions will surface in due time.
+0,talk,13,3,5,Victoria it was more about noting the silence. No strong suspicion yet just cautious.
+0,talk,14,3,1,Let's not lynch someone for being quiet alone.  @Asuka  are you pushing to nominate Takumi now  or just advising we watch? I prefer waiting to gather more. Over
+0,talk,15,3,2,Speculation is a currency of low value. Let us wait for hard assets.
+0,divine,2,1,HUMAN
+1,status,1,POSSESSED,ALIVE,Character-Lab1,Victoria
+1,status,2,SEER,ALIVE,CanisLupus1,Minako
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Takumi
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Shunichi
+1,status,5,WEREWOLF,ALIVE,yharada1,Asuka
+1,talk,0,0,5,Yesterday's silence was notable. Takumi any insights today? Let's hear from everyone.
+1,talk,1,0,3,...
+1,talk,2,0,1,Still waiting for a proper read from  @Takumi  — silence is dangerous. Minako  Shunichi  give short one-line reads now so we can decide. I'm leaning toward the quiet  but I'll change if someone gives s
+1,talk,3,0,4,Minako I suggest our seer checks on Victoria. If she's human we cut down the variables. Plus she seems quite proactive now.
+1,talk,4,0,2,I am the Seer. My investigation last night confirmed Victoria is human.
+1,talk,5,1,5,With Victoria confirmed human let's focus on Takumi's silence and gather more reads.
+1,talk,6,1,3,...
+1,talk,7,1,1, @Asuka  — it's odd you "confirmed" me so fast. When did you check  and why pivot to Takumi right after? Your timing doesn't add up. Explain. Over
+1,talk,8,1,4,Asuka is quite the enigma shifting blame like it’s tactical chess. Should we give her a closer look captain?
+1,talk,9,1,2,One Seer claim establishes my legitimacy. The Werewolf and Possessed are among the other three.
+1,talk,10,2,5,Victoria I just acknowledged Minako's claim. I'm cautious of Takumi's continued silence.
+1,talk,11,2,3,...
+1,talk,12,2,1, @Asuka  you said you "confirmed" me human — explain exactly how and when you did that. If there's no clear method  that looks like a lie. Over
+1,talk,13,2,4,Minako's seer claim holds water. Asuka raises eyebrows while Takumi stays mum.  @Takumi  Is silence a tactic? Spill your thoughts chief.
+1,talk,14,2,2,Takumi's silence is the most logical point of failure. My vote is for him.
+1,talk,15,3,5,I meant I trusted Minako's claim about you. Let's consider Takumi's silence seriously.
+1,talk,16,3,3,...
+1,talk,17,3,1,We lost Asuka — that felt hasty and maybe a mistake.  @Takumi   please speak up now or you'll draw serious suspicion. Minako  Shunichi — give quick one-line reads so we can decide. Over
+1,talk,18,3,4, @Victoria  Minako should give Takumi a spin. His silence is like a chess game without moves. Time for clarity don’t you think?
+1,talk,19,3,2,Over
+1,vote,1,5
+1,vote,2,3
+1,vote,3,4
+1,vote,4,3
+1,vote,5,3
+1,execute,3,VILLAGER
+1,divine,2,5,WEREWOLF
+1,attackVote,5,1
+1,attack,1,true
+2,status,1,POSSESSED,DEAD,Character-Lab1,Victoria
+2,status,2,SEER,ALIVE,CanisLupus1,Minako
+2,status,3,VILLAGER,DEAD,CamelliaDragons1,Takumi
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Shunichi
+2,status,5,WEREWOLF,ALIVE,yharada1,Asuka
+2,talk,0,0,5,With Takumi gone and Victoria attacked we must be cautious. Minako any new insights?
+2,talk,1,0,4,Minako's seer insight gave me peace about Victoria's fate before the attack. We need to sense those lurking shadows chief.
+2,talk,2,0,2,My deception is complete. I am the Possessed. We have won.
+2,talk,3,1,5,Well played Minako. It seems the shadows were closer than expected.
+2,talk,4,1,4,Asuka trusted too fast? Minako we need clarity on instincts. Trust ain't simple chief. Asuka any signs from today’s interactions? Let's solve this p
+2,talk,5,1,2,Asuka we have achieved our objective. The final vote is a formality.
+2,talk,6,2,5,Shunichi any lingering doubts? Minako's reveal changes everything now.
+2,talk,7,2,4,Minako's been possessed huh? Changes the game a bit. Asuka ready your super sniffer! Strategy is more than an afterthought.
+2,talk,8,2,2, @Asuka  the time for talk is over. The final human is Shunichi. We vote him out now.
+2,talk,9,3,5,Let's proceed as planned Minako. Shunichi it's time to wrap this up.
+2,talk,10,3,4,Minako's claim has a flair for surprise doesn't it? Rethink we must. Asuka were you as blindsided as a knight caught in a fork?
+2,talk,11,3,2, @Shunichi  your futile struggles are noted. @Asuka we proceed without delay.
+2,vote,2,5
+2,vote,4,5
+2,execute,5,WEREWOLF
+3,status,1,POSSESSED,DEAD,Character-Lab1,Victoria
+3,status,2,SEER,ALIVE,CanisLupus1,Minako
+3,status,3,VILLAGER,DEAD,CamelliaDragons1,Takumi
+3,status,4,VILLAGER,ALIVE,kanolab-nw1,Shunichi
+3,status,5,WEREWOLF,DEAD,yharada1,Asuka
+3,result,2,0,VILLAGER

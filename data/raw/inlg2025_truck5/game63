@@ -1,0 +1,79 @@
+0,status,1,SEER,ALIVE,CamelliaDragons1,Servas
+0,status,2,VILLAGER,ALIVE,Character-Lab1,Sakura
+0,status,3,VILLAGER,ALIVE,sunamelli1,Jonathan
+0,status,4,WEREWOLF,ALIVE,kanolab-nw1,Mio
+0,status,5,POSSESSED,ALIVE,GPTaku1,Yumi
+0,talk,0,0,4,Hey everyone! I'm Mio. Wow! I can't wait to play with all of you. Let's have tons of fun and unravel this mystery together!
+0,talk,1,0,3,Hello everyone I’m Jonathan. Let’s enjoy the game and keep our wits about us as we start  ZZZ.
+0,talk,2,0,2,Hi Mio! Nice to meet you — I'm Sakura!  @Jonathan  you sounded sleepy  are you okay? Everyone  please say one person you suspect and a short reason so we can start figuring things out!
+0,talk,3,0,1,Hello friends. I'm Servas. Curiosity and kindness make life bright. Let's keep our hearts open today. @Sakura  your approach is wise. Sharing early brings clarity. No suspicion yet but I'll reflect more.
+0,talk,4,0,5,Hello everyone! I'm Yumi. Excited to play Werewolf with you all. Let's have fun and be strategic!
+0,talk,5,1,4,Over
+0,talk,6,1,3,Over
+0,talk,7,1,2,Hmm  lots of quick "Over"s — that makes me nervous.  @Jonathan  you were really quiet; who do you suspect and why? Everyone else  please say one person you suspect (one short reason) so we can decide together.
+0,talk,8,1,1,Over
+0,talk,9,1,5,Over
+0,talk,10,2,2,Hey everyone — this silence is making me nervous.  @Jonathan  you were the quietest; who do you suspect? If nobody answers soon  let’s each name one suspect quickly so we can decide.
+0,talk,11,3,2,This quiet is spooky!  @Jonathan  who do you suspect? Everyone else please name one suspect with a short reason quickly — if no one answers soon  let's vote someone who’s been too quiet.
+0,divine,1,3,HUMAN
+1,status,1,SEER,ALIVE,CamelliaDragons1,Servas
+1,status,2,VILLAGER,ALIVE,Character-Lab1,Sakura
+1,status,3,VILLAGER,ALIVE,sunamelli1,Jonathan
+1,status,4,WEREWOLF,ALIVE,kanolab-nw1,Mio
+1,status,5,POSSESSED,ALIVE,GPTaku1,Yumi
+1,talk,0,0,3, @Mio  you haven’t given any suspects yet what’s your reason for staying quiet? It feels suspicious to me.
+1,talk,1,0,2,Hey  @Jonathan  that was quick — why are you pointing at Mio so fast? Mio  can you tell us why you stayed quiet? Everyone else please name one suspect and a short reason.
+1,talk,2,0,1,Good morning everyone. Wisdom teaches us to listen before judging. Let’s thoughtfully weigh each voice today. @Mio  your quiet nature is noticed. I encourage you to share your thoughts; sometimes gentle voices offer deep insight.
+1,talk,3,0,4,Hey everyone! I was thinking about roles earlier! Jonathan seems super quick to point fingers! Maybe we should consider that?
+1,talk,4,0,5,I divined Servas last night and he's Human.
+1,talk,5,1,3, @Yumi  since you CO’d as Seer with Servas human who do you find more suspicious now Mio or Sakura?
+1,talk,6,1,2,Thanks  @Yumi ! Who do you suspect more — Mio or me? Jonathan's quick finger-pointing makes me nervous. Why did you call out Mio so fast?
+1,talk,7,1,1,In times of doubt I believe clarity serves the village. I am the Seer. Last night I checked Jonathan—he is Human. @Yumi  you declared a Seer result matching my own role. What led you to choose me as your divine target so early?
+1,talk,8,1,4,Yumi and Servas both say they're Seers? Wow! Bold moves! Jonathan feels sneaky. What do you all think?  @Sakura  Why's Jonathan targeting me? Is he deflecting?
+1,talk,9,1,5,Vote for Mio today. There's inconsistency in her behavior and she hasn't contributed information to help us.
+1,talk,10,2,3, @Yumi  you CO’d Seer and checked Servas—why choose him? Was it to avoid checking someone more suspicious like Mio?
+1,talk,11,2,2,Hey  @Yumi   can you explain why you voted for Mio even though you divined Servas as Human? Jonathan’s quick accusation makes me nervous — Mio  please say more befor
+1,talk,12,2,1,Sometimes false claims shadow the truth. Every stone cast demands careful hands and patient wisdom. @Sakura  your concern is valid. Quick accusations can reveal much. Trust your instincts but weigh patience.
+1,talk,13,2,4,Hey! With two Seers it's tricky! If we get divination spots right it'd clarify roles! Maybe target Jonathan or Sakura? Thoughts?
+1,talk,14,2,5, Voting for Mio is crucial. Her quietness and lack of clear stance make her gameplay appear aligned with werewolf tactics.
+1,talk,15,3,3,I’ll vote for  @Yumi . Her Seer claim and push for Mio seem off—especially when her divine result should guide her vote.
+1,talk,16,3,2,Hold on — I don’t want us to rush a lynch.  @Yumi  can you explain why you voted for Mio even though you divined Servas as Human? That feels odd. Let’s hear Mio’s side before we vote!
+1,talk,17,3,1,True wisdom seeks not only to reveal but to discern intent. Two Seers at the table signals deception is surely near. @Mio  your focus on divination targeting feels strategic not insightful. What are your real intentions here?
+1,talk,18,3,4,We're at risk if Servas isn't truly the Seer! Wow! His timing feels off and way too eager to quiet folks. Does everyone really trust him? @Yumi Hey buddy! Wow! I've divined Servas as human. His actions seem a bit fishy though. Did you catch anything else strange about him?
+1,talk,19,3,5,Continue to focus on Mio. Voting for her is based on her evasive answers and inactive approach which align with a possible werewolf strategy.
+1,vote,1,5
+1,vote,2,3
+1,vote,3,5
+1,vote,4,5
+1,vote,5,4
+1,execute,5,POSSESSED
+1,divine,1,4,WEREWOLF
+1,attackVote,4,3
+1,attack,3,true
+2,status,1,SEER,ALIVE,CamelliaDragons1,Servas
+2,status,2,VILLAGER,ALIVE,Character-Lab1,Sakura
+2,status,3,VILLAGER,DEAD,sunamelli1,Jonathan
+2,status,4,WEREWOLF,ALIVE,kanolab-nw1,Mio
+2,status,5,POSSESSED,DEAD,GPTaku1,Yumi
+2,talk,0,0,1,Friends my divination shows Mio as a Werewolf. With this knowledge we can act decisively to protect our village. @Sakura  wisdom grows in dialogue. How do you feel about my result and our best course? Your thoughts matter deeply.
+2,talk,1,0,2,Eeek  only three of us...  @Servas  you were too calm after the deaths — that makes me worried. Mio  do you trust Servas? If they can’t give a good reason  I’m leaning to vote Servas. Please co
+2,talk,2,0,4,Hey! I've got to trust my instincts here! Can anyone else smell something odd? Servas! Your Seer claim felt off. How do you justify it?
+2,talk,3,1,1,Calmness in crisis comes from experience not guilt. My results show: Jonathan is Human Mio is Werewolf. @Sakura  wisdom is calm in fear. My results are clear; I urge you to weigh truth over emotion.
+2,talk,4,1,2,Oh no... this is scary.  @Servas  you were really calm after Yumi and Jonathan died — that makes me suspicious. Can you explain quickly? If not  I’m leaning to vote you. Mio  do you agree?
+2,talk,5,1,4,Servas' calm demeanor might just be reckless confidence! Wow! Let's focus divination on Servas next.  @Sakura  Should we trust him?
+2,talk,6,2,1,Even in fear trust in proof: my divinations are consistent and open. Let us not be misled by baseless suspicion. @Sakura  steadiness protects us not guilt. Seek clarity in my results. What do you feel truly guides us?
+2,talk,7,2,2, @Servas  you were way too calm after two people died — that makes me really suspicious. I’m voting for you. Mio  do you agree? Please speak up quickly. Over
+2,talk,8,2,4,Wow! With Yumi out we lost those Seer insights. I kinda doubt Servas’ role though. Hey maybe Sakura’s instincts are right!
+2,talk,9,3,1,Storms rage but steady hands guide safely. Seer results: Jonathan is Human Mio is Werewolf. Truth guides me. @Mio  wisdom weighs evidence. My divination says you're Werewolf. Respond directly—honesty takes courage.
+2,talk,10,3,2,This is scary...  @Mio  you’ve been acting inconsistent and nervous  so I’m voting for you. Servas  do you agree or do you have a reason not to? Over
+2,talk,11,3,4,Wow! Think about it. If Servas misleads us the wolves win right? We shouldn't risk the village's safety by trusting too quickly! @Servas Whoa! Your calm is super eerie! If you’re telling the truth. Your timing’s still strange! You’re risking us. Any logical explanation?
+2,vote,1,4
+2,vote,2,4
+2,vote,4,1
+2,execute,4,WEREWOLF
+3,status,1,SEER,ALIVE,CamelliaDragons1,Servas
+3,status,2,VILLAGER,ALIVE,Character-Lab1,Sakura
+3,status,3,VILLAGER,DEAD,sunamelli1,Jonathan
+3,status,4,WEREWOLF,DEAD,kanolab-nw1,Mio
+3,status,5,POSSESSED,DEAD,GPTaku1,Yumi
+3,result,2,0,VILLAGER

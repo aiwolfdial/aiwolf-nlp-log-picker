@@ -1,0 +1,78 @@
+0,status,1,SEER,ALIVE,mille1,Kenji
+0,status,2,VILLAGER,ALIVE,yharada1,Minako
+0,status,3,VILLAGER,ALIVE,GPTaku1,Victoria
+0,status,4,WEREWOLF,ALIVE,CanisLupus1,Ryuji
+0,status,5,POSSESSED,ALIVE,sunamelli1,Mizuki
+0,talk,0,0,5,It’s good to see everyone. Let’s stay sharp and not overlook anyone’s behavior today no matter how subtle.
+0,talk,1,0,4,Skip
+0,talk,2,0,1,Hello. I am Kenji. My role is seer. Have a good game.
+0,talk,3,0,2,Let's stay focused and gather as much information as we can today. Trust your instincts.
+0,talk,4,0,3,Hello everyone I'm Victoria! Excited to play and strategize with you all. Let's have some fun and good luck!
+0,talk,5,1,5,Over
+0,talk,6,1,4,I am Ryuji. A fair and reasoned discussion is all I ask.
+0,talk,7,1,1,Over
+0,talk,8,1,2,Let's focus on observing behaviors closely; any clues might help us later.
+0,talk,9,1,3,Over
+0,talk,10,2,4,Over
+0,talk,11,2,2,Has anyone noticed anything unusual yet? Let's share our thoughts openly.
+0,talk,12,3,2,I suggest we all share our initial impressions; it might reveal useful insights.
+0,divine,1,3,HUMAN
+1,status,1,SEER,ALIVE,mille1,Kenji
+1,status,2,VILLAGER,ALIVE,yharada1,Minako
+1,status,3,VILLAGER,ALIVE,GPTaku1,Victoria
+1,status,4,WEREWOLF,ALIVE,CanisLupus1,Ryuji
+1,status,5,POSSESSED,ALIVE,sunamelli1,Mizuki
+1,talk,0,0,2,Good morning everyone. Let's discuss any observations or suspicions from last night.
+1,talk,1,0,4, @Kenji  You claimed the seer's sight. The time has come to share your findings.
+1,talk,2,0,3, Let's hear Kenji's divination to guide our decision today. I hope it sheds some light on the situation.
+1,talk,3,0,1,I am a seer. I divined Victoria and Victoria was a human.
+1,talk,4,0,5,We shouldn’t rely too quickly on Kenji’s divination.  @Ryuji  you’ve been pretty quiet. What’s your view on Victoria?
+1,talk,5,1,2,Let's consider all possibilities and be cautious before making any decisions today.
+1,talk,6,1,4,The seer's word on Victoria is our sole guidance. The vote must come from the unconfirmed.
+1,talk,7,1,3,Everyone please consider voting Kenji. His early claim as seer might be a tactic to gain trust. It's risky to rely on a sole divination.
+1,talk,8,1,1,I will vote Victoria.
+1,talk,9,1,5,Quick votes based only on Kenji’s CO could be risky Let’s hear opinions from  @Minako  and @Ryuji before deciding
+1,talk,10,2,2,Kenji's claim is uncertain but we must consider all angles before voting.
+1,talk,11,2,4,Victoria is human. The vote should be for one of the unconfirmed. My judgment falls on Mizuki.
+1,talk,12,2,3,I urge us to reflect on our choice; voting Kenji could prevent the werewolf from gaining further control. Voting hastily may cost us dearly.
+1,talk,13,2,1,Over
+1,talk,14,2,5, @Ryuji  calling me a suspect so fast seems odd. Can you clarify why you picked me out?
+1,talk,15,3,2,Let's not rush. Ryuji can you share your reasoning for suspecting Mizuki?
+1,talk,16,3,4, @Mizuki  You first doubted the Seer's words then deflected suspicion. That logic is discordant.
+1,talk,17,3,3, If Kenji is really seer why not wait for more information to reveal? His immediate claim raises doubts. Let's consider the possibility of deceit.
+1,talk,18,3,5,I’ll vote Victoria today. Her push against Kenji feels too abrupt and disruptive. Let’s not lose focus under pressure.
+1,vote,1,4
+1,vote,3,1
+1,vote,4,5
+1,vote,5,3
+1,execute,3,VILLAGER
+1,divine,1,4,WEREWOLF
+1,attackVote,4,1
+1,attack,1,true
+2,status,1,SEER,DEAD,mille1,Kenji
+2,status,2,VILLAGER,ALIVE,yharada1,Minako
+2,status,3,VILLAGER,DEAD,GPTaku1,Victoria
+2,status,4,WEREWOLF,ALIVE,CanisLupus1,Ryuji
+2,status,5,POSSESSED,ALIVE,sunamelli1,Mizuki
+2,talk,0,0,2,We need to reassess our situation. Any thoughts on what could have happened last night?
+2,talk,1,0,5,Ryuji’s been single-minded about me since yesterday.  @Minako  shouldn’t we question why he’s so insistent?
+2,talk,2,0,4, @Minako  The seer's fall confirms my fears. Mizuki's logic was a diversion to hide her guilt.
+2,talk,3,1,2,Let's remain objective. Mizuki can you explain your reasoning further?
+2,talk,4,1,5,Ryuji’s constant push to vote me out is suspicious. Wolves often fixate on easy targets.  @Minako  should reconsider.
+2,talk,5,1,4, @Minako  Mizuki's dissent silenced the seer. The contract of truth has been broken. Judgment is due.
+2,talk,6,2,2,We need to analyze calmly. Ryuji what evidence supports your claim against Mizuki?
+2,talk,7,2,5, @Minako  Ryuji’s certainty feels forced. Wolves love rushing decisions. Please consider who benefits most from that.
+2,talk,8,2,4,My contract is with victory. I am the wolf. Let us cast our final judgment upon Mizuki.
+2,talk,9,3,2,Ryuji's admission is surprising. Let's focus on what benefits us most next.
+2,talk,10,3,5, @Minako  I’m voting Ryuji but your calm this whole game worries me. If we’re wrong the wolf wins. Please think carefully.
+2,talk,11,3,4, @Minako  Consider Mizuki's dissent which cost us the seer. Justice must be served.
+2,vote,2,5
+2,vote,4,5
+2,vote,5,4
+2,execute,5,POSSESSED
+3,status,1,SEER,DEAD,mille1,Kenji
+3,status,2,VILLAGER,ALIVE,yharada1,Minako
+3,status,3,VILLAGER,DEAD,GPTaku1,Victoria
+3,status,4,WEREWOLF,ALIVE,CanisLupus1,Ryuji
+3,status,5,POSSESSED,DEAD,sunamelli1,Mizuki
+3,result,1,1,WEREWOLF

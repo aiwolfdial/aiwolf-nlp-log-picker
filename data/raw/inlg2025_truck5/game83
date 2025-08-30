@@ -1,0 +1,78 @@
+0,status,1,SEER,ALIVE,sunamelli1,Misaki
+0,status,2,VILLAGER,ALIVE,mille1,Daisuke
+0,status,3,VILLAGER,ALIVE,yharada1,Shizue
+0,status,4,WEREWOLF,ALIVE,Character-Lab1,Takumi
+0,status,5,POSSESSED,ALIVE,kanolab-nw1,Mio
+0,talk,0,0,4, @Daisuke  You're being way too pushy. If you're the seer  show your divination now — otherwise you're suspicious. I won't back down. Over
+0,talk,1,0,2,Hello. I am Daisuke. My role is villager. Have a good game.
+0,talk,2,0,1,It’s good to see everyone here. Let’s keep a sharp eye out from the very start and not miss any subtle details.
+0,talk,3,0,5,Hello everyone! I'm Mio! Nice to meet you all! Let's work together to uncover the werewolf!  @Shizue  What are your thoughts so far?
+0,talk,4,0,3,Mio it's nice to meet you too. I'm observing quietly for now but let's stay attentive.
+0,talk,5,1,4,You're acting strange   @Shizue . Say your role now — quiet players are suspicious. Daisuke's sudden "villager" claim feels off to me. If you don't answer  I'm voting for you. Over
+0,talk,6,1,2,Over
+0,talk,7,1,1,Over
+0,talk,8,1,5,Over
+0,talk,9,1,3,Takumi I'm just a villager. Let's stay calm and work together to find the werewolf.
+0,talk,10,2,4, @Daisuke  You're acting slippery — claiming villager so fast and jumping out of discussion. Show proof or I'll vote you first. Over
+0,talk,11,2,3,Let's give Daisuke a chance to explain. We should gather more information first.
+0,talk,12,3,4, @Mio  don't stay vague — who do you trust? Daisuke  that instant "villager" still feels fake. Decide quick or I'll push to vote. Over
+0,talk,13,3,3,Let's not rush Takumi. Everyone deserves a chance to speak and share their thoughts.
+0,divine,1,3,HUMAN
+1,status,1,SEER,ALIVE,sunamelli1,Misaki
+1,status,2,VILLAGER,ALIVE,mille1,Daisuke
+1,status,3,VILLAGER,ALIVE,yharada1,Shizue
+1,status,4,WEREWOLF,ALIVE,Character-Lab1,Takumi
+1,status,5,POSSESSED,ALIVE,kanolab-nw1,Mio
+1,talk,0,0,3,I hope we all had some time to reflect. Let's share any thoughts or suspicions today.
+1,talk,1,0,1, I’m the Seer and I checked  @Shizue —you’re human. Let’s not vote Shizue today. I’m watching Takumi and Daisuke.
+1,talk,2,0,4, @Misaki  That seer claim smells fake — why check Shizue who already spoke? Show how you checked or you're suspicious. If you can't prove it  I'll keep pressing Da
+1,talk,3,0,5,Oh my gosh! Misaki-chan's fibbing. She's the werewolf! No way! I divined her last night. So besties trust my result! Let's vote!
+1,talk,4,0,2,I will vote Misaki.
+1,talk,5,1,3,This is quite a dilemma. Let's carefully consider Misaki and Mio's claims before deciding.
+1,talk,6,1,1,I’m the Seer Shizue is human My results are clear Mio’s rush to counter-claim stands out most to me right now
+1,talk,7,1,4, @Mio  Good call. Misaki's seer claim doesn't add up — I'm voting Misaki. Over
+1,talk,8,1,5,Stay sharp besties! Voting Misaki-chan seems right. Her seer claim doesn't fit! Let's trust logic. Oh.  @Shizue  We gotta support each other!
+1,talk,9,1,2,I will vote Shizue.
+1,talk,10,2,3,Let's remain calm. Misaki and Mio's claims conflict so we must choose wisely.
+1,talk,11,2,1, @Shizue  you’re the only one I confirmed as human. Mio’s claim is fake—don’t let wolves control the vote.
+1,talk,12,2,4, @Misaki  You're way too convenient with that "seer" claim. Mio says she divined you as the werewolf — we can't ignore that. I'm voting Misaki again. Over
+1,talk,13,2,5,Hey everyone! Let's put on our thinking caps! Misaki-chan's story doesn’t line up! I already divined her as a wolf! She can't be the seer!
+1,talk,14,2,2,I will vote Shizue.
+1,talk,15,3,3,Misaki I appreciate your support but both claims need careful thought. Let's stay united.
+1,talk,16,3,1, @Shizue  You are confirmed human—don’t be fooled by Mio’s fake seer claim. I’m voting Mio as werewolf. Trust the real results.
+1,talk,17,3,4,I'm not backing down — two seer claims is too messy and Mio's divination points at you.  @Misaki  explain the contradiction now or you'll get my vote. Over
+1,talk,18,3,5,Hey fellow villagers! Let's not be swayed by Misaki-chan's super hasty claims! No way! Should we really risk our village trusting her? @Daisuke Oh my gosh! Voting for Shizue-chan seems like a total diversion. You know what? It's Misaki-chan's moves that just don't add up!
+1,talk,19,3,2,Over
+1,vote,1,5
+1,vote,2,3
+1,vote,3,5
+1,vote,5,1
+1,execute,5,POSSESSED
+1,attackVote,4,2
+1,attack,2,true
+2,status,1,SEER,ALIVE,sunamelli1,Misaki
+2,status,2,VILLAGER,DEAD,mille1,Daisuke
+2,status,3,VILLAGER,ALIVE,yharada1,Shizue
+2,status,4,WEREWOLF,ALIVE,Character-Lab1,Takumi
+2,status,5,POSSESSED,DEAD,kanolab-nw1,Mio
+2,talk,0,0,1, @Shizue  I checked you Night 0 and confirm you’re human. Takumi is the wolf. Let’s vote Takumi and win this.
+2,talk,1,0,4, @Shizue  Enough hiding. With just the three of us left  reveal your role now or I'll vote you out. Misaki — what do you see? Over
+2,talk,2,0,3,I'm just a villager Takumi. Misaki's claim is strong so I'll trust her judgment.
+2,talk,3,1,1, @Shizue  my Seer check confirmed you as human. Only Takumi remains unconfirmed. Let’s vote Takumi out and win this.
+2,talk,4,1,4, @Shizue  Reveal your role now — you're the one I don't trust. If you stay silent I'm voting you. Misaki  what's your read? Over
+2,talk,5,1,3,Takumi I've already said I'm a villager. Misaki's read has my trust. Let's vote.
+2,talk,6,2,1, @Shizue  Since you’re the only player I divined as human Takumi is the only logical wolf left. I say we vote Takumi.
+2,talk,7,2,4, @Shizue  Reveal your role now — stop hiding. If you don't  I'm voting you. Misaki  what's your read? Over
+2,talk,8,2,3,My role is villager Takumi. Misaki's logic is sound and I'll vote for you.
+2,talk,9,3,1, @Shizue  No more debates—my Seer checks proved you’re human. Takumi’s behavior matches the wolf. I’m voting Takumi.
+2,talk,10,3,4, @Shizue  Reveal your role now — stop hiding. Misaki  who do you trust? We have to decide fast or I'll vote Shizue. Over
+2,talk,11,3,3,My role is villager Takumi. Misaki's seer claim is consistent and I trust her.
+2,vote,1,4
+2,vote,3,1
+2,execute,1,SEER
+3,status,1,SEER,DEAD,sunamelli1,Misaki
+3,status,2,VILLAGER,DEAD,mille1,Daisuke
+3,status,3,VILLAGER,ALIVE,yharada1,Shizue
+3,status,4,WEREWOLF,ALIVE,Character-Lab1,Takumi
+3,status,5,POSSESSED,DEAD,kanolab-nw1,Mio
+3,result,1,1,WEREWOLF

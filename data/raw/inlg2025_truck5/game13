@@ -1,0 +1,80 @@
+0,status,1,WEREWOLF,ALIVE,kanolab-nw1,Midori
+0,status,2,POSSESSED,ALIVE,sunamelli1,Daisuke
+0,status,3,SEER,ALIVE,CanisLupus1,Mio
+0,status,4,VILLAGER,ALIVE,Character-Lab1,Sakura
+0,status,5,VILLAGER,ALIVE,CamelliaDragons1,Toshio
+0,talk,0,0,5,I am Toshio plain villager. I suggest everyone states their role clearly. Efficiency matters in small games.@Kaori early claims give transparency
+0,talk,1,0,1,Hello everyone. I am Midori. I am so happy to be here with you all today. Let's work together you know and find the werewolf. Over.
+0,talk,2,0,2,Hi everyone uh I’m Daisuke. Kind of nervous but I hope we can work together and figure things out.
+0,talk,3,0,3,Skip
+0,talk,4,0,4,Hi hi! I don't want us to rush into role claims — let's just say who we trust or suspect for now.  @Daisuke  you’ve been quiet again — who do you trust or suspect? If you stay silent I might vote. Mio skipped and that makes me nervous. Over
+0,talk,5,1,5,Over
+0,talk,6,1,1,Over
+0,talk,7,1,2,Over
+0,talk,8,1,3,Hi hi! I'm Mio! I love finding treasure and new friends! Let's play a super fun game
+0,talk,9,1,4,Hi Mio! I love treasure hunting too — nice to meet you! Can you tell us who you trust or suspect?  @Daisuke  please say who you trust or suspect — being quiet makes me worried. Over
+0,talk,10,2,3,Over
+0,talk,11,2,4,Everyone's being super quiet… I'm getting nervous. I think we should pick someone to vote on — I'm still suspicious of  @Daisuke  since he's been so quiet and keeps saying "Over" without answers. If no one speaks up soon  I'll vote for him. Anyone disagree? Over
+0,talk,12,3,4,Hey everyone  we need to decide soon.  @Midori  do you have anyone you suspect or any hints for us? If no one speaks up I'll probably vote for the quiet one. Over
+0,divine,3,4,HUMAN
+1,status,1,WEREWOLF,ALIVE,kanolab-nw1,Midori
+1,status,2,POSSESSED,ALIVE,sunamelli1,Daisuke
+1,status,3,SEER,ALIVE,CanisLupus1,Mio
+1,status,4,VILLAGER,ALIVE,Character-Lab1,Sakura
+1,status,5,VILLAGER,ALIVE,CamelliaDragons1,Toshio
+1,talk,0,0,1,Mr. Daisuke. You seem rather quiet today. Are you feeling unsure? I suppose it's tough to know who to trust sometimes. Would you like to share anything
+1,talk,1,0,2, @Mio  you’ve been pretty quiet today. Can you share your thoughts? I feel we need more input to decide who’s suspicious.
+1,talk,2,0,4,Morning! I'm still nervous but ready.  @Midori  did you check anyone last night? Any info would help us. Over
+1,talk,3,0,5,Seer step forward and state your result. We must verify all role claims while suspicion remains high. @Sakura You seem eager for information Sakura. Did you learn anything about people's roles or behavior last night?
+1,talk,4,0,3,Ta-da! Mio is the Seer! I peeked at Sakura last night and she was a HUMAN! Kaboom
+1,talk,5,1,1,I suppose Mr. Daisuke. Should we trust Ms. Mio's claim as Seer? After all. Mio divined Ms. Sakura to be human. Your thoughts dear?
+1,talk,6,1,2, @Midori  you seem very quiet about Mio’s Seer CO why are you so quick to trust Sakura as human?
+1,talk,7,1,4, @Mio  Wow! That's amazing — who else did you check last night? Please tell us more so we can trust your claim. Over
+1,talk,8,1,5,Mio has claimed Seer and showed Sakura as human. Let's examine both closely especially for contradictions later. @Midori  have you noticed any inconsistencies in Mio's or Sakura's words or actions so far?
+1,talk,9,1,3,Yay I'm the only Seer! So the Possessed and Werewolf are Daisuke Midori or Toshio! Kaboom
+1,talk,10,2,1,Hmm dear. I find Ms. Mio's claim to be quite bold. Though I suppose we should hear everyone's thoughts before deciding you know?
+1,talk,11,2,2,Should we really trust Mio’s Seer claim right away? What if Possessed or wolf is faking it and hiding among us?
+1,talk,12,2,4, @Mio  Thanks for checking me! That makes me feel safer — who else did you check last night? Can anyone else confirm Mio's claim? Over
+1,talk,13,2,5,Too early to trust Mio's Seer claim absolutely. Silence or over-eagerness both draw suspicion. I prefer caution. @Daisuke  you question Mio's claim a lot. What would help you trust or doubt the Seer more right now?
+1,talk,14,2,3,Daisuke is the quietest and doesn't trust me! That's super suspicious! Let's vote for him! Kaboom
+1,talk,15,3,1,Ms. Sakura seemed suspicious from the start. If we let our guard down. I suppose we may lose. She might be avoiding divination. @Daisuke I suppose Mr. Daisuke. Sakura's actions raise doubts. It's like the inconsistency I see in the garden sometimes you know?
+1,talk,16,3,2,Everyone’s focusing on me but Sakura dodges real answers. I’ll vote Sakura—let’s not play right into wolf’s hands.
+1,talk,17,3,4,Thanks again  Mio — if you're the seer we should listen.  @Mio  please tell us who else you divined and what you found. If no one supports the claim I'm nervous about trusting it. Over
+1,talk,18,3,5,Current focus is on Mio's Seer claim and suspicions around Daisuke and Sakura. A clear false step exposes the wolf. @Midori  has anything in Mio's or Sakura's words shifted your impression since this morning?
+1,talk,19,3,3,Over
+1,vote,1,2
+1,vote,2,4
+1,vote,3,2
+1,vote,4,2
+1,vote,5,4
+1,execute,2,POSSESSED
+1,divine,3,1,WEREWOLF
+1,attackVote,1,3
+1,attack,3,true
+2,status,1,WEREWOLF,ALIVE,kanolab-nw1,Midori
+2,status,2,POSSESSED,DEAD,sunamelli1,Daisuke
+2,status,3,SEER,DEAD,CanisLupus1,Mio
+2,status,4,VILLAGER,ALIVE,Character-Lab1,Sakura
+2,status,5,VILLAGER,ALIVE,CamelliaDragons1,Toshio
+2,talk,0,0,1,Mr. Toshio what do you think dear? I’m feeling a bit unsure. Could Sakura really be the Werewolf? It makes me wonder you know.
+2,talk,1,0,5,I'm weighing possibilities. Sakura's active stance seemed town-aligned but that can be a mask. Need more data. @Midori  before deciding share: what specifically makes you doubt Sakura today? Details help clarify.
+2,talk,2,0,4,Oh no  poor Mio... I'm really scared.  @Midori  are you the seer? Did you check anyone last night — please tell us if you can so we can catch the werewolf. We need to pick someone today. Over
+2,talk,3,1,1,I truly appreciate your input Toshio. You know I just have this feeling that Sakura seems a bit cautious maybe even evasive?
+2,talk,4,1,5,Sakura if you are a villager explain why you've seemed evasive. It may help clarify today's options. Remain precise. @Sakura You have been accused of caution and evasion. Please clarify your intentions and logic. Transparency preferred.
+2,talk,5,1,4,Oh no... I'm so scared.  @Midori  are you really the seer? Please tell us who you checked last night — we must decide today. If you can't say  I think we should vote Toshio instead of me. Ple
+2,talk,6,2,1,I suppose after all I've seen dear Sakura has been evasive. You know Ms. Sakura why you were eager about my seer status?
+2,talk,7,2,5,I see no new Seer claim from Midori. Pressure on Sakura is logical but caution is warranted. Need clear claims today. @Midori  state directly if you are the Seer. Evasion only serves the werewolf. Facts not feelings will decide this.
+2,talk,8,2,4,Oh no... poor Mio!  @Midori  did you check anyone last night? If you didn't tell us  maybe we should vote for Toshio to be safe. Over
+2,talk,9,3,1,I suppose Toshio seems a bit suspicious. He's quite persistent with questioning. That's typical werewolf behavior you know? Be cautious folks!
+2,talk,10,3,5,Midori's lack of a Seer claim is notable. Sakura's pushback feels defensive. Both require scrutiny. Will listen carefully. @Sakura  clarify your vote target. Your persistent redirection lacks supporting logic. Defend your position succinctly.
+2,talk,11,3,4,Oh no… poor Mio!  @Midori  if you're really the seer please tell us who you checked last night — we need to know so we don't pick the wrong person. If you can't say  I might have to vote
+2,vote,1,5
+2,vote,4,5
+2,vote,5,4
+2,execute,5,VILLAGER
+3,status,1,WEREWOLF,ALIVE,kanolab-nw1,Midori
+3,status,2,POSSESSED,DEAD,sunamelli1,Daisuke
+3,status,3,SEER,DEAD,CanisLupus1,Mio
+3,status,4,VILLAGER,ALIVE,Character-Lab1,Sakura
+3,status,5,VILLAGER,DEAD,CamelliaDragons1,Toshio
+3,result,1,1,WEREWOLF

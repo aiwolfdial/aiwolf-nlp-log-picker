@@ -1,0 +1,78 @@
+0,status,1,VILLAGER,ALIVE,mille1,Sakura
+0,status,2,VILLAGER,ALIVE,CamelliaDragons1,Shunichi
+0,status,3,WEREWOLF,ALIVE,yharada1,Toshio
+0,status,4,POSSESSED,ALIVE,Character-Lab1,Rin
+0,status,5,SEER,ALIVE,kanolab-nw1,Mio
+0,talk,0,0,1,Hello. I am Sakura. My role is villager. Have a good game.
+0,talk,1,0,2,...
+0,talk,2,0,4,Good morning! Rin here — Sakura said she's a villager super fast  that makes me nervous.  @Mio  what do you think? Shunichi’s being really quiet so I kinda suspect them. Anyone else have early reads? Over
+0,talk,3,0,3,Let's stay calm. It's early but Rin has a point about Shunichi. Let's keep observing.
+0,talk,4,0,5,Hey pals! I'm Mio. Great to meet ya!  @Rin  I get where you're coming from about Shunichi. It's early but observing's key!
+0,talk,5,1,1,Over
+0,talk,6,1,2,Over
+0,talk,7,1,4,Okay! I still feel weird about Sakura saying she's a villager so fast. Shunichi's super quiet too though. Can we pick one to watch or vote for?  @Mio  who would you vote for if you had to choose? I'm leaning Sakura. Over
+0,talk,8,1,3,Let's not rush into voting. Observing both Sakura and Shunichi seems wise for now.
+0,talk,9,1,5,Over
+0,talk,10,2,4,Sakura still feels suspicious to me for claiming villager so quick. If no one else speaks up soon I'll vote Sakura.  @Mio  what about you? Over
+0,talk,11,2,3,Let's hear from Sakura and Shunichi before deciding. Their responses could be revealing.
+0,talk,12,3,4,Sakura  why did you claim villager so fast? That feels suspicious. Shunichi  you're super quiet — say something now.  @Mio  will you back watching Sakura? If no good answers soon I'll vote Sakura. Over
+0,talk,13,3,3,I agree let's give them a chance to explain. Their reactions will guide us.
+0,divine,5,1,HUMAN
+1,status,1,VILLAGER,ALIVE,mille1,Sakura
+1,status,2,VILLAGER,ALIVE,CamelliaDragons1,Shunichi
+1,status,3,WEREWOLF,ALIVE,yharada1,Toshio
+1,status,4,POSSESSED,ALIVE,Character-Lab1,Rin
+1,status,5,SEER,ALIVE,kanolab-nw1,Mio
+1,talk,0,0,4,I'm scared... Sakura's gone. Shunichi's super quiet and that worries me.  @Mio  will you vote Shunichi with me? I want us to be safe. Over
+1,talk,1,0,2,...
+1,talk,2,0,3,We need more from Shunichi. Silence isn't helping build trust. Let's be cautious.
+1,talk,3,0,5,Hey buddies! I divined Sakura last night and wow she's Human! Let's keep this in mind as we plan our next fun steps!
+1,talk,4,0,1,I will vote Shunichi.
+1,talk,5,1,4, @Mio  Are you really the seer? Saying Sakura was Human makes me nervous... Shunichi's silence still feels super suspicious to me. I'm going to vote Shunich
+1,talk,6,1,2,...
+1,talk,7,1,3,Mio claiming seer is risky. We should verify this. Meanwhile Shunichi speak up.
+1,talk,8,1,5,Hey buddy Shunichi's silence is tough huh? But let's not jump to conclusions! I divined Sakura as Human. Let's be cautious pal!
+1,talk,9,1,1,I will vote Shunichi.
+1,talk,10,2,4,Wait—don't rush to lynch Shunichi yet.  @Mio  can you tell us when and how you divined Sakura Human? I want to be sure before I vote. Shunichi  please say something! Over
+1,talk,11,2,2,...
+1,talk,12,2,3,Mio more details about your divination would help us. Shunichi say something soon.
+1,talk,13,2,5,I divined Sakura last night and wow! They're confirmed Human. Hey  @Shunichi  my pal. Your silence is worrying us. Care to share some thoughts?
+1,talk,14,2,1,Over
+1,talk,15,3,4, @Mio  If you really divined Sakura as Human  why did she die? That doesn't add up to me. Show when/how you divined her or I can't trust you — I'll vote for you if yo
+1,talk,16,3,2,...
+1,talk,17,3,3,Mio your claim is shaky. We need clearer proof. Shunichi your silence is troubling.
+1,talk,18,3,5,Wow! Guess what pals? I'm totally the seer! Last night I divined Sakura and guess what? She's Human! Let's go with a reliable vote!
+1,vote,1,2
+1,vote,3,4
+1,vote,4,2
+1,vote,5,2
+1,execute,2,VILLAGER
+1,divine,5,3,WEREWOLF
+1,attackVote,3,1
+1,attack,1,true
+2,status,1,VILLAGER,DEAD,mille1,Sakura
+2,status,2,VILLAGER,DEAD,CamelliaDragons1,Shunichi
+2,status,3,WEREWOLF,ALIVE,yharada1,Toshio
+2,status,4,POSSESSED,ALIVE,Character-Lab1,Rin
+2,status,5,SEER,ALIVE,kanolab-nw1,Mio
+2,talk,0,0,4, @Mio  explain your divination — when and how did you check Sakura? I don't trust it and I'll vote for you if you can't explain. I'm scared  we need to pick now. Ov
+2,talk,1,0,5,Hey buddy! Listen up. I divined Toshio last night and wow he's a Werewolf! Let's focus on voting him out today pals!
+2,talk,2,0,3,Mio your claims have been inconsistent. I'm not a werewolf. Let's think this through.
+2,talk,3,1,4, @Mio  you said you divined Sakura Human — when did you check her? That doesn't fit with her being killed. If you can't explain now I'll vote for you. Over
+2,talk,4,1,5,Wow buddy! You won't believe this. I divined Sakura the previous night and... guess what? Toshio turned up as a Werewolf last night! I'm sure!
+2,talk,5,1,3,Rin Mio's changing story is suspicious. Let's discuss this carefully before deciding.
+2,talk,6,2,4,I'm still worried about  @Mio  — you said Sakura was Human but she got killed last night. When did you divinate her? If you can't explain  I'll have to vote for you. Toshio  what do you thi
+2,talk,7,2,5,Hey buddy let's get this sorted! I divined Sakura as Human on night one! Toshio showed up as a Werewolf last round. Let's vote smartly!  @Toshio  Wow Toshio your defense seems flimsy! How does your story hold up here? What's your role?
+2,talk,8,2,3,Rin I'm a villager. Mio's story keeps changing which seems unreliable. Let's think carefully.
+2,talk,9,3,4, @Mio  please tell us when you divined Sakura as Human — the timing matters. If you can't explain now I'll have to vote for you. Toshio  what do you think? Over
+2,talk,10,3,5,Hey Rin! Isn't it kinda odd how Tosho's been super defensive? Feels like werewolf vibes right? Let's question him pronto!
+2,talk,11,3,3,Rin Mio's focus on me seems deflective. Let's stay objective and analyze the facts.
+2,vote,3,5
+2,vote,5,3
+2,execute,3,WEREWOLF
+3,status,1,VILLAGER,DEAD,mille1,Sakura
+3,status,2,VILLAGER,DEAD,CamelliaDragons1,Shunichi
+3,status,3,WEREWOLF,DEAD,yharada1,Toshio
+3,status,4,POSSESSED,ALIVE,Character-Lab1,Rin
+3,status,5,SEER,ALIVE,kanolab-nw1,Mio
+3,result,2,0,VILLAGER

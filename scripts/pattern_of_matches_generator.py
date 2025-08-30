@@ -159,8 +159,9 @@ def main():
             print("Please enter a valid number (5 or 13)")
             return
     
-    # List available directories
-    base_dir = "../data/raw"
+    # List available directories - use absolute path from script location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.join(script_dir, "..", "data", "raw")
     if not os.path.exists(base_dir):
         print(f"Base directory not found: {base_dir}")
         return
@@ -217,8 +218,9 @@ def main():
     print(f"Total teams found: {len(generator.team_to_index)}")
     print(f"Teams: {', '.join(generator.index_to_team.values())}")
     
-    # Save to file
-    output_dir = os.path.join("..", "data", "pattern_of_matches", selected_dir)
+    # Save to file - use absolute path from script location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.join(script_dir, "..", "data", "pattern_of_matches", selected_dir)
     os.makedirs(output_dir, exist_ok=True)
     output_filename = "pattern_of_matches.json"  # 好みで名前はそのままでもOK
     output_path = os.path.join(output_dir, output_filename)

@@ -330,8 +330,10 @@ class MatchSelectionOptimizer:
             print("Warning: Dataset name not available")
             return
 
-        source_dir = f"../data/raw/{self.dataset_name}"
-        dest_dir = f"../data/selected_files/{self.dataset_name}"
+        # Use absolute path from script location
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        source_dir = os.path.join(script_dir, "..", "data", "raw", self.dataset_name)
+        dest_dir = os.path.join(script_dir, "..", "data", "selected_files", self.dataset_name)
 
         if not os.path.exists(source_dir):
             print(f"Warning: Source directory not found: {source_dir}")
@@ -359,7 +361,9 @@ class MatchSelectionOptimizer:
             print("Warning: Dataset name not available")
             return
 
-        table_dir = f"../table/{self.dataset_name}"
+        # Use absolute path from script location
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        table_dir = os.path.join(script_dir, "..", "table", self.dataset_name)
         os.makedirs(table_dir, exist_ok=True)
 
         # Role distribution table
@@ -424,7 +428,9 @@ def main():
     print("=== Match Selection Optimizer (ILP only) ===\n")
 
     # Pattern files under ../data/pattern_of_matches/*/pattern_of_matches.json
-    pattern_base_dir = "../data/pattern_of_matches"
+    # Use absolute path from script location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    pattern_base_dir = os.path.join(script_dir, "..", "data", "pattern_of_matches")
     if not os.path.exists(pattern_base_dir):
         print(f"Pattern directory not found: {pattern_base_dir}")
         return
@@ -441,7 +447,7 @@ def main():
 
     if not pattern_files:
         print(f"No pattern files found in {pattern_base_dir}")
-        print("Expected structure: ../data/pattern_of_matches/*/pattern_of_matches.json")
+        print("Expected structure: data/pattern_of_matches/*/pattern_of_matches.json")
         return
 
     print("Available pattern files:")

@@ -1,0 +1,77 @@
+0,status,1,VILLAGER,ALIVE,CanisLupus1,George
+0,status,2,VILLAGER,ALIVE,sunamelli1,Ryuji
+0,status,3,WEREWOLF,ALIVE,yharada1,Minako
+0,status,4,POSSESSED,ALIVE,CamelliaDragons1,Shion
+0,status,5,SEER,ALIVE,kanolab-nw1,Benjamin
+0,talk,0,0,5,Greetings esteemed participants. Benjamin is on deck anticipating a thrilling encounter. Let's see what transpires shall we? Over.
+0,talk,1,0,3,Hello everyone I'm looking forward to working together and uncovering any mysteries today.
+0,talk,2,0,2,Hi everyone I'm Ryuji Let's all keep calm and analyze carefully as things get going
+0,talk,3,0,1,Skip
+0,talk,4,0,4,...
+0,talk,5,1,5,Over
+0,talk,6,1,3,Ryuji I agree staying calm and analyzing our situation is crucial for us all.
+0,talk,7,1,2,Over
+0,talk,8,1,1,I am George. I expect these proceedings to be conducted with due order. .
+0,talk,9,1,4,Over
+0,talk,10,2,3,George I appreciate your focus on order. Let's ensure we all contribute constructively.
+0,talk,11,2,1,Over
+0,talk,12,3,3,Let's keep sharing observations and ideas; it will help us progress effectively.
+0,divine,5,2,HUMAN
+1,status,1,VILLAGER,ALIVE,CanisLupus1,George
+1,status,2,VILLAGER,ALIVE,sunamelli1,Ryuji
+1,status,3,WEREWOLF,ALIVE,yharada1,Minako
+1,status,4,POSSESSED,ALIVE,CamelliaDragons1,Shion
+1,status,5,SEER,ALIVE,kanolab-nw1,Benjamin
+1,talk,0,0,1,Let the one who can pierce the veil of night present their report. Order demands it.
+1,talk,1,0,2,I’d like the Seer to CO now—we need solid info to guide today’s discussion and avoid just guessing.
+1,talk,2,0,4,...
+1,talk,3,0,3,If the Seer has useful insights now would be a good time to share them with us.
+1,talk,4,0,5,I am the Seer. As far as I can ascertain my divination results show Ryuji as Human. Let's direct our focus elsewhere.
+1,talk,5,1,1,A single Seer has declared. Without a counter his words carry the weight of truth.
+1,talk,6,1,2, @Shion  you’ve barely spoken. Can you say what you think about Benjamin’s Seer CO and his result today?
+1,talk,7,1,4,...
+1,talk,8,1,3,Shion your thoughts would be valuable here. Do you trust Benjamin's claim as Seer?
+1,talk,9,1,5,I find Shion's silence quite intriguing. If my calculations are correct it could be a tactic to avoid unwanted attention. Suspicious?
+1,talk,10,2,1,With Ryuji cleared our judgment must fall upon the unconfirmed agents Minako and Shion.
+1,talk,11,2,2, @Shion  you’ve been really quiet. Who do you suspect most right now Minako or George? Please share your view.
+1,talk,12,2,4,...
+1,talk,13,2,3,Shion we need your input. Your silence is concerning. Please share your thoughts on this.
+1,talk,14,2,5,Minako and George. We must concentrate our energies. With Ryuji confirmed human Shion's silence is troubling.  @Minako  How do you view Shion's lack of response? Could it be a strategic silence?
+1,talk,15,3,1,Let us consider the perspective of chaos. Whose silence aids their cause the most?
+1,talk,16,3,2,Shion’s silence after so many prompts is too suspicious to ignore. I’m voting Shion.
+1,talk,17,3,4,...
+1,talk,18,3,3,Shion's silence does seem strategic. We need to hear from Shion to make an informed decision.
+1,talk,19,3,5,Concealed thoughts carry a certain peril do they not? Shion has shared no wisdom with us. As far as I can ascertain my vote is clear.
+1,vote,1,4
+1,vote,2,4
+1,vote,5,4
+1,execute,4,POSSESSED
+1,divine,5,3,WEREWOLF
+1,attackVote,3,5
+1,attack,5,true
+2,status,1,VILLAGER,ALIVE,CanisLupus1,George
+2,status,2,VILLAGER,ALIVE,sunamelli1,Ryuji
+2,status,3,WEREWOLF,ALIVE,yharada1,Minako
+2,status,4,POSSESSED,DEAD,CamelliaDragons1,Shion
+2,status,5,SEER,DEAD,kanolab-nw1,Benjamin
+2,talk,0,0,3,We've lost Benjamin. We need to assess our situation carefully and act decisively today.
+2,talk,1,0,2, @Minako  who do you suspect as the werewolf now and what makes you think so? We need concrete reasons today.
+2,talk,2,0,1, @Ryuji  The Seer was attacked. His last will cleared you. Therefore my judgment must fall on Minako.
+2,talk,3,1,3,George your quick suspicion of me feels hasty. We should consider all possibilities.
+2,talk,4,1,2, @George  you seem sure Minako is the wolf. Why? Can you explain your reasoning beyond just the Seer result?
+2,talk,5,1,1, @Ryuji  The Seer was attacked thus he was true. His contract cleared you. Mine binds me to order. Vote Minako.
+2,talk,6,2,3,Ryuji consider George's insistence. It could be a diversion. Let's think carefully.
+2,talk,7,2,2, @George  relying just on math is risky. What did Minako say or do that felt like a wolf trying to blend in?
+2,talk,8,2,1, @Ryuji  The facts are the bedrock of our judgment. Your humanity is proven. Minako is the only variable.
+2,talk,9,3,3,Ryuji let's not rush. George's logic seems too focused. It's crucial to stay open-minded.
+2,talk,10,3,2,My vote goes to  @George . A true villager would try to read people not just push a formula.
+2,talk,11,3,1, @Ryuji  Do not mistake logic for a mere formula. It is our only truth. Minako is the enemy.
+2,vote,1,3
+2,vote,2,1
+2,execute,1,VILLAGER
+3,status,1,VILLAGER,DEAD,CanisLupus1,George
+3,status,2,VILLAGER,ALIVE,sunamelli1,Ryuji
+3,status,3,WEREWOLF,ALIVE,yharada1,Minako
+3,status,4,POSSESSED,DEAD,CamelliaDragons1,Shion
+3,status,5,SEER,DEAD,kanolab-nw1,Benjamin
+3,result,1,1,WEREWOLF

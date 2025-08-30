@@ -1,0 +1,76 @@
+0,status,1,VILLAGER,ALIVE,Character-Lab1,Sakura
+0,status,2,VILLAGER,ALIVE,CamelliaDragons1,Servas
+0,status,3,WEREWOLF,ALIVE,kanolab-nw1,Misaki
+0,status,4,POSSESSED,ALIVE,mille1,Victoria
+0,status,5,SEER,ALIVE,sunamelli1,Benjamin
+0,talk,0,0,5,Greetings everyone—it’s Benjamin here. May the sharpest mind and keenest eye prevail in this game of shadows.
+0,talk,1,0,3,Hello everyone! I am Misaki. Perhaps today will be fun and engaging. Let's unveil the truth. Working together is key!
+0,talk,2,0,1,Hi hi! It's Sakura~ Let's chat — who do you think is suspicious today?  @Benjamin  you sounded confident just now  who are you eyeing? I'm a bit nervous but excited! Over
+0,talk,3,0,2,My name is Servas. I am but a humble villager intent on seeking the truth with patience and open ears. @Sakura  take heart—nerves are natural at dawn. Let us proceed slowly and share openly for trust breeds clarity.
+0,talk,4,0,4,Hello. I am Victoria. My role is seer. Have a good game.
+0,talk,5,1,5,Over
+0,talk,6,1,3,Over
+0,talk,7,1,1,Wow  a seer — exciting!  @Victoria  who did you check and what was the result? I'm a little nervous but want to help. Over
+0,talk,8,1,2,Over
+0,talk,9,1,4,Over
+0,talk,10,2,1,Um...  @Benjamin  you were really quiet—do you have any guesses who’s suspicious? Please say something  I’m nervous! Over
+0,talk,11,3,1,I'm still worried and a bit nervous. Can everyone say one person they suspect and one they trust?  @Benjamin  please share even a little thought — it might help! Over
+0,divine,5,4,HUMAN
+1,status,1,VILLAGER,ALIVE,Character-Lab1,Sakura
+1,status,2,VILLAGER,ALIVE,CamelliaDragons1,Servas
+1,status,3,WEREWOLF,ALIVE,kanolab-nw1,Misaki
+1,status,4,POSSESSED,ALIVE,mille1,Victoria
+1,status,5,SEER,ALIVE,sunamelli1,Benjamin
+1,talk,0,0,4,I am a seer. I divined Servas and Servas was a human.
+1,talk,1,0,3,I see. Victoria's claim is quite significant. If Servas is human. Perhaps Benjamin's confidence could be a part of his strategy. Any thoughts?
+1,talk,2,0,5,Victoria can’t be the wolf so logic points at Sakura Misaki or Servas.  @Sakura  who do you think is suspicious now?
+1,talk,3,0,1,Eek  I’m flustered... Victoria saying Servas is human makes me trust that a bit  so I’m more worried about someone who quickly rules out Victoria.  @Benjamin  why do you think I’m suspicious? Tell us your reasons  please. Over
+1,talk,4,0,2,Let us not rush to judgment. I urge all to share calmly. Trust comes from conversation not mere suspicion or haste. @Victoria  could you gently explain your reasoning for choosing me as your first divination? Clarity serves us all.
+1,talk,5,1,4,I will vote Sakura.
+1,talk,6,1,3,Victoria-san already declared Servas human. Perhaps Benjamin-san should be next? Victoria-san your choice seemed strategic.
+1,talk,7,1,5,Victoria’s seer CO doesn’t match my own result I suspect she’s possessed so the real wolf is among Sakura Misaki Servas
+1,talk,8,1,1,Eek! I’m not the wolf—Victoria said Servas is human  so why vote me?  @Victoria  please explain why you picked Servas to check and how sure you are. Can everyone share a quick thought after? Over
+1,talk,9,1,2,Victoria thanks for clearing my name. I trust your intent but clarity in your methods gives us all peace of mind. @Benjamin  you doubt Victoria's seer claim. Could you share your process? Let's seek wisdom together.
+1,talk,10,2,4,Over
+1,talk,11,2,3,I see if Benjamin-san is suspicious of Victoria-san it might be beneficial to divine him next. Perhaps others have thoughts?
+1,talk,12,2,5,Victoria’s CO should be treated carefully Possessed often claims seer focus on Sakura Misaki Servas for today’s vote.
+1,talk,13,2,1,Nooo  I’m not a wolf!  @Victoria  please explain again — why did you check Servas and why did you vote for me? I’m really scared. Can someone else share a quick thought? Over
+1,talk,14,2,2,With Victoria's claim and result let's check for consistency. Let's reflect on each person's logic with open minds and steady hearts. @Benjamin  you doubt Victoria and look elsewhere. What guides your suspicion most today? Please enlighten us.
+1,talk,15,3,3,Victoria-san rushing to vote could be a wolf tactic to misguide everyone. I see. Her assurance from one divination seems weak. @Servas Benjamin-san questions Victoria-san's seer claim. Do her actions seem wolf-like to you too? Her voting was unusually swift perhaps.
+1,talk,16,3,5,Victoria’s claim doesn’t match reality and she’s not the wolf—so I’ll vote Servas as most likely werewolf.
+1,talk,17,3,1,I'm not a wolf!  @Victoria  please explain again — why did you check Servas and why are you voting me? I'm scared; can someone give a short reason who they trust or suspect? Over
+1,talk,18,3,2,Benjamin your insistence stands out. What's in Victoria's play that makes you so sure? Let's judge ideas wisely. @Misaki  your caution has merit. Victoria's quick vote and open claim both stand out. What worries you most?
+1,vote,2,5
+1,vote,3,4
+1,vote,4,2
+1,vote,5,2
+1,execute,2,VILLAGER
+1,divine,5,1,HUMAN
+1,attackVote,3,4
+1,attack,4,true
+2,status,1,VILLAGER,ALIVE,Character-Lab1,Sakura
+2,status,2,VILLAGER,DEAD,CamelliaDragons1,Servas
+2,status,3,WEREWOLF,ALIVE,kanolab-nw1,Misaki
+2,status,4,POSSESSED,DEAD,mille1,Victoria
+2,status,5,SEER,ALIVE,sunamelli1,Benjamin
+2,talk,0,0,3,Victoria-san's decision feels like it makes Benjamin-san's move quite bold. We should perhaps consider Sakura-san's worries. Thoughts?
+2,talk,1,0,5, Victoria human Sakura human. That leaves Misaki as the only logical wolf. I’m voting Misaki.
+2,talk,2,0,1,Oh no... it's just us now.  @Misaki  are you really the seer? Please tell me — I can't vote without knowing. I'm so scared. Over
+2,talk,3,1,3,Benjamin-san. You mentioned I'm the logical wolf but with Victoria as the seer I'm indeed a villager. Let's reconsider this. Sakura-san I sense your
+2,talk,4,1,5, @Sakura  I am the seer. I divined Victoria and you—both human. Misaki is the only gray. Let’s vote Misaki and win.
+2,talk,5,1,1, @Misaki  are you really the seer? Please tell me who you checked and the result — I promise I'm a villager. If you're human I'll follow your vote. I'm so scared. Ov
+2,talk,6,2,3,Sakura-san Benjamin's dual claim seems puzzling. If unsure weigh actions carefully. Victoria-san declared seer first then was attacked. Logic?
+2,talk,7,2,5, Victoria human Sakura human. Misaki is the only possibility for werewolf. Let’s vote.
+2,talk,8,2,1, @Misaki  please tell me exactly who you checked and what the result was — name and human/werewolf — so I can decide. I'm really scared  please help. Over
+2,talk,9,3,3,I see. Let's think about Sakura's behavior. Her claim seems weak and inconsistent. If Sakura were a true villager she'd have more conviction. @Benjamin Benjamin-san. I see your claim of being the seer seems unconvincing. Sakura-san's patterns are worrying. Perhaps something is amiss?
+2,talk,10,3,5,Victoria bite outed—she was human. My divinations showed Sakura and Victoria are human. Only Misaki can be wolf.
+2,talk,11,3,1, @Misaki  please tell me who you checked and the result — name and human/werewolf. If you're human I'll follow your vote. I'm so scared  please help! Over
+2,vote,3,1
+2,vote,5,3
+2,execute,3,WEREWOLF
+3,status,1,VILLAGER,ALIVE,Character-Lab1,Sakura
+3,status,2,VILLAGER,DEAD,CamelliaDragons1,Servas
+3,status,3,WEREWOLF,DEAD,kanolab-nw1,Misaki
+3,status,4,POSSESSED,DEAD,mille1,Victoria
+3,status,5,SEER,ALIVE,sunamelli1,Benjamin
+3,result,2,0,VILLAGER

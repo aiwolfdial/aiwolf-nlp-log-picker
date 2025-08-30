@@ -1,0 +1,78 @@
+0,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Daisuke
+0,status,2,POSSESSED,ALIVE,GPTaku1,Mizuki
+0,status,3,SEER,ALIVE,yharada1,Victoria
+0,status,4,VILLAGER,ALIVE,sunamelli1,Kenji
+0,status,5,VILLAGER,ALIVE,kanolab-nw1,Jonathan
+0,talk,0,0,3,Let's observe and gather information to identify suspicious behavior.
+0,talk,1,0,2,Hello everyone! I'm Mizuki ready to dive into the game of Werewolf with you all. Let's have a blast and uncover some secrets!
+0,talk,2,0,1,...
+0,talk,3,0,4,Hi everyone I’m Kenji! I’m not the best at finding wolves but let’s stick together and watch out for each other!
+0,talk,4,0,5,Ah. The game begins and I feel a certain thrill akin to finding a rare manuscript. Let us share insights and unravel this enigma together.
+0,talk,5,1,3,Jonathan your excitement is infectious. Let's be vigilant and work together.
+0,talk,6,1,2,Over
+0,talk,7,1,1,Over
+0,talk,8,1,4,Over
+0,talk,9,1,5,Over
+0,talk,10,2,3,Let's keep our eyes open for any unusual behavior as we proceed.
+0,talk,11,3,3,If anyone has a strong feeling or suspicion now's the time to share it.
+0,divine,3,2,HUMAN
+1,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Daisuke
+1,status,2,POSSESSED,ALIVE,GPTaku1,Mizuki
+1,status,3,SEER,ALIVE,yharada1,Victoria
+1,status,4,VILLAGER,ALIVE,sunamelli1,Kenji
+1,status,5,VILLAGER,ALIVE,kanolab-nw1,Jonathan
+1,talk,0,0,1,...
+1,talk,1,0,2, Jonathan is human based on my divination. Let's focus on finding the werewolf among the others.
+1,talk,2,0,3,Mizuki is human based on my vision. Let's focus our efforts elsewhere.
+1,talk,3,0,4, Mizuki or Victoria?
+1,talk,4,0,5,Ah. Mizuki and Victoria both wearing the Seer's mantle is akin to two protagonists in a suspense novel. We must await their visions to unveil the true s
+1,talk,5,1,1,...
+1,talk,6,1,2,Vote for Jonathan today. I believe he might be manipulating his role given the conclusions from our divinations.
+1,talk,7,1,3,Mizuki and I are both claiming Seer. Let's analyze behavior before deciding.
+1,talk,8,1,4, @Mizuki  your divination says Jonathan is human so why push to vote him out? Did you notice something odd?
+1,talk,9,1,5,Ah. Mizuki's call to vote for me defies her divination. Curious.  @Daisuke  You've remained silent. What are your thoughts on Mizuki's and Victoria's seer claims?
+1,talk,10,2,1,...
+1,talk,11,2,2, Jonathan's claim doesn't match with my findings; it seems strategically misleading. It's crucial we vote him to protect the village.
+1,talk,12,2,3,We need more evidence before making a hasty decision. Let's gather more insights.
+1,talk,13,2,4,I can't trust Mizuki’s logic—she divined Jonathan as human but still wants him voted out. That's too suspicious for me.
+1,talk,14,2,5,Ms. Mizuki's choice to cast her vote upon me strikes a peculiar chord in the symphony of truth. Shall we observe her intent?
+1,talk,15,3,1,...
+1,talk,16,3,2, Jonathan divining Victoria as a Werewolf contradicts my findings. I urge we act on this discrepancy and vote Jonathan out for the village's safety.
+1,talk,17,3,3,Conflicting claims complicate things. Daisuke your insights could help clarify.
+1,talk,18,3,4,I’m voting for Mizuki—her logic doesn’t fit a villager.
+1,talk,19,3,5,If Mizuki is indeed the true Seer. Perhaps her human divination of me isn't the whole story. I suggest she divine Daisuke to clarify. Ms. Victoria. Con
+1,vote,1,2
+1,vote,2,5
+1,vote,3,2
+1,vote,4,2
+1,vote,5,2
+1,execute,2,POSSESSED
+1,divine,3,1,WEREWOLF
+1,attackVote,1,3
+1,attack,3,true
+2,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Daisuke
+2,status,2,POSSESSED,DEAD,GPTaku1,Mizuki
+2,status,3,SEER,DEAD,yharada1,Victoria
+2,status,4,VILLAGER,ALIVE,sunamelli1,Kenji
+2,status,5,VILLAGER,ALIVE,kanolab-nw1,Jonathan
+2,talk,0,0,4, @Daisuke  you’ve been really quiet. Can you tell us clearly who you suspect and why before we vote?
+2,talk,1,0,5,I find myself pondering if Daisuke in this labyrinth of enigmas holds the threads that may unravel these curious circumstances.
+2,talk,2,0,1,...
+2,talk,3,1,4, @Daisuke  you haven’t explained your vote or who you trust. Why are you avoiding making a choice?
+2,talk,4,1,5,Since Victoria's gone Kenji is my best guess. This labyrinth needs unwinding and Kenji's story feels one thread short. Mr. Kenji. With Victoria out c
+2,talk,5,1,1,...
+2,talk,6,2,4, @Daisuke  your silence is dangerous for us. If you’re really village speak up—who do you actually suspect right now?
+2,talk,7,2,5,Kenji. Your defense blooms with confidence. Without Victoria and Mizuki's Seer claims. Daisuke's silence is a shadow over us.
+2,talk,8,2,1,...
+2,talk,9,3,4, @Jonathan  I’m voting Daisuke. Silence helps the wolf most. If I’m wrong I accept it but we need active villagers to win.
+2,talk,10,3,5,Mizuki's elimination. Like a book's missing page. Daisuke's stillness. Shadows unfitting. But Kenji? He illuminates. Like a lighthouse beam.
+2,talk,11,3,1,...
+2,vote,4,1
+2,vote,5,1
+2,execute,1,WEREWOLF
+3,status,1,WEREWOLF,DEAD,CamelliaDragons1,Daisuke
+3,status,2,POSSESSED,DEAD,GPTaku1,Mizuki
+3,status,3,SEER,DEAD,yharada1,Victoria
+3,status,4,VILLAGER,ALIVE,sunamelli1,Kenji
+3,status,5,VILLAGER,ALIVE,kanolab-nw1,Jonathan
+3,result,2,0,VILLAGER

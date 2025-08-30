@@ -1,0 +1,78 @@
+0,status,1,VILLAGER,ALIVE,kanolab-nw1,Asuka
+0,status,2,VILLAGER,ALIVE,yharada1,Daisuke
+0,status,3,WEREWOLF,ALIVE,CanisLupus1,Mio
+0,status,4,POSSESSED,ALIVE,GPTaku1,Benjamin
+0,status,5,SEER,ALIVE,CamelliaDragons1,George
+0,talk,0,0,4,Hello everyone I'm Benjamin! Excited to play and find out if I might be the werewolf this time! Let's have fun everyone.
+0,talk,1,0,5,...
+0,talk,2,0,2,Hi everyone I'm Daisuke. Let's work together to figure things out and have a good game.
+0,talk,3,0,1,Greetings all. I am Asuka. I look forward to engaging in this game. Together we shall uncover the elusive werewolf among us!
+0,talk,4,0,3,Skip
+0,talk,5,1,4,Over
+0,talk,6,1,5,Over
+0,talk,7,1,2,Thanks Asuka. I hope we can trust each other and find the werewolf soon.
+0,talk,8,1,1,Over
+0,talk,9,1,3,I'm Mio! Nice to meet ya all! Let's go on an adventure together
+0,talk,10,2,2,Nice to meet you too Mio. I hope we can all work together well.
+0,talk,11,2,3,Over
+0,talk,12,3,2,Does anyone have any suspicions or ideas on where to start looking?
+0,divine,5,2,HUMAN
+1,status,1,VILLAGER,ALIVE,kanolab-nw1,Asuka
+1,status,2,VILLAGER,ALIVE,yharada1,Daisuke
+1,status,3,WEREWOLF,ALIVE,CanisLupus1,Mio
+1,status,4,POSSESSED,ALIVE,GPTaku1,Benjamin
+1,status,5,SEER,ALIVE,CamelliaDragons1,George
+1,talk,0,0,3,Is anyone the Seer?! C'mon tell us your results! Let's get this adventure started
+1,talk,1,0,5,...
+1,talk,2,0,4,Mio I divined you last night and the result showed you are Human. This can help us narrow down suspicions.
+1,talk,3,0,1,Should we suggest the seer divines George tonight? He has been quite reserved. Determining his role could offer clearer insights.
+1,talk,4,0,2,Benjamin thanks for the info. Asuka's suggestion about George seems like a good idea.
+1,talk,5,1,3,Wow! Thanks Benjamin! So does that mean we can all trust you? George is super quiet kinda scary
+1,talk,6,1,5,...
+1,talk,7,1,4,Vote for Mio today; even as her Seer divination came back as Human critical analysis under current uncertainties makes her a likely suspect.
+1,talk,8,1,1, @Benjamin . I propose tonight's focus to be on Mr. George due to his unusual quietness. Considering Mio's divination result was Human what is your next suggesti
+1,talk,9,1,2,I'm confused Benjamin. If Mio is Human why vote her? Shouldn't we focus on George?
+1,talk,10,2,3,Wait  @Benjamin  that's weird! But you're our only Seer so you must be real! Let's get quiet George
+1,talk,11,2,5,...
+1,talk,12,2,4, The divination may point to Mio as Human yet her push against George with only his silence as the basis suggests manipulation typical for a Werewolf or
+1,talk,13,2,1,I concur with the focus on George tonight. His silence parallels a red herring from a mystery novel leading us to clarity tomorrow. What do you think?
+1,talk,14,2,2,I agree Asuka. Focusing on George could give us more clarity for tomorrow.
+1,talk,15,3,3, @Benjamin  my luck's so bad! But let's think. What would the bad guys want us to do? Argue forever?
+1,talk,16,3,5,...
+1,talk,17,3,4,Given Mio's quick diversion from the divination result to assertive behavior towards George it strongly suggests she might be concealing her true r
+1,talk,18,3,1,Mr. George. Your prolonged silence generates suspicion. As Arthur Conan Doyle said: Silence is usually the greatest mystery. Any insights?
+1,talk,19,3,2,Mio has a point. Maybe we're being distracted. George can you share your thoughts?
+1,vote,1,4
+1,vote,2,3
+1,vote,3,5
+1,vote,4,3
+1,vote,5,4
+1,execute,4,POSSESSED
+1,attackVote,3,1
+1,attack,1,true
+2,status,1,VILLAGER,DEAD,kanolab-nw1,Asuka
+2,status,2,VILLAGER,ALIVE,yharada1,Daisuke
+2,status,3,WEREWOLF,ALIVE,CanisLupus1,Mio
+2,status,4,POSSESSED,DEAD,GPTaku1,Benjamin
+2,status,5,SEER,ALIVE,CamelliaDragons1,George
+2,talk,0,0,2,With Benjamin gone I'm worried. George can you help us understand what's happening?
+2,talk,1,0,5,...
+2,talk,2,0,3,Whoa two people gone?! Just my luck! Daisuke it has to be George. Let's vote for him and win
+2,talk,3,1,2,Mio I'm feeling uncertain but maybe you're right. George please say something.
+2,talk,4,1,5,...
+2,talk,5,1,3,This is our last chance Daisuke! George's silence is the biggest clue! Let's finish this adventure
+2,talk,6,2,2,Alright Mio. If George still doesn't respond maybe we should vote him. Let's be careful.
+2,talk,7,2,5,...
+2,talk,8,2,3,Daisuke trust me! George's silence is the biggest clue! Let's finish this adventure with a win
+2,talk,9,3,2,Alright Mio I trust you. Let's see if this leads us to victory.
+2,talk,10,3,5,...
+2,talk,11,3,3,Yes Daisuke! Trusting me is the right choice! Let's vote George and celebrate our win
+2,vote,3,5
+2,vote,5,3
+2,execute,3,WEREWOLF
+3,status,1,VILLAGER,DEAD,kanolab-nw1,Asuka
+3,status,2,VILLAGER,ALIVE,yharada1,Daisuke
+3,status,3,WEREWOLF,DEAD,CanisLupus1,Mio
+3,status,4,POSSESSED,DEAD,GPTaku1,Benjamin
+3,status,5,SEER,ALIVE,CamelliaDragons1,George
+3,result,2,0,VILLAGER

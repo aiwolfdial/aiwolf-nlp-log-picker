@@ -1,0 +1,77 @@
+0,status,1,SEER,ALIVE,kanolab-nw1,Minako
+0,status,2,VILLAGER,ALIVE,GPTaku1,Minato
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,George
+0,status,4,WEREWOLF,ALIVE,CanisLupus1,Takumi
+0,status,5,POSSESSED,ALIVE,sunamelli1,Servas
+0,talk,0,0,3,I'm George. Lifelong farmer honest and steady. I'm a plain villager. Let's all work to uncover the werewolf together.
+0,talk,1,0,4,Skip
+0,talk,2,0,5,A peaceful morning to you all—I look forward to sharing insights and uncovering truths together as the sun rises.
+0,talk,3,0,1,Good morning everyone! I am Minako. Let's enjoy this game together. I understand our mission is to unveil the mysteries of the night.
+0,talk,4,0,2,Hello everyone! I'm Minato excited to unravel mysteries with you all in Werewolf. Let's have fun and find the hidden truth together!
+0,talk,5,1,3,Over
+0,talk,6,1,4,I'm Takumi! Wow an adventure! I promise I'll give it my all! Hope my luck holds out haha
+0,talk,7,1,5,Over
+0,talk,8,1,1,Over
+0,talk,9,1,2,Over
+0,talk,10,2,4,Over
+0,divine,1,5,HUMAN
+1,status,1,SEER,ALIVE,kanolab-nw1,Minako
+1,status,2,VILLAGER,ALIVE,GPTaku1,Minato
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,George
+1,status,4,WEREWOLF,ALIVE,CanisLupus1,Takumi
+1,status,5,POSSESSED,ALIVE,sunamelli1,Servas
+1,talk,0,0,2, Last night I divined Takumi his result showed he is Human. We can trust him today let's focus our suspicions elsewhere.
+1,talk,1,0,3,Minato thank you for making your seer claim. It is timely. I remain the same plain villager as I said yesterday. @Minato  do you have any thoughts on Servas or Minako? I would like more of your reasoning beyond the divination.
+1,talk,2,0,1,I am the real Seer. I divined Servas; they are Human. Let's consider our options and work together to find the Werewolf.
+1,talk,3,0,5, @Minato  why did you choose Takumi to divine? It feels like avoiding suspicion—care to explain your reasoning?
+1,talk,4,0,4,Wow two Seers! Thanks Minato for the check! I trust you. That means Minako is the fake right?
+1,talk,5,1,2, I chose Takumi based on his positive attitude. It was necessary to check someone enthusiastic as they could be a key player whether Villager or Werewo
+1,talk,6,1,3,Two seer claims both found Human. We need to consider their motives and listen carefully to both claims. @Minako  you claim Servas is Human. Why did you pick Servas for divination? Please share your thought process with us.
+1,talk,7,1,1,Let's consider this carefully. I chose Servas for their insights. Minato's claim seems suspicious. Let's uncover the real threat quickly.
+1,talk,8,1,5, @Takumi  you trust Minato too quickly. Isn’t that reckless? What made you so sure about his Seer claim?
+1,talk,9,1,4, @Servas  Of course I trust him he said I'm human! So it's a real Seer vs a Possessed one right?
+1,talk,10,2,2, I urge everyone to vote for Minako. Despite claiming to be a Seer her behavior and aggressive denial question her credibility.
+1,talk,11,2,3,Both Seer claims could be telling the truth or lying. Let us analyze their logic and behavior before drawing conclusions. @Takumi  blind trust in one claim is risky. We should debate both claims and examine all evidence on the table.
+1,talk,12,2,1,Given the odds Minato might be Possessed. Let's consider voting him out to secure the Seer role in this discussion. George. What are your thoughts on M
+1,talk,13,2,5,Choosing between  @Minako  and @Minato is risky—what if both are lying? @Takumi your quick trust seems dangerous.
+1,talk,14,2,4,Yeah I'm voting for Minako too! Minato said I'm human so he has to be the real Seer right? Let's go
+1,talk,15,3,2,Minako's approach in trying to discredit me without substantial reason seems to be an attempt to shift suspicion away since I exposed her lie. Vote Mi
+1,talk,16,3,3,We have two Seer claims both with Human results. A careful review of each claim's reasoning is needed before voting. @Servas  your point about the risk if both Seers are lying is valid. Let's weigh each claim's logic side by side.
+1,talk,17,3,1,Let's consider Minato's assertive claim. Is it to deflect attention? A real Seer would surely share insights without pressure.
+1,talk,18,3,5,Both Seers feel off.  @Minato 's push for votes is suspicious to me. I choose to vote Minato.
+1,talk,19,3,4,Over
+1,vote,1,2
+1,vote,2,1
+1,vote,3,1
+1,vote,4,1
+1,vote,5,2
+1,execute,1,SEER
+1,attackVote,4,5
+1,attack,5,true
+2,status,1,SEER,DEAD,kanolab-nw1,Minako
+2,status,2,VILLAGER,ALIVE,GPTaku1,Minato
+2,status,3,VILLAGER,ALIVE,CamelliaDragons1,George
+2,status,4,WEREWOLF,ALIVE,CanisLupus1,Takumi
+2,status,5,POSSESSED,DEAD,sunamelli1,Servas
+2,talk,0,0,4,My luck turned around! I'm the Werewolf and Minato is my partner! Sorry George we win! Vote George
+2,talk,1,0,2,George I ask you to vote for Takumi today. My divination results may have been incorrect and his behavior allies closely with a Werewolf's tactics.
+2,talk,2,0,3,Takumi's confession may be a bluff. Yet the timing is suspicious. Let's keep calm and think this through before voting. @Minato  can you clarify what made you doubt your earlier divination and now suspect Takumi? I want to hear your reasoning.
+2,talk,3,1,4,Huh?!  @Minato  what's the big idea? We won! Just vote George already! C'mon
+2,talk,4,1,2, George here's my reasoning: Takumi's eagerness and quick trust were too overly convenient possibly a tactic to distract and end debate swiftly.
+2,talk,5,1,3,I am not swayed by confessions meant to force our hand. Logic must lead our decision. Takumi or Minato one deceives us. @Takumi  confession aside what changed your approach from trusting Minato to openly claiming Werewolf today?
+2,talk,6,2,4, @George  It's a trap! Minato is the Werewolf! He's sacrificing me to win your trust! Don't listen
+2,talk,7,2,2, Takumi's behavior during voting was too aggressive and self-assured; typical for a Werewolf trying to win. His sudden shift in tactics is revealing
+2,talk,8,2,3,Both sides accuse one another. I see a forced play from Takumi trying to end the discussion. That to me is suspicious. @Takumi  your strategy changed drastically. Is your claim genuine or simply a tactic to force my vote against Minato?
+2,talk,9,3,4, @George  See?! He's betraying me! He said I was human just to set this up! He's the real wolf
+2,talk,10,3,2,George recall Minako and Servas were attacked after claiming I might be suspicious. This tactic signals Takumi's desperation to deflect suspicion
+2,talk,11,3,3,Given the timing and pressure Takumi's confession aligns with desperation. I am voting for Takumi to protect the village. @Minato  your reasoning is duly noted. I will trust your judgment and place my vote on Takumi today.
+2,vote,2,4
+2,vote,3,4
+2,vote,4,2
+2,execute,4,WEREWOLF
+3,status,1,SEER,DEAD,kanolab-nw1,Minako
+3,status,2,VILLAGER,ALIVE,GPTaku1,Minato
+3,status,3,VILLAGER,ALIVE,CamelliaDragons1,George
+3,status,4,WEREWOLF,DEAD,CanisLupus1,Takumi
+3,status,5,POSSESSED,DEAD,sunamelli1,Servas
+3,result,2,0,VILLAGER

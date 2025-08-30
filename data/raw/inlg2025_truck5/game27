@@ -1,0 +1,53 @@
+0,status,1,SEER,ALIVE,CanisLupus1,Midori
+0,status,2,VILLAGER,ALIVE,GPTaku1,Shion
+0,status,3,VILLAGER,ALIVE,kanolab-nw1,Shunichi
+0,status,4,WEREWOLF,ALIVE,mille1,Mizuki
+0,status,5,POSSESSED,ALIVE,sunamelli1,Jonathan
+0,talk,0,0,2,Hello everyone, I'm Shion! Excited to play werewolf with you all. Let's have some thrilling guesses and lots of fun!
+0,talk,1,0,4,Hello. I am Mizuki. My role is villager. Have a good game.
+0,talk,2,0,3,Hello everyone. I'm Shunichi. Let's cut to the chase and enjoy uncovering the werewolf. Looking forward to a fair game together!
+0,talk,3,0,5,Greetings everyone as the morning breaks I find comfort in quiet company—let’s try to keep this calm.
+0,talk,4,0,1,Skip
+0,talk,5,1,2,Over
+0,talk,6,1,4,Over
+0,talk,7,1,3,Over
+0,talk,8,1,5,Over
+0,talk,9,1,1,I am Midori. It is a pleasure to meet you all. I will do my best to be of service.
+0,talk,10,2,1,I am Midori. It is a pleasure to meet you all. I will do my best to be of service.
+0,talk,11,3,1,Over
+0,divine,1,4,WEREWOLF
+1,status,1,SEER,ALIVE,CanisLupus1,Midori
+1,status,2,VILLAGER,ALIVE,GPTaku1,Shion
+1,status,3,VILLAGER,ALIVE,kanolab-nw1,Shunichi
+1,status,4,WEREWOLF,ALIVE,mille1,Mizuki
+1,status,5,POSSESSED,ALIVE,sunamelli1,Jonathan
+1,talk,0,0,2,I divined Shunichi last night and the result was Werewolf. Please let's consider this in our strategy to win.
+1,talk,1,0,5,Is it wise to trust Shion’s claim so quickly? We have only their word—what if the real Seer hasn’t spoken yet?
+1,talk,2,0,4,I will vote Shunichi.
+1,talk,3,0,3,Hey Shion. Calm down and think about it. Claiming early is risky if you're truly the Seer. Can you manage this risk?
+1,talk,4,0,1,I must do my duty. I am the Seer. Last night I investigated Mizuki and they are a Werewolf.
+1,talk,5,1,2,I am the true Seer. My divination of Shunichi as a Werewolf is accurate. Please trust my results.
+1,talk,6,1,5, @Midori  and @Shion both claim Seer but with opposite results. Is it possible both are trying to mislead us?
+1,talk,7,1,4,Over
+1,talk,8,1,3,Let's cut to the chase. Since we've got two Seers how about Jonathan getting divined tonight? It could clarify the team dynamics.
+1,talk,9,1,1,Please observe that Mizuki immediately supported Shion's claim. I believe they are allies.
+1,talk,10,2,2, The truth of my divination stands. Focus on Shunichi who I divined as Werewolf. This is our best move for the village's safety.
+1,talk,11,2,5,Neither  @Midori  nor @Shion seems more believable; these fast conflicting Seer claims might just be a smoke screen.
+1,talk,12,2,3,Both Seer claims can't be true. Mizuki’s quick vote is suspicious given Midori’s and Shion’s statements contradict. Mizuki. Let's cut to the chase.
+1,talk,13,2,1,Mizuki is the true threat. Their support for Shion's false claim is proof. Please vote Mizuki.
+1,talk,14,3,2, Midori's accusation against Mizuki follows diverting the focus from Shunichi. I insist that Shunichi is a Werewolf.
+1,talk,15,3,5,Mizuki jumped to vote too quickly for me. That urgency feels off so I’m voting Mizuki today.
+1,talk,16,3,3, @Jonathan  Let’s cut to the chase. If Midori’s the Seer. Your faction could be confirmed with a divination. Thoughts champ?
+1,talk,17,3,1,I am glad we agree  @Jonathan . Mizuki's vote for Shunichi confirms my investigation results.
+1,vote,1,4
+1,vote,2,3
+1,vote,3,4
+1,vote,4,3
+1,vote,5,4
+1,execute,4,WEREWOLF
+2,status,1,SEER,ALIVE,CanisLupus1,Midori
+2,status,2,VILLAGER,ALIVE,GPTaku1,Shion
+2,status,3,VILLAGER,ALIVE,kanolab-nw1,Shunichi
+2,status,4,WEREWOLF,DEAD,mille1,Mizuki
+2,status,5,POSSESSED,ALIVE,sunamelli1,Jonathan
+2,result,4,0,VILLAGER

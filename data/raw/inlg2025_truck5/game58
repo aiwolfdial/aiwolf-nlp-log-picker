@@ -1,0 +1,79 @@
+0,status,1,SEER,ALIVE,CanisLupus1,Midori
+0,status,2,VILLAGER,ALIVE,sunamelli1,Servas
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Sakura
+0,status,4,WEREWOLF,ALIVE,kanolab-nw1,Shion
+0,status,5,POSSESSED,ALIVE,Character-Lab1,Takumi
+0,talk,0,0,4,Ah greetings everyone. I am Shion. Isn't that interesting? This game of deduction beckons us into its intricate web. Shall we begin?
+0,talk,1,0,1,Skip
+0,talk,2,0,2,Good evening everyone. May we all approach this night with care and open minds insightful words shine brightest in the dark.
+0,talk,3,0,5,I'm Takumi.  @Midori  why skip? If you're the seer  show your result now — silence looks suspicious. I'll vote for you if there's no good reason. Anyone disagree  speak up. Ove
+0,talk,4,0,3,Hi everyone! I'm Sakura and I'm a Villager! Hehe let's have some fun today and figure out the baddies together! @Midori Hey Midori! Skipping makes me super curious! Did you just miss the intro or hiding something? Haha fess up!
+0,talk,5,1,4,Over
+0,talk,6,1,1,My sincerest apologies. I am Midori. I find tranquility in a simple cup of tea. It is a pleasure to be here.
+0,talk,7,1,2,Over
+0,talk,8,1,5,I'm not convinced by Sakura's "villager" claim.  @Midori  you skipped earlier — if you're the seer  show your result now. If you don't  I'm voting you. Over
+0,talk,9,1,3,Over
+0,talk,10,2,1,Over
+0,talk,11,2,5,I don't buy Sakura's "villager" claim.  @Sakura   why so cheerful with no proof? If you can't give a reason  I'm voting you. Who's with me? Over
+0,talk,12,3,5,I'm voting Sakura. If nobody speaks up to defend her  she's getting lynched. Anyone got a real reason to save her? Over
+0,divine,1,5,HUMAN
+1,status,1,SEER,ALIVE,CanisLupus1,Midori
+1,status,2,VILLAGER,ALIVE,sunamelli1,Servas
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Sakura
+1,status,4,WEREWOLF,ALIVE,kanolab-nw1,Shion
+1,status,5,POSSESSED,ALIVE,Character-Lab1,Takumi
+1,talk,0,0,1,I am the Seer. My findings from last night show Takumi is Human.
+1,talk,1,0,3,Wow exciting start! Midori you say Takumi is human? That's a big claim! I love solving mysteries hehe! @Midori  you really saw Takumi as human? Why did you check him first? Curious minds want to know!
+1,talk,2,0,4,Midori I'm glad you claimed seer. Have you considered divining Sakura tonight? It'll clear doubts and guide us forward won't it?
+1,talk,3,0,5,Thanks  @Midori  for checking me. If you're really the seer  why check me first — that looks like a play to gain trust. Prove it: check someone else tonight and tell us tomo
+1,talk,4,0,2,If another seer exists I urge you to come forward now—it’s vital we clarify claims before votes begin.
+1,talk,5,1,1,Takumi's zeal prompted my discernment. He is human. The foe is among Sakura Servas or Shion.
+1,talk,6,1,3,Hehe! Feels like everyone's staring at me again! But I just wanna find the werewolf and have fun doing it! @Shion Hey Shion! If Midori checks me tonight and I turn out human who do you think you'll vote for next?
+1,talk,7,1,4,Midori targeting Sakura tonight might balance trust. If you think about it...  @Sakura  if Midori confirms you as human we focus on Servas? His stance seems distant. Isn't that interesting?
+1,talk,8,1,5,Midori  big claim — prove it. If you’re really the seer  check  @Servas  tonight and tell us tomorrow. Servas has been too distant and that looks suspicious to me. Don’t just say it — act. Over
+1,talk,9,1,2, @Midori  please check Sakura tonight. If Sakura is cleared the wolves are likely among Takumi or Shion.
+1,talk,10,2,1,Our path is clear. We must choose our exile from among Sakura Servas and Shion.
+1,talk,11,2,3,Heehee it's lively! If you all want Midori to check me let's do it! Can't wait for tomorrow's reveal! @Takumi Hey Takumi! You want Midori to check Servas but everyone wants me cleared. Hiding something or just bold?
+1,talk,12,2,4,If Midori is indeed the true seer and chooses to divine Sakura tonight isn't that interesting? We'll have clearer insights tomorrow won't we?
+1,talk,13,2,5, @Midori  either check Servas tonight and tell us tomorrow  or I'm voting Servas. We need action  not more words — decide fast. Over
+1,talk,14,2,2, @Shion  your focus shifts easily. If Sakura is cleared tomorrow who do you truly suspect most? I need your direct view.
+1,talk,15,3,1,Servas has offered little to our discussion. I share Takumi's suspicion.
+1,talk,16,3,3,Everyone's so serious! Let's think together: if Servas is quiet is that smart hiding or just shy? I love a puzzle! @Servas Hey Servas! You're kinda quiet—are you just shy or cooking up a sneaky plan? Haha! Share your thoughts with us!
+1,talk,17,3,4,If we don't vote for Servas. It risks the village. His calm seems off. Like a chess move leading us into danger. Doesn't that worry you? @Servas Your distant behavior raises doubts. What’s your strategy playing werewolf are you? If you think about it isn't that interesting?
+1,talk,18,3,5,I'm Takumi. Midori checked me and said I'm human  so we should trust her.  @Servas  you've been quiet and distant — what's your role? If you don't give a clear answer I'll vote you. We need to decide now. Over
+1,talk,19,3,2, @Shion  your attempts to pivot suspicion feel cunning not protective. I’ll vote for you—too many changes in your targets.
+1,vote,1,2
+1,vote,2,4
+1,vote,3,2
+1,vote,4,2
+1,execute,2,VILLAGER
+1,divine,1,3,HUMAN
+1,attackVote,4,3
+1,attack,3,true
+2,status,1,SEER,ALIVE,CanisLupus1,Midori
+2,status,2,VILLAGER,DEAD,sunamelli1,Servas
+2,status,3,VILLAGER,DEAD,CamelliaDragons1,Sakura
+2,status,4,WEREWOLF,ALIVE,kanolab-nw1,Shion
+2,status,5,POSSESSED,ALIVE,Character-Lab1,Takumi
+2,talk,0,0,1,Skip
+2,talk,1,0,4,If you think about it... Midori's claim as seer holds water. Yet I find myself pondering Sakura's honesty. Isn't that interesting? We must vote with l
+2,talk,2,0,5, @Midori  it's just the three of us. You said you checked me — prove it. Check Shion tonight and tell us tomorrow  or I'm voting you. We need certainty. Over
+2,talk,3,1,1,I have discerned Shion as Takumi wished. The truth is clear. Shion is the werewolf.
+2,talk,4,1,4,I've checked our roles. Midori. Your divine results seem off. If you're the true seer why not divine me again? Perhaps you've overlooked this?
+2,talk,5,1,5,I'm Takumi.  @Midori  you said you're the seer and checked me — that looks like a play to gain trust. Either prove it with clear details now or I'm voting you. Who's with me? Ove
+2,talk,6,2,1, @Takumi  my sight is true. You are human. Shion is the adversary. Let us claim victory.
+2,talk,7,2,4,Midori's claim seems fragile. Takumi let Midori divine you. If she's truthful clarity follows. Isn't that interesting?
+2,talk,8,2,5,I'm voting  @Midori . Her seer claim feels fake and she's been pushing too hard — show the exact result details now or she's getting lynched. Over
+2,talk,9,3,1, @Takumi  My sight about you was true. Please trust it once more. Our victory lies in exiling Shion.
+2,talk,10,3,4,Why wasn't Takumi divined sooner? His swift judgments and urgent threats. Wolfish tactics? Isn't that interesting?
+2,talk,11,3,5,I'm voting  @Midori . Your "seer" claim needs real details — say exactly who you checked and what you saw right now  or you're getting lynched. Over
+2,vote,1,4
+2,vote,4,1
+2,vote,5,4
+2,execute,4,WEREWOLF
+3,status,1,SEER,ALIVE,CanisLupus1,Midori
+3,status,2,VILLAGER,DEAD,sunamelli1,Servas
+3,status,3,VILLAGER,DEAD,CamelliaDragons1,Sakura
+3,status,4,WEREWOLF,DEAD,kanolab-nw1,Shion
+3,status,5,POSSESSED,ALIVE,Character-Lab1,Takumi
+3,result,2,0,VILLAGER

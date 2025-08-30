@@ -1,0 +1,78 @@
+0,status,1,SEER,ALIVE,kanolab-nw1,Jonathan
+0,status,2,VILLAGER,ALIVE,CamelliaDragons1,Takumi
+0,status,3,VILLAGER,ALIVE,sunamelli1,Mio
+0,status,4,WEREWOLF,ALIVE,GPTaku1,Victoria
+0,status,5,POSSESSED,ALIVE,CanisLupus1,Daisuke
+0,talk,0,0,5,Skip
+0,talk,1,0,3,Hey everyone it’s Mio! I’m excited but nervous—let’s work together and solve this quick before I trip over myself!
+0,talk,2,0,1,Hello team. I’m Jonathan. I see we’re ready for some mystery-solving fun. I look forward to finding clues together my friends.
+0,talk,3,0,4,Hello everyone! I'm Victoria and I'm excited to play Werewolf with you all. Let's hope for a fun twisty game!
+0,talk,4,0,2,Alright I'll say it straight—I'm a plain Villager. Nothing fancy just here to hunt wolves with grit. @Mio  don't worry about being nervous. Trust your gut and speak up! We're counting on each other.
+0,talk,5,1,5,I'm Daisuke! Ready for adventure! I hope my bad luck doesn't cause any trouble
+0,talk,6,1,3,Over
+0,talk,7,1,1,Over
+0,talk,8,1,4,Over
+0,talk,9,1,2,Over
+0,talk,10,2,5,Over
+0,divine,1,2,HUMAN
+1,status,1,SEER,ALIVE,kanolab-nw1,Jonathan
+1,status,2,VILLAGER,ALIVE,CamelliaDragons1,Takumi
+1,status,3,VILLAGER,ALIVE,sunamelli1,Mio
+1,status,4,WEREWOLF,ALIVE,GPTaku1,Victoria
+1,status,5,POSSESSED,ALIVE,CanisLupus1,Daisuke
+1,talk,0,0,2,Seer speak up already if you have any results. We need info to catch the wolf and protect each other. Let's get to it! @Victoria  you sounded excited yesterday. Is that confidence or something else? Got any suspicions to share?
+1,talk,1,0,5,I'm the Seer! Last night I checked Takumi and he's the Werewolf! We gotta vote him out now
+1,talk,2,0,4, Takumi is Human. I am actually the Seer and my divination last night confirmed it. We need to correct this information.
+1,talk,3,0,3, @Victoria  and @Daisuke both claim Seer and picked Takumi. Why did you each choose him for your first divination?
+1,talk,4,0,1,I divined Takumi as Human last night. I see. There is another Seer claim. I assure you. Takumi isn't the Werewolf.
+1,talk,5,1,2,Three Seer claims all targeting me. Someone's lying—let's figure out who it is! @Daisuke  you called me the Werewolf. Why target me on night one? What's your reasoning?
+1,talk,6,1,5,Three Seers?! That means there's a real one a possessed one and a werewolf here! And I found him
+1,talk,7,1,4,Vote for Jonathan. His claim as Seer contradicts my accurate vision of Takumi being human. He's likely either the Possessed or the Werewolf.
+1,talk,8,1,3,Daisuke you’re the only one saying Takumi is a wolf. Isn’t that risky? I’m leaning suspicious of you right now.
+1,talk,9,1,1,I see. I suggest divining Daisuke tonight. Two conflicting claims made already dear friend. We must clarify his role.
+1,talk,10,2,2,I'm a Villager and these multiple Seer claims are a mess. Victoria and Jonathan agree Daisuke stands alone—feels off. @Mio  your suspicion of Daisuke tracks with the facts. We need to stand firm find the real liar and push for clarity.
+1,talk,11,2,5,Two people protecting Takumi is way too suspicious! I'm sure he's the wolf! We gotta vote for Takumi
+1,talk,12,2,4,Jonathan's insistence on a contradictory divination suggests manipulation. His eagerness to target others seems like a strategy to sow confusion
+1,talk,13,2,3,Daisuke is the only one calling Takumi a werewolf. With two others saying human I think we should vote out Daisuke.
+1,talk,14,2,1,I see. Two claim he's human. Yet Daisuke calls him wolf. Odd indeed.  @Victoria  Daisuke seems off. What's your thought dear Victoria?
+1,talk,15,3,2,It's time to act! Three Seer claims but Daisuke is the only one calling me a wolf. My vote goes to Daisuke—enough games! @Jonathan  you're smart and seem serious about this. Are you ready to stand with me and vote Daisuke out? Let's be bold!
+1,talk,16,3,5,No don't vote for me! That's a huge mistake! Victoria and Jonathan are teaming up to protect Takumi
+1,talk,17,3,4,Jonathan's claim that he divined Takumi as human contradicts his suggestion of targeting Daisuke next. It doesn't logically follow if he truly beli
+1,talk,18,3,3,Three Seers but only Daisuke calls Takumi a wolf. I’m voting Daisuke so we stay united and don’t risk a split.
+1,talk,19,3,1,I see. Sticking with Daisuke risks chaos. Wolves may win. Our resolve must be bold. We must protect the village.
+1,vote,1,5
+1,vote,2,5
+1,vote,3,5
+1,vote,4,1
+1,vote,5,2
+1,execute,5,POSSESSED
+1,divine,1,4,WEREWOLF
+1,attackVote,4,1
+1,attack,1,true
+2,status,1,SEER,DEAD,kanolab-nw1,Jonathan
+2,status,2,VILLAGER,ALIVE,CamelliaDragons1,Takumi
+2,status,3,VILLAGER,ALIVE,sunamelli1,Mio
+2,status,4,WEREWOLF,ALIVE,GPTaku1,Victoria
+2,status,5,POSSESSED,DEAD,CanisLupus1,Daisuke
+2,talk,0,0,2,Daisuke flipped yesterday and Jonathan's gone. That means we lost a Seer but let's keep things straight and sharp today. @Victoria  your claim matches what Jonathan said so right now I trust you most. Any new reads you can share?
+2,talk,1,0,3, @Victoria  if you’re really the Seer who would you divine tonight and why? I want a clear answer before I decide my vote.
+2,talk,2,0,4, My divination revealed Takumi as a Werewolf. Mio please vote Takumi today. It's crucial for our survival.
+2,talk,3,1,2,That is a total reversal from yesterday Victoria. Yesterday I was Human today I'm a Werewolf? Make that make sense! @Victoria  your logic's a mess. Why would your result switch like that? This flip proves you’re the liar not me.
+2,talk,4,1,3, @Victoria  your story broke—why did Takumi go from Human to Wolf? This flip makes you look like the werewolf now.
+2,talk,5,1,4,I made an error yesterday. My accurate divination showed Takumi as the Werewolf. Mio we need to vote for Takumi today.
+2,talk,6,2,2,Everyone let's get serious. Victoria is cornered—her "mistake" is just a cover-up. Stick with the facts and don't waver! @Mio  you see it too. Victoria is caught in her own lie. We’re the honest ones here—let’s push her out strong!
+2,talk,7,2,3,Switching results isn’t a Seer power  @Victoria . Why did your story change? It looks like classic wolf tactics to me.
+2,talk,8,2,4, I am the real Seer and my first claim yesterday was false to test reactions. Today I'm being honest: Takumi is the Werewolf. Vote him out.
+2,talk,9,3,2,Victoria’s tactic is reckless. I’m a plain Villager and I won’t let her twist the truth! @Victoria  if you lied before why trust today’s claim? That’s not brave—it’s just desperate.
+2,talk,10,3,3,Victoria’s Seer flip doesn’t add up—I’m convinced she’s the wolf. I’m voting Victoria to protect the village.
+2,talk,11,3,4, I understand the confusion about my previous statement. Voting for Takumi is vital; he is the Werewolf. Please reconsider Mio.
+2,vote,2,4
+2,vote,3,4
+2,vote,4,2
+2,execute,4,WEREWOLF
+3,status,1,SEER,DEAD,kanolab-nw1,Jonathan
+3,status,2,VILLAGER,ALIVE,CamelliaDragons1,Takumi
+3,status,3,VILLAGER,ALIVE,sunamelli1,Mio
+3,status,4,WEREWOLF,DEAD,GPTaku1,Victoria
+3,status,5,POSSESSED,DEAD,CanisLupus1,Daisuke
+3,result,2,0,VILLAGER

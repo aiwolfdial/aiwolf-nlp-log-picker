@@ -1,0 +1,75 @@
+0,status,1,SEER,ALIVE,Character-Lab1,Shion
+0,status,2,VILLAGER,ALIVE,CanisLupus1,Servas
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,George
+0,status,4,WEREWOLF,ALIVE,mille1,Misaki
+0,status,5,POSSESSED,ALIVE,sunamelli1,Shunichi
+0,talk,0,0,2,Skip
+0,talk,1,0,3,Good morning my name is George. I am simply a villager with no special abilities to offer this group.
+0,talk,2,0,5,I hope nobody slips into gut instincts this game. Let’s keep all logic tight or risk giving wolves an easy play.
+0,talk,3,0,1,Morning. Quick role claim from George smells off — wolves often fake villager to blend in.  @George  why reveal so soon  and who do you suspect? Everyone else  give one quick read. Over
+0,talk,4,0,4,Hello. I am Misaki. My role is villager. Have a good game.
+0,talk,5,1,2,I am Servas. I look forward to our deliberations.
+0,talk,6,1,3,Over
+0,talk,7,1,5,Over
+0,talk,8,1,1,George's quick villager claim and then silence feels off. I'm inclined to nominate  @George  unless someone has a strong counter-read — who do you suspect? Over
+0,talk,9,1,4,Over
+0,talk,10,2,2,Over
+0,talk,11,2,1,I nominate  @George  for lynch. Quick villager claim + silence is suspicious. Any strong counter-reads? If not  let's vote him. Over
+0,talk,12,3,1,I'll cast my vote for  @George . Speak now if you disagree — otherwise let's close this. Over
+0,divine,1,3,HUMAN
+1,status,1,SEER,ALIVE,Character-Lab1,Shion
+1,status,2,VILLAGER,ALIVE,CanisLupus1,Servas
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,George
+1,status,4,WEREWOLF,ALIVE,mille1,Misaki
+1,status,5,POSSESSED,ALIVE,sunamelli1,Shunichi
+1,talk,0,0,2,The dawn breaks. Let the one who gazes into the hearts of others now share their findings.
+1,talk,1,0,4,I will vote Shunichi.
+1,talk,2,0,3,There is merit in clarity. I openly declared as villager to prevent confusion later in discussions. @Shion  your suspicion is noted though early claims are not in themselves incriminating.
+1,talk,3,0,5, @Shion  you’re eager to push out George but quick votes often serve the wolves. Why risk a wrong move now?
+1,talk,4,0,1,I'm the seer. I divined  @George  on day 0 — HUMAN. We just lynched an innocent. That makes Shunichi more suspicious to me for pressing against the move and pointing at me. Misaki  Servas
+1,talk,5,1,2,One Seer claims the covenant yet speaks of a ghost. A contract built on paradox holds no truth.
+1,talk,6,1,4,I will vote Shunichi.
+1,talk,7,1,3,Let's judge based on evidence not just on initial impressions. Shion's seer claim merits scrutiny and considered logic. @Shion You named me human Shion. Still your earlier push toward my lynch seems rushed. Consistency matters here.
+1,talk,8,1,5, @Shion  if you revealed George is human why did you try to vote him so fast? That’s not logical at all.
+1,talk,9,1,1,I'm the seer — I divined George on day 0 and he's HUMAN.Why I pushed: his immediate villager claim plus silence matched a wolf pattern; I wanted to force @Shunichi  for how he reacted and for pushing back at my logic instead of giving reads. @Shunichi  explain your stance. Misaki  Servas  George — share votes/reads.
+1,talk,10,2,2,A contract must be built upon truth.  @Shion  your testimony spoke of a ghost where none exists. Explain this.
+1,talk,11,2,4,Over
+1,talk,12,2,3,I believe logic is our best tool. Consistency in claims and voting will reveal the truth. Let's focus on solid reasoning. @Misaki  you have stated your vote twice for Shunichi. Could you provide your reasoning for suspecting Shunichi so clearly?
+1,talk,13,2,5, @Misaki  you vote for me without reasoning—classic wolf move relying on easy targets. Care to explain your logic?
+1,talk,14,2,1,I'm the seer — I divined George (D0): HUMAN. We just lost an innocent. @Shunichi  your reaction looks suspicious; explain your reads and vote now. Misaki  Servas  George — state your votes. Over
+1,talk,15,3,2,A flawed contract benefits only the shadows.  @Shion  your memory is of events that did not transpire.
+1,talk,16,3,3,Let's use only verifiable facts. Haste is our enemy. Everyone please state your stance and reasoning clearly. @Shion Your seer claim and actions don't match—divining me as human but leading my lynch. That creates logical doubt.
+1,talk,17,3,5, Misaki.
+1,talk,18,3,1,Reminder: I'm the seer — I divined George (D0): HUMAN. We just lost an innocent. @Shunichi   your pushback felt defensive and vague. Misaki  Servas  George — state your votes/reads now. If no good defense  I'll nominate @Shunichi. Over
+1,vote,2,1
+1,vote,3,1
+1,vote,4,5
+1,vote,5,4
+1,execute,1,SEER
+1,attackVote,4,2
+1,attack,2,true
+2,status,1,SEER,DEAD,Character-Lab1,Shion
+2,status,2,VILLAGER,DEAD,CanisLupus1,Servas
+2,status,3,VILLAGER,ALIVE,CamelliaDragons1,George
+2,status,4,WEREWOLF,ALIVE,mille1,Misaki
+2,status,5,POSSESSED,ALIVE,sunamelli1,Shunichi
+2,talk,0,0,3,We now lack a seer so everyone must base their judgments on behavior and past logic.
+2,talk,1,0,4,I will vote Shunichi.
+2,talk,2,0,5, jump on the easy target.
+2,talk,3,1,3,With no seer left our judgment must be careful. Rash motives or unclear logic risk mislead. I ask for clear reasoning. @Misaki  your intention to vote Shunichi lacks supporting logic. Can you clarify your reasons concretely?
+2,talk,4,1,4,Over
+2,talk,5,1,5, @George  see how Misaki pushes to end the game fast? Wolves always rush votes with no logic. Don't fall for it.
+2,talk,6,2,3,Let's review yesterday: Shunichi and Misaki were both suspected for unclear reasoning. Now clarity is vital for trust. @Misaki  your decision to vote Shunichi remains unexplained. What specifically leads you to suspect them?
+2,talk,7,2,5, @Misaki  your rush to end things without thought is suspicious. Wolves love easy votes. George don’t fall for it.
+2,talk,8,3,3,Reason and caution guide us; hasty votes risk villagers. Let's be deliberate in decisions. @Shunichi  your insistence on careful play is noted. What about Misaki's silence after questions?
+2,talk,9,3,5, @George  today’s vote is critical. I’m voting Misaki—wolves always dodge reason and rush. Pick logic over panic or we lose.
+2,vote,3,4
+2,vote,4,5
+2,vote,5,4
+2,execute,4,WEREWOLF
+3,status,1,SEER,DEAD,Character-Lab1,Shion
+3,status,2,VILLAGER,DEAD,CanisLupus1,Servas
+3,status,3,VILLAGER,ALIVE,CamelliaDragons1,George
+3,status,4,WEREWOLF,DEAD,mille1,Misaki
+3,status,5,POSSESSED,ALIVE,sunamelli1,Shunichi
+3,result,2,0,VILLAGER

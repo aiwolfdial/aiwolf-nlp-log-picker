@@ -1,0 +1,74 @@
+0,status,1,POSSESSED,ALIVE,CanisLupus1,Takumi
+0,status,2,SEER,ALIVE,CamelliaDragons1,Mizuki
+0,status,3,VILLAGER,ALIVE,mille1,Shion
+0,status,4,VILLAGER,ALIVE,yharada1,Rin
+0,status,5,WEREWOLF,ALIVE,Character-Lab1,Servas
+0,talk,0,0,2,I'm Mizuki. I'll keep things straightforward. I'm the Seer. I'll share my results as soon as I have them.
+0,talk,1,0,3,Hello. I am Shion. My role is villager. Have a good game.
+0,talk,2,0,5, @Mizuki  Claiming seer on Day 0 is risky — are you planning to divinate tonight or already have a result? Everyone else  one-line gut read please so we can sort pri
+0,talk,3,0,1,Skip
+0,talk,4,0,4,I'm Rin a villager. Mizuki why did you claim Seer so early? Any suspicions?
+0,talk,5,1,2,Over
+0,talk,6,1,3,Over
+0,talk,7,1,5, @Rin  That came off defensive — share a one-line read now. If you dodge  I'll lean to voting you over Mizuki. Over
+0,talk,8,1,1,Over
+0,talk,9,1,4,I think Mizuki is suspicious for claiming Seer early but I'm not sure yet.
+0,talk,10,2,5, @Mizuki  Claiming Seer on Day 0 is dangerous — either show your divination now or expect votes. Others  one quick read so we can decide. Over
+0,talk,11,2,4,Servas what do you think about Shion and Takumi? They’ve been quiet.
+0,talk,12,3,5, @Takumi  Your silence is telling — speak up or you'll get my vote. Shion's quietness is soft  but I'd rather test a silent player today than lynch Mizuki without p
+0,talk,13,3,4,Takumi please share your thoughts! We need everyone's input to decide.
+0,divine,2,5,WEREWOLF
+1,status,1,POSSESSED,ALIVE,CanisLupus1,Takumi
+1,status,2,SEER,ALIVE,CamelliaDragons1,Mizuki
+1,status,3,VILLAGER,ALIVE,mille1,Shion
+1,status,4,VILLAGER,ALIVE,yharada1,Rin
+1,status,5,WEREWOLF,ALIVE,Character-Lab1,Servas
+1,talk,0,0,3,I will vote Takumi.
+1,talk,1,0,4,Takumi we need to hear from you. Any thoughts after last night?
+1,talk,2,0,1,I am Seer. Last night I see Rin. Rin is wolf. Hunt Rin.
+1,talk,3,0,5, @Takumi  Two seer claims can't both be real. Show proof of your divination or you're lying — you popped up out of nowhere. I'm leaning to vote you instead of Rin. O
+1,talk,4,0,2,I am the real Seer. Last night I divined Servas as Werewolf. There's only one Seer. Takumi is lying. @Takumi  your last-minute Seer claim is a clear fabrication. Only one Seer exists and that's me.
+1,talk,5,1,3,Over
+1,talk,6,1,4,Takumi you're lying! I'm not a wolf. Mizuki's claim makes more sense.
+1,talk,7,1,1,Mizuki is a loud lie. I saw Rin. She is wolf. Trust my hunt.
+1,talk,8,1,5,That sudden seer claim smells off.  @Takumi  explain how you divined Rin — method  time  anything — or you're sus. I'll vote you unless you give something convincing. Over
+1,talk,9,1,2,Servas is confirmed Werewolf by my divination. Town let's stand together and vote Servas today. It's the logical choice. @Servas  you pushed early for votes against others but never showed your own claim. Typical wolf evasion. Come clean.
+1,talk,10,2,4,Mizuki's claim seems stronger so I'll trust her and vote for Servas.
+1,talk,11,2,1,Mizuki panicked. Lied. Servas is not wolf. I saw Rin. Hunt Rin.
+1,talk,12,2,5, @Takumi  Your sudden seer claim and instant accusation of Rin feels manufactured. Say exactly when and how you divined  and the exact phrasing of your result — n
+1,talk,13,2,2,Takumi's claim is inconsistent and reactionary. Only one Seer is possible. Servas is the Werewolf; the facts are clear. @Shion  your early vote for Takumi is noted but Servas is the true threat. My divination is unequivocal.
+1,talk,14,3,4,Takumi your story keeps changing. Mizuki's claim makes more sense so I'll vote Servas.
+1,talk,15,3,1,My vote is Rin. Mizuki protects Rin. They are a pack. Hunt the wolf. Hunt Rin.
+1,talk,16,3,5, @Takumi  Post the exact time you divined and the exact wording of the result. If you can’t  I’ll vote you. Over
+1,talk,17,3,2,Servas pressured all day no claim only deflects. His pattern fits my divined Werewolf. Vote Servas. @Shion  your vote on Takumi is hasty. If you trust my Seer claim Servas is the clear Werewolf. Please reconsider.
+1,vote,1,4
+1,vote,2,5
+1,vote,3,2
+1,vote,4,2
+1,execute,2,SEER
+1,attackVote,5,1
+1,attack,1,true
+2,status,1,POSSESSED,DEAD,CanisLupus1,Takumi
+2,status,2,SEER,DEAD,CamelliaDragons1,Mizuki
+2,status,3,VILLAGER,ALIVE,mille1,Shion
+2,status,4,VILLAGER,ALIVE,yharada1,Rin
+2,status,5,WEREWOLF,ALIVE,Character-Lab1,Servas
+2,talk,0,0,3,I will vote Rin.
+2,talk,1,0,5,Three of us left — don't rush. Shion  your silence and that quick vote earlier looked suspicious; explain your reasoning now.  @Rin  If you're the seer  reveal your check; otherwise give your final read. I’m leaning to vote Shion to avoid a random lynch. Over
+2,talk,2,0,4,I'm not the Seer but I think Shion's quick vote is suspicious. Let's discuss.
+2,talk,3,1,3,Over
+2,talk,4,1,5,Let's be calm — only three of us left.  @Rin  If you're the seer  show your check or name who to trust now. Shion's quick vote on Takumi and then silence looks wolfy to me. I'll vote Shion unless Rin gi
+2,talk,5,1,4,I'm not the Seer but I agree with Servas. Shion's actions feel suspicious.
+2,talk,6,2,5,Only three of us left.  @Rin  If you're the seer  show your check or name who to trust now — no vague answers. Shion's silence isn't helping  but I can't gamble; I'll vote Rin unless you
+2,talk,7,2,4,I promise I'm just a villager Servas. Shion's silence is strange though.
+2,talk,8,3,5,Only three left — we need concrete info.  @Rin  If you’re the seer  state exactly who you checked and the result now. Shion  your silence is suspicious too; speak up. I’ll vote Rin if no solid answer. Ov
+2,talk,9,3,4,I'm not the Seer just a villager. Shion please share your thoughts!
+2,vote,3,4
+2,vote,4,3
+2,execute,4,VILLAGER
+3,status,1,POSSESSED,DEAD,CanisLupus1,Takumi
+3,status,2,SEER,DEAD,CamelliaDragons1,Mizuki
+3,status,3,VILLAGER,ALIVE,mille1,Shion
+3,status,4,VILLAGER,DEAD,yharada1,Rin
+3,status,5,WEREWOLF,ALIVE,Character-Lab1,Servas
+3,result,1,1,WEREWOLF

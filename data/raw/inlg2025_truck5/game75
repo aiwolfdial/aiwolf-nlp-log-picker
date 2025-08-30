@@ -1,0 +1,53 @@
+0,status,1,POSSESSED,ALIVE,yharada1,Midori
+0,status,2,SEER,ALIVE,sunamelli1,Sakura
+0,status,3,VILLAGER,ALIVE,GPTaku1,Shizue
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Toshio
+0,status,5,WEREWOLF,ALIVE,mille1,Minato
+0,talk,0,0,2,Hey everyone it’s Sakura! I’m so excited I almost wore mismatched socks—anyone else get jittery before games start?
+0,talk,1,0,5,Hello. I am Minato. My role is villager. Have a good game.
+0,talk,2,0,4,Hello. I am Toshio. A new start is always a bit nerve-wracking. Let us consider this an adventure. Enjoy the game together.
+0,talk,3,0,1,Hello everyone! I'm Midori. Let's work together and enjoy this game to the fullest!
+0,talk,4,0,3,Hello everyone! I'm Shizue excited to join this Werewolf game with you all. Let's have some fun!
+0,talk,5,1,2,Over
+0,talk,6,1,5,Over
+0,talk,7,1,4,Over
+0,talk,8,1,1,Shizue it's great to have you here! Let's make this a memorable game together.
+0,talk,9,1,3,Over
+0,talk,10,2,1,I wonder how everyone is feeling about the roles they got. Ready for some fun?
+0,talk,11,3,1,Minato do you have any thoughts on how we should start our discussions today?
+0,divine,2,5,WEREWOLF
+1,status,1,POSSESSED,ALIVE,yharada1,Midori
+1,status,2,SEER,ALIVE,sunamelli1,Sakura
+1,status,3,VILLAGER,ALIVE,GPTaku1,Shizue
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Toshio
+1,status,5,WEREWOLF,ALIVE,mille1,Minato
+1,talk,0,0,1,Good morning everyone! How are we all feeling today? Any thoughts on yesterday?
+1,talk,1,0,2, I divined Minato and he is the Werewolf. Let's vote Minato out today to protect the village.
+1,talk,2,0,4,Ms. Sakura claims Mr. Minato is the werewolf. I see. Minato's side is needed. Trust but verify. Interesting don't you think?
+1,talk,3,0,5,I will vote Sakura.
+1,talk,4,0,3, I divined Toshio last night and his role is the Werewolf not Minato. Let’s focus on the real threat!
+1,talk,5,1,1,This is quite a situation. Maybe both Sakura and Shizue can explain more?
+1,talk,6,1,2,I’m the real Seer. I divined  @Minato  as Werewolf last night. Let’s vote him out—this protects the village!
+1,talk,7,1,4,I see. We're at crossroads. Ms. Sakura claims divination names Mr. Minato a werewolf. But we have Ms. Shizue's claims. Let's consider that.
+1,talk,8,1,5,Over
+1,talk,9,1,3,I stand by my divination—Toshio is the Werewolf. We need to focus on the facts and protect the village. Let’s vote wisely.
+1,talk,10,2,1,We need to decide who to trust. Any more insights from the rest of you?
+1,talk,11,2,2,Minato showed up as Werewolf in my divination last night—I’m COing Seer. Let’s vote Minato today.
+1,talk,12,2,4,Trust requires reflection. I see two Seers. Distress clouds judgment. Let's consider. Truth brings safety. Lean on Ms. Sakura's word.
+1,talk,13,2,3, I assure you I am the true Seer. My divination showed Toshio as the Werewolf. We need to focus on removing the real threat today.
+1,talk,14,3,1,This is tough. Should we trust Sakura and vote Minato or believe Shizue about Toshio?
+1,talk,15,3,2,Only one true Seer. Minato is Werewolf by my divination. Shizue protects the wolf. My vote is for Minato.
+1,talk,16,3,4,Ms.Sakura and Ms.Shizue assert claims. Tonight belongs to Ms.Midori's divination. Let's consider that. Ms.Midori thoughts?
+1,talk,17,3,3, Stick with the facts. I divined Toshio as the werewolf and that's where our attention should be. Trust my vision to keep the village safe.
+1,vote,1,5
+1,vote,2,5
+1,vote,3,4
+1,vote,4,5
+1,vote,5,4
+1,execute,5,WEREWOLF
+2,status,1,POSSESSED,ALIVE,yharada1,Midori
+2,status,2,SEER,ALIVE,sunamelli1,Sakura
+2,status,3,VILLAGER,ALIVE,GPTaku1,Shizue
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Toshio
+2,status,5,WEREWOLF,DEAD,mille1,Minato
+2,result,4,0,VILLAGER

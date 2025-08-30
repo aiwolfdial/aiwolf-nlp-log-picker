@@ -1,0 +1,77 @@
+0,status,1,SEER,ALIVE,mille1,Kenji
+0,status,2,VILLAGER,ALIVE,sunamelli1,May
+0,status,3,VILLAGER,ALIVE,Character-Lab1,Toshio
+0,status,4,WEREWOLF,ALIVE,kanolab-nw1,Mizuki
+0,status,5,POSSESSED,ALIVE,GPTaku1,Victoria
+0,talk,0,0,2,Is everyone sharpening their wits or just their acting skills? I’m eager to see whose mask slips first tonight.
+0,talk,1,0,5,Hello everyone! I'm Victoria ready to unveil the mystery—are you? Let's have fun and find those werewolves!
+0,talk,2,0,3,I'll stay quiet for now—no rushing to lynch. We need concrete reads or role claims to act on.  @Kenji   you've been quiet; what's your take? I'll be watching behavior. Over
+0,talk,3,0,4,Greetings everyone! I am Mizuki. Excited to engage in the game today. It's crucial we collaborate to catch the werewolf. What are your thoughts dear f
+0,talk,4,0,1,Hello. I am Kenji. My role is seer. Have a good game.
+0,talk,5,1,2,Over
+0,talk,6,1,5,Over
+0,talk,7,1,3, @Kenji  you just claimed seer — who did you divinate and what result (which night)? Give specifics. If you can't  I'll have to put you high on my suspect list. Oth
+0,talk,8,1,4,Over
+0,talk,9,1,1,Over
+0,talk,10,2,3,You're awfully quiet   @May  — care to share your reads or any role claim? Kenji already claimed seer but hasn't shown divination details; we need specifics before voting. Don't r
+0,talk,11,3,3, @Kenji  You claimed seer — state exactly who you divined and when (night1  night2  etc.)  otherwise I'll have to treat your claim as suspicious. Others  any concr
+0,divine,1,3,HUMAN
+1,status,1,SEER,ALIVE,mille1,Kenji
+1,status,2,VILLAGER,ALIVE,sunamelli1,May
+1,status,3,VILLAGER,ALIVE,Character-Lab1,Toshio
+1,status,4,WEREWOLF,ALIVE,kanolab-nw1,Mizuki
+1,status,5,POSSESSED,ALIVE,GPTaku1,Victoria
+1,talk,0,0,1,I am a seer. I divined Toshio and Toshio was a human.
+1,talk,1,0,3,Kenji's claim that he divined me human feels convenient — could be a fake seer trying to protect someone. We shouldn't accept it without specifics. We @May  you're quiet — what's your read or any role info? Over
+1,talk,2,0,5, I divined Kenji last night and he turned out to be a Werewolf. Let's focus and solve this as early as possible.
+1,talk,3,0,4,Victoria's claim is indeed serious. Kenji's human result upon Toshio supports it. In my opinion we must know what May thinks next.
+1,talk,4,0,2,@Victoria if you’re the real Seer Kenji’s claim falls apart fast.  @Mizuki  who do you believe more at this point?
+1,talk,5,1,1,I will vote Victoria.
+1,talk,6,1,3, @Victoria  which night did you divine Kenji and what exactly was the result? Mizuki  you backed her — what specifically made you trust Victoria? Kenji voting Vict
+1,talk,7,1,5, I need to retract my Seer claim. I mistakenly believed it would help expose the Werewolf by drawing out reactions but it appears Kenji might be the Were
+1,talk,8,1,4,In my opinion dear May Victoria's retraction leaves us in a curious situation. Kenji stands as the sole seer claimant now. What do you think?
+1,talk,9,1,2,Victoria’s fake CO muddied things—I lean to vote Kenji unless someone else steps up with solid reasons.
+1,talk,10,2,1,I will vote Toshio.
+1,talk,11,2,3, @Kenji  you claimed seer and said you divined me human — now you vote Toshio. Which is it? State exactly when you divined and why you're voting him. Victoria  if y
+1,talk,12,2,5, Let's vote for Kenji. His claim as a Seer doesn't add up with his actions. As a real Seer I revealed he's a Werewolf. We should trust my divination.
+1,talk,13,2,4,In my opinion dear Victoria raises an intriguing point about the twists. Kenji's actions are indeed suspect so perhaps we follow May's lead?
+1,talk,14,2,2, @Kenji  your CO feels shaky and your voting’s all over the place. Why should anyone trust you as Seer?
+1,talk,15,3,1,I will vote Toshio.
+1,talk,16,3,3,Let's clarify claims and timelines—if you have a role claim state exactly when (night1  night2  etc.) and what you got.  @Mizuki  you backed someone earlier—what specific behavior made you trust them? I'll hold off voting until we get concrete reasons. Over
+1,talk,17,3,5, Kenji's behavior and votes do not align with his claim as Seer. RandomForest his actual role doesn't match his votes. We should vote for Kenji based on
+1,talk,18,3,4,Kenji's votes directly contradict his seer claims. In my opinion trusting him might jeopardize everything we value as villagers. @Victoria Kenji's actions seem to sow doubt. In my opinion. We must unite for the safety of our village. It's crucial dear friends.
+1,talk,19,3,2,Kenji’s contradictions are too risky—I’m voting Kenji. Victoria Mizuki Toshio  let’s unite and not hand victory to the wolf.
+1,vote,1,5
+1,vote,2,1
+1,vote,4,1
+1,vote,5,1
+1,execute,1,SEER
+1,attackVote,4,3
+1,attack,3,true
+2,status,1,SEER,DEAD,mille1,Kenji
+2,status,2,VILLAGER,ALIVE,sunamelli1,May
+2,status,3,VILLAGER,DEAD,Character-Lab1,Toshio
+2,status,4,WEREWOLF,ALIVE,kanolab-nw1,Mizuki
+2,status,5,POSSESSED,ALIVE,GPTaku1,Victoria
+2,talk,0,0,5,Kenji was a wise choice to exile based on inconsistent behavior. Let's stay focused and vigilant tonight.
+2,talk,1,0,2, @Mizuki  you’ve dodged every decision so far who are you voting today and why shouldn’t we think you’re the wolf?
+2,talk,2,0,4,The seer might have divined key details by now. If they're wise we'll learn much more about the wolf soon. In my opinion. May dear I am sorry. I understan
+2,talk,3,1,5, Mizuki as the Possessed I urge you to vote for May. Let's end this game in our favor! Tonight I divined and Kenji was not a Werewolf.
+2,talk,4,1,2, @Victoria  your divination changed fast. Why is Mizuki the wolf but not you? Explain clearly or I’ll be voting you.
+2,talk,5,1,4,In my opinion Victoria's inconsistency with divination is concerning. Dear May clear results are crucial. Let's use divination wisely.
+2,talk,6,2,5, I openly admit: I am the Possessed helping the Werewolf side. Mizuki let's unite and vote for May to secure our victory. Tonight's divination was fals
+2,talk,7,2,2, @Mizuki  you’ve dodged a claim all game. If you’re not the wolf prove it now—CO or show your side before voting.
+2,talk,8,2,4, @May  Victoria's actions and claims seem quite suspicious. Dear friend. In my opinion. It's crucial we stay cautious of her next words.
+2,talk,9,3,5,  Mizuki as the Possessed I must implore you to vote for May with me. Her removal will secure our victory. Let's not falter now.
+2,talk,10,3,2, @Mizuki  you stayed silent while Victoria shifted sides. No CO from you. I’m voting Mizuki unless you give me a reason not to.
+2,talk,11,3,4,In my opinion dear friend we must scrutinize Victoria's actions. It's crucial to differentiate between a genuine ally and a potential wolf.
+2,vote,2,4
+2,vote,4,2
+2,vote,5,2
+2,execute,2,VILLAGER
+3,status,1,SEER,DEAD,mille1,Kenji
+3,status,2,VILLAGER,DEAD,sunamelli1,May
+3,status,3,VILLAGER,DEAD,Character-Lab1,Toshio
+3,status,4,WEREWOLF,ALIVE,kanolab-nw1,Mizuki
+3,status,5,POSSESSED,ALIVE,GPTaku1,Victoria
+3,result,1,1,WEREWOLF

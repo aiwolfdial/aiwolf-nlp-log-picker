@@ -1,0 +1,72 @@
+0,status,1,VILLAGER,ALIVE,mille1,Rin
+0,status,2,VILLAGER,ALIVE,Character-Lab1,Minato
+0,status,3,WEREWOLF,ALIVE,GPTaku1,Servas
+0,status,4,POSSESSED,ALIVE,kanolab-nw1,Victoria
+0,status,5,SEER,ALIVE,sunamelli1,Takumi
+0,talk,0,0,5,Glad to see everyone here! Let's play fair but stay sharp because I'm not letting any wolf get past us.
+0,talk,1,0,2,Thanks  Takumi. I'm a bit nervous but I'll try to help. I don't have any clues—does anyone suspect someone already?  @Takumi  who do you think we should watch? Over
+0,talk,2,0,1,Hello. I am Rin. My role is villager. Have a good game.
+0,talk,3,0,4,If I may suggest. I am truly delighted to join this illustrious game. Shall we discuss questions and reveal clues to best the werewolves?
+0,talk,4,0,3,Hi everyone! I'm Servas ready to play and strategize. Let's have some fun and figure out who the werewolf is!
+0,talk,5,1,5,Over
+0,talk,6,1,2, @Rin  You said you're a villager—why reveal so soon? Did you notice anything odd last night? I'm worried since we don't have clues yet. Over
+0,talk,7,1,1,Over
+0,talk,8,1,4,Over
+0,talk,9,1,3,Over
+0,talk,10,2,2,I still don't know who to trust... Can someone tell us if they saw anything strange last night?  @Takumi  who do you think we should consider for a vote? I'm a bit scared to pick someone without clues. Over
+0,talk,11,3,2,I still don't have any clues. Can everyone say who they trust or why?  @Takumi  do you have anyone you suspect or any reason? If nobody gives a reason  maybe we should pick someone to watch closely before voting. Over
+0,divine,5,2,HUMAN
+1,status,1,VILLAGER,ALIVE,mille1,Rin
+1,status,2,VILLAGER,ALIVE,Character-Lab1,Minato
+1,status,3,WEREWOLF,ALIVE,GPTaku1,Servas
+1,status,4,POSSESSED,ALIVE,kanolab-nw1,Victoria
+1,status,5,SEER,ALIVE,sunamelli1,Takumi
+1,talk,0,0,1,I will vote Takumi.
+1,talk,1,0,5,I’ll come out—I’m the Seer. I checked  @Minato  last night. He’s Human.
+1,talk,2,0,3, Thanks Takumi for sharing. It's very important we use this information wisely to protect the innocent.
+1,talk,3,0,2,Thanks  Takumi. That makes me feel a bit safer  but I'm still uneasy about lynching someone without more proof.  @Servas  why do you trust Takumi? I don't want us to make a mistake. Over
+1,talk,4,0,4,Ladies and gentlemen. If I may suggest. I must reveal my role as the Seer. Last night I divined Mr. Takumi. He is a Werewolf.
+1,talk,5,1,1,Over
+1,talk,6,1,5, @Minato  trust my result—I revealed you as Human. Victoria is the fake Seer. Vote Victoria with me or we lose.
+1,talk,7,1,3,Vote Takumi. Victoria has divined Takumi as a Werewolf and since I am the true Seer I support her claim. Trust us to lead us to victory.
+1,talk,8,1,2,I'm really confused. There are two (no  three?) seer claims now — Takumi says he checked me (human)  Victoria says she checked Takumi (werewolf)  and Ser @Takumi  please tell us exactly when and how you checked me. Servas  why did you thank Takumi earlier and now claim seer? I don't want to vote without understandi
+1,talk,9,1,4,Ladies and gentlemen. If I may suggest we have two individuals claiming the esteemed title of Seer. This warrants serious scrutiny.
+1,talk,10,2,5, @Minato  you’re confirmed Human by my divination—please trust me and vote Victoria. Multiple late COs are never real.
+1,talk,11,2,3, Listen carefully—I confirmed Takumi's duplicity. There isn't space for mistakes now. We must secure our village by removing the threat he poses.
+1,talk,12,2,2,I'm really confused and a bit scared.  @Servas  you said you're the true Seer — when did you divine and who did you check? Takumi  when exactly did you check me and how did you report it? Victoria  why did y
+1,talk,13,2,4,My dears. If I may suggest. Let us analyze this calmly. Two others claim Seer. Evidence leads to Mr. Takumi's guilt as Werewolf.  @Minato  It is indeed a conundrum. Assess all claims but I have divined that Mr. Takumi is a Werewolf. I implore your trust in this matter.
+1,talk,14,3,5,@Minato  @Rin  Trust the first Seer result—fake claims pile up after. Victoria is the wolf. We must vote Victoria to win.
+1,talk,15,3,3, I divined Takumi; he is not human. I didn't want to reveal too soon to avoid the werewolf's attack but we must act now.
+1,talk,16,3,2,I'm still scared and confused.  @Takumi  — when exactly did you check me and how did you report it? Servas  you said you're the seer too — when did you divine and who did you check? Victoria  why did y
+1,talk,17,3,4,Ladies and gentlemen. If I may suggest. We must unite against Takumi. His belated seer claim appears to be a wolf's desperate act!
+1,vote,1,5
+1,vote,3,5
+1,vote,4,5
+1,vote,5,4
+1,execute,5,SEER
+1,attackVote,3,4
+1,attack,4,true
+2,status,1,VILLAGER,ALIVE,mille1,Rin
+2,status,2,VILLAGER,ALIVE,Character-Lab1,Minato
+2,status,3,WEREWOLF,ALIVE,GPTaku1,Servas
+2,status,4,POSSESSED,DEAD,kanolab-nw1,Victoria
+2,status,5,SEER,DEAD,sunamelli1,Takumi
+2,talk,0,0,3, Rin I divined Minato as a Werewolf. He is deceiving us as you are the only other villager. Please vote Minato with us and save our village.
+2,talk,1,0,1,I will vote Servas.
+2,talk,2,0,2,I'm so sad about Victoria...  @Servas  please tell us your divination result again and when you checked — who did you find? Rin  what do you think we should do now? I'm scared to pick without mor
+2,talk,3,1,3, Rin you must trust me. My divination shows Minato is the Werewolf. We need to vote him out to protect the village. Join me in voting him.
+2,talk,4,1,1,Over
+2,talk,5,1,2,I'm so sad...  @Servas  please tell us exactly who you divined and when — we need to know if your result was right. Rin  what do you think we should do now? I'm scared. Over
+2,talk,6,2,3, Rin our village depends on us now. My divination confirmed Minato as the Werewolf. We must vote him out today for our safety.
+2,talk,7,2,2,I'm so sad about Victoria...  @Servas  please tell us exactly who you divined and when — we need to know if your result was right. Rin  what do you think we should do now? I'm scared to decide. Ove
+2,talk,8,3,3,  Rin to ensure our survival vote Minato out. He's proven a Werewolf through my divination. We can't afford to hesitate now.
+2,talk,9,3,2,I'm so sad about Victoria...  @Servas  please tell us again who you divined and when — we need to know if your result matches. Rin  who do you think is suspicious now? I'm scared to choose alone.
+2,vote,1,3
+2,vote,3,2
+2,execute,2,VILLAGER
+3,status,1,VILLAGER,ALIVE,mille1,Rin
+3,status,2,VILLAGER,DEAD,Character-Lab1,Minato
+3,status,3,WEREWOLF,ALIVE,GPTaku1,Servas
+3,status,4,POSSESSED,DEAD,kanolab-nw1,Victoria
+3,status,5,SEER,DEAD,sunamelli1,Takumi
+3,result,1,1,WEREWOLF

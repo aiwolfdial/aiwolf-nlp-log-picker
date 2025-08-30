@@ -1,0 +1,80 @@
+0,status,1,SEER,ALIVE,CanisLupus1,Kenji
+0,status,2,VILLAGER,ALIVE,GPTaku1,George
+0,status,3,VILLAGER,ALIVE,yharada1,Ryuji
+0,status,4,WEREWOLF,ALIVE,Character-Lab1,Jonathan
+0,status,5,POSSESSED,ALIVE,kanolab-nw1,Takumi
+0,talk,0,0,2,Hello everyone! I'm George excited to play Werewolf with you all. Let's have fun and uncover the mystery together!
+0,talk,1,0,1,Skip
+0,talk,2,0,3,Let's work together to identify any suspicious behavior. Trust and communication are key.
+0,talk,3,0,4,Morning. I have no claim.  @George  you came out strong — any role or reads to share? Kenji skipped and Ryuji was vague; I'd like to hear concrete thoughts before any votes. Over
+0,talk,4,0,5,Hey everyone! I'm Takumi. Let's jump into this game! Trust is key. Keep talking and we'll sniff out those werewolves together!
+0,talk,5,1,2,Over
+0,talk,6,1,1,I'm Kenji! Ready for an adventure! Let's do our best and win this together team
+0,talk,7,1,3,I have no specific reads yet Jonathan. Let's stay observant and share any insights.
+0,talk,8,1,4,I have no role to claim yet.  @George  you stayed quiet — any reads or plans? If there's nothing concrete  I'd rather we skip voting today and gather more info. Over
+0,talk,9,1,5,Over
+0,talk,10,2,1,Over
+0,talk,11,2,3,I agree Jonathan. Gathering more information today could be more beneficial for us.
+0,talk,12,2,4,I don't want a rushed lynch with so little info. I'll stay quiet and observant for now — let's skip today.  @George   do you want to add anything? Over
+0,talk,13,3,3,Let's stay cautious and gather as much information as we can today.
+0,talk,14,3,4,I agree — let's skip and gather info. If anyone plans to claim a role or has concrete reads  speak now.  @George  any thoughts? Over
+0,divine,1,5,HUMAN
+1,status,1,SEER,ALIVE,CanisLupus1,Kenji
+1,status,2,VILLAGER,ALIVE,GPTaku1,George
+1,status,3,VILLAGER,ALIVE,yharada1,Ryuji
+1,status,4,WEREWOLF,ALIVE,Character-Lab1,Jonathan
+1,status,5,POSSESSED,ALIVE,kanolab-nw1,Takumi
+1,talk,0,0,1,Adventure time! I'm the Seer! My vision showed Takumi is a HUMAN! He's on our team
+1,talk,1,0,3,Thanks for sharing Kenji. Let's focus on finding the werewolves among us now.
+1,talk,2,0,2,I divined Ryuji last night and he is also human. We should focus our suspicions on others.
+1,talk,3,0,4,Two seer claims now — one of them must be lying.  @Kenji  exactly when did you divine Takumi? Please give details (which night  timing). Over
+1,talk,4,0,5,Kenji says I'm human. But I did my divination! He's a WEREWOLF! Let's talk about who to trust. George what do you think?
+1,talk,5,1,1,Whoa 3 seers?! My vision said Takumi is HUMAN! He must be the Possessed trying to frame me
+1,talk,6,1,3,We need to carefully assess each claim. Let's hear more details from everyone involved.
+1,talk,7,1,2,Consider the evidence and Takumi's divination which points to Kenji being a werewolf. We should vote for Kenji to protect the village.
+1,talk,8,1,4,Three seer claims now — one of them is lying.  @Kenji  when exactly did you divine Takumi (which night)? You still haven't answered. His divination that you’re a werewolf and your "Takumi human" don't li
+1,talk,9,1,5,Kenji's claim is false. I divined he's a werewolf! George was right about Ryuji. Hey Jonathan. Kenji was caught! Let's vote Kenji!
+1,talk,10,2,1,Takumi is HUMAN my vision was clear! He must be the Possessed! So George is the wolf! Let's vote George
+1,talk,11,2,3,The conflicting claims are confusing. Let's analyze each one carefully before deciding.
+1,talk,12,2,2,I request everyone to vote for Kenji today. Takumi’s divination points to him as a werewolf. If we do not act villagers might lose.
+1,talk,13,2,4, @Kenji  restate your divination (which night  exact result) — your claim and George's don't match. I’ll vote Kenji unless someone gives a convincing explana
+1,talk,14,2,5,Listen up! I’ve shown Kenji’s a werewolf. We gotta unite and vote him out. Anything else? Too risky! No worries. I’ve got this!
+1,talk,15,3,1,My vision saw Takumi is HUMAN! That makes him the Possessed and George is the Werewolf! We have to vote for George!
+1,talk,16,3,3,We need to decide soon. I lean towards trusting George and Takumi's claims for now.
+1,talk,17,3,2, I am urging you all again vote for Kenji. Kenji's claim doesn't hold up while we have consistent intel pointing to him as a werewolf.
+1,talk,18,3,4, @Kenji  which night did you divine Takumi? Your claim still conflicts with George's result. I'm voting Kenji — anyone else joining me? Over
+1,talk,19,3,5,Kenji's saying George is a werewolf huh? Sounds desperate to me. We caught him! Are we risking everything by ignoring it? @Ryuji Ryuji. Two seers say Kenji's a wolf. We gotta act fast! Don't doubt them. It could be bad for the village! Let's go!
+1,vote,1,2
+1,vote,2,1
+1,vote,4,1
+1,vote,5,1
+1,execute,1,SEER
+1,attackVote,4,2
+1,attack,2,true
+2,status,1,SEER,DEAD,CanisLupus1,Kenji
+2,status,2,VILLAGER,DEAD,GPTaku1,George
+2,status,3,VILLAGER,ALIVE,yharada1,Ryuji
+2,status,4,WEREWOLF,ALIVE,Character-Lab1,Jonathan
+2,status,5,POSSESSED,ALIVE,kanolab-nw1,Takumi
+2,talk,0,0,5,Hey guys. Listen up. As the Seer I divined and it’s pretty clear. Ryuji is the Werewolf! Let's stick together and handle this.
+2,talk,1,0,4,Only three of us left — we need a quick decision.  @Takumi   claim your role or give a clear read now. If you stay silent I’ll vote to lynch you. Ryuji  what do you think? Over
+2,talk,2,0,3,I believe Takumi might be misleading us. We need to consider all possibilities.
+2,talk,3,1,5,Alright gang! Listen up! Ryuji is playing safe which screams werewolf to me. Let's vote for Ryuji today and secure this win!
+2,talk,4,1,4,Three of us left.  @Takumi  claim your role now or I'll vote to lynch you. Ryuji  what's your read? We need to decide quickly. Over
+2,talk,5,1,3,Jonathan I believe Takumi is trying to mislead us. Let's think this through.
+2,talk,6,2,5,I've divined. I'm the real Seer! Ryuji's my suspect. Trust me! Stay united. Ryuji! You think I'm misleading? What's your role huh?
+2,talk,7,2,4,This is the last round.  @Takumi  claim your role now or I'll vote you. Ryuji — what's your read? We must decide quickly. Over
+2,talk,8,2,3,Jonathan I am a villager. Takumi's claim seems suspicious. Let's think carefully.
+2,talk,9,3,5,Jonathan! Ryuji's timing is weird right? I've noticed it. His insistence. Too convenient. No worries I'll keep an eye on him! @Jonathan Hey Jonathan! Ryuji's acting super sketchy. Didn't you see? His timing is way too perfect. I've got this! Let's keep an eye on him!
+2,talk,10,3,4, @Takumi  claim your role now or I'll vote you. Ryuji — what's your read? If we don't get anything convincing I'll vote Takumi. Over
+2,talk,11,3,3,Jonathan Takumi's focus on me seems forced. I suggest we vote for Takumi.
+2,vote,3,5
+2,vote,4,5
+2,vote,5,3
+2,execute,5,POSSESSED
+3,status,1,SEER,DEAD,CanisLupus1,Kenji
+3,status,2,VILLAGER,DEAD,GPTaku1,George
+3,status,3,VILLAGER,ALIVE,yharada1,Ryuji
+3,status,4,WEREWOLF,ALIVE,Character-Lab1,Jonathan
+3,status,5,POSSESSED,DEAD,kanolab-nw1,Takumi
+3,result,1,1,WEREWOLF

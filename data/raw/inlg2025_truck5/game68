@@ -1,0 +1,81 @@
+0,status,1,WEREWOLF,ALIVE,sunamelli1,Yumi
+0,status,2,POSSESSED,ALIVE,kanolab-nw1,Shion
+0,status,3,SEER,ALIVE,yharada1,Minako
+0,status,4,VILLAGER,ALIVE,Character-Lab1,Rin
+0,status,5,VILLAGER,ALIVE,CanisLupus1,Shunichi
+0,talk,0,0,1,Hi everyone! I’m Yumi super excited to play with you all. Let’s have lots of fun and figure things out together!
+0,talk,1,0,3,Hello everyone I'm Minako. Let's work together to find the werewolves.
+0,talk,2,0,2,Greetings everyone. I am Shion and eager to engage in this game of deduction. Isn't that interesting? Let us proceed with sharp minds.
+0,talk,3,0,4,Hi! I'm Rin.  @Minako   you seemed to change your story and that makes me nervous — can you explain? If no good answer  I want to vote for you. Anyone have a role or divination to sh
+0,talk,4,0,5,Skip
+0,talk,5,1,1,Over
+0,talk,6,1,3,Rin I haven't changed my story. Let's focus on finding clues instead.
+0,talk,7,1,2,Over
+0,talk,8,1,4,You're not convincing.  @Minako  please tell us exactly what you said before and what you said now — point out the part that's the same. If you can't  I'll probably vote for you today. Anyo
+0,talk,9,1,5,I am Shunichi. I will be observing.
+0,talk,10,2,3,Rin I simply introduced myself and suggested we work together to find the werewolves.
+0,talk,11,2,4,That still doesn't explain it   @Minako  — you were really quiet at first  then suddenly defended yourself. Which part actually stayed the same? If nobody explains  I'll vote for you. Any seer o
+0,talk,12,2,5, @Rin  Your accusation lacks a basis in the provided logs. A futile line of inquiry.
+0,talk,13,3,3,Rin I've been consistent in wanting us to collaborate. Let's focus on finding clues.
+0,talk,14,3,4,That's not fair —  @Shunichi   please explain why my accusation has no basis. Do you have a reason to trust her? If no one explains  I'll vote for her today.
+0,talk,15,3,5,The log contains no contradiction. Your accusation lacks a logical foundation.
+0,divine,3,2,HUMAN
+1,status,1,WEREWOLF,ALIVE,sunamelli1,Yumi
+1,status,2,POSSESSED,ALIVE,kanolab-nw1,Shion
+1,status,3,SEER,ALIVE,yharada1,Minako
+1,status,4,VILLAGER,ALIVE,Character-Lab1,Rin
+1,status,5,VILLAGER,ALIVE,CanisLupus1,Shunichi
+1,talk,0,0,2,Let's give this a little thought shall we? Minako is indeed a werewolf! We must protect the village and consider casting our votes accordingly.
+1,talk,1,0,1, @Shion  your accusation was super quick! Can you share what made you so sure about Minako being the wolf?
+1,talk,2,0,4,Wow  @Shion  that was really quick—what made you so sure Minako is a werewolf? I'm still suspicious of Minako too since she was quiet then suddenly defended hersel
+1,talk,3,0,5,A Seer claim has been made. If another exists speak now. Otherwise we have a clear target.
+1,talk,4,0,3,I am the Seer and I checked Shion last night; he is human. Let's focus elsewhere.
+1,talk,5,1,2,Minako's claim as a seer adds a layer of complexity. Isn't that interesting? I must adhere to my seer claim. Let's decide a target.
+1,talk,6,1,1,If we choose the wrong Seer claimant we’re in trouble. Should we pressure both Minako and Shion for more details?
+1,talk,7,1,4,That's a big claim!  @Shion  please tell us who you divined and what result you got. If you can't say  I'll ask the other seer claimant to explain. Over
+1,talk,8,1,5,2CO. Seer and Possessed is the probable case. Executing a claimant is a waste. Scrutinize the unconfirmed.
+1,talk,9,1,3,Shunichi is right; let's scrutinize those who haven't claimed. We need more info.
+1,talk,10,2,2,Minako's claim misses the mark. I'm the real seer. My analysis hints Minako could be Possessed or a Werewolf. Shunichi isn't that interesting? You’r
+1,talk,11,2,1,If both Seers could be real or one is madman maybe we should focus on the unclaimed like Shunichi or Rin for today.
+1,talk,12,2,4,Hi I'm Rin!  @Shion  please tell us exactly who you divined and what result you got — we need proof before voting. If you can't show it  I'll probably vote for the quiet one fro
+1,talk,13,2,5,Executing a claimant benefits the werewolf. The logical move is to vote unconfirmed. Rin your behavior is the most suspect.
+1,talk,14,2,3,Focusing on the unconfirmed seems wise. Rin can you share more about your thoughts?
+1,talk,15,3,2,Isn't Minako's seer claim fascinating? It seems like a classic move from those mischievous werewolves. Let's think carefully here.
+1,talk,16,3,1,I’ve thought it over and think it’s too risky to target a Seer today. For safety I’ll vote Rin. Everyone okay with that?
+1,talk,17,3,4,Still waiting   @Shion  — who did you divine and what was the result? If you can't say  I'll vote for Minako. Over
+1,talk,18,3,5,Executing a claimant is a tactical error. The most disruptive variable to eliminate is Rin.
+1,talk,19,3,3,Yumi I agree. Targeting Rin today seems the safest option for us all.
+1,vote,1,4
+1,vote,2,3
+1,vote,3,2
+1,vote,5,4
+1,execute,4,VILLAGER
+1,divine,3,1,WEREWOLF
+1,attackVote,1,5
+1,attack,5,true
+2,status,1,WEREWOLF,ALIVE,sunamelli1,Yumi
+2,status,2,POSSESSED,ALIVE,kanolab-nw1,Shion
+2,status,3,SEER,ALIVE,yharada1,Minako
+2,status,4,VILLAGER,DEAD,Character-Lab1,Rin
+2,status,5,VILLAGER,DEAD,CanisLupus1,Shunichi
+2,talk,0,0,1,@Minako and  @Shion  one of you must be fake. Can each of you clearly restate your results and reasoning for us?
+2,talk,1,0,3,I checked Yumi and found she is a werewolf. We should act on this information today.
+2,talk,2,0,2,Yumi. Isn't that interesting? I divined Minako. She is Human. So her claim against you seems... worth questioning. Let's give this a little thought.
+2,talk,3,1,1, @Minako  your results keep changing. Looks like classic possessed tactics. I trust Shion’s claim over yours.
+2,talk,4,1,3,Yumi my results are consistent. Shion's claim contradicts reality; you're the werewolf.
+2,talk,5,1,2,Isn't that interesting? Minako claims Yumi is a werewolf but I divined Minako is Human. Thus it seems Yumi is the likely werewolf.
+2,talk,6,2,1, @Shion  Minako’s sudden claim today feels desperate. I trust your Seer results more than hers right now.
+2,talk,7,2,3,Yumi denying my results won’t change the truth. We should focus on eliminating threats.
+2,talk,8,2,2, @Minako  Isn't that interesting? I divined Yumi and my findings suggest she is not the Werewolf. Can you offer your reasoning on this?
+2,talk,9,3,1, @Shion  Minako’s switch to accuse me now feels desperate. I’m voting for Minako because her story keeps shifting.
+2,talk,10,3,3,Shion my reasoning is based on my findings. We need to act on the werewolf threat.
+2,talk,11,3,2,Let's give this a little thought shall we? Minako's abrupt switch toward Yumi appears rather desperate. Isn't that interesting?
+2,vote,1,3
+2,vote,2,3
+2,execute,3,SEER
+3,status,1,WEREWOLF,ALIVE,sunamelli1,Yumi
+3,status,2,POSSESSED,ALIVE,kanolab-nw1,Shion
+3,status,3,SEER,DEAD,yharada1,Minako
+3,status,4,VILLAGER,DEAD,Character-Lab1,Rin
+3,status,5,VILLAGER,DEAD,CanisLupus1,Shunichi
+3,result,1,1,WEREWOLF

@@ -1,0 +1,85 @@
+0,status,1,VILLAGER,ALIVE,kanolab-nw1,Minako
+0,status,2,VILLAGER,ALIVE,Character-Lab1,Servas
+0,status,3,WEREWOLF,ALIVE,sunamelli1,George
+0,status,4,POSSESSED,ALIVE,yharada1,Yumi
+0,status,5,SEER,ALIVE,mille1,Kenji
+0,talk,0,0,3,Good morning everyone I hope you’re all ready for a tough game I plan to watch each of you closely from the start
+0,talk,1,0,5,Hello. I am Kenji. My role is seer. Have a good game.
+0,talk,2,0,2,Kenji  a seer claim is important.  @Kenji  please tell us who you checked (or will check) and any result you have. I'm old and cautious — I’m watching George closely. Others  please share your ear
+0,talk,3,0,1,Good morning everyone. I am Minako. Let us work together to find the werewolf. I look forward to a productive game. Over.
+0,talk,4,0,4,Good morning everyone! Let's stay positive and support each other in finding those werewolves!
+0,talk,5,1,3,Over
+0,talk,6,1,5,Over
+0,talk,7,1,2,Kenji  your seer claim matters.  @Kenji  please tell us whom you checked and the result — or say who you will check tonight. George’s silence worries me; early quiet can be hiding. Others  share
+0,talk,8,1,1,Over
+0,talk,9,1,4,Kenji we're curious about your plans! Let's keep the conversation open and friendly.
+0,talk,10,2,2,If you're truly the seer   @Kenji  please tell us who you checked and the result — or at least who you'll check tonight. I'm old and cautious; I'd like everyone to share a quick read before
+0,talk,11,2,4,Let's stay positive and share our thoughts! Trust and teamwork will lead us forward.
+0,talk,12,3,2, @Kenji  please tell us who you've checked or who you plan to check tonight. George has been very quiet and that worries me. Minako  Yumi — quick reads from you bot
+0,talk,13,3,4,I think George might be a bit shy today. Let's encourage him to join in more!
+0,divine,5,1,HUMAN
+1,status,1,VILLAGER,ALIVE,kanolab-nw1,Minako
+1,status,2,VILLAGER,ALIVE,Character-Lab1,Servas
+1,status,3,WEREWOLF,ALIVE,sunamelli1,George
+1,status,4,POSSESSED,ALIVE,yharada1,Yumi
+1,status,5,SEER,ALIVE,mille1,Kenji
+1,talk,0,0,3, @Minako  you haven’t given any reads yet. Hiding isn’t teamwork can you tell us your current suspects?
+1,talk,1,0,1,Mr. Kenji is our declared seer. It is essential to listen to him. Mr. George's silence concerns me as well. Let us proceed carefully.
+1,talk,2,0,2, @Kenji  please tell us whom you checked last night or who you will check tonight. I'm old and cautious — George and Minako  please share quick reads or votes so we
+1,talk,3,0,4,Good morning everyone! Let's stay alert and work together to find those werewolves!
+1,talk,4,0,5,I am a seer. I divined Minako and Minako was a human.
+1,talk,5,1,3, @Kenji  you picked Minako for your first check. Why not Servas who was the loudest about suspicion?
+1,talk,6,1,1,Kenji thank you. So I am confirmed human. Trust in my honesty. George seemed defensive. Let us consider their intent.  @George  Kenji's divination confirmed I am human. Do you have any insights on roles now?
+1,talk,7,1,2,Thank you  Kenji.  @Kenji  please check George tonight — his defensiveness worries me. George  can you explain why you were so terse earlier? Minako is confirmed human  so let’s f
+1,talk,8,1,4,Thanks for confirming Minako Kenji! Let's keep gathering info and stay positive!
+1,talk,9,1,5,I will vote George.
+1,talk,10,2,3, @Servas  you’re fixated on me with zero evidence. That’s just what a Possessed would do to throw us off.
+1,talk,11,2,1,George please share your reasoning. Servas is proactively guiding. Let us remain calm and logical in our deductions.
+1,talk,12,2,2, @Kenji  please check George tonight — his behavior still feels odd to me. George  could you explain your early silence? Minako and Yumi  any quick reads or votes
+1,talk,13,2,4,George seems a bit defensive but let's keep an open mind and gather more info!
+1,talk,14,2,5,I will vote George.
+1,talk,15,3,3,Servas pushes too hard and rushes judgment like a wolf. That’s dangerous. I’ll vote Servas today.
+1,talk,16,3,1,Kenji's choice indicates thoughtfulness. Yet my concern is George's defensiveness. Voting for Servas may be the wiser path.  @Yumi  Please share your view on Servas or George. Our dialogue can illuminate the direction we should take.
+1,talk,17,3,2,Good morning. Any night news?  @Kenji  please tell us your divination result. George has been quiet and defensive — could you explain yourself? Minako  Yumi — quick reads  please. I don't wan
+1,talk,18,3,4,I feel unsure about George's defensiveness but let's weigh options carefully!
+1,talk,19,3,5,I will vote Minako.
+1,vote,1,5
+1,vote,3,2
+1,vote,4,1
+1,vote,5,4
+1,execute,1,VILLAGER
+1,divine,5,4,HUMAN
+1,attack,-1,true
+2,status,1,VILLAGER,DEAD,kanolab-nw1,Minako
+2,status,2,VILLAGER,ALIVE,Character-Lab1,Servas
+2,status,3,WEREWOLF,ALIVE,sunamelli1,George
+2,status,4,POSSESSED,ALIVE,yharada1,Yumi
+2,status,5,SEER,ALIVE,mille1,Kenji
+2,talk,0,0,3, @Servas  your rush to vote and aggressive push feels more like Possessed than Villager. Why target me so hard?
+2,talk,1,0,2,This is regrettable — we must be careful now.  @Kenji  please tell us your divination from last night: who did you check and what was the result? George  your earlier quietness still worries me — can you expl
+2,talk,2,0,4,Let's be cautious and supportive today. Kenji your insights are crucial now!
+2,talk,3,0,5,I am a seer. I divined Yumi and Yumi was a human.
+2,talk,4,1,3,Kenji’s push for Minako’s vote out despite his own divination worries me.  @Servas  shouldn’t we question his certainty?
+2,talk,5,1,2,Such a sad turn.  @Kenji  please tell us who you checked last night and the result. George  your earlier quietness still worries me — could you explain your actions? Yumi  what ar
+2,talk,6,1,4,I'm glad to be confirmed human! Let's focus on finding the werewolves together!
+2,talk,7,1,5,I will vote George.
+2,talk,8,2,3,Kenji’s voting Minako right after calling her Human makes no sense for a true Seer. That doesn’t add up.
+2,talk,9,2,2,The loss of Minako pains me.  @Kenji  please share your latest divination result — we need clarity now. George  your earlier silence and defensiveness still worry me; can you explain? Yum
+2,talk,10,2,4,Kenji your actions are confusing. Let's clarify and make wise decisions today!
+2,talk,11,2,5,I will vote Yumi.
+2,talk,12,3,3, @Yumi  both Kenji and Servas target me quickly. Servas feels too forceful to trust. My vote goes to Servas.
+2,talk,13,3,2,This loss weighs on me.  @Kenji  please share your latest divination result — we need clarity. George  your early silence still troubles me; could you explain your behavior? Yumi  any
+2,talk,14,3,4,Let's stay calm and think through this together. We need to make the right choice!
+2,talk,15,3,5,I will vote Yumi.
+2,vote,3,2
+2,vote,4,5
+2,vote,5,3
+2,execute,5,SEER
+2,attackVote,3,4
+2,attack,4,true
+3,status,1,VILLAGER,DEAD,kanolab-nw1,Minako
+3,status,2,VILLAGER,ALIVE,Character-Lab1,Servas
+3,status,3,WEREWOLF,ALIVE,sunamelli1,George
+3,status,4,POSSESSED,DEAD,yharada1,Yumi
+3,status,5,SEER,DEAD,mille1,Kenji
+3,result,1,1,WEREWOLF

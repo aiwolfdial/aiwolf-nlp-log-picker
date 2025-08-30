@@ -1,0 +1,76 @@
+0,status,1,POSSESSED,ALIVE,mille1,May
+0,status,2,SEER,ALIVE,GPTaku1,Victoria
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Mio
+0,status,4,VILLAGER,ALIVE,Character-Lab1,George
+0,status,5,WEREWOLF,ALIVE,kanolab-nw1,Sakura
+0,talk,0,0,2,Hello everyone I'm Victoria! Excited to play Werewolf with you all. Let's have some fun and good luck guessing!
+0,talk,1,0,4,Good morning   @Victoria  — nice to meet you. Could everyone say if you have any role claims or early suspicions? I think we should avoid rushing a lynch today. Over
+0,talk,2,0,3,Hi everyone! I'm Mio and I'm just a regular old Villager here. Let's all do our best together and keep things positive! @George Hey George good point on not rushing! For me I don't have any special role claims—just a clumsy Villager here haha.
+0,talk,3,0,5,Hello everyone! I'm Sakura! So nice to meet you all! Wow! Let's dive into this adventure together and have a blast!
+0,talk,4,0,1,Hello. I am May. My role is seer. Have a good game.
+0,talk,5,1,2,Over
+0,talk,6,1,4, @May  you claim seer — could you tell us your first divination result and when you checked them? I prefer we avoid rushing a lynch until we have concrete info.
+0,talk,7,1,3,Over
+0,talk,8,1,5,Over
+0,talk,9,1,1,Over
+0,talk,10,2,4, @May  you claimed seer — please tell us who you divined  when you checked them  and the result. If you need time  say so. I’d rather avoid a reckless lynch today. O
+0,talk,11,3,4, @May  please tell us who you checked and the result  or explain if you need more time. I prefer we don't lynch without clear info. Over
+0,divine,2,4,HUMAN
+1,status,1,POSSESSED,ALIVE,mille1,May
+1,status,2,SEER,ALIVE,GPTaku1,Victoria
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Mio
+1,status,4,VILLAGER,ALIVE,Character-Lab1,George
+1,status,5,WEREWOLF,ALIVE,kanolab-nw1,Sakura
+1,talk,0,0,3,Good morning everyone! May could you share your divination result now? It'll help us start right! @May  could you tell us your first divination result? We need all the info we can get!
+1,talk,1,0,2,I divined George last night and he is Human. We should focus our suspicions elsewhere.
+1,talk,2,0,4,Thanks for that  Victoria.  @May  please reveal who you divined  the result  and when — we need to resolve these divination claims before voting. Over
+1,talk,3,0,1,I am a seer. I divined Sakura and Sakura was a human.
+1,talk,4,0,5,Wow! I'm so glad May saw I'm human! But who can we trust now Giggles? We need more chats and claims before we vote huh? Ooh!
+1,talk,5,1,3,Now that both Victoria and May claimed Seer one must be fake right? Let's hear everyone's thoughts before we jump ahead! @Sakura  your energy is always fun! How do you feel about two Seers right off the bat? Feels fishy doesn't it?
+1,talk,6,1,2, I assure you all that I am the real Seer here. May's claim is suspicious and we should question it further.
+1,talk,7,1,4,Both May and Victoria claim seer  so one of them is likely lying.  @Victoria  please say which night you divined me and if you checked anyone else. May  please state when you checked Sakura. I don't want us to lynch today until this
+1,talk,8,1,1,I will vote George.
+1,talk,9,1,5,Wow! May's vote for George? Looks hasty! No rush Smarty. We need to chat with those Seers.  @Mio  Two Seers? Ooh! Let's dig in!
+1,talk,10,2,3,May's quick vote on George feels off—let's not rush. We should hear from everyone before making a decision! @May  you voted for George really quick! Can you share your reason? Let's talk before judging anyone.
+1,talk,11,2,2, As the true Seer I checked George Night 1 and confirmed he is Human. May's behavior and premature vote suggest deceit.
+1,talk,12,2,4,Two seer claims is risky.  @May  please tell us exactly which night you divined Sakura and when you announced it. Victoria says she checked me on Night 1 — can you confirm when you poste
+1,talk,13,2,1,Over
+1,talk,14,2,5,Wow! May and Victoria both saying they’re Seers is a bit risky Giggles! Maybe we chat first before voting! Sharing ideas is smart!
+1,talk,15,3,3,It’s pretty suspicious that May voted so early for George! Let’s get thoughts from everyone before we decide—no need to rush! @Sakura  your excitement always lifts the mood! Who seems most trustworthy to you now that both May and Victoria claimed Seer?
+1,talk,16,3,2, My divination is reliable; May’s claim and premature vote raise doubts. Misleading votes are a typical move by Werewolves and the Possessed.
+1,talk,17,3,4,Both May and Victoria claim seer.  @May  please state exactly which night you divined Sakura and when you announced it. Victoria  please also say when you checked me. I prefer we skip lynch tod
+1,talk,18,3,5,Wow! Victoria's like a classic werewolf. Ooh! She's playing follow-the-leader with George's humanity. Let's not be fooled. Haha! Let's dig deeper @Victoria Wow! So quick to trust Mister George huh Giggles? Why no self-divination or finding deeper clues to back you up buddy?
+1,vote,1,4
+1,vote,2,1
+1,vote,3,1
+1,vote,5,2
+1,execute,1,POSSESSED
+1,divine,2,3,HUMAN
+1,attackVote,5,2
+1,attack,2,true
+2,status,1,POSSESSED,DEAD,mille1,May
+2,status,2,SEER,DEAD,GPTaku1,Victoria
+2,status,3,VILLAGER,ALIVE,CamelliaDragons1,Mio
+2,status,4,VILLAGER,ALIVE,Character-Lab1,George
+2,status,5,WEREWOLF,ALIVE,kanolab-nw1,Sakura
+2,talk,0,0,5,Wow! So Victoria divined buddy George as human! Let's shake up our detective hats pals and find that sneaky werewolf! Ooh!
+2,talk,1,0,4,Morning. With Victoria attacked and May executed  Victoria was likely the real seer and May fake. We need to find the wolves.  @Sakura  did you check anyone or have a strong read? Mio  what do you think we should do next? I don't want a blind lynch. Over
+2,talk,2,0,3,With Victoria gone I lean to trusting her read that George is human. Sakura any hunches or things bugging you today? @George Thanks for asking George! I think discussing everyone's votes and thoughts today is key especially since Victoria's gone!
+2,talk,3,1,5,Victoria's read was super helpful! George is safe. Mio's thoughts are key!  @Mio  Buddy now that Victoria gave the thumbs up what's your plan?
+2,talk,4,1,4,Morning. Victoria being attacked makes her look real and May fake.  @Sakura  please tell us if you checked anyone and your result. Mio  what's your read? I don't want a blind lynch. Over
+2,talk,5,1,3,Victoria's read helps so I'd say Sakura or me is the target. Sakura your vibes seem cheery but I want to dig deeper! @Sakura  you keep the energy up! Got any suspicions today or a reason to clear someone new?
+2,talk,6,2,5,Wow! Victoria's insights still echo and guide us huh? Ooh! Okay folks. Let's huddle up and let the seer check Mio next! Sound fun?
+2,talk,7,2,4,Morning. Victoria attacked = likely real seer  May likely fake.  @Sakura  did you check anyone last night and what was the result? Mio  who do you suspect now? I don't want a blind lynch. Over
+2,talk,8,2,3,Victoria's trust in George helps us! Between Sakura and me who has more to hide? Let's chat this out! @George Hey George you want to avoid blind lynches. Who are you most curious about today? Let's reason it out!
+2,talk,9,3,5,Let's check Mio tonight with Victoria's plan! Wow! That'll help us find a villager or a wolf. Fun right? Mister George agree?
+2,talk,10,3,4,Morning. Victoria being attacked makes her look like the real seer and May likely fake.  @Sakura  did you check anyone last night? Please tell us your result. I don't want a blind lynch — Mio  who do you suspect? Over
+2,talk,11,3,3,Alright Sakura keeps dodging and skipping night results—getting suspicious! Let's be alert and share info openly! @Sakura  you keep talking about checking me but where's yesterday's result? Did you divine or are you hiding?
+2,vote,3,5
+2,vote,5,3
+2,execute,3,VILLAGER
+3,status,1,POSSESSED,DEAD,mille1,May
+3,status,2,SEER,DEAD,GPTaku1,Victoria
+3,status,3,VILLAGER,DEAD,CamelliaDragons1,Mio
+3,status,4,VILLAGER,ALIVE,Character-Lab1,George
+3,status,5,WEREWOLF,ALIVE,kanolab-nw1,Sakura
+3,result,1,1,WEREWOLF

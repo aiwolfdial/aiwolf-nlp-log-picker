@@ -1,0 +1,55 @@
+0,status,1,SEER,ALIVE,kanolab-nw1,Mio
+0,status,2,VILLAGER,ALIVE,Character-Lab1,Minato
+0,status,3,VILLAGER,ALIVE,yharada1,Daisuke
+0,status,4,WEREWOLF,ALIVE,GPTaku1,Midori
+0,status,5,POSSESSED,ALIVE,mille1,Benjamin
+0,talk,0,0,5,Hello. I am Benjamin. My role is seer. Have a good game.
+0,talk,1,0,1,Hey there silly gooses! I'm Mio and super pumped to play with you all. Let's rock this game and have epic chats okay?
+0,talk,2,0,4,Hello everyone, I'm Midori ready to howl and play! Can't wait to start this mysterious adventure with you all. Let's have fun!
+0,talk,3,0,2,Hi Benjamin  you said you're the seer.  @Benjamin  could you tell us your divination result? I'm still learning about roles so I want to understand. Midori  Mio — do you believe him or have any suspicions
+0,talk,4,0,3,Hi everyone. I'm Daisuke. Let's work together and try to figure things out slowly.
+0,talk,5,1,5,Over
+0,talk,6,1,1,Over
+0,talk,7,1,4,Over
+0,talk,8,1,2, @Benjamin  You said you're the seer — who did you check and what was the result? Please tell us so we can trust your claim. Over
+0,talk,9,1,3,I'm curious too Benjamin. Can you share your findings with us? It might help.
+0,talk,10,2,2, @Benjamin  Please tell us who you divined and what the result was — I'm still not sure who to trust. Daisuke seemed calm too; does anyone else find that odd? Over
+0,talk,11,2,3,I understand the concern Minato. I'm just trying to stay calm and help us all.
+0,talk,12,3,2, @Benjamin  please reveal your divination result now — we really need info. Daisuke's calmness makes me a little suspicious. Midori Mio  what do you think? I'm onl
+0,talk,13,3,3,I understand Minato. I'm just trying to be helpful. Let's wait for Benjamin's info.
+0,divine,1,5,HUMAN
+1,status,1,SEER,ALIVE,kanolab-nw1,Mio
+1,status,2,VILLAGER,ALIVE,Character-Lab1,Minato
+1,status,3,VILLAGER,ALIVE,yharada1,Daisuke
+1,status,4,WEREWOLF,ALIVE,GPTaku1,Midori
+1,status,5,POSSESSED,ALIVE,mille1,Benjamin
+1,talk,0,0,3,Good morning everyone. How are we feeling? Any thoughts on what Benjamin shared?
+1,talk,1,0,5,I am a seer. I divined Minato and Minato was a human.
+1,talk,2,0,4, I need to share that I am the actual Seer and I divined Benjamin who turned out to be a Werewolf. Please consider this.
+1,talk,3,0,1,Hey BFF listen up! I'm the real Seer! I divined Benjamin and guess what? He's Human! We've gotta rethink what Midori said and hunt for that pesky Werewo
+1,talk,4,0,2,I'm really confused.  @Benjamin  you said you divined me as human — when did you check and could you be sure? Midori and Mio both claim seer but they say opposite things about you. Midori  M
+1,talk,5,1,3,This is really confusing. Can we discuss more to find out who's telling the truth?
+1,talk,6,1,5,I will vote Midori.
+1,talk,7,1,4, I insist my vision was clear. Benjamin is the Werewolf. Trust in my divination is crucial for our victory.
+1,talk,8,1,1,Midori's all talk without any proof feels kinda shady! Let's dive into her chatter and see if there's a clue to her true role!
+1,talk,9,1,2,I'm really confused.  @Midori  when exactly did you divinate Benjamin? Benjamin and Mio say he's human  so your result doesn't fit — can you explain the timing or why you trust your vis
+1,talk,10,2,3,Midori can you explain more? We're trying to figure out who to believe here.
+1,talk,11,2,5,Over
+1,talk,12,2,4,  My divination was precise; Benjamin is not what he claims. My role and my results are sincere. Trust is essential to win this game.
+1,talk,13,2,1,Minato. Let's hit those logic gears. Two seers? No way! One's fibbing right?  @Daisuke . Maybe Midori's just bluffing? Keep an eye on her!
+1,talk,14,2,2,Good morning. I'm worried because more than one person claimed seer earlier.  @Benjamin  could you explain when you did your check and who you checked? I want to understand before we vote. Over
+1,talk,15,3,3,This is getting intense. We need more clarity to avoid making a wrong decision.
+1,talk,16,3,4,  Remain alert. I must stress the importance of my divination - it's crucial to identify the correct threat. Benjamin as Werewolf aligns with my findin
+1,talk,17,3,1,Hey BFF! Like if Benjamin's really human then why's he trying so hard to sway votes against Midori? Total werewolf panic right?
+1,talk,18,3,2,Good morning everyone. Did anyone get attacked last night?  @Daisuke  you seemed very calm before — can you share who you trust or what you think we should do today? Midori Mio Benjamin — any role claims or suspicions? I'm no
+1,vote,1,4
+1,vote,3,2
+1,vote,4,5
+1,vote,5,4
+1,execute,4,WEREWOLF
+2,status,1,SEER,ALIVE,kanolab-nw1,Mio
+2,status,2,VILLAGER,ALIVE,Character-Lab1,Minato
+2,status,3,VILLAGER,ALIVE,yharada1,Daisuke
+2,status,4,WEREWOLF,DEAD,GPTaku1,Midori
+2,status,5,POSSESSED,ALIVE,mille1,Benjamin
+2,result,4,0,VILLAGER

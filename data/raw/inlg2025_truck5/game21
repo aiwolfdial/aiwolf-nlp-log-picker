@@ -1,0 +1,56 @@
+0,status,1,POSSESSED,ALIVE,yharada1,Toshio
+0,status,2,SEER,ALIVE,kanolab-nw1,Jonathan
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Servas
+0,status,4,VILLAGER,ALIVE,sunamelli1,Asuka
+0,status,5,WEREWOLF,ALIVE,Character-Lab1,Sakura
+0,talk,0,0,5,Heeey! Sakura's ready to play~ I'm a little nervous but excited! Who seems sus to you?  @Asuka  any hints? I noticed someone being kinda quiet... Over
+0,talk,1,0,2,Greetings everyone. I am Jonathan eager to join this game. Perhaps together we can identify any stealthy werewolves. What do you think?
+0,talk,2,0,4,Excited to start with everyone here let’s keep discussion logical and direct from the very beginning
+0,talk,3,0,3,Good day everyone. I am Servas an ordinary villager. Let's work with care and patience to find the truth together. @Sakura  I sense your enthusiasm. It's wise to remain open-minded. Who do you feel is truly suspicious so far?
+0,talk,4,0,1,Let's keep an eye on quiet ones but stay open-minded and gather more clues first.
+0,talk,5,1,5,Thanks Servas! I'm still a bit unsure...  @Jonathan  could you share your thoughts? I feel Asuka's a tad too confident and Toshio's being really quiet — that makes me nervous. Over
+0,talk,6,1,2,Over
+0,talk,7,1,4,Over
+0,talk,8,1,3,Over
+0,talk,9,1,1,Sakura rest assured I'm observing closely. Let's uncover more information together.
+0,talk,10,2,5,Heeey  @Toshio  can you tell us what you're observing? You're being really quiet and that makes me nervous. Asuka seems super confident already — why so sure? I wanna f
+0,talk,11,2,1,I'm observing everyone's reactions. Let's not rush to conclusions too soon.
+0,talk,12,3,5,Heeey Toshio's right  don't jump yet.  @Asuka  why are you so sure? Tell us your reasons so we can decide. Over
+0,talk,13,3,1,Asuka I'm curious too. What makes you confident? Let's hear your insights.
+0,divine,2,4,HUMAN
+1,status,1,POSSESSED,ALIVE,yharada1,Toshio
+1,status,2,SEER,ALIVE,kanolab-nw1,Jonathan
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Servas
+1,status,4,VILLAGER,ALIVE,sunamelli1,Asuka
+1,status,5,WEREWOLF,ALIVE,Character-Lab1,Sakura
+1,talk,0,0,4, @Toshio  you were quiet yesterday. Now it’s day one—who do you distrust the most right now?
+1,talk,1,0,5,Heeey  @Asuka  you're acting kinda bossy — super confident before and now asking Toshio like you're steering everyone. That makes me nervous. Can you explain why yo
+1,talk,2,0,3,Let us move forward with patience and care. Open sharing will lead us to wisdom. Who feels trustworthy today in your eyes? @Toshio  your observations strike me as thoughtful. Could you share what details or words caught your attention so far?
+1,talk,3,0,1,Servas I find Sakura's nervousness intriguing. Let's dig deeper into her concerns.
+1,talk,4,0,2,It seems I divined Asuka as human. This supports their status as a villager. In my opinion. we should search elsewhere for the Werewolf.
+1,talk,5,1,4, @Sakura  your strong push feels off. Who do you suspect most now and why? Direct answers help us all clarify.
+1,talk,6,1,5,Heeey  @Jonathan  you said you divined Asuka as human — when did you check? That sounds sudden and makes me nervous. Asuka still feels kinda off to me. Can you explain more
+1,talk,7,1,3,Transparency clears much fog. Jonathan could you explain when and how you learned Asuka’s result? Trust grows from detail. @Jonathan  your timing in revealing Asuka’s alignment puzzles me. Can you tell us what led you to check her and when?
+1,talk,8,1,1,Jonathan details on Asuka's divination would clarify much. Let's examine your timing.
+1,talk,9,1,2,Perhaps we should consider divining Sakura. She's somewhat suspicious yet influential. It seems focusing on her might yield insights.
+1,talk,10,2,4,Sakura keeps confusing the discussion. I suspect her; she never gives a clear suspect herself. What’s your view   @Servas ?
+1,talk,11,2,5,Heeey  @Jonathan  — you said you divined Asuka as human. When did you check? Revealing that so soon feels odd… are you the seer or protecting someone? I'm still suspiciou
+1,talk,12,2,3,Let us pause and reflect with care. Rushing may cloud our vision. Each voice adds truth; let us listen well. @Asuka  your questions show intent but suspicion needs reason. What about Sakura troubles you most?
+1,talk,13,2,1,Jonathan does your focus on Sakura risk overlooking other key suspects?
+1,talk,14,2,2,If I remember correctly. Asuka gives me positive vibes so my vote leans away from her.  @Toshio . Let's weigh each player's motives.
+1,talk,15,3,4,Sakura keeps dodging questions and spreading confusion. My vote is for Sakura—I think she’s the werewolf today.
+1,talk,16,3,5,Heeey  @Jonathan  that “I divined Asuka human” claim came out so suddenly — when did you check? If you’re the real seer say the night number  otherwise it feels like someon
+1,talk,17,3,3,We each bring a piece of the truth. Hear each out for wisdom often blooms from unlikely soil. Sakura your thoughts? @Sakura  hesitancy can be a cloak or a shield. What reasoning guides your suspicion toward Jonathan or Asuka today?
+1,talk,18,3,1,Jonathan let's ensure we're not missing any crucial details on other players.
+1,talk,19,3,2,It seems that my stance is cautious about Sakura. Her avoidance may indicate uncertainty. In my opinion we should scrutinize her closely.
+1,vote,1,4
+1,vote,2,5
+1,vote,3,5
+1,vote,4,5
+1,execute,5,WEREWOLF
+2,status,1,POSSESSED,ALIVE,yharada1,Toshio
+2,status,2,SEER,ALIVE,kanolab-nw1,Jonathan
+2,status,3,VILLAGER,ALIVE,CamelliaDragons1,Servas
+2,status,4,VILLAGER,ALIVE,sunamelli1,Asuka
+2,status,5,WEREWOLF,DEAD,Character-Lab1,Sakura
+2,result,4,0,VILLAGER

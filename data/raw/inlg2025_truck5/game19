@@ -1,0 +1,56 @@
+0,status,1,VILLAGER,ALIVE,CanisLupus1,Shizue
+0,status,2,VILLAGER,ALIVE,yharada1,Shion
+0,status,3,WEREWOLF,ALIVE,sunamelli1,Servas
+0,status,4,POSSESSED,ALIVE,Character-Lab1,Toshio
+0,status,5,SEER,ALIVE,kanolab-nw1,Sakura
+0,talk,0,0,1,Skip
+0,talk,1,0,3,Welcome Sakura Shion Shizue Toshio ZZZ let’s start calmly and share thoughts openly so we may find the truth together.
+0,talk,2,0,4,I agree — no rash lynches. Let's wait for role claims and concrete info.  @Sakura  you've been quiet; if you have a claim or info  reveal it now or explain your silence. That will influence my vote. Over
+0,talk,3,0,5, @Toshio  No silence here! I'm the Seer! I'll share any neat stuff once I get results. Let's team up! Wow isn't this exciting?
+0,talk,4,0,2,Interesting start. Let's keep an open mind and focus on the facts we gather today.
+0,talk,5,1,1,Hello everyone! I'm Shizue. I love to sing to make people smile! Let's all try our best together
+0,talk,6,1,3,Over
+0,talk,7,1,4,You're awfully quick to claim and cozy up to everyone.  @Sakura   why claim so early? If you're truly the seer  say who you'll check first or when you'll reveal results — otherwise I'll be wary. Let's avoid lynching tod
+0,talk,8,1,5,Over
+0,talk,9,1,2,Let's be cautious and gather more information before making any hasty decisions.
+0,talk,10,2,1,Over
+0,talk,11,2,4, @Servas  You went from chatty to one-word replies — explain that shift and tell us if you have a role or plan today. If you stay vague I'll start watching you close
+0,talk,12,2,2,Let's hear from Servas; transparency helps us all figure out what's happening here.
+0,talk,13,3,4, @Servas  You're acting odd — talkative then silent. Give a clear answer: role or plan today? If you stay vague I'll have to consider you my top suspect and may vot
+0,talk,14,3,2,Let's not rush but clarity from Servas would definitely help us all move forward.
+0,divine,5,4,HUMAN
+1,status,1,VILLAGER,ALIVE,CanisLupus1,Shizue
+1,status,2,VILLAGER,ALIVE,yharada1,Shion
+1,status,3,WEREWOLF,ALIVE,sunamelli1,Servas
+1,status,4,POSSESSED,ALIVE,Character-Lab1,Toshio
+1,status,5,SEER,ALIVE,kanolab-nw1,Sakura
+1,talk,0,0,5,Wow! I divined Toshio and guess what? He’s Human! That means he’s with us in the Villager faction. Awesome buddy!
+1,talk,1,0,4,Thanks  @Sakura . Good to know. Who will you check next and when will you reveal results? I don't want to lynch today without clearer info. Over
+1,talk,2,0,2,Thanks for the update Sakura. Let's focus on gathering more intel today.
+1,talk,3,0,1,Oh that's great news Sakura! I believe in you! It's so wonderful to know Toshio is a friend
+1,talk,4,0,3, @Sakura  your quick Seer claim feels risky. Should we accept one result as truth so easily? Let’s keep our minds open.
+1,talk,5,1,5,Servas! I get your caution. But trusting me means narrowing suspects. More info means smarter choices. Let's strategize!
+1,talk,6,1,4,Quick claim still smells off.  @Sakura  If you really divined me  say which night you checked and who you'll check next. Be clear or I'll keep you high on my suspect list. Let's not lynch today. O
+1,talk,7,1,2,Sakura clarity on your next check helps us trust your role more. Let's be cautious.
+1,talk,8,1,1,Sakura is our shining star so Toshio is our friend too! That means Servas or Shion are lost. So sad.
+1,talk,9,1,3,Sakura claimed Seer fast but one result isn’t enough. Let’s not trust too quickly ZZZ. Others should speak up too.
+1,talk,10,2,5,Wow! To gain trust I'll divine Shion next! I'll reveal the results tomorrow. Our main goal? Finding that sneaky Werewolf!
+1,talk,11,2,4,I still don't like rushing to trust an early Seer claim.  @Sakura  state which night you checked me and whether the result was from last night or earlier. If you dodge this I'll have to consider voting you tomorrow. For
+1,talk,12,2,2,Let's see what Sakura reveals tomorrow. Until then stay sharp and observant everyone.
+1,talk,13,2,1,Oh dear... choosing is so hard. Servas's quietness is a little worrying. Shizue will vote for Servas.
+1,talk,14,2,3,If we trust Sakura’s Seer claim this early we risk being led astray by a wolf. Let’s be cautious with our votes  ZZZ.
+1,talk,15,3,5,Goodness! I checked Toshio last night! I'll divine Shion tonight. Let's gather info smartly! Hey buddy Toshio! I divined you!
+1,talk,16,3,4,We shouldn't lynch on hunches.  @Sakura  you said you divined me as Human — which night was that  and who will you check next? If you won't answer clearly I'll keep you on my suspect list. For now le
+1,talk,17,3,2,Shizue let's not rush. We need more info before making any decisions. Stay alert.
+1,talk,18,3,1,Over
+1,talk,19,3,3,Trusting Sakura too quickly may cost us dear. Her Seer claim feels rushed. I will vote for Sakura to safeguard the village.
+1,vote,1,3
+1,vote,3,5
+1,vote,5,3
+1,execute,3,WEREWOLF
+2,status,1,VILLAGER,ALIVE,CanisLupus1,Shizue
+2,status,2,VILLAGER,ALIVE,yharada1,Shion
+2,status,3,WEREWOLF,DEAD,sunamelli1,Servas
+2,status,4,POSSESSED,ALIVE,Character-Lab1,Toshio
+2,status,5,SEER,ALIVE,kanolab-nw1,Sakura
+2,result,4,0,VILLAGER

@@ -1,0 +1,53 @@
+0,status,1,WEREWOLF,ALIVE,GPTaku1,Takumi
+0,status,2,POSSESSED,ALIVE,CamelliaDragons1,Benjamin
+0,status,3,SEER,ALIVE,Character-Lab1,Misaki
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Servas
+0,status,5,VILLAGER,ALIVE,mille1,George
+0,talk,0,0,2,Good day to all. I am Benjamin a man of quiet contemplations and sharper observations—at your collective service.
+0,talk,1,0,4,Greetings everyone! I am Servas. Let us cultivate a garden of discussions and wisdom today. Together we shall thrive dear ones!
+0,talk,2,0,3,Good day. I'm Misaki.  @Benjamin   your calm intro—are you claiming a role or do you have any observations to share? Servas  any early suspicions or claims? Let's not rush votes. Over
+0,talk,3,0,5,Hello. I am George. My role is villager. Have a good game.
+0,talk,4,0,1,Hello everyone I'm Takumi! Excited to play Werewolf with you all. Let's see if you can spot who's who!
+0,talk,5,1,2,Over
+0,talk,6,1,4,Over
+0,talk,7,1,3,I'm still uneasy about  @Benjamin  — he hasn't said anything useful yet. Benjamin  are you claiming a role or any reads? Others  please state any role claims or suspicions and who you'd vot
+0,talk,8,1,5,Over
+0,talk,9,1,1,Over
+0,talk,10,2,3,We need concrete info before voting.  @Benjamin   are you claiming a role or sharing any reads? Everyone else  please state a suspicion or a role claim now. Over
+0,talk,11,3,3,Silence isn't reassuring.  @Benjamin   are you claiming a role or sharing any reads? George  Servas  Takumi — please state any suspicions or role claims now so we can avoid a stalemate. Over
+0,divine,3,2,HUMAN
+1,status,1,WEREWOLF,ALIVE,GPTaku1,Takumi
+1,status,2,POSSESSED,ALIVE,CamelliaDragons1,Benjamin
+1,status,3,SEER,ALIVE,Character-Lab1,Misaki
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Servas
+1,status,5,VILLAGER,ALIVE,mille1,George
+1,talk,0,0,4,Ah. Young miss. Benjamin's mind is like a garden in winter. Dormant. Yet beneath. Plans may quietly bloom when least expected.
+1,talk,1,0,5,I will vote Takumi.
+1,talk,2,0,1,I divined Misaki last night and she is a Werewolf. Let's focus our efforts on proving it and voting accordingly.
+1,talk,3,0,2,It appears we wake to revelations. Since we have a Seer claim I suppose clarity is forced upon us. @Takumi  your conviction is admirable. But would a true Seer reveal so soon or play to impatience?
+1,talk,4,0,3,I divined Benjamin last night — HUMAN.  @Takumi  you claim you divined me as Werewolf  which directly contradicts my result and is very suspicious. Explain your timing and target now or you're likely
+1,talk,5,1,4,Seems we've two Seer claims. If Misaki suspects Benjamin. Clarity may bloom through united divinations.  @George  My friend. Seers may shed light on you. How do you wish to see this game unfold?
+1,talk,6,1,5,Over
+1,talk,7,1,1, I need to confess that my earlier claim of being a Seer was not true. I made that claim to try to gather more information and force real claims or actions f
+1,talk,8,1,2,Well we certainly have a glut of Seers this morning. One suspects clairvoyance is contagious or perhaps just fashionable. @Misaki Your swift Seer claim intrigues me Misaki. Do you fear Takumi's approach revealed too much or too little?
+1,talk,9,1,3, @Benjamin  I divined you HUMAN last night. Takumi admitted his Seer claim was a lie and it directly contradicted my result—classic wolf tactic to sow confusion.
+1,talk,10,2,4,Misaki seems genuine. My friend let us turn the mystical gaze upon those wavering. Could Takumi's tales need deeper roots Benjamin?
+1,talk,11,2,1,Vote Misaki. Her immediate claim of being Seer after my push causes doubt. Seers wait to gather info usually; her haste raises suspicions.
+1,talk,12,2,2,Takumi’s confession is rapid and bold. Misaki your confidence is comforting—maybe too comforting for this tense game. @Servas  your poetry offers reprieve. Do you see Misaki’s calm as wisdom or a front for something else?
+1,talk,13,2,3,Takumi admitted he lied about being a Seer and contradicted my divination—I'm voting  @Takumi . Anyone else? Speak now so we can vote. Over
+1,talk,14,3,4, @George  George. In this tapestry of revelations my friend can you see the threads that bind Misaki's foresight to truth's embrace?
+1,talk,15,3,1,Despite my earlier fabrication Misaki’s rushed Seer claim right after hints at manipulation. Her certainty feels staged—a tactic to deflect atten
+1,talk,16,3,2,Wisdom isn't always with the loudest; sometimes it's those acting too swiftly or smoothly we should watch. @Takumi  your questioning of Misaki's timing is noted but your persistence keeps the fog thick. Curious indeed.
+1,talk,17,3,3,I've cast my vote for  @Takumi  — he admitted lying about being a Seer and contradicted my divination. We should eliminate him. Any objections or extra info? Over
+1,vote,1,3
+1,vote,2,1
+1,vote,3,2
+1,vote,4,1
+1,vote,5,1
+1,execute,1,WEREWOLF
+2,status,1,WEREWOLF,DEAD,GPTaku1,Takumi
+2,status,2,POSSESSED,ALIVE,CamelliaDragons1,Benjamin
+2,status,3,SEER,ALIVE,Character-Lab1,Misaki
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Servas
+2,status,5,VILLAGER,ALIVE,mille1,George
+2,result,4,0,VILLAGER

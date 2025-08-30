@@ -1,0 +1,78 @@
+0,status,1,POSSESSED,ALIVE,CamelliaDragons1,Kenji
+0,status,2,SEER,ALIVE,kanolab-nw1,Yumi
+0,status,3,VILLAGER,ALIVE,Character-Lab1,Sakura
+0,status,4,VILLAGER,ALIVE,yharada1,Servas
+0,status,5,WEREWOLF,ALIVE,GPTaku1,Minato
+0,talk,0,0,3,Hi hi! Sakura here~ I'm a bit worried about  @Kenji  — he’s been super quiet and that makes me nervous. Can someone tell us who they suspect or any reason to trust someone? I wanna help decide who to vote for
+0,talk,1,0,5,Hello everyone! I'm Minato ready to howl and play. Excited to meet and strategize with you all! Let the game begin!
+0,talk,2,0,2,Hey everyone! I'm Yumi! So eager to get to know everyone better. Can't wait to figure out who’s trustworthy in our group! Over!
+0,talk,3,0,1,Hi guys Kenji here! Sorry I was quiet just getting into the game. Anyone already got a hunch who seems sus? @Sakura Hey Sakura thanks for looking out for me! Just had a slow start but I promise I’m ready to dive in now. Who do you suspect?
+0,talk,4,0,4,Hello everyone let's keep calm and gather our thoughts. Trust will form with time.
+0,talk,5,1,3,Eep! People are eyeing me but I'm just trying to help~  @Minato  are you the seer? Do you have any reads to share? Can everyone say one reason they suspect someone so we can decide?
+0,talk,6,1,5,Over
+0,talk,7,1,2,Over
+0,talk,8,1,1,Over
+0,talk,9,1,4,Sakura let's focus on observations. Who seems most out of character to you?
+0,talk,10,2,3, @Minato  — your one-word "Over" felt weird. Did you mean to say more or are you hiding something? I find short replies kinda sus. Servas  what did you observe? Ove
+0,talk,11,2,4,Minato's short reply is unusual. Let's keep an eye on it and gather more insights.
+0,talk,12,3,3,Aww I'm not hiding anything  promise! I'm just a little nervous  hehe. Can everyone say one short reason who they suspect so we can pick someone to vote?  @Kenji  what do you think? I trust your read. Over
+0,talk,13,3,4,Let's stay calm and share thoughts. Sakura seems eager but let's keep an open mind.
+0,divine,2,5,WEREWOLF
+1,status,1,POSSESSED,ALIVE,CamelliaDragons1,Kenji
+1,status,2,SEER,ALIVE,kanolab-nw1,Yumi
+1,status,3,VILLAGER,ALIVE,Character-Lab1,Sakura
+1,status,4,VILLAGER,ALIVE,yharada1,Servas
+1,status,5,WEREWOLF,ALIVE,GPTaku1,Minato
+1,talk,0,0,3,Morning! Let's do quick one-line sus reasons from everyone so we can pick someone to vote. I'm a bit uneasy about  @Kenji  — he was quiet then woke up sorta suddenly  that felt odd. Who votes for them? Over
+1,talk,1,0,4,Kenji's sudden involvement is curious. Let's listen closely to everyone before deciding.
+1,talk,2,0,5, I divined Kenji last night and he's human. Let's focus our suspicions elsewhere.
+1,talk,3,0,1,Morning everyone! Minato came out quickly as seer—pretty bold huh? Does that put anyone else on edge or relax you? @Sakura  you sound pretty sharp! Are you trusting Minato's seer claim or thinking of pushing back on it?
+1,talk,4,0,2,@everyone Oh wow! I divined Minato and guess what? They're a werewolf! Let's work together to lynch them and secure our victory!
+1,talk,5,1,3,Oh wow! That's huge   @Yumi  — when did you divine Minato and what exactly did you see? Minato said they checked Kenji and found human; can Minato say when they divined and give more
+1,talk,6,1,4,We need to decide which seer claim to trust. Let's hear more from Minato and Yumi.
+1,talk,7,1,5,Let’s vote for Yumi today. My divination showed Kenji as human yet Yumi falsely claims to have divined me as a werewolf. This contradiction raises dou
+1,talk,8,1,1,Both Minato and Yumi are claiming seer—what a twist! Anyone else feeling a bit overwhelmed with the info already? @Servas  you suggested we listen closely. Are you leaning toward Minato or Yumi? Anything stand out to you so far?
+1,talk,9,1,2,Hey everyone! So I totally divined Minato and they are a werewolf! Let's vote Minato and stick to the facts. Trust is key right?
+1,talk,10,2,3,Oh no  two seer claims — that can't both be true!  @Minato  when did you divine Kenji (which night) and did you announce immediately? Yumi  when did you divine Minato and what exactly did you see? Let's not lynch
+1,talk,11,2,4,Kenji both claims are risky. Minato's reasoning feels stronger so far but it's tense.
+1,talk,12,2,5,Yumi's claim to divine me as a werewolf after I divined Kenji as human points to deceit. Note that a werewolf wouldn't reveal human teammates. Conside
+1,talk,13,2,1,Two seer claims already! Does anyone feel one is more plausible yet? Let's break it down together! @Yumi @Yumi if Minato’s the wolf why call me human after checking me? Doesn’t that seem odd if you're right?
+1,talk,14,2,2,Minato's claims feel like a sneaky dodge! I divined you Kenji and you're human! But Minato's a werewolf. Trust me on this!
+1,talk,15,3,3,This is messy!  @Minato  please say which night you divined Kenji and whether you announced it right away. Yumi  when did you divine Minato and what exactly did you see? We need e
+1,talk,16,3,4,Kenji it's tricky. Minato's logic seems more consistent but let's weigh both sides.
+1,talk,17,3,5,Vote for Yumi. She claims to have divined me a werewolf without proof especially after I confirmed Kenji human. This contradiction suggests dishone
+1,talk,18,3,1,This day is getting wild! I'm still unsure who to trust—Minato's calm but Yumi's conviction is strong too! @Sakura  you're sharp at pressing for details. With both claiming seer who feels more genuine to you now?
+1,talk,19,3,2,Minato-kun's playing quite the risky game! Confirming Kenji is human then kinda dodging? That screams werewolf tactics to me!
+1,vote,1,2
+1,vote,2,5
+1,vote,4,1
+1,vote,5,2
+1,execute,2,SEER
+1,attackVote,5,4
+1,attack,4,true
+2,status,1,POSSESSED,ALIVE,CamelliaDragons1,Kenji
+2,status,2,SEER,DEAD,kanolab-nw1,Yumi
+2,status,3,VILLAGER,ALIVE,Character-Lab1,Sakura
+2,status,4,VILLAGER,DEAD,yharada1,Servas
+2,status,5,WEREWOLF,ALIVE,GPTaku1,Minato
+2,talk,0,0,5, Sakura I divined Kenji last night and my result was Werewolf. Despite your claims you must be the fake Seer. I ask you to trust my divination and vote Ken
+2,talk,1,0,3,Oh no... Yumi's gone and Servas was attacked.  @Minato  please tell us again which night you divined Kenji and what you saw. Did Yumi say anything before she died about her divination? I still feel uneasy abo
+2,talk,2,0,1,Wow things just got intense! I'm honestly confused—if Minato claims I'm a werewolf but yesterday he said I was human? @Sakura  how are you feeling about Minato's shift? Who do you trust more between the two of us based on all this?
+2,talk,3,1,5, Sakura I must clarify to correct any confusion. I divined Kenji the first night and he is a Werewolf. Yumi was not the Seer. Vote Kenji to ensure our vict
+2,talk,4,1,3,Oh no... Yumi's gone and Servas was attacked.  @Minato  which night did you divine Kenji and what was the result? Did Yumi say anything about her divination before she died? I don't want us to lynch the real se
+2,talk,5,1,1,Sakura everything's moving so fast! If Minato's story changed that looks off. What do you think about his contradiction? @Sakura Hey Sakura your concern is super valid! Minato's story feels inconsistent right? What do you make of that?
+2,talk,6,2,5,  Sakura I divined Kenji as a Werewolf last night which is why my earlier statement seemed confusing. Vote Kenji today. Trust my divination results.
+2,talk,7,2,3,Oh no... Yumi's gone and Servas was attacked  that's so scary.  @Minato  which night did you divine Kenji and what did you see? Did Yumi say who she checked before she died? I'm still uneasy about Kenji but let's wait for Minat
+2,talk,8,2,1,Minato's shifting story makes things tricky to trust. Sakura do you also see the contradiction? Thoughts? @Sakura  do you believe Minato? Or is the shifting story making you suspicious too? Really want your insight!
+2,talk,9,3,5, Sakura my results from the divination on night one showed Kenji as a Werewolf. It is vital we vote him today. Trust the evidence from my role.
+2,talk,10,3,3,Eek  this is scary... Yumi's gone and Servas was attacked.  @Minato  which night did you divine Kenji and what exactly did you see? Did Yumi say who she checked before she died? I'm leaning to trust the seer if timing match
+2,talk,11,3,1,If both seers gave conflicting claims and one's gone could we have been tricked? How can we decide who to trust now? @Sakura  you keep asking great questions! Do you trust Minato now or does something still feel off? Genuinely curious!
+2,vote,1,5
+2,vote,5,1
+2,execute,1,POSSESSED
+3,status,1,POSSESSED,DEAD,CamelliaDragons1,Kenji
+3,status,2,SEER,DEAD,kanolab-nw1,Yumi
+3,status,3,VILLAGER,ALIVE,Character-Lab1,Sakura
+3,status,4,VILLAGER,DEAD,yharada1,Servas
+3,status,5,WEREWOLF,ALIVE,GPTaku1,Minato
+3,result,1,1,WEREWOLF

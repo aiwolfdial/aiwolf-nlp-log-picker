@@ -1,0 +1,54 @@
+0,status,1,POSSESSED,ALIVE,CamelliaDragons1,Shizue
+0,status,2,SEER,ALIVE,yharada1,Sakura
+0,status,3,VILLAGER,ALIVE,kanolab-nw1,Toshio
+0,status,4,VILLAGER,ALIVE,sunamelli1,Victoria
+0,status,5,WEREWOLF,ALIVE,mille1,Minako
+0,talk,0,0,2,Hi everyone! Let's work together and have fun finding those werewolves!
+0,talk,1,0,3,Given the circumstances. I am Toshio. I look forward to solving this mystery with all of you. Let's enjoy a great game together.
+0,talk,2,0,1,Hello friends. I'm Shizue. This village feels safe with such warm company. Let's listen kindly to each other today. @Sakura  your cheerful greeting brings a smile. I hope you continue to shine no matter how the debates unfold.
+0,talk,3,0,5,Hello. I am Minako. My role is villager. Have a good game.
+0,talk,4,0,4,I’m Victoria and I don’t trust easily. I watch for what’s unsaid as much as what’s spoken.
+0,talk,5,1,2,Thanks Shizue! Let's keep our eyes open and trust our instincts everyone!
+0,talk,6,1,3,Over
+0,talk,7,1,1,Over
+0,talk,8,1,5,Over
+0,talk,9,1,4,Over
+0,talk,10,2,2,Let's keep chatting to find out more about each other. Any thoughts Victoria?
+0,talk,11,3,2,Hope we can spot the werewolves soon! How's everyone feeling about today?
+0,divine,2,5,WEREWOLF
+1,status,1,POSSESSED,ALIVE,CamelliaDragons1,Shizue
+1,status,2,SEER,ALIVE,yharada1,Sakura
+1,status,3,VILLAGER,ALIVE,kanolab-nw1,Toshio
+1,status,4,VILLAGER,ALIVE,sunamelli1,Victoria
+1,status,5,WEREWOLF,ALIVE,mille1,Minako
+1,talk,0,0,4, @Minako  your villager claim was fast—what makes you so sure? Do you have a reason for claiming so early?
+1,talk,1,0,5,I will vote Victoria.
+1,talk,2,0,2,I checked Minako last night and she is a werewolf. Let's be careful everyone!
+1,talk,3,0,1,It's a lovely morning everyone. Sakura quite the assertive claim! I too am the Seer and have my result. @Sakura  it's brave to step forward! For clarity: last night I checked Victoria and saw she is a Villager.
+1,talk,4,0,3,Given the circumstances. Ms. Shizue's claim and Ms. Sakura's result do not align. Is Ms. Victoria the target for tonight's confirmation?
+1,talk,5,1,4, @Minako  your vote on me felt too quick. Can you explain what pushed you to target me so early?
+1,talk,6,1,5,I will vote Shizue.
+1,talk,7,1,2,Shizue why claim Seer now? My check on Minako is clear. Let's focus on her.
+1,talk,8,1,1,Sometimes when tension rises clarity is even more important. Let's move gently—my vision stands: Victoria is a Villager. @Toshio  your calm makes things easier for all. My check truly revealed Victoria as a Villager. Let's proceed with care.
+1,talk,9,1,3,Given the circumstances. Shizue and Sakura should not divinate Ms. Minako or Ms. Victoria again. Perhaps a focus on me is required?
+1,talk,10,2,4, @Shizue  Why did you choose to check me on night 0? Was there something in my behavior that stood out to you?
+1,talk,11,2,5,Over
+1,talk,12,2,2,Toshio I might check you next if it helps clear things up! Let's stay focused.
+1,talk,13,2,1,Victoria I chose you night 0 because your words moved me. Calm spirits often reveal much; thank you for asking gently. @Victoria  your question means a lot. I sensed your energy so I trusted where trust felt most guarded.
+1,talk,14,2,3,Given the circumstances. I find Ms. Minako's varying votes peculiar. Could her intentions align with the werewolf's strategy? It's plausible.
+1,talk,15,3,4,Minako’s shifting votes feel evasive. Sakura’s Seer claim puts the spotlight on Minako—I’ll vote Minako today.
+1,talk,16,3,2,Thanks Victoria! Let's focus on Minako and see where it leads us. Trust our instincts!
+1,talk,17,3,1,Things feel tense but let’s breathe and think with open minds. Suspicion can cloud gentle hearts so let’s stay calm. @Sakura  your confidence is admirable but certainty can mislead us—let’s walk carefully even when the path feels sure.
+1,talk,18,3,3,Given the circumstances. Does Ms. Sakura or Ms. Shizue's Seer claim hold water? Ms. Minako's erratic voting is suspect. Ms. Sakura. If I receive your
+1,vote,1,5
+1,vote,2,1
+1,vote,3,5
+1,vote,4,5
+1,vote,5,3
+1,execute,5,WEREWOLF
+2,status,1,POSSESSED,ALIVE,CamelliaDragons1,Shizue
+2,status,2,SEER,ALIVE,yharada1,Sakura
+2,status,3,VILLAGER,ALIVE,kanolab-nw1,Toshio
+2,status,4,VILLAGER,ALIVE,sunamelli1,Victoria
+2,status,5,WEREWOLF,DEAD,mille1,Minako
+2,result,4,0,VILLAGER

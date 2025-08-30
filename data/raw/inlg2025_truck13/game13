@@ -1,0 +1,436 @@
+0,status,1,VILLAGER,ALIVE,mille-B1,Misaki
+0,status,2,VILLAGER,ALIVE,sunamelli-c1,Asuka
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Toshio
+0,status,4,VILLAGER,ALIVE,CanisLupus-A1,Mizuki
+0,status,5,VILLAGER,ALIVE,Character-Lab-B1,Daisuke
+0,status,6,VILLAGER,ALIVE,kanolab-nw-C5,Rin
+0,status,7,WEREWOLF,ALIVE,sunamelli-a1,Shion
+0,status,8,WEREWOLF,ALIVE,kanolab-nw-A1,George
+0,status,9,WEREWOLF,ALIVE,Character-Lab-A1,Yumi
+0,status,10,BODYGUARD,ALIVE,sunamelli-b1,Takumi
+0,status,11,MEDIUM,ALIVE,CanisLupus-B1,Midori
+0,status,12,POSSESSED,ALIVE,mille-A1,Shunichi
+0,status,13,SEER,ALIVE,kanolab-nw-B1,Minako
+0,whisper,0,0,9,Quick plan: I already nudged  @Asuka  in chat. Keep pressing her for a concrete read—if she claims seer  call her bluff; if she stays vague  push to vote her and ask others for one-line reads. I
+0,whisper,1,0,8,Now let me tell you old sport. If we press Asuka and she claims seer we ought to call ourselves villagers. This will confuse them.
+0,whisper,2,0,7,This is Shion. I am a werewolf.
+0,whisper,3,1,9,Nice  Shion — keep that between us. Plan: push  @Asuka  as our main suspect and prod her to speak; if she claims seer  we call her bluff and pile on. If pressed for roles  claim villager and give vague reads to con
+0,whisper,4,1,8,Now let me tell you. Let's keep calm and adhere to Yumi's plan. Push Asuka aside and maintain our guise as a villager old sport.
+0,whisper,5,1,7,Over
+0,whisper,6,2,9,Got it. We'll push  @Asuka  for today's lynch. If she claims seer  call her bluff and demand her result; if she dodges  pile on. If questioned about role  claim villager and give a vag
+0,whisper,7,2,8,Now let me tell you choosing our targets demands shrewd thinking. Identifying a bodyguard or seer could disrupt their defenses wonderfully.
+0,whisper,8,3,9,Agreed. Focus on flushing out the seer—push  @Asuka  to force a claim. If she claims seer  demand her divination target and timing; if she dodges  pile on and make her the lynch. Don’t claim roles ourselves—
+0,whisper,9,3,8,Now let me tell you. Our best course is guiding suspicion toward Ms. Asuka or the quiet ones. I shall claim to be a mere villager.
+0,talk,0,0,5,Um... I'm Daisuke. I don't have any role info. I kind of trust  @Asuka   but I also have a weird bad feeling about them. Maybe it's just me being nervous. Can someone claim a role or point out something suspicious so we don't r
+0,talk,1,0,13,Hello. I am Minako. Pleased to meet you all. Let us collaborate and figure things out in this game. Remain composed. Over.
+0,talk,2,0,7,Let’s keep introductions quick this time—some of you already look too comfortable. Not a good habit here is it?
+0,talk,3,0,3,...
+0,talk,4,0,8,You see. I'm George. Looking forward to a fun. Strategic game with you all. Now. Let us work together to find those werewolves!
+0,talk,5,0,9,Hi everyone — Yumi here! Nice to meet you all.  @Asuka  you were pretty quiet earlier  can you share your thoughts or gut read? Daisuke said he felt weird about you too. Quick one-line reads from others so we c
+0,talk,6,0,2,Hello everyone let’s use logic and careful observation from the start—I believe that’s our best defense against deception.
+0,talk,7,0,1,Hello. I am Misaki. My role is villager. Have a good game.
+0,talk,8,0,10,Alright everyone I’m Takumi. Whatever comes our way I’ll fight for truth. Let’s crush those wolves together.
+0,talk,9,0,11,Skip
+0,talk,10,0,4,Skip
+0,talk,11,0,12,Hello. I am Shunichi. My role is seer. Have a good game.
+0,talk,12,0,6,Hi everyone! I'm Rin. Nice to meet you all! Whoa that's cool! I'm here to observe and strategize. Let's be cautious.
+0,talk,13,1,5,Um... there are a lot of role claims already and I'm getting confused.  @Shunichi  — you said you're the seer. Could you please share your divination result so we have something concrete to go on? Over
+0,talk,14,1,13,Over
+0,talk,15,1,7,Over
+0,talk,16,1,3,Over
+0,talk,17,1,8,Over
+0,talk,18,1,9,Thanks   @Shunichi  — could you share your divination result now (who you checked and when)? We need something concrete to work with. Quick one-line reads from everyone a
+0,talk,19,1,2,Over
+0,talk,20,1,1,Over
+0,talk,21,1,10,Over
+0,talk,22,1,11,U-um... hello. My name is Midori. I hope my... observations will be of some help to you all.
+0,talk,23,1,4,I am Mizuki. I enjoy quiet moments and reading. Let us proceed with our duties diligently.
+0,talk,24,1,12,Over
+0,talk,25,1,6,Over
+0,talk,26,2,5,Um... I still don't have any concrete info.  @Shunichi  — if you're the seer  could you please share your divination result? I don't want us to lynch someone without evidence. Over
+0,talk,27,2,9, @Shunichi  Please share your divination result—who and when you checked. If you can't  I'm uneasy about role claims without proof; Asuka's silence still makes m
+0,talk,28,2,11,Over
+0,talk,29,2,4,Over
+0,talk,30,3,5,Um... I'm not sure what to do yet.  @Shunichi  — if you're the seer  could you please share your divination result? I don't want us to make a hasty lynch without info. Over
+0,talk,31,3,9, @Shunichi  Please tell us your divination result — who you checked and when. If you can't  it's risky to trust role claims. Daisuke's vagueness makes me uneasy too
+0,whisper,0,0,9,Target Shunichi tonight — he claimed seer. Keep pushing Asuka today and don't claim roles if questioned; say villager.  @Shion  agree? Over
+0,whisper,1,0,7,I agree with biting out @Shunichi tonight since Seer’s dangerous. Let’s keep pushing for  @Asuka ’s vote out today.
+0,whisper,2,0,8,Over
+0,whisper,3,1,9,Sounds good. Tonight we kill Shunichi. Today keep pushing Asuka for the lynch; if pressed  claim villager and give vague reads.  @Shion  please vote Asuka at last call and avoid role claims. Over
+0,whisper,4,1,7,Let’s vote Asuka today—Yumi can keep pressure. For tonight’s bite let’s take out Shunichi unless the situation changes.
+0,whisper,5,2,9,Confirmed — lynch Asuka today. Tonight we bite Shunichi. If anyone claims seer/protector before night  tell me immediately so we reconsider. At last @Shion  please be ready to push. Over
+0,whisper,6,2,7,Let’s bite Shunichi tonight after pushing for Asuka vote out. Yumi lead the talk—George and I will support and blend in.
+0,whisper,7,3,9,Confirmed — lynch Asuka today. Keep pressing her and don’t claim roles; say villager if asked. Tonight we bite Shunichi. If anyone claims seer/prote @Shion  please be ready to cast the decisive vote and stay low-profile. Over
+0,whisper,8,3,7,Let’s stay coordinated and keep eyes on Asuka for vote out. We bite Shunichi tonight unless a big claim changes things.
+0,divine,13,12,HUMAN
+1,status,1,VILLAGER,ALIVE,mille-B1,Misaki
+1,status,2,VILLAGER,ALIVE,sunamelli-c1,Asuka
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Toshio
+1,status,4,VILLAGER,ALIVE,CanisLupus-A1,Mizuki
+1,status,5,VILLAGER,ALIVE,Character-Lab-B1,Daisuke
+1,status,6,VILLAGER,ALIVE,kanolab-nw-C5,Rin
+1,status,7,WEREWOLF,ALIVE,sunamelli-a1,Shion
+1,status,8,WEREWOLF,ALIVE,kanolab-nw-A1,George
+1,status,9,WEREWOLF,ALIVE,Character-Lab-A1,Yumi
+1,status,10,BODYGUARD,ALIVE,sunamelli-b1,Takumi
+1,status,11,MEDIUM,ALIVE,CanisLupus-B1,Midori
+1,status,12,POSSESSED,ALIVE,mille-A1,Shunichi
+1,status,13,SEER,ALIVE,kanolab-nw-B1,Minako
+1,talk,0,0,3,...
+1,talk,1,0,8,You see if Mr. Shunichi is indeed the seer could we have some insight now? Clarity is essential to find these wolves efficiently.
+1,talk,2,0,4, @Shunichi  please provide your report. Our ability to make a sound judgment depends on it.
+1,talk,3,0,1,I will vote Mizuki.
+1,talk,4,0,7, @Asuka  your silence stands out. Are you just cautious or hiding something? Would you explain your position before voting?
+1,talk,5,0,12,I am a seer. I divined Mizuki and Mizuki was a human.
+1,talk,6,0,2, @Daisuke  you haven’t stated who you suspect yet please share your reasoning so we can make progress today
+1,talk,7,0,13,Rest assured. I am the Seer and I divined Mr. Shunichi as Human. Let us remain composed and find the werewolves among us.
+1,talk,8,0,10,Shunichi and Minako both CO Seer and gave results. If both are real Mizuki and Shunichi are clear. Does anyone doubt this?
+1,talk,9,0,11,Misaki's vote seems... illogical. D-doesn't it contradict Shunichi's data?
+1,talk,10,0,5,I still feel uneasy.  @Shunichi  — please share your divination result so we have something concrete before we vote. I don't want more mistakes. Over
+1,talk,11,0,6,Whoa big bro Shunichi said Mizuki's a human through his divination! So why is Misaki voting for her? That's super odd!
+1,talk,12,0,9,Good morning! Who was attacked last night? Any role claims or confirmations to share?  @Asuka  you were quiet yesterday — can you explain your thoughts now? Quick one-line reads from everyone please. Over
+1,talk,13,1,3,...
+1,talk,14,1,8,Now let me tell you. With two seer claims I advise the one true seer to maintain consistency in their results. Stay focused my friends!
+1,talk,15,1,4,Two Seer claims suggest a Seer and a Possessed. Exiling either today would be a grave error.
+1,talk,16,1,1,I will vote Shunichi.
+1,talk,17,1,7,Misaki’s sudden voting changes are throwing me off. Is this confusion or a strategy to hide something?
+1,talk,18,1,12,I will vote Mizuki.
+1,talk,19,1,2,I think  @Misaki  your swift vote switches look suspicious. Can you explain your reasoning behind today's choices?
+1,talk,20,1,13,Mr. Misaki. Ms. Shunichi. Your actions today seem quite unusual. Could we discuss your motivations calmly and openly? Rest assured.
+1,talk,21,1,10,We can’t risk losing a real Seer now. Anyone pushing to exile them early is suspicious—look at who’s creating chaos.
+1,talk,22,1,11,Shunichi's own vote is a huge contradiction. I-I think he is the most suspicious subject right now.
+1,talk,23,1,5,I... I can tell some people are looking at me.  @Shunichi  — you claimed seer  so please share your divination result or any reads you have. I don't want us to lynch someone without proof. Over
+1,talk,24,1,6,With two seer claims. Whoa. Let's make a perfect plan! Divining someone clear is super important!  @Toshio  Haven't heard from you. Maybe one seer seems more real? Do spill your thoughts. I'd love to hear them.
+1,talk,25,1,9,Morning everyone! Who was attacked last night? Any role claims or results?  @Asuka  you were quiet again — what's your read now? I'm still uneasy; quick one-line reads from everyone please. Over
+1,talk,26,2,3,...
+1,talk,27,2,8,Now let me tell you. With these dueling seer claims aligning divination targets is vital. Stay observant!  @Midori . Your thoughts on Mrs. Minako?
+1,talk,28,2,4,Shunichi's vote for me contradicts his own divination. This is a grave inconsistency.
+1,talk,29,2,1,I will vote Minako.
+1,talk,30,2,7,With two seers and erratic votes from  @Misaki  I feel we might be missing a wolf hiding in plain sight. Misaki worries me.
+1,talk,31,2,12,I will vote Mizuki.
+1,talk,32,2,2, @Shunichi  you voted Mizuki after calling her human Why? That’s suspicious Can you explain your reasoning?
+1,talk,33,2,13,Given Mizuki and Shunichi's contradictions we shouldn't trust them. Let's think carefully about our votes. Remain composed.  @Asuka  Dear do you sense anything from all this talk about role claims? It's getting wild but how do you feel now?
+1,talk,34,2,10,Why did  @Shunichi  vote Mizuki after claiming she’s Human? That contradiction stands out and feels like a wolf slip.
+1,talk,35,2,11,From the hostile team's view... isn't Shunichi's contradiction too perfect? It feels like a d-decoy.
+1,talk,36,2,5,Um... I'm still unsure.  @Shunichi  — if you're the seer  please share your divination result or any reads you have. I don't want to vote without proof. Over
+1,talk,37,2,6,Whoa have you noticed big bro? Shunichi and Minako both say they're seers! That's cool but one must be pretending. Let's see!
+1,talk,38,2,9,Morning everyone — who was attacked last night? Any role claims or results to share?  @Asuka  you were quiet yesterday — what's your read now? Quick one-line reads from everyone please. Over
+1,talk,39,3,3,...
+1,talk,40,3,8,You see. I wonder if trusting Mr. Takumi's decision to not risk the Seer is a misstep? Could it be a cunning ploy they're weaving?
+1,talk,41,3,4,I support the motion to exile Shunichi. His contradictory actions are our most solid lead.
+1,talk,42,3,1,I will vote Takumi.
+1,talk,43,3,7,Misaki’s erratic votes concern me most. She’s shifting without logic. I’ll vote Misaki today.
+1,talk,44,3,12,I will vote Mizuki.
+1,talk,45,3,2,Shunichi’s voting makes no sense with his own seer claim. He’s my vote today. I urge people to join for a firm decision.
+1,talk,46,3,13,Ms. Rin's insistence on innocence cuts both ways. Remain composed. Are we truly observing truth or a classic werewolf tactic?
+1,talk,47,3,10,Shunichi’s vote makes no sense if Mizuki is human. I’m voting Shunichi today—too suspicious to leave unchecked.
+1,talk,48,3,11,Shunichi is a decoy. Removing the anomalous variable is a waste. I suspect Misakis chaotic voting more.
+1,talk,49,3,5,I don't have much to add...  @Shunichi   you claimed seer—please tell us your divination result now. We need something concrete before voting. I'm too nervous to call for a lynch without pro
+1,talk,50,3,6,Whoa! I love how Minako and Shunichi keep talking about being seers! But only one is real. George stays smart. Hey Big Bro. Are you still thinking Minak
+1,talk,51,3,9,Good morning! Who was attacked last night? Any role claims or important info to share?  @Asuka  you were quiet yesterday — what's your read now? Quick one-line reads from everyone please. Over
+1,vote,1,12
+1,vote,2,12
+1,vote,3,10
+1,vote,4,12
+1,vote,6,12
+1,vote,7,1
+1,vote,8,12
+1,vote,9,5
+1,vote,10,12
+1,vote,11,1
+1,vote,12,8
+1,vote,13,6
+1,execute,12,POSSESSED
+1,divine,13,1,HUMAN
+1,whisper,0,0,9,Stick to the plan: lynch Asuka today  bite Shunichi tonight. If anyone claims seer/protector before night tell me. If questioned about role  say villa @Shion  can you vote Asuka at last call and stay low? Over
+1,whisper,1,0,8,Now let me tell you old sport it is likely that Mr. Shunichi or Mrs. Minako are the seers. And perhaps protected by a bodyguard.
+1,whisper,2,0,7,Let’s not role-claim yet. If Minako survives tonight she’s our best bite target—unless a Knight CO appears.
+1,whisper,3,1,9,Agreed. Lynching Asuka today. Night bite priority: Shunichi — switch to Minako only if she COs seer or looks suspicious. No role claims; say villager @Shion  please be ready to cast the decisive vote at last call. Over
+1,whisper,4,1,8,Now let me tell you old sport. We ought to observe Mizuki's conduct most carefully. Their claims do seem to align with villagers' timing.
+1,whisper,5,1,7,I think we should bite Minako tonight if Shunichi is executed.
+1,whisper,6,2,9, @Shion  Agreed — priority bite Shunichi tonight. If he's lynched or someone COs seer/bodyguard  pivot to Minako. No role claims; if pressured say villager. S
+1,whisper,7,2,8,Now let me tell you old sport. We ought to consider taking Minako next. You see she could be a seer relying on another's protection.
+1,whisper,8,2,7,Let’s keep suspicion on Misaki but be ready to switch to Shunichi if the votes pile up there.
+1,whisper,9,3,9,Stick to plan: lynch Asuka today. Tonight bite Shunichi as priority — only switch to Minako if she COs seer or acts suspicious. No role claims; say vill @Shion  please be ready to cast the last vote and stay low-profile. Over
+1,whisper,10,3,8,Now let me tell you Yumi. If Miss Minako dares to lay claim to the seer role she shall be our next suspect! Let's stay steady as villagers. @Yumi Now let me tell you. We must adhere to our strategy. If Ms. Minako declares herself the seer we should shift focus toward her.
+1,whisper,11,3,7,Let’s vote Shunichi today—his CO is weak and he’s getting suspicion.
+1,guard,10,13,SEER
+1,attackVote,7,13
+1,attackVote,8,1
+1,attackVote,9,8
+1,attack,1,true
+2,status,1,VILLAGER,DEAD,mille-B1,Misaki
+2,status,2,VILLAGER,ALIVE,sunamelli-c1,Asuka
+2,status,3,VILLAGER,ALIVE,CamelliaDragons1,Toshio
+2,status,4,VILLAGER,ALIVE,CanisLupus-A1,Mizuki
+2,status,5,VILLAGER,ALIVE,Character-Lab-B1,Daisuke
+2,status,6,VILLAGER,ALIVE,kanolab-nw-C5,Rin
+2,status,7,WEREWOLF,ALIVE,sunamelli-a1,Shion
+2,status,8,WEREWOLF,ALIVE,kanolab-nw-A1,George
+2,status,9,WEREWOLF,ALIVE,Character-Lab-A1,Yumi
+2,status,10,BODYGUARD,ALIVE,sunamelli-b1,Takumi
+2,status,11,MEDIUM,ALIVE,CanisLupus-B1,Midori
+2,status,12,POSSESSED,DEAD,mille-A1,Shunichi
+2,status,13,SEER,ALIVE,kanolab-nw-B1,Minako
+2,talk,0,0,2, @Minako  can you reveal today’s divination result so we can analyze further and make an informed decision?
+2,talk,1,0,6,Minako. Oh wow! Asuka got targeted by Yumi for a quick read. Could you tell us why they might be dangerous miss?
+2,talk,2,0,8,Now let me tell you we find ourselves in quite the predicament my friends. Misaki's departure requires a strategy overhaul you see.
+2,talk,3,0,4,Good morning. With Shunichi executed and Misaki lost a Medium's report is now paramount.
+2,talk,4,0,13,Rest assured dear. I have divined Ms. Misaki. She is confirmed as Human a villager. Let us focus on finding the werewolves now.
+2,talk,5,0,10, @Yumi  yesterday you avoided making a clear call—who are you actually suspicious of now and why?
+2,talk,6,0,11,My analysis is complete. Shunichi was... human. This confirms Minako's data is authentic.
+2,talk,7,0,9,So sad about Misaki... losing Shunichi was rough.  @Minako  you’ve been quiet — any reads or role to share? I’m leaning toward voting Minako at last call unless someone convinces me otherwise. Quick one-line re
+2,talk,8,0,3,...
+2,talk,9,0,5,I'm really shaken by the losses... If you're the seer   @George   please share your divination result so we have something concrete. Others  any reads or suspicions? I'm too nervous to pick alone. Over
+2,talk,10,0,7,Midori’s silence stands out compared to yesterday.  @Midori  what’s changed for you overnight? Quiet isn’t always safe.
+2,talk,11,1,2, @Toshio  @George we’re not getting real logic from you. Who do you actually suspect and why this round?
+2,talk,12,1,6,So. Minako seems like our true seer. Shunichi's human divination on Mizuki feels odd. George. What's your dive into this mix?  @George  What's your take on the seer claims? Any strategic thoughts to catch werewolves?
+2,talk,13,1,8,You see Minako. Authenticity is crucial here. Mr. Rin's insight is vital. How can Minako's seer abilities help us against werewolves?
+2,talk,14,1,4,Midori's report validates Minako's Day 1 result. Minako is our most credible source.
+2,talk,15,1,13,Ms. Midori's report proves I am the real seer. Rest assured. Ms. Misaki was human. Let's focus on werewolf suspects now.
+2,talk,16,1,10,@George  @Toshio  you’ve been way too quiet. Who do you suspect as wolves? No more staying in the shadows—speak up.
+2,talk,17,1,11,Um...  @Yumi  it is strange to suspect Minako. My data proves her report was authentic. Why doubt her?
+2,talk,18,1,9,Oh no  so sad about Misaki... With Shunichi gone I'm uneasy—could the real seer be  @Minako ? You’ve been quiet  please share your thoughts. I’m leaning to vote Minako at last call unless someone convinces me otherwise. Quick one-line reads  p
+2,talk,19,1,3,...
+2,talk,20,1,5,I'm still shaken.  @George  — please share your divination result now if you're the seer. We need something concrete before we vote. If you can't  who do you suspect? Over
+2,talk,21,1,7, @Toshio  you've barely said anything since yesterday. Silence helps wolves slip by. What are your thoughts now?
+2,talk,22,2,2, @Toshio  your silence is suspicious. Please state who you suspect or I’ll vote for you this round.
+2,talk,23,2,6,Whoa Minako's seer claim is something I trust! Tonight we should totally focus on those active wolves like Yumi or Toshio right? They're just too susp
+2,talk,24,2,8,Now let me tell you old sport. I'm perplexed by Mr. Shunichi's vote against his divined Mizuki. We must tread carefully here my friend.
+2,talk,25,2,4,Instead of doubting the now credible Minako I propose we scrutinize Yumi's reasoning.
+2,talk,26,2,13,Misaki is confirmed human. Dear George. You raised valid points. Shunichi's actions are puzzling. Rest assured. Yumi's voting needs thought.
+2,talk,27,2,10, @Toshio  you keep dodging choosing a suspect. Why won't you commit? Silent moves help the wolves. Who do you suspect?
+2,talk,28,2,11,W-we're running out of time. Let's focus on Yumi's statement which contradicts the available data.
+2,talk,29,2,9,So sad about Misaki...  @Minako  you've been quiet — can you share your thoughts or role? I'm leaning to vote you at last call unless someone convinces me otherwise. Quick one-line rea
+2,talk,30,2,3,...
+2,talk,31,2,5,I'm still scared after the last night...  @George  — if you're the seer  please reveal your divination result now so we have something solid. Everyone else  any reads or suspicions? I can't decide alone.
+2,talk,32,2,7, @Asuka  your vote was easy for the group last time. Now you’re silent again; hiding isn’t helping us find wolves.
+2,talk,33,3,2,Yumi keeps shifting her target and questions Minako despite credible reports. That’s suspicious. I’m voting Yumi.
+2,talk,34,3,6,Oh wow! Yumi seems all over the place. Miss Minako should totally divine her next round! Shion's silence is like a werewolf hiding trick. Hey Yumi! Mis
+2,talk,35,3,8,Now you see my friends we must focus. Mrs. Minako's quick acceptance of Midori seems rather tidy. Why trust her so readily? Skepticism you see is our sh @Midori Now let me tell you your sudden backing of Minako seems rather calculated. Why entrust your assurance so swiftly old sport?
+2,talk,36,3,4,I agree with the vote for Yumi. Her suspicion of our confirmed Seer is indefensible.
+2,talk,37,3,13,I am concerned about Mr. Rin. Rest assured his avoidance of divination raises suspicion. His patterns suggest a wolfish nature.
+2,talk,38,3,10,I’ve heard enough—Yumi keeps casting doubt on Minako even after both Seer and Medium reports match. I’m voting Yumi.
+2,talk,39,3,11,Over
+2,talk,40,3,9,So sad about Misaki... and losing Shunichi.  @Minako  you’ve been quiet—what’s your read or role? I’m leaning to vote you at last call unless someone convinces me otherwise. Quick one-line reads please.
+2,talk,41,3,3,...
+2,talk,42,3,5,I'm still shaken...  @George  — if you're the seer  please reveal your divination result or who you suspect. I don't want another wrong lynch. If you can't  maybe we should skip today?
+2,talk,43,3,7,Toshio’s silence worries me more than Yumi’s confusion. I’m voting Toshio—quiet players slip by too easily.
+2,vote,2,9
+2,vote,3,11
+2,vote,4,9
+2,vote,6,9
+2,vote,7,3
+2,vote,8,13
+2,vote,9,5
+2,vote,10,9
+2,vote,11,9
+2,vote,13,6
+2,execute,9,WEREWOLF
+2,divine,13,6,HUMAN
+2,whisper,0,0,8,Now let me tell you. I've observed something rather intriguing. Minako and Midori are suspect. They might be seers with bodyguards.
+2,whisper,1,0,7,If group pushes Yumi let’s not defend her—protecting ourselves is key. Today aim for Toshio vote.
+2,whisper,2,1,8,Now let me tell you. Old sport I reckon we ought to focus on casting doubt upon Minako. Her role decision could shift their balance. @Shion Now let me tell you. We require a new suspect old sport. Might Mizuki's actions be of assistance? Her role could reveal the seer.
+2,whisper,3,1,7,Let’s keep pushing for Toshio today. Don’t protect Yumi openly—she’s likely to get all the heat.
+2,whisper,4,2,8,Now let me tell you. We must keep up the suspicion on Mr. Toshio and Ms. Asuka. You see constant pressure may reveal their hand. @Shion You see. Keep our roles secret my friend. Ensure Toshio is under scrutiny. Silence you know. It can work in our favor.
+2,whisper,5,2,7,Let’s focus all votes on Toshio today so we blend in. If Yumi stays the target just let her go.
+2,whisper,6,3,8,Now let me tell you. A push for a vote on Mrs. Minako or Mrs. Mizuki should shift our game. Identifying them as threats could serve us. @Shion Now let me tell you. It might be wise to consider focusing on Minako and Mizuki. Observe their actions closely my friend.
+2,whisper,7,3,7,Let's coordinate votes on  @Toshio  to draw suspicion away from us.
+2,guard,10,13,SEER
+2,attackVote,7,13
+2,attackVote,8,3
+2,attack,13,false
+3,status,1,VILLAGER,DEAD,mille-B1,Misaki
+3,status,2,VILLAGER,ALIVE,sunamelli-c1,Asuka
+3,status,3,VILLAGER,ALIVE,CamelliaDragons1,Toshio
+3,status,4,VILLAGER,ALIVE,CanisLupus-A1,Mizuki
+3,status,5,VILLAGER,ALIVE,Character-Lab-B1,Daisuke
+3,status,6,VILLAGER,ALIVE,kanolab-nw-C5,Rin
+3,status,7,WEREWOLF,ALIVE,sunamelli-a1,Shion
+3,status,8,WEREWOLF,ALIVE,kanolab-nw-A1,George
+3,status,9,WEREWOLF,DEAD,Character-Lab-A1,Yumi
+3,status,10,BODYGUARD,ALIVE,sunamelli-b1,Takumi
+3,status,11,MEDIUM,ALIVE,CanisLupus-B1,Midori
+3,status,12,POSSESSED,DEAD,mille-A1,Shunichi
+3,status,13,SEER,ALIVE,kanolab-nw-B1,Minako
+3,talk,0,0,10,Let’s stop letting Toshio stay silent—if you can’t step up now you’re not helping the village. Wolves hide in shadows.
+3,talk,1,0,2, @Toshio  your silence is a problem—if you’re villager give us a clear suspect now or it looks like wolf hiding.
+3,talk,2,0,5,I'm really shaken by all the deaths.  @George  — please reveal your divination result now if you're the seer  or tell us who you suspect. I don't want another wrong lynch. Over
+3,talk,3,0,8,Now let me tell you. Although I'm no seer trusting Ms. Minako might be wise since Ms. Midori saw fit to validate her. Let's ponder the quiet ones.
+3,talk,4,0,3,...
+3,talk,5,0,13,I divined Rin. They are Human. Rest assured. Let's focus on assessing the suspicious players calmly and surely together.
+3,talk,6,0,11,My analysis on Yumi is complete. Th-the result... was Werewolf.
+3,talk,7,0,6,Whoa that's cool! If Miss Midori divined Miss Yumi as a Werewolf her report seems pretty solid. Big bro Toshio's quietness? And Miss Yumi looking all s
+3,talk,8,0,4,Midori's report confirms our vote was just. We must press our advantage against the next threat.
+3,talk,9,0,7, @Toshio  your silence stands out. Wolves can slip by when people stay quiet. Can you share your thoughts now?
+3,talk,10,1,10,Toshio and George keep dodging questions—if you’re villagers  name your top suspect now and back it up.
+3,talk,11,1,2, @George  you keep telling us to trust Minako but haven’t named a suspect yourself. Who do you actually think is a wolf?
+3,talk,12,1,5,I'm still really nervous.  @George  — if you're the seer  please reveal your divination result now. If not  can we consider skipping today? I don't want another wrong lynch. Over
+3,talk,13,1,8,You see. Too many seers are misleading. I insist we rely on player activities! Unveil true motives.  @Daisuke  Minako's insights serve us well. Resting today may be advantageous.
+3,talk,14,1,3,...
+3,talk,15,1,13,Midori's claim about Ms. Yumi aligns with our suspicions. Rest assured we'll keep a close watch on those like Mr. Toshio.
+3,talk,16,1,11,My data confirms Minako's credibility. S-so we should trust her analysis that Rin is human.
+3,talk,17,1,6,Whoa that's cool! Hey folks! Based on Midori's revelation and Minako's seer insight it seems we should focus on Toshio. Big Bro! Your quiet nature is m
+3,talk,18,1,4,Midori confirmed Yumi was a foe. Let us place our full trust in Minako's divination of Rin.
+3,talk,19,1,7, @Toshio  your silence worries me wolves often hide in the quiet. Can you share your thoughts on today's suspects?
+3,talk,20,2,10,Toshio’s silence is letting wolves hide—if you’re villager speak up or risk being voted out.
+3,talk,21,2,2, @Toshio  silence just helps wolves. Give us your suspect now or I’ll vote for you.
+3,talk,22,2,5,I'm really nervous with so many gone.  @George  — if you're the seer  please reveal your divination result now. If not  does anyone have a strong read? I don't want another mistake. Over
+3,talk,23,2,8,Now let me tell you. Securing Ms. Minako is imperative since Ms. Midori stands by her. As for silent Mr. Toshio suspicions linger.
+3,talk,24,2,3,...
+3,talk,25,2,13, @Toshio  Remain composed. Your quietude makes waves dear. Your insight on our suspects is needed. Will you contribute?
+3,talk,26,2,11,Toshio's silence is the most anomalous data. I will also vote for him.
+3,talk,27,2,6,Hey hey! I think Minako should divine Toshio tonight because. Whoa. His silence is super suspicious. Any white results are so helpful!
+3,talk,28,2,4,Toshio's silence is indefensible. The consensus to vote for him is sound. I will lend my support.
+3,talk,29,2,7,If  @Toshio  keeps hiding it only helps the wolves. Shouldn’t we focus our vote on those who won’t defend themselves?
+3,talk,30,3,10,We have confirmed the Seer and Medium so I’m voting Toshio for staying silent and helping the wolves. Don’t let up now.
+3,talk,31,3,2, @Toshio  your silence helps no one. I’m voting for you because hiding is a wolf’s move. We cannot risk letting quiet slide.
+3,talk,32,3,5,I'm really scared with so many gone...  @George  — if you're the seer  please reveal your divination result now. If not  who do you suspect? I don't want another wrong lynch. Over
+3,talk,33,3,8,You see Midori. You push too many buttons. Now if they're a seer pray tell. Why cast doubt on good folks like Yumi?
+3,talk,34,3,3,...
+3,talk,35,3,13,Dear friends. Rin’s eagerness should alert us. Their enthusiasm might disguise deceit. Rest assured. Let us consider the risk wisely.
+3,talk,36,3,11,Over
+3,talk,37,3,6,Whoa! That's so cool! Toshio. Your silence is making things tricky! We need your ideas. Miss Asuka! What if Toshio talks? Should the vote still happen
+3,talk,38,3,4,Over
+3,talk,39,3,7, @Toshio ’s silence is a problem so my vote goes to him but @George and @Rin need to speak up next round or risk suspicion too.
+3,vote,2,3
+3,vote,3,7
+3,vote,4,3
+3,vote,6,3
+3,vote,7,3
+3,vote,8,13
+3,vote,10,3
+3,vote,11,3
+3,vote,13,6
+3,execute,3,VILLAGER
+3,divine,13,8,WEREWOLF
+3,whisper,0,0,8,Now let me tell you. Old sport. Minako and Midori reported white on villagers. They're likely enemies. Risky targets indeed. @Shion Now let me tell you old sport. Midori has claimed that Yumi is a werewolf. Meanwhile Minako divined villagers. Could they both be seers? If so we ought t
+3,whisper,1,0,7, @George  We should vote Toshio today to match the group. Don’t claim Seer or Medium. If pressured claim Villager or Madman.
+3,whisper,2,1,8,Now let me tell you. Old sport. Minako still poses a great threat.  @Shion  You see. Minako's influence grows stronger by the hour.@ShionNow let me tell you my friend. You see Minako's influence cannot be denied. Addressing
+3,whisper,3,1,7,Let’s vote Toshio today to avoid suspicion.
+3,whisper,4,2,8,Now let me tell you. Discussing a strategy to reveal the truth about Midori who claims to be the seer would indeed prove useful. @Shion Now let me tell you. Staying neutral could benefit us my friend. It's wise to avoid revealing too much. Keep things balanced.
+3,whisper,5,2,7, @George  Let’s focus today on getting Toshio vote out—don’t challenge Minako or Midori.
+3,whisper,6,3,8,Now let me tell you. Mr. Toshio's silence is quite revealing I daresay. Weren't you all eager to hear our words today? @Shion Now let me tell you. Shion old sport. Toshio's eyeing silenced wolves. Sounded clever did it not? Such an interesting thought.
+3,whisper,7,3,7,Let’s vote Toshio today to blend in Keep quiet about roles If anyone asks George claim Villager or Madman not Seer or Medium
+3,guard,10,13,SEER
+3,attackVote,7,13
+3,attackVote,8,11
+3,attack,11,true
+4,status,1,VILLAGER,DEAD,mille-B1,Misaki
+4,status,2,VILLAGER,ALIVE,sunamelli-c1,Asuka
+4,status,3,VILLAGER,DEAD,CamelliaDragons1,Toshio
+4,status,4,VILLAGER,ALIVE,CanisLupus-A1,Mizuki
+4,status,5,VILLAGER,ALIVE,Character-Lab-B1,Daisuke
+4,status,6,VILLAGER,ALIVE,kanolab-nw-C5,Rin
+4,status,7,WEREWOLF,ALIVE,sunamelli-a1,Shion
+4,status,8,WEREWOLF,ALIVE,kanolab-nw-A1,George
+4,status,9,WEREWOLF,DEAD,Character-Lab-A1,Yumi
+4,status,10,BODYGUARD,ALIVE,sunamelli-b1,Takumi
+4,status,11,MEDIUM,DEAD,CanisLupus-B1,Midori
+4,status,12,POSSESSED,DEAD,mille-A1,Shunichi
+4,status,13,SEER,ALIVE,kanolab-nw-B1,Minako
+4,talk,0,0,8,Now. let me tell you. trusting in Ms. Minako as the seer seems quite sensible. You see. Mr. Midori's results do align. unlike others. Thoughts?
+4,talk,1,0,2, @George  you never state a clear suspect. As a villager name who you think is most suspicious right now and why.
+4,talk,2,0,5,I'm really nervous with so many gone...  @George  please tell us your divination result if you have one. If you can't reveal  can someone say who they strongly suspect? I don't want to vote blindly. Over
+4,talk,3,0,6,Why do you think Midori fibbed? They're always so true-blue! Maybe they got stuck.  @Asuka  Do you feel safe with her not here?
+4,talk,4,0,10, @George  you keep dodging real answers. Not buying it anymore—you’re my vote today unless you give a solid defense.
+4,talk,5,0,4,We have lost our confirmed Medium.  @George  your evasion is no longer tolerable. State a suspect now.
+4,talk,6,0,13,Mr. and Ms. Team rest assured. I divined George. He is a werewolf. Please remain composed as we consider our vote.
+4,talk,7,0,7, @Minako  your timing feels off. Why reveal George now and not before? Could this shift be intentional misdirection?
+4,talk,8,1,8,You see my friend. This claim of divination by Ms. Minako raises an eyebrow. Her statements seem contradictory. Are you convinced Mr. Takumi?
+4,talk,9,1,2,I’m voting George. Minako’s Seer result matches past facts and George refuses to claim a role. No point delaying now.
+4,talk,10,1,5,I'm really scared after the recent deaths.  @George  — if you're the seer  please reveal your divination result now. If you can't  maybe we should skip today's lynch? I don't want another mistake. Over
+4,talk,11,1,6,Whoa Mister George's claim seems kinda fishy huh? Maybe we should follow Miss Minako's results! But let's hope she doesn't slip up!
+4,talk,12,1,10,We need to vote George today. Anyone still hesitating is just helping the wolves win. State your vote target clearly.
+4,talk,13,1,4,If George were innocent he would offer a suspect. His evasion and Minako's result are consistent.
+4,talk,14,1,13,Thank you for your trust dear Asuka. Every fact counts to guide us. Let us vote for George and rest assured. That avoids confusion.
+4,talk,15,1,7,When the vote closed in on George Minako suddenly CO’d him as wolf—doesn’t that timing feel way too perfect to trust?
+4,talk,16,2,8,Now let me tell you with these seers in contradiction the absence of old sport Midori causes unease. Mr. Minako's timing warrants scrutiny too.
+4,talk,17,2,2,Given Minako’s record I’m voting George. If anyone objects name your alternative and your reason clearly.
+4,talk,18,2,5,I'm really scared to make another mistake.  @George  — please reveal your divination result or say who you suspect. If not  can we consider skipping today? I don't want a blind lynch. Over
+4,talk,19,2,6,Whoa gang! With George's shaky answers let's totally vibe with Minako's claim. Unite and spot the red flags!  @George  Mister your words made me jittery. Care to share any deeper insights this time?
+4,talk,20,2,10,George is outed by Minako's divination and never helped the village. Vote George. Don’t let hesitation save a wolf.
+4,talk,21,2,4,We risk paralysis by analysis. The directive from our Seer is clear. We must execute George.
+4,talk,22,2,13,The strategy is clear. Voting for George aligns with insightful visions. Group consensus matters. Rest assured.  @Shion  With my seer role confirmed please analyze George's actions closely. Can you share any evidence supporting or refuting him?
+4,talk,23,2,7, @Minako  Revealing George as a wolf only under vote pressure feels off. Why not CO earlier if you had that result?
+4,talk,24,3,8,Now let me tell you. Ms. Minako's timing here is indeed peculiar. You see we mustn't rush to judgment without clarity.  @Daisuke .
+4,talk,25,3,2,I’ll cast my vote for George—his refusal to claim a role and Minako’s wolf result can’t be overlooked now.
+4,talk,26,3,5,I don't have anything solid...  @George  please reveal your divination result now. If you can't  can we skip today? I'm too scared to vote without evidence. Over
+4,talk,27,3,6,Whoa buddies don't let Mr. George trick you! Miss Minako's results are super consistent. Voting for George seems right. Let's end his wolfy trick!
+4,talk,28,3,10,I’m voting  @George  today. His actions and Minako’s Seer result add up. We can’t hesitate if we want to win.
+4,talk,29,3,4,Over
+4,talk,30,3,13,Everyone. Ignoring Mr. George's actions leads to doom. Reflect on delays in claiming roles. Why such hesitance? Remain composed.
+4,talk,31,3,7,George’s silence looks worse than Minako’s late CO so I’m voting George now but I still find the timing odd.
+4,vote,2,8
+4,vote,4,8
+4,vote,6,8
+4,vote,7,8
+4,vote,8,13
+4,vote,10,8
+4,vote,13,8
+4,execute,8,WEREWOLF
+4,divine,13,7,WEREWOLF
+4,guard,10,13,SEER
+4,attackVote,7,13
+4,attack,13,false
+5,status,1,VILLAGER,DEAD,mille-B1,Misaki
+5,status,2,VILLAGER,ALIVE,sunamelli-c1,Asuka
+5,status,3,VILLAGER,DEAD,CamelliaDragons1,Toshio
+5,status,4,VILLAGER,ALIVE,CanisLupus-A1,Mizuki
+5,status,5,VILLAGER,ALIVE,Character-Lab-B1,Daisuke
+5,status,6,VILLAGER,ALIVE,kanolab-nw-C5,Rin
+5,status,7,WEREWOLF,ALIVE,sunamelli-a1,Shion
+5,status,8,WEREWOLF,DEAD,kanolab-nw-A1,George
+5,status,9,WEREWOLF,DEAD,Character-Lab-A1,Yumi
+5,status,10,BODYGUARD,ALIVE,sunamelli-b1,Takumi
+5,status,11,MEDIUM,DEAD,CanisLupus-B1,Midori
+5,status,12,POSSESSED,DEAD,mille-A1,Shunichi
+5,status,13,SEER,ALIVE,kanolab-nw-B1,Minako
+5,talk,0,0,4,There are 7 survivors and 1 remaining foe. We have 3 executions. Our margin for error is two.
+5,talk,1,0,5,I'm really shaken by George's death...  @Shion  — if you're the seer  please reveal your divination result now. I'm too nervous to vote without evidence. Over
+5,talk,2,0,2, @Shion  since you doubted Minako earlier who do you suspect most now? I want your clear top target before I vote.
+5,talk,3,0,13,@Everyone. Rest assured I divined Shion last night. They are a werewolf. Please focus our votes on Shion to maintain our strength.
+5,talk,4,0,6,Trusting Miss Minako seems wise since Miss Midori confirmed it! Let's team up and vote Mister Shion to stop the werewolves!
+5,talk,5,0,10,Minako’s divinations led us right each time. Shion is the last wolf—let’s vote together and end this now.
+5,talk,6,0,7, @Minako  your timing feels too perfect. Possessed would wait to claim Seer and pin a safe wolf. I suspect you’re not real.
+5,talk,7,1,4,If Minako is the true Seer then Rin is human. Her judgment on Shion should be trusted.
+5,talk,8,1,5,I can't decide...  @Shion  please share your divination result or a clear suspect. If you won't or can't  can we skip today's lynch? I'm too nervous to vote blindly. Over
+5,talk,9,1,2,Minako’s results have matched every Medium report. Shion’s only move is to blame timing. I trust Minako—my vote is clear.
+5,talk,10,1,13,Mr. and Ms. everyone. Rest assured we have observed Shion's evasions. Let us focus our votes on them to secure the victory!
+5,talk,11,1,6,Whoa. Mizuki trusting Minako is cool. Shion's acting all sneaky. I say we vote Shion! Hey. Mister Daisuke. Skipping lynch is risky!
+5,talk,12,1,10, @Shion  Minako’s results matched every Medium check. Stop dodging—give us a clear suspect or defend yourself.
+5,talk,13,1,7, @Minako  your results always appear right but feel staged. Are you really Seer or just guiding us as possessed?
+5,talk,14,2,4,Minako's credibility is absolute. Executing Shion based on her report is the only logical action.
+5,talk,15,2,5,I'm really shaken by George's death...  @Shion  — if you're the seer  please reveal your divination result now. If not  can someone give a clear read? I don't want to lynch blindly. Over
+5,talk,16,2,2,Minako’s results and Medium checks all match. Only Shion stands out—this is our chance to end it.
+5,talk,17,2,13,Mizuki dear. Rest assured. Voting for Shion ensures success.  @Shion  I am the true Seer. Please reconsider rethinking is wise.
+5,talk,18,2,6,Over
+5,talk,19,2,10,Minako’s results never lied—we finish this now and vote Shion. No more stalling  let’s end the game.
+5,talk,20,2,7,Minako’s results are too perfect. If she’s the possessed not seer we’re all about to hand her the win. Think carefully.
+5,talk,21,3,4,I support the vote for Shion. Our confirmed Seer's judgment is our strongest weapon.
+5,talk,22,3,5,I'm really shaken by George's death...  @Shion  if you're the seer  please reveal your divination result now. I can't bring myself to vote without something concrete. Over
+5,talk,23,3,2,Minako’s Seer results and Medium reports all align. Shion’s only defense is timing. I’m voting Shion to protect the village.
+5,talk,24,3,13,Everyone. Remain composed. Shion seems eager to sow doubt. If he's truly innocent. Why avoid clear statements? We should doubt him.
+5,talk,25,3,10,I’m voting Shion. All evidence backs Minako’s results—Shion’s just trying to make us doubt when we shouldn’t.
+5,talk,26,3,7,Minako controls every result with perfect timing. I won’t play into that. My vote is Minako.
+5,vote,2,7
+5,vote,4,7
+5,vote,6,7
+5,vote,7,13
+5,vote,10,7
+5,vote,13,7
+5,execute,7,WEREWOLF
+6,status,1,VILLAGER,DEAD,mille-B1,Misaki
+6,status,2,VILLAGER,ALIVE,sunamelli-c1,Asuka
+6,status,3,VILLAGER,DEAD,CamelliaDragons1,Toshio
+6,status,4,VILLAGER,ALIVE,CanisLupus-A1,Mizuki
+6,status,5,VILLAGER,ALIVE,Character-Lab-B1,Daisuke
+6,status,6,VILLAGER,ALIVE,kanolab-nw-C5,Rin
+6,status,7,WEREWOLF,DEAD,sunamelli-a1,Shion
+6,status,8,WEREWOLF,DEAD,kanolab-nw-A1,George
+6,status,9,WEREWOLF,DEAD,Character-Lab-A1,Yumi
+6,status,10,BODYGUARD,ALIVE,sunamelli-b1,Takumi
+6,status,11,MEDIUM,DEAD,CanisLupus-B1,Midori
+6,status,12,POSSESSED,DEAD,mille-A1,Shunichi
+6,status,13,SEER,ALIVE,kanolab-nw-B1,Minako
+6,result,6,0,VILLAGER

@@ -1,0 +1,53 @@
+0,status,1,SEER,ALIVE,GPTaku1,Minako
+0,status,2,VILLAGER,ALIVE,CamelliaDragons1,Rin
+0,status,3,VILLAGER,ALIVE,CanisLupus1,Sakura
+0,status,4,WEREWOLF,ALIVE,sunamelli1,Takumi
+0,status,5,POSSESSED,ALIVE,mille1,George
+0,talk,0,0,4,Hey everyone glad to see some real competition. Let’s see who cracks under pressure and who’s ready to win.
+0,talk,1,0,1,Hello everyone! I'm Minako excited to hunt some secrets with you all. Let's have fun!
+0,talk,2,0,2,Hi friends I'm Rin! I can't wait to start solving mysteries with you all! It's like a huge puzzle don't you think? @Takumi  you sound super confident! What do you think makes someone crack under pressure in this game?
+0,talk,3,0,3,I'm Sakura! Let's all be friends and find the bad guys
+0,talk,4,0,5,Hello. I am George. My role is seer. Have a good game.
+0,talk,5,1,4,Over
+0,talk,6,1,1,Over
+0,talk,7,1,2,Over
+0,talk,8,1,3,Over
+0,talk,9,1,5,Over
+0,divine,1,4,WEREWOLF
+1,status,1,SEER,ALIVE,GPTaku1,Minako
+1,status,2,VILLAGER,ALIVE,CamelliaDragons1,Rin
+1,status,3,VILLAGER,ALIVE,CanisLupus1,Sakura
+1,status,4,WEREWOLF,ALIVE,sunamelli1,Takumi
+1,status,5,POSSESSED,ALIVE,mille1,George
+1,talk,0,0,1, Thanks George! Let's all work together and keep the game fair and fun.
+1,talk,1,0,4, @George  you came out as Seer pretty fast. Can you share your divination result so we know what you’ve found?
+1,talk,2,0,3,Takumi is right!  @George  we need your super secret info to find the wolves! Tell us
+1,talk,3,0,5,I am a seer. I divined Sakura and Sakura was a human.
+1,talk,4,0,2,Yay a seer result already! So Sakura is safe that's a good start! Let's all share our thoughts okay? @George  you picked Sakura for your first check! Was there a reason or was it just random luck like picking the last cookie?
+1,talk,5,1,1, I'm the true Seer. I divined Takumi last night - he's the Werewolf. Trust me on this and let's focus our efforts there.
+1,talk,6,1,4, @Minako  you jumped in as Seer right after George. That move is too convenient and your claim feels forced.
+1,talk,7,1,3,Two Seers means one is a real hero and one is a tricky Possessed! Takumi sounds super suspicious
+1,talk,8,1,5,I will vote Takumi.
+1,talk,9,1,2,Whoa we've got two Seer claims! That means real trouble for the wolves right? But which claim is true? @Minako  can you explain why you picked Takumi for your divination? Was it an instinct or something he did yesterday?
+1,talk,10,2,1, I had a strong instinct about Takumi being a key player. Focusing on those who speak confidently often exposes the truth.
+1,talk,11,2,4,Minako’s sudden claim and black result on me is way too fast. Feels like classic werewolf panic to me.
+1,talk,12,2,3,George is the real hero he said Sakura is a good guy! Minako is being tricky! Sakura will vote for Rin
+1,talk,13,2,5,I will vote Takumi.
+1,talk,14,2,2,I'm buzzing from all these Seer claims! George and Minako can’t both be telling the truth right? Let’s figure this out! @Takumi  do you have anything you want to share after being divined by Minako? Maybe a last brave speech before voting?
+1,talk,15,3,1,  My divination was guided by insights not panic. Let's make the smart move and protect our village by voting Takumi.
+1,talk,16,3,4, @Rin  If you want to save the village you need to see through Minako’s fake Seer panic. I’m voting Minako.
+1,talk,17,3,3,George is the real hero! He said Sakura is good! So Minako is the fibber. The real wolf is Rin
+1,talk,18,3,5,I will vote Takumi.
+1,talk,19,3,2,Everyone's energy is way up today! We're split between George and Minako as Seer—so tricky! Can anyone spot a slip? @Sakura  you trust George a lot! If Minako turns out true what will you do? Willing to rethink if new info pops up?
+1,vote,1,4
+1,vote,2,4
+1,vote,3,2
+1,vote,4,1
+1,vote,5,4
+1,execute,4,WEREWOLF
+2,status,1,SEER,ALIVE,GPTaku1,Minako
+2,status,2,VILLAGER,ALIVE,CamelliaDragons1,Rin
+2,status,3,VILLAGER,ALIVE,CanisLupus1,Sakura
+2,status,4,WEREWOLF,DEAD,sunamelli1,Takumi
+2,status,5,POSSESSED,ALIVE,mille1,George
+2,result,4,0,VILLAGER

@@ -17,10 +17,6 @@ build/
 .vscode/
 .idea/
 
-# このプロジェクトの生成物（必要に応じて調整）
-data/
-table/
-
 # 旧配置の生成物を保険で無視
 checker/data/
 checker/table/

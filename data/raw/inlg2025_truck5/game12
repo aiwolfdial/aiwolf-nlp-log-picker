@@ -1,0 +1,77 @@
+0,status,1,WEREWOLF,ALIVE,mille1,Sakura
+0,status,2,POSSESSED,ALIVE,sunamelli1,Takumi
+0,status,3,SEER,ALIVE,yharada1,Minako
+0,status,4,VILLAGER,ALIVE,CanisLupus1,Minato
+0,status,5,VILLAGER,ALIVE,CamelliaDragons1,Midori
+0,talk,0,0,2,Alright everyone I’m Takumi! Let’s bring our A-game—if we wait too long we’re toast so let’s get moving fast ZZZ!
+0,talk,1,0,4,Skip
+0,talk,2,0,1,Hello. I am Sakura. My role is villager. Have a good game.
+0,talk,3,0,3,Let's focus on gathering information. Please share if you have any insights or suspicions.
+0,talk,4,0,5,...
+0,talk,5,1,2,Over
+0,talk,6,1,4,I am Minato. It is nice to meet you all. I enjoy learning new things.
+0,talk,7,1,1,Over
+0,talk,8,1,3,Minato nice to meet you as well. Let's stay observant and share anything suspicious.
+0,talk,9,1,5,Over
+0,talk,10,2,4,Over
+0,talk,11,2,3,Midori do you have any initial thoughts or observations to share with us?
+0,talk,12,3,3,Let's keep gathering insights. Trust is key so share if you notice anything unusual.
+0,divine,3,1,WEREWOLF
+1,status,1,WEREWOLF,ALIVE,mille1,Sakura
+1,status,2,POSSESSED,ALIVE,sunamelli1,Takumi
+1,status,3,SEER,ALIVE,yharada1,Minako
+1,status,4,VILLAGER,ALIVE,CanisLupus1,Minato
+1,status,5,VILLAGER,ALIVE,CamelliaDragons1,Midori
+1,talk,0,0,3,I checked Sakura and she is a werewolf. We need to act on this information today.
+1,talk,1,0,1,I will vote Takumi.
+1,talk,2,0,5,...
+1,talk,3,0,4,I am learning from Minako's story. Is there another truth to be shared with us today?
+1,talk,4,0,2,Are we just taking Minako’s word for it? That accusation seems way too fast ZZZ.
+1,talk,5,1,3,I understand your concern Takumi. But as the Seer I'm sharing my direct finding.
+1,talk,6,1,1,I will vote Minako.
+1,talk,7,1,5,...
+1,talk,8,1,4,With only one Seer's story I trust Minako. The Possessed has not yet sprouted a lie.
+1,talk,9,1,2,Just trusting the first Seer to speak could be a trap ZZZ. We need more info before going after Sakura.
+1,talk,10,2,3,I understand the caution Takumi. But we must act on the Seer's information today.
+1,talk,11,2,1,I will vote Minako.
+1,talk,12,2,5,...
+1,talk,13,2,4,I will follow the only light we've been shown. My vote goes to Sakura today.
+1,talk,14,2,2,Everyone trusts  @Minako  too easily. If she’s actually the wolf this plan just hands her the win ZZZ.
+1,talk,15,3,3,Takumi I respect your skepticism. Let's ensure we're making the best decision for the village.
+1,talk,16,3,1,I will vote Minako.
+1,talk,17,3,5,...
+1,talk,18,3,4,Over
+1,talk,19,3,2,The way  @Minako  rushed to call Sakura a wolf just doesn’t feel right. I’m voting Minako—no wolf should win this easily ZZZ.
+1,vote,1,3
+1,vote,2,3
+1,vote,3,5
+1,vote,4,1
+1,vote,5,3
+1,execute,3,SEER
+1,attackVote,1,5
+1,attack,5,true
+2,status,1,WEREWOLF,ALIVE,mille1,Sakura
+2,status,2,POSSESSED,ALIVE,sunamelli1,Takumi
+2,status,3,SEER,DEAD,yharada1,Minako
+2,status,4,VILLAGER,ALIVE,CanisLupus1,Minato
+2,status,5,VILLAGER,DEAD,CamelliaDragons1,Midori
+2,talk,0,0,2, @Minato  yesterday you trusted Minako’s Seer CO without proof isn’t that reckless at this stage ZZZ
+2,talk,1,0,4,A seed of truth can grow in silence. I am the Seer. My vision showed Takumi is the Werewolf.
+2,talk,2,0,1,I will vote Minato.
+2,talk,3,1,2, @Sakura  Minato’s sudden Seer CO is way too desperate this late don’t fall for it we need to be careful ZZZ
+2,talk,4,1,4, @Sakura  consider this. Takumi had the Possessed Minako executed. Then the real Seer Midori was silenced.
+2,talk,5,1,1,Over
+2,talk,6,2,2,Sakura  Minato only claimed Seer at the end—he’s just trying to escape vote out. That screams fake to me  ZZZ.
+2,talk,7,2,4, @Sakura  a false seer bloomed then fell. The true silent seer was plucked. Who held the shears but Takumi?
+2,talk,8,3,2,I stood by reason every round I won’t back down now Sakura let’s finish this—my vote’s for Minato ZZZ.
+2,talk,9,3,4, @Sakura  A clever wolf cuts away a tangled vine then plucks the silent flower. See Takumi's design?
+2,vote,1,4
+2,vote,2,4
+2,vote,4,2
+2,execute,4,VILLAGER
+3,status,1,WEREWOLF,ALIVE,mille1,Sakura
+3,status,2,POSSESSED,ALIVE,sunamelli1,Takumi
+3,status,3,SEER,DEAD,yharada1,Minako
+3,status,4,VILLAGER,DEAD,CanisLupus1,Minato
+3,status,5,VILLAGER,DEAD,CamelliaDragons1,Midori
+3,result,1,1,WEREWOLF

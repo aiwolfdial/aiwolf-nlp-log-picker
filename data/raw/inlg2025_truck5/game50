@@ -1,0 +1,72 @@
+0,status,1,SEER,ALIVE,Character-Lab1,Shizue
+0,status,2,VILLAGER,ALIVE,sunamelli1,Benjamin
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Servas
+0,status,4,WEREWOLF,ALIVE,mille1,Jonathan
+0,status,5,POSSESSED,ALIVE,kanolab-nw1,Shion
+0,talk,0,0,3,I am Servas a humble villager old as the hills and twice as gentle. I hope to hear your hearts today friends.
+0,talk,1,0,5,Hello. I'm Shion. Thrilled to partake in this game with you all. Let's aim for a strategic victory together! Over.
+0,talk,2,0,1,Good morning  friends. Thank you  Servas and Shion. I felt a little uneasy about  @Benjamin  earlier — could you share what you're thinking and why you acted that way? Everyone else  any small impressions you noticed? Let's speak kindly. Over
+0,talk,3,0,2,How intriguing everyone Ready for a contest of logic and wit rather than mere chance? May we keep suspicions lively
+0,talk,4,0,4,Hello. I am Jonathan. My role is villager. Have a good game.
+0,talk,5,1,3,Over
+0,talk,6,1,5,Over
+0,talk,7,1,1,Thank you  Benjamin.  @Benjamin   your remark sounded a bit theatrical — did you notice anything odd last night or are you trying to spark the conversation? Jonathan  you quickly said yo
+0,talk,8,1,2,Over
+0,talk,9,1,4,Over
+0,talk,10,2,1,I still feel uneasy about  @Benjamin . If no one else has clear information  shall we take a vote? Please say briefly who you vote to lynch or "pass". Over
+0,talk,11,3,1,I vote to lynch  @Benjamin . I'm uneasy about his behavior — it felt off. Over
+0,divine,1,2,HUMAN
+1,status,1,SEER,ALIVE,Character-Lab1,Shizue
+1,status,2,VILLAGER,ALIVE,sunamelli1,Benjamin
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Servas
+1,status,4,WEREWOLF,ALIVE,mille1,Jonathan
+1,status,5,POSSESSED,ALIVE,kanolab-nw1,Shion
+1,talk,0,0,2, @Shizue  accusing based on tone alone isn’t logical. Who else stands out as suspicious to you today?
+1,talk,1,0,1,I was uneasy before  but I don't have solid evidence now.  @Jonathan  you said you were a villager early — what made you announce so quickly? Everyone else  please share any little oddities you've noticed. Over
+1,talk,2,0,3,My friends each dawn brings new light. Pause observe kindly: share not just what you see but why you feel so. @Jonathan  I have often found that swift declarations can conceal or reveal much. Was there reason for your early claim?
+1,talk,3,0,4,I will vote Shizue.
+1,talk,4,0,5,I divined Servas as a Werewolf. Let's analyze this carefully. Emotional reactions only cloud judgment. Any thoughts on this everyone?
+1,talk,5,1,2, @Servas  do you admit Shion’s Seer claim or will you CO yourself? Your silence after being shown black is troubling.
+1,talk,6,1,1,My dears  I must be honest now — I'm the seer. Last night I divined Benjamin and he was HUMAN. I'm sorry I was hasty accusing him earlier.  @Shion   you said Servas is werewolf — when did you divine and why do you trust that result? Please  friends  reconsider and share what you saw. Over
+1,talk,7,1,3,Accusations spread fast friends! I'm just a villager wrongly accused. @Shion  why did you divine me? Can we trust two seers showing up at once?
+1,talk,8,1,4,Over
+1,talk,9,1,5,Our goal might be to align our divination with the claims of being a Seer. What do you deduce from this notion?
+1,talk,10,2,2,With two Seers exposed someone is lying. I lean toward voting Servas if Shion’s claim isn’t challenged. Thoughts?
+1,talk,11,2,1,My dears — as I said  I'm the seer and I divined Benjamin as HUMAN last night. If  @Shion  truly saw Servas as WOLF  then either there are two seers or someone is lying. @Shion  when did you divine Servas and what made you confident in that resul
+1,talk,12,2,3,Wisdom grows with patience. Both Shizue and Shion claim Seer—a puzzle. Let us weigh gently. @Benjamin  when two clashed before haste led to regret. Why do you trust Shion over Shizue so quickly?
+1,talk,13,2,5,Shizue's claim clashes with me. Servas is a Werewolf. We should vote him out!  @Servas  Cornered here? Any revelations perhaps?
+1,talk,14,3,2,Shizue cleared me as human so I’ll vote Servas. If anyone objects or has new evidence speak up before voting.
+1,talk,15,3,1,My dears  I already said I divined Benjamin as HUMAN — so either Shion's seer claim is false or something strange is afoot.  @Jonathan  you voted me so quickly — may I ask why? That hurried vote feels suspicious. I’m leaning to vote Jonathan unless someone gives a clear reason not to. Ple
+1,talk,16,3,3,My heart remains steady despite being under suspicion. If we slow down and listen truths often emerge quietly among us. @Shion  your gaze fell on me so soon. Was it intuition or a reason from my words or ways? Reflection can reveal much.
+1,talk,17,3,5,Servas's serene act seems typical werewolf misdirection. Maximus if we don't vote for him now the regret might haunt us.
+1,vote,2,3
+1,vote,3,5
+1,vote,4,3
+1,vote,5,3
+1,execute,3,VILLAGER
+1,attackVote,4,2
+1,attack,2,true
+2,status,1,SEER,ALIVE,Character-Lab1,Shizue
+2,status,2,VILLAGER,DEAD,sunamelli1,Benjamin
+2,status,3,VILLAGER,DEAD,CamelliaDragons1,Servas
+2,status,4,WEREWOLF,ALIVE,mille1,Jonathan
+2,status,5,POSSESSED,ALIVE,kanolab-nw1,Shion
+2,talk,0,0,5,Jonathan. I divined you as a Werewolf. Let's channel our votes wisely today to mitigate this hairy predicament.
+2,talk,1,0,4,I will vote Shizue.
+2,talk,2,0,1,Oh my — Benjamin was attacked and Servas was lynched. I divined Benjamin HUMAN  so Shion’s claim looks suspicious.  @Jonathan  please tell us your role and why you voted me earlier; if you won’t  I’ll have to vote for you. Please decide quickly. Over
+2,talk,3,1,5,I propose we direct our divination efforts towards either Jonathan or Shizue tonight. Clarity is needed on their doubts and claims.
+2,talk,4,1,4,Over
+2,talk,5,1,1,My dears  Servas was lynched and Benjamin attacked. I divined Benjamin HUMAN earlier  so  @Shion  your seer claim worries me — when did you divine Servas and why so sure? Jonathan  please tell us your role and why you voted for me; otherwise I must consi
+2,talk,6,2,5,Jonathan. With Benjamin out and Servas gone. I'm curious why the swift vote against Shizue. Clarity aids our decisions.
+2,talk,7,2,1,My dears — I divined Benjamin as HUMAN last night  so I'm troubled by Shion’s claim.  @Shion  please tell us exactly when you divined Servas and what you saw  and why you trust that result. Jonathan  could you explain why you voted for me? Everyone
+2,talk,8,3,5,Jonathan. Your voting speed and slippery answers suit a lycanthrope's shrewdness all too well. One mistrust and all collapses.
+2,talk,9,3,1,My dears — I already said I divined Benjamin HUMAN.  @Shion  when did you divine Servas and what made you confident in that result? Jonathan  why did you vote for me earlier — please explain your reasoning or revea
+2,vote,4,1
+2,vote,5,4
+2,execute,4,WEREWOLF
+3,status,1,SEER,ALIVE,Character-Lab1,Shizue
+3,status,2,VILLAGER,DEAD,sunamelli1,Benjamin
+3,status,3,VILLAGER,DEAD,CamelliaDragons1,Servas
+3,status,4,WEREWOLF,DEAD,mille1,Jonathan
+3,status,5,POSSESSED,ALIVE,kanolab-nw1,Shion
+3,result,2,0,VILLAGER

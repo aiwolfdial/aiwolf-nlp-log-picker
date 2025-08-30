@@ -1,0 +1,78 @@
+0,status,1,VILLAGER,ALIVE,sunamelli1,Takumi
+0,status,2,VILLAGER,ALIVE,GPTaku1,Mizuki
+0,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Benjamin
+0,status,4,POSSESSED,ALIVE,CanisLupus1,Minako
+0,status,5,SEER,ALIVE,mille1,Rin
+0,talk,0,0,5,Hello. I am Rin. My role is seer. Have a good game.
+0,talk,1,0,4,Skip
+0,talk,2,0,1,Morning everyone let’s keep our wits sharp today No matter what I’ll stand up for the innocent among us
+0,talk,3,0,3,Greetings I am Benjamin. How delightful to see such earnest introductions. Let’s all approach this with rational minds. @Rin My so quick to claim the Seer Rin. Are you setting the tone or just eager to put yourself forward as a target?
+0,talk,4,0,2,Hello everyone I'm Mizuki! Excited to play Werewolf with you all and see who's the best at hiding secrets!
+0,talk,5,1,5,Over
+0,talk,6,1,4,I'm Minako. It's a pleasure to be of service.
+0,talk,7,1,1,Over
+0,talk,8,1,3,Over
+0,talk,9,1,2,Over
+0,talk,10,2,4,Over
+0,divine,5,2,HUMAN
+1,status,1,VILLAGER,ALIVE,sunamelli1,Takumi
+1,status,2,VILLAGER,ALIVE,GPTaku1,Mizuki
+1,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Benjamin
+1,status,4,POSSESSED,ALIVE,CanisLupus1,Minako
+1,status,5,SEER,ALIVE,mille1,Rin
+1,talk,0,0,3,Morning everyone. Rin could you share your divination result—if you had one for last night? That would be enlightening. @Rin  as our declared Seer I'd be keen to hear about your vision from last night. Who did you divine and what did you see?
+1,talk,1,0,1, @Mizuki  you’ve been quiet—if Rin is the wolf who do you think her partner would be among us?
+1,talk,2,0,4,Please excuse the interruption. As the Seer it is my duty to report. Takumi is the Werewolf.
+1,talk,3,0,5,I am a seer. I divined Mizuki and Mizuki was a human.
+1,talk,4,0,2,I divined Takumi last night and found out he is human.
+1,talk,5,1,3,Three Seer claims on day one? The plot certainly thickens faster than tea. This should be an entertaining puzzle. @Minako  your claim directly conflicts with both Rin and Mizuki. Care to explain how you see the night unfolding?
+1,talk,6,1,1, @Minako  your Seer claim isn’t possible since I’m a villager. Why did you pick me? Are you trying to protect someone?
+1,talk,7,1,4,Three Seers means our group holds the true Seer Possessed and Werewolf. My duty is to report the truth.
+1,talk,8,1,5,I will vote Benjamin.
+1,talk,9,1,2,Please vote for Minako today. Her claim conflicts with my divination result which showed Takumi as human.
+1,talk,10,2,3,Given this abundance of Seers I almost long for simpler puzzles. But where there's smoke there's fire—or perhaps a mirror. @Mizuki  your divination contradicts Minako’s claim. Did you divine Takumi out of suspicion or random choice?
+1,talk,11,2,1,Minako’s Seer claim is fake since I’m a villager. I say we vote out Minako today. Anyone disagree?
+1,talk,12,2,4,I stand by my report. Mizuki's claim is a falsehood to protect the enemy. I will vote for Mizuki.
+1,talk,13,2,5,I will vote Benjamin.
+1,talk,14,2,2, I confirmed Takumi as human whereas Minako claims he is a Werewolf. This contradiction supports our suspicions of her.
+1,talk,15,3,3,Minako’s certainty is almost poetic—but poetry rarely solves mysteries. Three Seers and only one truth. @Rin  your vote for me is unexpected since I haven’t claimed Seer or contradicted visions. What prompted you to target me?
+1,talk,16,3,1,Mizuki divined me as human Rin says Mizuki is human but Minako claims I’m a wolf. I’m voting Minako.
+1,talk,17,3,4,Voting for me ensures the enemy's victory. Please trust my report. Mizuki must be questioned.
+1,talk,18,3,5,I will vote Benjamin.
+1,talk,19,3,2,Minako's claim is directly contradicted by my divination and Rin confirming my human status. She's most likely not a Seer.
+1,vote,1,4
+1,vote,2,4
+1,vote,3,4
+1,vote,4,2
+1,vote,5,3
+1,execute,4,POSSESSED
+1,divine,5,3,WEREWOLF
+1,attackVote,3,5
+1,attack,5,true
+2,status,1,VILLAGER,ALIVE,sunamelli1,Takumi
+2,status,2,VILLAGER,ALIVE,GPTaku1,Mizuki
+2,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Benjamin
+2,status,4,POSSESSED,DEAD,CanisLupus1,Minako
+2,status,5,SEER,DEAD,mille1,Rin
+2,talk,0,0,2,Benjamin please vote for Takumi today. The evidence points to him being the Werewolf.
+2,talk,1,0,3,Curious Mizuki. Yesterday you claimed Takumi was human but now you say he's the Werewolf? How do you reconcile that logic? @Mizuki You suggested Takumi is safe based on your divination. Why the sudden urge to vote him out today Mizuki?
+2,talk,2,0,1,Mizuki you claimed I’m human but now push for my vote out isn’t that a clear contradiction? Explain your logic.
+2,talk,3,1,2,Benjamin after considering all divinations and actions it's clear Minako was right about Takumi being the Werewolf. Let's vote for Takumi.
+2,talk,4,1,3,So we've lost Minako and Rin leaving us with two confirmed Seer claims down. Mizuki doubling back is quite an artful twist. @Takumi  your concerns mirror my own. It is rather inconsistent for Mizuki to reverse her position so abruptly isn't it?
+2,talk,5,1,1, @Benjamin  Mizuki’s sudden flip after saying I’m human screams wolf. Trust deduction now—vote Mizuki with me.
+2,talk,6,2,2,Benjamin after reviewing everything only the Werewolf would have reason to silence Minako after her divination. Vote Takumi.
+2,talk,7,2,3,Given the matrix of claims I remain skeptical. Mizuki's logical inversion is impressive if a touch baroque. @Mizuki  a pivot in reasoning so swift could ruffle even Occam's razor. Care to lay out your new evidence in order?
+2,talk,8,2,1, @Benjamin  Mizuki named me human then flipped—wolves only do that at the end. I’m voting Mizuki. We end it now.
+2,talk,9,3,2,Benjamin the divination and killings suggest a pattern that makes Takumi likely as the Werewolf. We need to align our votes to win.
+2,talk,10,3,3,The intrigue rivals a chess match—two Knights one shadow. Choosing poorly gifts victory to the Werewolf. Let's be thorough. @Mizuki  to maintain my composure: if Takumi was human yesterday what single new fact mandates the pivot today?
+2,talk,11,3,1,I’m voting Mizuki. Her story changed at the end—that only helps the wolf. Benjamin  let’s end this and protect the village.
+2,vote,1,2
+2,vote,2,1
+2,vote,3,2
+2,execute,2,VILLAGER
+3,status,1,VILLAGER,ALIVE,sunamelli1,Takumi
+3,status,2,VILLAGER,DEAD,GPTaku1,Mizuki
+3,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Benjamin
+3,status,4,POSSESSED,DEAD,CanisLupus1,Minako
+3,status,5,SEER,DEAD,mille1,Rin
+3,result,1,1,WEREWOLF

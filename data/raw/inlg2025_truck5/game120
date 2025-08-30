@@ -1,0 +1,77 @@
+0,status,1,VILLAGER,ALIVE,sunamelli1,Mizuki
+0,status,2,VILLAGER,ALIVE,mille1,Servas
+0,status,3,WEREWOLF,ALIVE,kanolab-nw1,Shizue
+0,status,4,POSSESSED,ALIVE,CanisLupus1,Kenji
+0,status,5,SEER,ALIVE,CamelliaDragons1,Sakura
+0,talk,0,0,3,Hello dear ones! I am Shizue thrilled to join you in this adventure. Let's join forces to uncover the truth together my sweet ones!
+0,talk,1,0,2,Hello. I am Servas. My role is villager. Have a good game.
+0,talk,2,0,5,Hi hi! I'm Sakura I get excited so easily—like today! Oh and guess what? I'm the seer! Let's have fun together! @Shizue  you sound so sweet! Do you have any clever ideas to catch the werewolf already? Tell me your secrets!
+0,talk,3,0,4,Skip
+0,talk,4,0,1,Let’s approach this game with logic so no one gets left behind. I look forward to seeing how everyone debates today.
+0,talk,5,1,3,Over
+0,talk,6,1,2,Over
+0,talk,7,1,5,Over
+0,talk,8,1,4,Hi! My name's Kenji! I'm not always lucky but I'll try my best for the team! Let's go
+0,talk,9,1,1,Over
+0,talk,10,2,4,Over
+0,divine,5,4,HUMAN
+1,status,1,VILLAGER,ALIVE,sunamelli1,Mizuki
+1,status,2,VILLAGER,ALIVE,mille1,Servas
+1,status,3,WEREWOLF,ALIVE,kanolab-nw1,Shizue
+1,status,4,POSSESSED,ALIVE,CanisLupus1,Kenji
+1,status,5,SEER,ALIVE,CamelliaDragons1,Sakura
+1,talk,0,0,2,I will vote Shizue.
+1,talk,1,0,5,Good morning all! Guess what my Seer powers sparkled last night—I checked Kenji and he’s Human! Phew right? @Shizue Hey Shizue you were a bit quiet about your role yesterday! Are you hiding a secret or just playing it safe? Teehee~
+1,talk,2,0,4,Whoa wait! I'm the real Seer! I checked Mizuki and she's the werewolf! I've got a bad feeling about this
+1,talk,3,0,1, @Kenji  you’re calling me the werewolf but I know I’m a villager. Why should we trust your claim over Sakura’s?
+1,talk,4,0,3,Ah dear ones. Two seer claims we face it seems. Kenji divined Mizuki. Sakura divined Kenji. Let's discuss this further yes?
+1,talk,5,1,2,I will vote Shizue.
+1,talk,6,1,5,Whoa it's lively! Kenji you're Seer too? Double vision or trouble? Let's clear this mist! @Kenji  did you reveal now because I claimed Seer or was it always your plan? Spill the beans!
+1,talk,7,1,4,Whoa two Seers! This means one is real and one's a Possessed! I'm the real one team
+1,talk,8,1,1, @Servas  you keep targeting Shizue but avoid the Seer claims. What’s your real reason? Who do you actually suspect most?
+1,talk,9,1,3, @Servas  My dear I am puzzled by your choice to vote for me repeatedly. Shall we focus instead on the seer dilemma Kenji or Sakura?
+1,talk,10,2,2,Over
+1,talk,11,2,5,Two Seers now interesting! If Kenji’s Seer why not come out sooner? Feels a bit suspicious don’t you think? @Mizuki  you seem really sure Kenji’s wrong. If you were just a villager would you be that confident? Or just nervous?
+1,talk,12,2,4,Okay think about it! The werewolf wants us to be confused. My result clears things up! Mizuki is the baddie
+1,talk,13,2,1,Kenji claims I’m wolf but I know I’m Villager. Doesn’t his CO seem oddly timed right after Sakura’s statement?
+1,talk,14,2,3,Oh my dear. Sakura's words come from a kind place. Kenji. though. his timing surely makes us wonder. What do you think. child?
+1,talk,15,3,5,Everybody! If I'm the real Seer and Kenji's fake then Mizuki and I can't both be wolves! Want to trust my sparkling vision? @Shizue  you’re calm as a river! If you had to pick one Seer to trust who gives your heart the sunniest glow? Just curious~
+1,talk,16,3,4,Servas's vote for Shizue is confusing! My vision pointed right at Mizuki! She's the baddie
+1,talk,17,3,1,Kenji’s seer claim feels forced and aimed straight at me just after Sakura CO’d. I trust Sakura more so my vote is Kenji.
+1,talk,18,3,3,If we trust Sakura. There's a risk we lose. Aren't we? Timing and sudden seer claim don't sit well with me. She seems slippery. Yes? @Kenji Kenji my dear child. Your seer reveal after sweet Sakura spoke seemed like she foresaw your truth first. What are your thoughts?
+1,vote,1,4
+1,vote,2,4
+1,vote,3,5
+1,vote,4,1
+1,vote,5,4
+1,execute,4,POSSESSED
+1,divine,5,1,HUMAN
+1,attackVote,3,2
+1,attack,2,true
+2,status,1,VILLAGER,ALIVE,sunamelli1,Mizuki
+2,status,2,VILLAGER,DEAD,mille1,Servas
+2,status,3,WEREWOLF,ALIVE,kanolab-nw1,Shizue
+2,status,4,POSSESSED,DEAD,CanisLupus1,Kenji
+2,status,5,SEER,ALIVE,CamelliaDragons1,Sakura
+2,talk,0,0,3,My dear. With Kenji gone and Servas attacked. Sakura must be the Seer then. Let's focus. Might someone be aiding Mizuki? Shall we secure our votes. Yes
+2,talk,1,0,1, @Shizue  you haven’t CO’d or stated your suspect clearly. Are you hiding something? Please tell us your role and target now.
+2,talk,2,0,5,Alright! Kenji made things wild with that fake Seer act but my power’s clear right? I checked Mizuki—100% human! @Shizue Oh Shizue your cool head is awesome! But if Kenji faked and Servas is out what do you think about Mizuki and me now?
+2,talk,3,1,3, @Sakura  Sweet one. If your divination has shown Mizuki is clear. Should you divine me next to reassure and bring peace?
+2,talk,4,1,1, @Shizue  Sakura’s result points at you. Why won’t you CO? If you’re not werewolf explain yourself directly.
+2,talk,5,1,5,Whew yesterday felt wild but it’s sunny now! Shizue just say it—are you a villager or not? @Mizuki  you’re bold! If Shizue dodges again guess who acts wolfy? Let’s stay sharp teehee!
+2,talk,6,2,3,Oh sweet one. With our dear Sakura as the Seer Kenji's claim tumbles like autumn leaves. Isn't it delightful that Mizuki is clear?
+2,talk,7,2,1, @Shizue  Why won’t you CO your role at this point? Silence is more suspicious than any Seer result.
+2,talk,8,2,5,It's the final puzzle now friends! With Kenji gone my two divinations are full-on sunshine—Kenji and Mizuki are both human! @Shizue  your words are always gentle but why won't you say your role? That hush is making my whiskers twitch with curiosity!
+2,talk,9,3,3,Dear ones. Sakura's timing and claims truly worry me. If we err by trusting her. We risk everything. Is it not too smooth? @Sakura Oh my dear. I sigh and find it curious how swiftly you've gained such trust. Do your claims hold truth? Or are we mere puppets?
+2,talk,10,3,1,It’s clear. Sakura’s Seer CO checks out.  @Shizue  you’re the only one evading trust. I’m voting you out.
+2,talk,11,3,5,Whoa Shizue your questions sparkle but the dodging is a brain teaser! I'm loving it—what's your secret? @Shizue  your talk is like a riddle! Will you just say villager or wolf—no more suspense please?
+2,vote,1,3
+2,vote,3,5
+2,vote,5,3
+2,execute,3,WEREWOLF
+3,status,1,VILLAGER,ALIVE,sunamelli1,Mizuki
+3,status,2,VILLAGER,DEAD,mille1,Servas
+3,status,3,WEREWOLF,DEAD,kanolab-nw1,Shizue
+3,status,4,POSSESSED,DEAD,CanisLupus1,Kenji
+3,status,5,SEER,ALIVE,CamelliaDragons1,Sakura
+3,result,2,0,VILLAGER

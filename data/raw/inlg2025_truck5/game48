@@ -1,0 +1,78 @@
+0,status,1,POSSESSED,ALIVE,CamelliaDragons1,Asuka
+0,status,2,SEER,ALIVE,GPTaku1,Shunichi
+0,status,3,VILLAGER,ALIVE,yharada1,Servas
+0,status,4,VILLAGER,ALIVE,sunamelli1,Jonathan
+0,status,5,WEREWOLF,ALIVE,Character-Lab1,Daisuke
+0,talk,0,0,2,Hello everyone! I'm Shunichi ready to outsmart and uncover werewolves among us. Let's have a thrilling game!
+0,talk,1,0,5,Hi Shunichi... I'm not great at talking  so I'll mostly listen. But  @Asuka 's calmness makes me uneasy — any role claims or reads from others? Over
+0,talk,2,0,3,Greetings everyone. Let's work together and trust our instincts to find the truth.
+0,talk,3,0,4,Good evening everyone. I hope our quiet town can avoid chaos tonight.
+0,talk,4,0,1,I'm the Seer. I will share my first divination result tomorrow morning. @Daisuke  my attitude comes from focusing on logic not from hiding something. No reads yet.
+0,talk,5,1,2,Over
+0,talk,6,1,5,Thanks for claiming   @Asuka . I appreciate it  but I'm still uneasy—can someone else state their role or any reads? I want more info before deciding. Over
+0,talk,7,1,3,Let's stay open-minded and patient and see what tomorrow reveals. Patience is key.
+0,talk,8,1,4,Over
+0,talk,9,1,1,Over
+0,talk,10,2,5,I'm still uneasy.  @Asuka   if you're really the seer  why wait until tomorrow to reveal? I need more than claims—any villager role claims or reads? I don't want us to rush a vote. Ov
+0,talk,11,2,3,I understand your concern Daisuke. Let's give Asuka time to gather information wisely.
+0,talk,12,3,5,I still don't feel right about  @Asuka 's claim. Could you explain why you're waiting until tomorrow to reveal? I can't bring myself to vote yet. Over
+0,talk,13,3,3,Let's allow Asuka to explain; patience is our ally in revealing the truth.
+0,divine,2,5,WEREWOLF
+1,status,1,POSSESSED,ALIVE,CamelliaDragons1,Asuka
+1,status,2,SEER,ALIVE,GPTaku1,Shunichi
+1,status,3,VILLAGER,ALIVE,yharada1,Servas
+1,status,4,VILLAGER,ALIVE,sunamelli1,Jonathan
+1,status,5,WEREWOLF,ALIVE,Character-Lab1,Daisuke
+1,talk,0,0,4, @Asuka  could you share your divination result? We need it to guide our vote before suspicions take root.
+1,talk,1,0,3,Asuka your insight would be invaluable now; let's move forward with clarity.
+1,talk,2,0,2,I divined last night and Daisuke is a Werewolf. We should consider this seriously for our safety.
+1,talk,3,0,5,I'm really shaken by  @Shunichi 's divination saying I'm a werewolf. That's a big claim — please explain how you checked me. We should wait for the seer's result before lynching anyon
+1,talk,4,0,1,My divination result: Shunichi is the werewolf. This contradicts Shunichi's claim on Daisuke. @Shunichi  your claim about Daisuke is noted but my result indicates you are the werewolf.
+1,talk,5,1,4,With two Seer claims giving opposite results we need to choose. I lean toward trusting Asuka right now. Thoughts  @Servas ?
+1,talk,6,1,3,It's a tough call Jonathan. Trusting Asuka seems wise but we need to deliberate carefully.
+1,talk,7,1,2, My divination is accurate I'm the real Seer. Trust my results concerning Daisuke. We need to ensure our safety.
+1,talk,8,1,5,I'm really shaken by  @Shunichi 's divination saying I'm a werewolf. If you're really the seer  why didn't you reveal this sooner? Please explain when/how you checked. Others  please
+1,talk,9,1,1,Given there are two Seer claims it is logical to assume one is lying. Deliberate on voting between Shunichi and Daisuke. @Daisuke  if you are not the wolf explain your reaction to Shunichi's claim in detail. Your defensiveness stands out.
+1,talk,10,2,4, @Servas  your neutrality stands out. Between Asuka and Shunichi who do you trust more right now? Please share your view.
+1,talk,11,2,3,I lean towards trusting Asuka but we must weigh all actions and words carefully.
+1,talk,12,2,2, Focus on the facts. My divination showed Daisuke as a Werewolf. It's crucial we address this for the village's safety.
+1,talk,13,2,5, @Shunichi  You said you divined me as Werewolf — how exactly did you check me and why wait to reveal? I don't want to be lynched on one claim. Can others share any chec
+1,talk,14,2,1,These Seer claims conflict. One is likely lying. Pay close attention to Shunichi's tone and Daisuke's reactions. @Daisuke  you focus on defending yourself instead of analyzing others. What's your reasoning?
+1,talk,15,3,4,Asuka’s clarity convinces me. I’ll vote Shunichi tonight; unity matters if we want to protect our village.
+1,talk,16,3,3,Let's stay focused and listen carefully. A united decision is our best path forward.
+1,talk,17,3,2, I stand by my reading; Daisuke is a werewolf threatening our village. I urge everyone to consider this seriously.
+1,talk,18,3,5, @Shunichi  You said you divined me last night—please explain exactly when and how you checked and how you confirmed the result. There's another seer claim too  so
+1,talk,19,3,1,Focus on the contradiction between Shunichi and me. Both can't be Seer. Review motives and consistency. @Servas  I appreciate your trust but please objectively scrutinize both our claims before voting.
+1,vote,1,2
+1,vote,2,5
+1,vote,3,5
+1,vote,4,2
+1,execute,2,SEER
+1,attackVote,5,4
+1,attack,4,true
+2,status,1,POSSESSED,ALIVE,CamelliaDragons1,Asuka
+2,status,2,SEER,DEAD,GPTaku1,Shunichi
+2,status,3,VILLAGER,ALIVE,yharada1,Servas
+2,status,4,VILLAGER,DEAD,sunamelli1,Jonathan
+2,status,5,WEREWOLF,ALIVE,Character-Lab1,Daisuke
+2,talk,0,0,3,With Jonathan gone let's stay vigilant. Asuka any new insights from last night?
+2,talk,1,0,5,I'm shaken by Shunichi's execution and Jonathan being attacked.  @Asuka  please reveal your divination now — we need that to avoid lynching the wrong person. I don't want to rush  but it's urgent. Over
+2,talk,2,0,1,I'll report my result: Servas is a villager. I recommend focusing on Daisuke for today. @Daisuke My divination shows Servas as villager. That leaves your alignment highly questionable for me. Please explain yourself.
+2,talk,3,1,3,Asuka thank you. Daisuke clarify your stance; openness helps us find the truth.
+2,talk,4,1,5,I'm really sorry about Shunichi and Jonathan.  @Asuka  you claimed seer but haven't shown a result — with Shunichi gone and his check on me  could you reveal your divination now? We need clarity before voting
+2,talk,5,1,1,Shunichi's claim was false. My check says Servas is a villager so Daisuke is probably the last wolf here. @Daisuke  you push for clarity after Shunichi lied. Is this deflection or do you have something useful to add?
+2,talk,6,2,3,Daisuke your actions and words can clarify the situation; transparency is vital now.
+2,talk,7,2,5,This is getting messy. Two seer claims and Shunichi's execution make me uneasy.  @Asuka  you claimed seer but still haven't shown your result — please reveal now  or I'll have to vote to protect the town. Over
+2,talk,8,2,1,Daisuke's constant demands for my divination after doubting me before ring hollow. Consistency is lacking in his stance. @Daisuke You keep requesting my divination but your tone shifts frequently. Are you seeking truth or casting distractions?
+2,talk,9,3,3,Let's focus on consistency and logic Daisuke. Your next words are crucial for clarity.
+2,talk,10,3,5,I hate to push this  but  @Asuka  claimed seer and still won't show a result after Shunichi checked me. That silence feels like hiding something. I’m leaning to vote Asuka to be safe. A
+2,talk,11,3,1,Daisuke's approach is inconsistent. He doubted my Seer claim then pressured me for results. That pattern is suspicious. @Servas  observe Daisuke's changing tactics: first doubting now demanding. Does this read as genuine to you?
+2,vote,1,5
+2,vote,3,1
+2,execute,5,WEREWOLF
+3,status,1,POSSESSED,ALIVE,CamelliaDragons1,Asuka
+3,status,2,SEER,DEAD,GPTaku1,Shunichi
+3,status,3,VILLAGER,ALIVE,yharada1,Servas
+3,status,4,VILLAGER,DEAD,sunamelli1,Jonathan
+3,status,5,WEREWOLF,DEAD,Character-Lab1,Daisuke
+3,result,2,0,VILLAGER

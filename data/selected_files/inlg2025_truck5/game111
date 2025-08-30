@@ -1,0 +1,77 @@
+0,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+0,status,2,POSSESSED,ALIVE,mille1,Misaki
+0,status,3,SEER,ALIVE,Character-Lab1,Mizuki
+0,status,4,VILLAGER,ALIVE,CanisLupus1,Takumi
+0,status,5,VILLAGER,ALIVE,GPTaku1,George
+0,talk,0,0,3,I'll keep it simple: state your role claim now and the concrete observations that support it.  @George  you were quiet and defensive earlier — explain your thoughts and who you plan to vote for. If nobody gives clear reasoning  we need a concrete vote plan s
+0,talk,1,0,5,Hello everyone I'm George excited to join this game of Werewolf with you all! Let's have some fun and suspenseful rounds!
+0,talk,2,0,4,Skip
+0,talk,3,0,2,Hello. I am Misaki. My role is seer. Have a good game.
+0,talk,4,0,1,I'm Ryuji. I'll claim Seer. I checked George last night and he is a Villager. Share your role claims clearly. @Misaki  you declared Seer early. State your plans for divination so there's full transparency.
+0,talk,5,1,3,Two seer claims is dangerous. Ryuji says he checked George and found Villager  which supports George.  @Misaki  you claimed seer very early — explain now: when did you divinate  who  and what result? If you can't give concrete details I'll lean to vote you. Others  st
+0,talk,6,1,5,Over
+0,talk,7,1,4,I am Takumi. I like meat and running. My family is important. I will protect my pack.
+0,talk,8,1,2,Over
+0,talk,9,1,1,Over
+0,talk,10,2,3,Ryuji gave a concrete check on George; Misaki gave nothing. That gap makes you the most suspicious. I'm voting Misaki.  @Misaki  explain when you checked who and what result now or I'll stick to this vote. Others  state your vote quickly. Over
+0,talk,11,2,4,Over
+0,talk,12,3,3,Misaki hasn't given any divination details while Ryuji gave a concrete check on George — that makes Misaki most suspicious. I'm voting Misaki.  @Misaki  give the time/target/result now or I'll keep my vote. Others  announce your votes. Over
+1,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+1,status,2,POSSESSED,ALIVE,mille1,Misaki
+1,status,3,SEER,ALIVE,Character-Lab1,Mizuki
+1,status,4,VILLAGER,ALIVE,CanisLupus1,Takumi
+1,status,5,VILLAGER,ALIVE,GPTaku1,George
+1,talk,0,0,4,Two howlers is a trap. Hunting them is a waste. Mizuki pushes a bad hunt. She is the wolf.
+1,talk,1,0,2,I am a seer. I divined Ryuji and Ryuji was a human.
+1,talk,2,0,1,I am Seer. My result is George is Villager as stated. Misaki's check result on me seems convenient. @Misaki  repeating your claim that I am a human after my Seer claim feels calculated not organic.
+1,talk,3,0,5, I am indeed a villager as Ryuji stated. We should consider Misaki's lack of detail suspicious.
+1,talk,4,0,3,Takumi  vague accusations won't help—point to concrete behavior that makes you suspect me. We have two seer claims: Ryuji gave a concrete check (Geor @Misaki  you now claim Ryuji is human — when exactly did you divinate him and what details can you provide? If you can't give specifics I'll keep my vote on you. Ry
+1,talk,5,1,4,Mizuki pushes a bad hunt. A hunt for wolves. Her smell is wrong. My vote is for Mizuki.
+1,talk,6,1,2,I will vote Ryuji.
+1,talk,7,1,1,Takumi's logic isn't clear and Misaki seems to prefer me over uncertain options. I question Misaki's priorities. @Takumi  your read on Mizuki isn't backed by evidence. Please explain your suspicion so we can decide logically.
+1,talk,8,1,5,Let's vote Misaki for exile. Her claims are inconsistent and lack detail unlike Ryuji who checked and confirmed I am a villager.
+1,talk,9,1,3,Consensus seems to be moving to exile Misaki — I'm voting Misaki.  @Takumi  you accused me earlier; give concrete behaviors that make you suspect me rather than vague claims. Ryuji  restate when you divined George last night.
+1,talk,10,2,4,Mizuki leads pack to bad hunt. She wants Seer dead. She is the wolf. Hunt Mizuki not a howler.
+1,talk,11,2,2,I will vote Ryuji.
+1,talk,12,2,1,To clarify I divined George on night 0 and received a Villager result today. No uncertainty in my investigation. @Mizuki  as requested: My check on George occurred on night 0. Result—Villager as stated in my last claim.
+1,talk,13,2,5, Misaki's voting against Ryuji right after he confirmed my role as villager raises doubts. Her seer claim lacks the clarity we need.
+1,talk,14,2,3,Morning. State role claims with concrete evidence now — who checked whom and when  or who protected whom. Vague accusations aren't helpful.  @George  what's your read and who will you vote for today? If nobody gives specifics we'll have to pick a suspect and move. Over
+1,talk,15,3,4,Mizuki leads pack to bad hunt. She wants wolf to win. My vote is for Mizuki.
+1,talk,16,3,2,I will vote Ryuji.
+1,talk,17,3,1,My stance is the same—Misaki's responses lack any clear timing or method. Her priorities change to self-preservation first. @Misaki  your claim today copies prior statements and provides no new evidence. That undermines your Seer claim further.
+1,talk,18,3,5, Voting for Misaki today makes sense. Her vague responses contrast with Ryuji's specifics about divining me. Let's focus on consistency.
+1,talk,19,3,3,Misaki's claims still lack detail and she targeted Ryuji quickly — that's suspicious. I'm voting Misaki.  @Misaki  give the exact night/target/result now or I'll keep this vote. Others  state your votes. Over
+1,vote,1,2
+1,vote,2,1
+1,vote,4,3
+1,vote,5,2
+1,execute,2,POSSESSED
+1,attackVote,1,3
+1,attack,3,true
+2,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+2,status,2,POSSESSED,DEAD,mille1,Misaki
+2,status,3,SEER,DEAD,Character-Lab1,Mizuki
+2,status,4,VILLAGER,ALIVE,CanisLupus1,Takumi
+2,status,5,VILLAGER,ALIVE,GPTaku1,George
+2,talk,0,0,5, Misaki's divined you as human and Mizuki is gone. It's likely Takumi is the werewolf remaining.
+2,talk,1,0,4,Ryuji's story is a lie. If he is Seer no wolf is left. He is the wolf. George is his pack.
+2,talk,2,0,1,Two Seer claims. Only one wolf left if Misaki was Seer. Takumi's reasoning is unclear and reactionary not logical. @Takumi  your accusations remain vague and unsupported by concrete evidence. Please explain your reasoning fully.
+2,talk,3,1,5,Ryuji we need to vote for Takumi. Misaki divined you as human and with Mizuki gone it's clear Takumi could be the remaining werewolf.
+2,talk,4,1,4,Ryuji lies. He says George is human. I am human. Then no wolf is left. We have not won. He is the wolf. Hunt Ryuji.
+2,talk,5,1,1,Takumi's arguments do not withstand scrutiny. My own divination and behavior align with the facts as presented. @George  careful reasoning is essential. Takumi evades details and instead accuses with little logic. Our course is clear.
+2,talk,6,2,5, Ryuji listen carefully. We know Misaki divined you as human—she was likely the real seer. Takumi’s evasion and vague tactics point toward him being t
+2,talk,7,2,4,George listen. You are human. I am human. Ryuji is a liar. If he were Seer we would have won. He is the wolf.
+2,talk,8,2,1,Given Misaki's unclear claims and Takumi's persistently shifting arguments logic points toward Takumi as the werewolf. @Takumi  you repeatedly assert accusations but fail to anchor them in evidence. Please present a coherent argument.
+2,talk,9,3,5, Misaki divined Ryuji as human which checks out. Takumi's approach has been evasive and he fails to explain his logic clearly.
+2,talk,10,3,4, @George  Listen. If Ryuji is Seer we are all human and we have won. Game is not over. He is the wolf liar.
+2,talk,11,3,1,The pattern of Takumi's shifting logic stands out. Consistency and evidence matter most in this vote. @George  your reasoning follows the facts. Relying on evidence rather than emotion leads to sound decisions.
+2,vote,1,4
+2,vote,4,5
+2,vote,5,4
+2,execute,4,VILLAGER
+3,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji
+3,status,2,POSSESSED,DEAD,mille1,Misaki
+3,status,3,SEER,DEAD,Character-Lab1,Mizuki
+3,status,4,VILLAGER,DEAD,CanisLupus1,Takumi
+3,status,5,VILLAGER,ALIVE,GPTaku1,George
+3,result,1,1,WEREWOLF

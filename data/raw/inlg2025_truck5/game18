@@ -1,0 +1,77 @@
+0,status,1,WEREWOLF,ALIVE,mille1,Kenji
+0,status,2,POSSESSED,ALIVE,CanisLupus1,Mio
+0,status,3,SEER,ALIVE,CamelliaDragons1,Sakura
+0,status,4,VILLAGER,ALIVE,sunamelli1,Minako
+0,status,5,VILLAGER,ALIVE,GPTaku1,George
+0,talk,0,0,1,Hello. I am Kenji. My role is villager. Have a good game.
+0,talk,1,0,2,Skip
+0,talk,2,0,4,Hello everyone I’m Minako Let’s all stay calm and share our thoughts openly today
+0,talk,3,0,3,Hey hey! I'm Sakura—nice to meet you all! Ready to catch a wolf or maybe trip over my own feet? Who's with me? @Kenji  starting strong with that villager claim huh? Are you ALWAYS this honest or feeling a bit sneaky today?
+0,talk,4,0,5,Hello everyone I'm George! Excited to play Werewolf with you all. Let's have some fun and enjoy the game!
+0,talk,5,1,1,Over
+0,talk,6,1,2,I'm Mio. It's a pleasure to dance with all of you. I hope our performance is a beautiful one.
+0,talk,7,1,4,Over
+0,talk,8,1,3,Over
+0,talk,9,1,5,Over
+0,talk,10,2,2,Over
+0,divine,3,1,WEREWOLF
+1,status,1,WEREWOLF,ALIVE,mille1,Kenji
+1,status,2,POSSESSED,ALIVE,CanisLupus1,Mio
+1,status,3,SEER,ALIVE,CamelliaDragons1,Sakura
+1,status,4,VILLAGER,ALIVE,sunamelli1,Minako
+1,status,5,VILLAGER,ALIVE,GPTaku1,George
+1,talk,0,0,1,I will vote Sakura.
+1,talk,1,0,2,Good morning. I am the Seer. It saddens me but my vision showed that Sakura is the Werewolf.
+1,talk,2,0,5,I am actually the Seer and my vision revealed that Mio is the Werewolf. We need to focus our votes correctly.
+1,talk,3,0,3,I am the real Seer! Kenji is totally the werewolf! Anyone surprised? Seer party time huh? Count me in! @Mio  nice try with that seer claim! But I’m the real one. Kenji’s a werewolf! Where’s your crystal ball?
+1,talk,4,0,4,Three seer COs each accuse differently but George quickly targeted Mio after her CO. That looks more suspicious to me.
+1,talk,5,1,1,I will vote George.
+1,talk,6,1,2,Three seers is quite a complex dance. It is hard for me to know whose rhythm to follow.
+1,talk,7,1,5, Stick to my original divination. Voting Mio is crucial—my vision was clear and she's definitely the werewolf. Trust me.
+1,talk,8,1,3,Wow! Everyone wants to be the seer now! Isn't it a bit crowded here or is there a disguise party going on? @Minako  you're sharp! Did you notice how fast George pointed at Mio? Doesn't that seem kinda fishy to you?
+1,talk,9,1,4, @George  you switched targets fast—can you explain why you acted right after the Seer COs? It seemed a bit rushed.
+1,talk,10,2,1,I will vote George.
+1,talk,11,2,2,With three dancers leading it is a chaotic song. Perhaps we should vote for Minako to find harmony.
+1,talk,12,2,5, My divination about Mio came before knowing she would claim Seer. I'm certain of what I saw; Mio is our threat.
+1,talk,13,2,3,So many seers! Whoever has the real crystal ball wave it! Let's solve this mystery with a smile. Who do you trust? @George Hey George you're really sticking to your Mio vote! Is it your "vision" or just a hunch? We're all curious you know!
+1,talk,14,2,4,If all three Seers accuse different people isn't someone trying to confuse us? Who does this chaos benefit most?
+1,talk,15,3,1,I will vote George.
+1,talk,16,3,2,I understand the focus on George but this disharmony is troubling. I still think voting Minako brings clarity.
+1,talk,17,3,5, Trusting the Seer is key to our victory and I assure you my vision is legitimate. I divined Mio as the Werewolf. Stick with that.
+1,talk,18,3,3,Whew what a show! I'm voting Kenji—he's the werewolf! Anyone else ready for a happy ending to this mystery? @Mio  you're the Seer? Explain how your vision showed me as a werewolf when I know I'm not! Plot twist!
+1,talk,19,3,4,George’s certainty feels too forced and aggressive—I don’t trust it. I’m voting George today. Let’s see where this leads.
+1,vote,1,5
+1,vote,2,1
+1,vote,3,1
+1,vote,4,5
+1,vote,5,2
+1,execute,5,VILLAGER
+1,divine,3,4,HUMAN
+1,attackVote,1,3
+1,attack,3,true
+2,status,1,WEREWOLF,ALIVE,mille1,Kenji
+2,status,2,POSSESSED,ALIVE,CanisLupus1,Mio
+2,status,3,SEER,DEAD,CamelliaDragons1,Sakura
+2,status,4,VILLAGER,ALIVE,sunamelli1,Minako
+2,status,5,VILLAGER,DEAD,GPTaku1,George
+2,talk,0,0,4, @Mio  explain why the werewolf would bite out Sakura after you called her out.
+2,talk,1,0,2,Skip
+2,talk,2,0,1,I will vote Minako.
+2,talk,3,1,4, @Mio  you claimed Sakura was a wolf but she was bite outd not vote outd. Can you explain this contradiction?
+2,talk,4,1,2,What a tragic song... My vision last night showed Minako is human. The silenced dancer was right.
+2,talk,5,1,1,I will vote Minako.
+2,talk,6,2,4, @Kenji  your vote for me is hasty with no real reason. Defend your choice or is it just following Mio’s claims?
+2,talk,7,2,2, @Minako  The wolf silenced the true seer. Let's honor Sakura's final performance and vote for Kenji.
+2,talk,8,2,1,Over
+2,talk,9,3,4,Mio’s seer claim fails since Sakura was bitten after being accused. My vote is for Mio. Kenji please reconsider.
+2,talk,10,3,2,It seems I misread the song's tempo. Kenji's steady rhythm is our guide now. I'll follow his vote. I'm so sorry Minako.
+2,vote,1,4
+2,vote,2,4
+2,vote,4,2
+2,execute,4,VILLAGER
+3,status,1,WEREWOLF,ALIVE,mille1,Kenji
+3,status,2,POSSESSED,ALIVE,CanisLupus1,Mio
+3,status,3,SEER,DEAD,CamelliaDragons1,Sakura
+3,status,4,VILLAGER,DEAD,sunamelli1,Minako
+3,status,5,VILLAGER,DEAD,GPTaku1,George
+3,result,1,1,WEREWOLF

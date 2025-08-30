@@ -1,0 +1,76 @@
+0,status,1,SEER,ALIVE,kanolab-nw1,Servas
+0,status,2,VILLAGER,ALIVE,CamelliaDragons1,Mio
+0,status,3,VILLAGER,ALIVE,mille1,Yumi
+0,status,4,WEREWOLF,ALIVE,CanisLupus1,May
+0,status,5,POSSESSED,ALIVE,Character-Lab1,Sakura
+0,talk,0,0,3,Hello. I am Yumi. My role is villager. Have a good game.
+0,talk,1,0,1,Greetings dear friends. I am Servas. In the great tapestry of life let us weave a game rich in connection and spirited dialogue.
+0,talk,2,0,5,Hehe! Yumi said she's a villager — could be hiding something.  @May  you're acting fishy again  why so quiet? Anyone wanna share their gut feeling or role claim? Over
+0,talk,3,0,2,Hey hey! I'm Mio loud and proud villager reporting for duty! Let's keep the mood bright but find those wolves yeah? @Servas  your poetic intro made me smile! But are you weaving truth or a sneaky wolf's web? Just teasing but curious!
+0,talk,4,0,4,Skip
+0,talk,5,1,3,Over
+0,talk,6,1,1,Over
+0,talk,7,1,5,Hehe!  @May  skipping again makes me nervous — why so quiet? Mio said she's a villager and Servas is all poetic  but I'm thinking of voting May if nobody explains. Who
+0,talk,8,1,2,Over
+0,talk,9,1,4,I am May. My interests include watching a delightful play like this one unfold. A pleasure.
+0,talk,10,2,5,Hehe  let's not just vote someone off for being quiet — that's too easy!  @Mio  you said you're a villager — any reads or votes yet? I wanna hear reasons before we pick someone. Over
+0,talk,11,2,4,Over
+0,talk,12,3,5,Hey  @Mio  you said you're a villager real loud — what are your reads? If you can't share I'll probably vote May. Who do you think is sus? Over
+0,divine,1,4,WEREWOLF
+1,status,1,SEER,ALIVE,kanolab-nw1,Servas
+1,status,2,VILLAGER,ALIVE,CamelliaDragons1,Mio
+1,status,3,VILLAGER,ALIVE,mille1,Yumi
+1,status,4,WEREWOLF,ALIVE,CanisLupus1,May
+1,status,5,POSSESSED,ALIVE,Character-Lab1,Sakura
+1,talk,0,0,1,In the great tapestry of life. I have divined dear May and discovered they are a Werewolf. Let us vote to guard our village.
+1,talk,1,0,2,Whoa big start! Servas claims Seer and says May is a werewolf? That's bold! What does everyone else think? @May  you've been super quiet but Servas dropped a huge claim on you just now! Can you tell us your side?
+1,talk,2,0,5,Heehee!  @Servas  claiming seer so fast?! That sounds like a setup to me. Why accuse May right away — got any proof? Let's not rush to lynch without more info. Over
+1,talk,3,0,4,My my Servas such a predictable lie. I am the true Seer and I found Sakura is the wolf.
+1,talk,4,0,3,I will vote Sakura.
+1,talk,5,1,1,In the great tapestry of life May's claim drifts away like leaves in the wind. Dear Yumi trust my Seer's vision. Let us vote May today.
+1,talk,6,1,2,Whoa we have a battle of the Seers! Servas says May is wolf but May says Sakura is wolf! Everyone's accusing! @Sakura  you don't trust either claim right now? How do you want to deal with two competing Seers? Your thoughts? 
+1,talk,7,1,5,Whoa  two seers already? This is getting messy!  @Servas  you claimed so fast — where's your proof? I won't
+1,talk,8,1,4,Servas dear your panic is showing. A true seer reveals with grace not with such clumsy haste.
+1,talk,9,1,3,Over
+1,talk,10,2,1,Ah dear villagers. If young May's claim blooms truth then I must be but a mere shadow among the trees. Trust her wisdom aloud.
+1,talk,11,2,2,Wow talk about fireworks! Two Seers and both sound convincing huh? Is anyone else getting dizzy trying to keep up? @Yumi Hey Yumi you voted Sakura right away! Is it just because May called her wolf or do you have your own reasons too?
+1,talk,12,2,5,Eek two seers? That smells like a trick!  @Servas  you claimed so fast and your flowery talk feels sus — are you trying to steer us? May's my friend and I don't think I'm the wolf  so let's not lynch me. I wann
+1,talk,13,2,4,Let's consider the beast's play. Who seems more panicked my dears Servas or me?
+1,talk,14,3,1,Ah young ones. In the great tapestry of life truth thrives as sunlight on leaves. Is Ah May's sudden Seer claim mere shadow craft to mislead? @Mio In the great tapestry of life young one we find May's web tangled. Is her fervor mere theater in this werewolf play to capture hearts?
+1,talk,15,3,2,Okay folks both Seer claims are spinning tales! Sakura's holding out but Yumi is set on her vote. Can we slow down and talk? @Servas  you're really poetic today! Besides May's "divination" do you spot anything else suspicious in her behavior?
+1,talk,16,3,5,Hehe I still think  @Servas  is super sus for claiming seer so fast with no proof — I'm voting them. Over
+1,talk,17,3,4,Over
+1,vote,1,4
+1,vote,2,1
+1,vote,3,5
+1,vote,4,5
+1,vote,5,4
+1,execute,5,POSSESSED
+1,divine,1,2,HUMAN
+1,attackVote,4,1
+1,attack,1,true
+2,status,1,SEER,DEAD,kanolab-nw1,Servas
+2,status,2,VILLAGER,ALIVE,CamelliaDragons1,Mio
+2,status,3,VILLAGER,ALIVE,mille1,Yumi
+2,status,4,WEREWOLF,ALIVE,CanisLupus1,May
+2,status,5,POSSESSED,DEAD,Character-Lab1,Sakura
+2,talk,0,0,4,I grow tired of this Seer costume. It seems our hunt was a grand success wasn't it  @Yumi ?
+2,talk,1,0,3,I will vote Mio.
+2,talk,2,0,2,Whoa things got intense fast! May drops her Seer act and Yumi is voting for me? Why so quick Yumi? Spill the beans! @Yumi  you're voting for me super early today! Got a reason or are you just feeling lucky? Let's hear it!
+2,talk,3,1,4, @Mio  your frantic questions are adorable. But this little game is already over dear.
+2,talk,4,1,3,Over
+2,talk,5,1,2,Hey isn't anyone curious why May just completely gave up her Seer act? Feels like a big slip to me! Let's discuss! @May  why the sudden change? Dropping your Seer claim is kind of dramatic! What made you give up now huh?
+2,talk,6,2,4,Why the change  @Mio  ? Because the curtain is falling and you dear have no allies left.
+2,talk,7,2,2,Yikes May's in full villain monologue mode! Still that's awfully bold if she's not a wolf. We shouldn't give up yet! @Yumi  can you explain again why you're set on voting me? I'm just not seeing the wolf vibes from my end!
+2,talk,8,3,4,Still appealing to Yumi? Oh you poor thing. The audience has already gone home.
+2,talk,9,3,2,If May gave up being Seer that's pretty suspicious! I don't trust her. We might need to rethink our approach! @May  if you've nothing to lose why not defend yourself? Or will you keep playing the villain?
+2,vote,2,4
+2,vote,3,2
+2,vote,4,2
+2,execute,2,VILLAGER
+3,status,1,SEER,DEAD,kanolab-nw1,Servas
+3,status,2,VILLAGER,DEAD,CamelliaDragons1,Mio
+3,status,3,VILLAGER,ALIVE,mille1,Yumi
+3,status,4,WEREWOLF,ALIVE,CanisLupus1,May
+3,status,5,POSSESSED,DEAD,Character-Lab1,Sakura
+3,result,1,1,WEREWOLF

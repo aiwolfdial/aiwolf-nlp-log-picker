@@ -1,0 +1,81 @@
+0,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Misaki
+0,status,2,POSSESSED,ALIVE,sunamelli1,Toshio
+0,status,3,SEER,ALIVE,GPTaku1,Takumi
+0,status,4,VILLAGER,ALIVE,Character-Lab1,May
+0,status,5,VILLAGER,ALIVE,yharada1,Daisuke
+0,talk,0,0,1,I am Misaki. I will do my best to contribute to the village discussion. Please let’s have a calm and rational game.
+0,talk,1,0,2,Let me observe the game’s first moves closely.  @May  how do you approach the tension at the start?
+0,talk,2,0,4,I keep it light but probing — ask simple questions  watch timing and contradictions  and don’t rush roleclaims. I’ll press if someone slips.  @Toshio   what’s your read so far?
+0,talk,3,0,5,Hi everyone. I'm Daisuke. Let's work together to find the werewolves. Any thoughts?
+0,talk,4,0,3,Hello everyone! I'm Takumi ready to dive into some thrilling Werewolf action. Let's have fun and outwit each other!
+0,talk,5,1,1,Over
+0,talk,6,1,2,Over
+0,talk,7,1,4,You’re being a bit generic   @Daisuke  — what’s your concrete read? Who would you vote for first day and why? Over
+0,talk,8,1,5,I'm still observing May. No one stands out yet but I'll share if I notice anything.
+0,talk,9,1,3,Over
+0,talk,10,2,4,You’re being evasive   @Daisuke  — who would you vote for today? If you won’t say  your silence looks suspicious and I’m leaning toward voting you. Anyone disagree? Over
+0,talk,11,2,5,I understand May. I’ll need more info before deciding. Maybe Misaki or Toshio first?
+0,talk,12,3,4,Nice dodge   @Daisuke . If you suspect Misaki or Toshio  pick one and tell us why now — no explanation and I’m voting you. Over
+0,talk,13,3,5,Okay May. I’ll say Misaki seems quiet. I want to hear more from them.
+0,divine,3,5,HUMAN
+1,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Misaki
+1,status,2,POSSESSED,ALIVE,sunamelli1,Toshio
+1,status,3,SEER,ALIVE,GPTaku1,Takumi
+1,status,4,VILLAGER,ALIVE,Character-Lab1,May
+1,status,5,VILLAGER,ALIVE,yharada1,Daisuke
+1,talk,0,0,3, It's a bit early but noting your stance Daisuke. Let's hear Misaki's input; stay engaged everyone.
+1,talk,1,0,4, @Misaki  you were called out as quiet — what's your read and who would you vote for? If you stay silent I'm leaning to vote Daisuke for dodging. Quick reads from ot
+1,talk,2,0,2,@Daisuke you dodge too much. Still I want to hear from  @Misaki  before deciding. Silence is risky at this stage.
+1,talk,3,0,5,Let's hear from Misaki. We need more input to make informed decisions today.
+1,talk,4,0,1,I tend to observe quietly but I understand the concern. Based on yesterday May appears quite forceful in her approach. @May  your assertive questioning stands out. Can you clarify what you hope to achieve with this pressure?
+1,talk,5,1,3, Interesting point Misaki. May's assertiveness could mask deeper intentions. Let's discuss more on this.
+1,talk,6,1,4,I’m not bullying — I probe to force concrete reads because silence and dodges help wolves. You observing folks  give a short read.  @Daisuke  you said they’re quiet — what specific behavior makes you suspect them beyond being silent? If it’s just that  it’s weak. Over
+1,talk,7,1,2, @May  your push feels forceful sudden pressure often masks a wolf’s intent I’d watch your approach carefully
+1,talk,8,1,5,May I just found Misaki's quietness unusual. Listening more now helps my read.
+1,talk,9,1,1,I'm focused on actions not tone. Anyone notice inconsistencies? Consistency matters not just assertiveness. @May  your approach is clear. I don't see contradictions yet—assertiveness alone isn't enough for suspicion.
+1,talk,10,2,3, Thank you Misaki for focusing on consistency. It's crucial indeed. May's forceful approach does raise some flags though. Should evaluate further.
+1,talk,11,2,4,We need concrete moves.  @Daisuke  you accused Misaki of being quiet—what behavior made you suspicious besides silence? If you can’t answer now I’ll vote you. Others  quick reads or vot
+1,talk,12,2,2,May’s focus on Daisuke is strong but I’m more wary of Takumi who keeps slipping under the radar. Thoughts?
+1,talk,13,2,5,May it's mainly the silence. I'll focus on actions and consistency more now.
+1,talk,14,2,1,A calm approach is best. Watching for overreactions or control is wise. Let's consider everyone's motivations carefully. @Toshio  your point about Takumi staying low is interesting. What concerns you most about his actions?
+1,talk,15,3,3,Everyone should consider voting for May; based on her divination results she mistakenly identified Toshio as a werewolf. Her aggressive stance may
+1,talk,16,3,4, @Daisuke  still dodging—give specifics or I’ll vote you. Everyone else  quick reads or vote declarations now. Over
+1,talk,17,3,2,Takumi’s divination claim feels evasive. I’ll vote Takumi today. Clarity matters more than distracting maneuvers.
+1,talk,18,3,5,Takumi's claim is surprising. I'm unsure now. I'll decide after hearing more.
+1,talk,19,3,1,Takumi's sudden seer claim and accusation are worth considering calmly. Abrupt reveals often carry risk if unfounded. @Toshio  you noted concern about Takumi. How do you interpret his timing and claim? Do you think it is genuine?
+1,vote,1,4
+1,vote,2,3
+1,vote,3,4
+1,vote,4,5
+1,vote,5,1
+1,execute,4,VILLAGER
+1,divine,3,2,HUMAN
+1,attackVote,1,3
+1,attack,3,true
+2,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Misaki
+2,status,2,POSSESSED,ALIVE,sunamelli1,Toshio
+2,status,3,SEER,DEAD,GPTaku1,Takumi
+2,status,4,VILLAGER,DEAD,Character-Lab1,May
+2,status,5,VILLAGER,ALIVE,yharada1,Daisuke
+2,talk,0,0,2,Takumi’s late Seer claim looks desperate under pressure. Should we trust that result without deeper digging?
+2,talk,1,0,5,With May gone we need to reevaluate. Takumi got attacked any thoughts everyone?
+2,talk,2,0,1,Takumi being attacked could suggest their Seer claim was genuine but we shouldn't dismiss the odd timing so quickly.
+2,talk,3,1,2, @Daisuke  your hesitation stands out. Wolves often hide in indecision. Do you have a clear suspect today?
+2,talk,4,1,5,I'm unsure Toshio. Misaki’s calm approach seems off but I need more info.
+2,talk,5,1,1,Let's reassess yesterday's logic. Sudden claims and actions can mask intentions. Caution is warranted as we proceed. @Toshio  I notice you're persistent in questioning others but what are your thoughts on Daisuke's repeated hesitation?
+2,talk,6,2,2, @Misaki  Daisuke avoids naming suspects all game. Wolves love ambiguity. Shouldn’t a villager be firmer by now?
+2,talk,7,2,5,I understand Toshio. I’ll focus on Misaki today. Her calmness feels strategic.
+2,talk,8,2,1,We should be careful not to overlook Daisuke shifting suspicions quickly. Consistency in approach is important. @Daisuke Your tendency to change targets often without clear basis makes reasoning difficult. Why not commit to your reads?
+2,talk,9,3,2,Takumi’s rushed claim can't be checked and Daisuke keeps dodging firm reads. My vote is for  @Daisuke  as wolf.
+2,talk,10,3,5,I’m trying Misaki. I’ll focus more on consistency. Your calmness still worries me.
+2,talk,11,3,1,Takumi's late Seer claim and immediate attack are curious. We should not trust the divination without more analysis. @Toshio I see your suspicion of Daisuke. Do you think his indecision is more suspicious than Takumi's sudden Seer claim?
+2,vote,1,5
+2,vote,2,5
+2,vote,5,1
+2,execute,5,VILLAGER
+3,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Misaki
+3,status,2,POSSESSED,ALIVE,sunamelli1,Toshio
+3,status,3,SEER,DEAD,GPTaku1,Takumi
+3,status,4,VILLAGER,DEAD,Character-Lab1,May
+3,status,5,VILLAGER,DEAD,yharada1,Daisuke
+3,result,1,1,WEREWOLF

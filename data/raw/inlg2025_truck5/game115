@@ -1,0 +1,54 @@
+0,status,1,WEREWOLF,ALIVE,yharada1,Rin
+0,status,2,POSSESSED,ALIVE,kanolab-nw1,Minako
+0,status,3,SEER,ALIVE,CamelliaDragons1,Asuka
+0,status,4,VILLAGER,ALIVE,mille1,Sakura
+0,status,5,VILLAGER,ALIVE,CanisLupus1,Toshio
+0,talk,0,0,2,Greetings. I'm Minako. Let’s all aim for a fair and enjoyable game. We must remain composed and consider the facts carefully.
+0,talk,1,0,1,Hi Minako! I’m excited to play with you all. Let's solve this mystery together!
+0,talk,2,0,5,Skip
+0,talk,3,0,4,Hello. I am Sakura. My role is villager. Have a good game.
+0,talk,4,0,3,I'm the Seer. I'll share every divination result decisively. Please be rational and direct with your claims. @Minako  your composed approach is appreciated. Logic and timely coming-outs will help us most.
+0,talk,5,1,2,Over
+0,talk,6,1,1,Asuka thanks for sharing your role. Who will you check first?
+0,talk,7,1,5,I am Toshio. It is a pleasure to make your acquaintance.
+0,talk,8,1,4,Over
+0,talk,9,1,3,Over
+0,talk,10,2,1,Nice to meet you Toshio! Let's keep things fun and figure this out together!
+0,talk,11,2,5,Over
+0,talk,12,3,1,Everyone what do you think our strategy should be to find the werewolves?
+0,divine,3,1,WEREWOLF
+1,status,1,WEREWOLF,ALIVE,yharada1,Rin
+1,status,2,POSSESSED,ALIVE,kanolab-nw1,Minako
+1,status,3,SEER,ALIVE,CamelliaDragons1,Asuka
+1,status,4,VILLAGER,ALIVE,mille1,Sakura
+1,status,5,VILLAGER,ALIVE,CanisLupus1,Toshio
+1,talk,0,0,4,I will vote Toshio.
+1,talk,1,0,1,Sakura why do you suspect Toshio? Let's discuss it together before deciding.
+1,talk,2,0,5, @Asuka  your divination result is the crucial variable. Let us begin our analysis there.
+1,talk,3,0,2,I am the Seer. I divined Ms. Rin as Werewolf. Let's consider the facts. We must remain composed in our voting my friends.
+1,talk,4,0,3,I am the true Seer. Last night I divined: Rin is Werewolf. Multiple Seer claims imply one is lying. @Minako  you cannot be Seer since I hold that role and my divination proves Rin is Werewolf.
+1,talk,5,1,4,Over
+1,talk,6,1,1,Minako why are you claiming Seer? We need to resolve this confusion quickly!
+1,talk,7,1,5,A Seer and a Possessed have claimed. Their identical divination for Rin makes her the logical target.
+1,talk,8,1,2,Mr. Asuka your bold Seer claim stands with mine. Let's consider the facts. Unified divination will guide today's vote.
+1,talk,9,1,3,Rin is a Werewolf per my divination. Minako repeats my claim showing the Possessed. Let's vote based on reason. @Toshio  your analysis fits. Coordinated action on Rin is the most rational move.
+1,talk,10,2,1,Guys I'm not a Werewolf! Let's find who’s lying about being the Seer first.
+1,talk,11,2,5,Both claimants identify Rin. This is our clearest data. I will vote for Rin.
+1,talk,12,2,2,Let's consider the facts. I have divined Mr. Rin as a Werewolf. Consistency hints Ms. Asuka may be Possessed. We must remain composed.
+1,talk,13,2,3,Duplicated seer claims and matching results make Rin the lynch. Emotional appeals don't convince me. @Rin  appealing to emotion doesn't counter my objective divination. You are the Werewolf by clear evidence.
+1,talk,14,3,1,Please let's be careful. If we vote wrong the real Werewolf and Possessed win.
+1,talk,15,3,5,The two claims pointing to Rin are our most logical foundation. My vote is for Rin.
+1,talk,16,3,2,Let's consider the facts. My divination reveals Rin as Werewolf. Ignoring this is a risk. Villagers must remain composed in voting. @Rin Mr. or Ms. Dear friend. Let's consider the facts. Your lack of prior divination raises legitimate suspicions. Remain composed.
+1,talk,17,3,3,With Seer counterclaim and identical divination the chance of both being false is negligible. The logical vote is Rin. @Minako Your claim mirrors mine exactly which signals Possessed play. The facts leave no credible doubt: Rin is Werewolf.
+1,vote,1,2
+1,vote,2,1
+1,vote,3,1
+1,vote,4,2
+1,vote,5,1
+1,execute,1,WEREWOLF
+2,status,1,WEREWOLF,DEAD,yharada1,Rin
+2,status,2,POSSESSED,ALIVE,kanolab-nw1,Minako
+2,status,3,SEER,ALIVE,CamelliaDragons1,Asuka
+2,status,4,VILLAGER,ALIVE,mille1,Sakura
+2,status,5,VILLAGER,ALIVE,CanisLupus1,Toshio
+2,result,4,0,VILLAGER

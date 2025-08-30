@@ -1,0 +1,78 @@
+0,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan
+0,status,2,POSSESSED,ALIVE,yharada1,Victoria
+0,status,3,SEER,ALIVE,sunamelli1,George
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Kenji
+0,status,5,VILLAGER,ALIVE,GPTaku1,Minako
+0,talk,0,0,4,Hey everyone! I'm Kenji! Can't wait to jump into the game and chat. Definitely excited for some fun! Let's give it a shot pals!
+0,talk,1,0,3,Let’s keep calm and observe carefully before judging anyone. Rash moves help the wolves—George speaks.
+0,talk,2,0,5,Hello everyone! I'm Minako. Excited to play Werewolf with you all and see who's the craftiest! Let's have fun!
+0,talk,3,0,2,Hi everyone I'm Victoria. Looking forward to unraveling the mystery with all of you.
+0,talk,4,0,1,Good day everyone. I am simply a villager seeking truth. Let's move forward with patience and clarity. @Victoria  your approach resonates. May we observe quietly and find understanding amidst the noise.
+0,talk,5,1,4,Over
+0,talk,6,1,3,Over
+0,talk,7,1,5,Over
+0,talk,8,1,2,Jonathan your words are wise. Let's keep our eyes open and stay vigilant.
+0,talk,9,1,1,Over
+0,talk,10,2,2,George what are your thoughts on our current situation?
+0,talk,11,3,2,Minako how do you feel about the initial discussions so far?
+0,divine,3,5,HUMAN
+1,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan
+1,status,2,POSSESSED,ALIVE,yharada1,Victoria
+1,status,3,SEER,ALIVE,sunamelli1,George
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Kenji
+1,status,5,VILLAGER,ALIVE,GPTaku1,Minako
+1,talk,0,0,1,Morning everyone. I'm just a simple villager once more. Let's tread lightly and observe carefully. @George  your caution yesterday was admirable. Still have you noticed anything peculiar so far?
+1,talk,1,0,4,Jonathan's saying he's a villager again huh? Isn't it a bit early for that buddy? Those cautious players might be hiding roles. Minako feels pretty ge
+1,talk,2,0,2,Kenji your point about cautious players is intriguing. Let's keep our eyes open.
+1,talk,3,0,5,I divined George last night. He’s Human. Let’s focus on others for suspicion.
+1,talk,4,0,3, I checked Minako last night and she’s Human. Let’s focus on finding the wolf among the three others.
+1,talk,5,1,1,So both Minako and George claim Seer each clearing the other. We may have a contest here. Let's hear more thoughts. @Victoria  you seem attuned to subtleties. Has anyone’s tone shifted for you since yesterday?
+1,talk,6,1,4,Jonathan claims villager twice. Can Seers check him out next?  @Jonathan  So. Your double villager claim is kinda straightforward huh? Could you tell us why there's no change of heart?
+1,talk,7,1,2,Jonathan your consistency is noted. Has anyone else caught your attention with their actions?
+1,talk,8,1,5,Let's vote for Jonathan. His repeated insistence on being a simple villager raises doubt.
+1,talk,9,1,3,Both Seer COs clearing each other means the wolf hides among Jonathan Kenji or Victoria. Let’s focus votes there.
+1,talk,10,2,1,It seems suspicion falls my way for simplicity. Sometimes clarity invites doubt. I'll keep an open mind. @Kenji  I wish there was a cleverer reason—simplicity suits me that's all. Have you sensed anything unusual today?
+1,talk,11,2,4,Hey pals let's think about divining Jonathan or Victoria next! They might be wolves or possessed. Curious to see what we find!
+1,talk,12,2,2,Kenji divining could indeed be wise. Who do you personally suspect more?
+1,talk,13,2,5,We should vote for Jonathan due to his repetitive and defensive stance on being a mere villager without contributing new information or suspicions.
+1,talk,14,2,3, my divination shows Minako is Human. Let's focus on Jonathan Kenji Victoria for the wolf.
+1,talk,15,3,1,I sense the tension growing yet I remain patient. Haste leads to shadows. Let us not cloud judgment with urgency. @Victoria  your questions stir reflection. Among us do you find sincerity or subtle masks forming?
+1,talk,16,3,4,If George is the Seer then Minako looks shady. If Minako’s the Seer George is suspicious. Let's dive into this buddy. George did divination on Minako.
+1,talk,17,3,2,Jonathan your patience is noted. I sense masks but clarity will emerge soon.
+1,talk,18,3,5,I believe we should focus on voting out Jonathan. His unchanging position as a simple villager when tension rises could be a strategy to avoid detecti
+1,talk,19,3,3,My divination clears Minako. After today’s talks Kenji’s shifting stance marks him as my prime suspect. I’m voting Kenji.
+1,vote,1,4
+1,vote,2,4
+1,vote,3,4
+1,vote,4,1
+1,vote,5,1
+1,execute,4,VILLAGER
+1,attackVote,1,5
+1,attack,5,true
+2,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan
+2,status,2,POSSESSED,ALIVE,yharada1,Victoria
+2,status,3,SEER,ALIVE,sunamelli1,George
+2,status,4,VILLAGER,DEAD,kanolab-nw1,Kenji
+2,status,5,VILLAGER,DEAD,GPTaku1,Minako
+2,talk,0,0,2,George with Minako gone your insights are crucial. What’s your next move?
+2,talk,1,0,3,I divined Kenji as Human last night. That leaves Jonathan and Victoria—one of you must be the wolf.
+2,talk,2,0,1,George I hear your reasoning. With only a few of us left care is needed. Rushed judgment could end the village. @Victoria  you’ve asked important questions. How do you feel about George’s results and intentions now?
+2,talk,3,1,2,Jonathan George's results are puzzling. We need more clarity before making a choice.
+2,talk,4,1,3, @Jonathan  both Seers landed suspicion on you. Kenji was Human so you’re my clear suspect now. Explain your side.
+2,talk,5,1,1,George suspicion is a heavy mantle. My words haven't changed—I seek only what's best for the village. @George  since both Seers cleared each other and Kenji why would the wolf act so openly now? Do you feel any doubt?
+2,talk,6,2,2,George could there be a misunderstanding here? We must tread carefully.
+2,talk,7,2,3, @Victoria  you always push caution not clarity. Why haven’t you named your prime suspect yet? Time for answers.
+2,talk,8,2,1,In times like these a steady approach often serves better than quick accusations. Let’s not overlook subtle details. @Victoria  I sense your caution. What factors weigh most in your mind when you look at George’s actions?
+2,talk,9,3,2,Jonathan I weigh George's consistency and his divinations. Let's consider all angles.
+2,talk,10,3,3,Jonathan’s actions line up with what both Seers feared. Victoria time for conviction not caution. I vote Jonathan.
+2,talk,11,3,1,George your certainty is notable. But absolute confidence can sometimes mask overlooked nuance. @Victoria  you reflect before judging. Whose behavior over these days strikes you as least aligned with the Village?
+2,vote,1,3
+2,vote,2,1
+2,vote,3,1
+2,execute,1,WEREWOLF
+3,status,1,WEREWOLF,DEAD,CamelliaDragons1,Jonathan
+3,status,2,POSSESSED,ALIVE,yharada1,Victoria
+3,status,3,SEER,ALIVE,sunamelli1,George
+3,status,4,VILLAGER,DEAD,kanolab-nw1,Kenji
+3,status,5,VILLAGER,DEAD,GPTaku1,Minako
+3,result,2,0,VILLAGER

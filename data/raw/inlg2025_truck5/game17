@@ -1,0 +1,77 @@
+0,status,1,SEER,ALIVE,mille1,Shunichi
+0,status,2,VILLAGER,ALIVE,sunamelli1,Mizuki
+0,status,3,VILLAGER,ALIVE,kanolab-nw1,Daisuke
+0,status,4,WEREWOLF,ALIVE,CamelliaDragons1,George
+0,status,5,POSSESSED,ALIVE,GPTaku1,Mio
+0,talk,0,0,4,Good morning. My name is George. I always prefer a careful approach observing before acting.
+0,talk,1,0,1,Hello. I am Shunichi. My role is seer. Have a good game.
+0,talk,2,0,3,Hello everyone. I'm Daisuke. I am just here to help. If it is okay let's work together to eliminate any suspicious behavior. Over.
+0,talk,3,0,5,Hello everyone! I'm Mio ready to hunt or be hunted in this game of mystery and suspense. Let's have some thrilling fun!
+0,talk,4,0,2,Good luck everyone. Let’s stay calm and logical from the start. I’m watching for subtle cues Day 1.
+0,talk,5,1,4,Over
+0,talk,6,1,1,Over
+0,talk,7,1,3,Over
+0,talk,8,1,5,Over
+0,talk,9,1,2,Over
+0,divine,1,2,HUMAN
+1,status,1,SEER,ALIVE,mille1,Shunichi
+1,status,2,VILLAGER,ALIVE,sunamelli1,Mizuki
+1,status,3,VILLAGER,ALIVE,kanolab-nw1,Daisuke
+1,status,4,WEREWOLF,ALIVE,CamelliaDragons1,George
+1,status,5,POSSESSED,ALIVE,GPTaku1,Mio
+1,talk,0,0,3,I-I'm curious about Shunichi's claim as the seer. Let's...um...stay alert. Maybe hear more claims for a clearer picture today?
+1,talk,1,0,5, I agree with Daisuke. Let's remain vigilant and see if anyone else has something to say about their role.
+1,talk,2,0,4,No further claims so far. I suggest we proceed carefully listening for inconsistencies in others' statements. @Shunichi  could you please share your divination result for last night? That might guide our discussion productively.
+1,talk,3,0,2, @Daisuke  @Mio you've been quiet so far I want to hear your suspicions and who you'd consider voting for today
+1,talk,4,0,1,I am a seer. I divined Mizuki and Mizuki was a human.
+1,talk,5,1,3,With Mr. Shunichi claiming seer. I'm inclined to trust him for now. Mizuki checks out as human. Mr. George. I'm curious. Do you trust Mr. Shunichi's di
+1,talk,6,1,5,Let's consider voting George for exile today.
+1,talk,7,1,4,Mio's sudden push for my exile feels ill-founded. We should base accusations on stronger grounds than early caution. @Mio  could you clarify your reasoning for suggesting me as a candidate for exile this soon? Your logic seems unclear.
+1,talk,8,1,2, @Mio  your quick push for George stands out. Can you share more reasoning behind suspecting him as a wolf?
+1,talk,9,1,1,I will vote George.
+1,talk,10,2,3,I... I'm a bit puzzled by Mio's... targeting of George. Perhaps... we should gather more... info first? It might be... too soon... to vote.
+1,talk,11,2,5,I understand there's some confusion. We need to act decisively considering there's a lack of role claims for a werewolf or possessed in play. George'
+1,talk,12,2,4,Let's all share our reasoning before rushing to judgment. Caution helps survival in this game. @Mio  why did you accuse me so soon? Hasty suspicion can disrupt teamwork and slow progress.
+1,talk,13,2,2, @Mio  your rush to vote George seems off What about his actions make you think he's a werewolf? Be specific please
+1,talk,14,2,1,I will vote George.
+1,talk,15,3,3,I believe we're moving too quickly. Perhaps George's exile is a bit rushed? Strategy needs more info. Gather intel first. Thoughts?
+1,talk,16,3,5, The lack of strong alibis or alternative suspicious actions compels us to act on the information we have. Look at George's cautiousness.
+1,talk,17,3,4,Mio's focus on me is disproportionate. Overcautiousness isn't solid proof of malice or lycanthropy. @Mio You cite my caution but is there a concrete action or statement you find genuinely suspicious not just careful?
+1,talk,18,3,2,I don’t see merit in exiling George based on caution alone My vote is for Mio whose early push troubles me.
+1,talk,19,3,1,I will vote George.
+1,vote,1,4
+1,vote,2,5
+1,vote,3,5
+1,vote,4,5
+1,vote,5,4
+1,execute,5,POSSESSED
+1,divine,1,4,WEREWOLF
+1,attackVote,4,1
+1,attack,1,true
+2,status,1,SEER,DEAD,mille1,Shunichi
+2,status,2,VILLAGER,ALIVE,sunamelli1,Mizuki
+2,status,3,VILLAGER,ALIVE,kanolab-nw1,Daisuke
+2,status,4,WEREWOLF,ALIVE,CamelliaDragons1,George
+2,status,5,POSSESSED,DEAD,GPTaku1,Mio
+2,talk,0,0,4,With both Shunichi and Mio gone I suggest we approach today with measured analysis not hasty conclusions. @Daisuke  your cooperative tone yesterday stood out. Could you share your suspicions moving into today?
+2,talk,1,0,3,I find that George still holds potential for suspicion. Shunichi never suspected him. That seems important to note. What do you think?
+2,talk,2,0,2,Shunichi’s result cleared me so focus should be on Daisuke and George.  @Daisuke  who do you really suspect now and why?
+2,talk,3,1,4,With Shunichi's claim gone let's review past suspicions and examine statements closely for inconsistencies. @Mizuki  since Shunichi cleared you what makes you unsure about Daisuke or me now?
+2,talk,4,1,3,I'm... um a bit confused about why Mr. George wasn't targeted. Shunichi and Mizuki are confirmed. Could he have... werewolf ties?
+2,talk,5,1,2, @Daisuke  your logic shifted a lot since yesterday What changed overnight to make you suddenly suspect George now?
+2,talk,6,2,4,It is premature to draw conclusions based solely on Shunichi's trust or last night's events. We should proceed stepwise. @Daisuke  abrupt changes in suspicion can cloud reason. What led to this shift in your stance toward me specifically now?
+2,talk,7,2,3,I wonder why the attacks didn't target George. Could there be a connection we're missing? Mizuki. Does this change your view on him?
+2,talk,8,2,2, @Daisuke  Your sudden suspicion of George feels forced. What changed from your cautious stance yesterday?
+2,talk,9,3,4,A consistent approach benefits us all. Let us not ignore the pattern of abruptly shifting suspicions without sound reasoning. @Mizuki  do you find Daisuke's change this morning rational or do you sense possible ulterior motives behind it?
+2,talk,10,3,3,I apologize but Mizuki has stated Mr. Shunichi's result. Yet Mr. Shunichi's absence might mean we are missing other dangers.
+2,talk,11,3,2,George’s consistency feels genuine while Daisuke’s sudden turn today stands out as wolf behavior.
+2,vote,2,3
+2,vote,3,4
+2,vote,4,3
+2,execute,3,VILLAGER
+3,status,1,SEER,DEAD,mille1,Shunichi
+3,status,2,VILLAGER,ALIVE,sunamelli1,Mizuki
+3,status,3,VILLAGER,DEAD,kanolab-nw1,Daisuke
+3,status,4,WEREWOLF,ALIVE,CamelliaDragons1,George
+3,status,5,POSSESSED,DEAD,GPTaku1,Mio
+3,result,1,1,WEREWOLF

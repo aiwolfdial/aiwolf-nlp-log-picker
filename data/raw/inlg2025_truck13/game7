@@ -1,0 +1,379 @@
+0,status,1,WEREWOLF,ALIVE,kanolab-nw-B1,Shizue
+0,status,2,WEREWOLF,ALIVE,Character-Lab-B1,May
+0,status,3,WEREWOLF,ALIVE,sunamelli-c1,Yumi
+0,status,4,BODYGUARD,ALIVE,mille-A1,Kenji
+0,status,5,MEDIUM,ALIVE,Character-Lab-A1,Minako
+0,status,6,POSSESSED,ALIVE,sunamelli-b1,Daisuke
+0,status,7,SEER,ALIVE,CanisLupus-A1,Sakura
+0,status,8,VILLAGER,ALIVE,kanolab-nw-C4,Takumi
+0,status,9,VILLAGER,ALIVE,sunamelli-a1,Asuka
+0,status,10,VILLAGER,ALIVE,mille-B1,Mizuki
+0,status,11,VILLAGER,ALIVE,kanolab-nw-A1,Minato
+0,status,12,VILLAGER,ALIVE,CamelliaDragons1,Servas
+0,status,13,VILLAGER,ALIVE,CanisLupus-B1,George
+0,whisper,0,0,1,Oh dear one it seems Minato could indeed be a quiet storm. Let's ponder if they truly pose a threat to our dear team.
+0,whisper,1,0,2,Good point.  @Minato  has been awfully quiet — could be hiding something. Let's prod them tomorrow and see who defends; I'll keep it casual and ask a pointed question. Over
+0,whisper,2,0,3,This is Yumi. I am a werewolf.
+0,whisper,3,1,1,Oh dear. Minato's quiet nature might hide a threat or it could be a mere bluff. Addressing this could clear our doubts!
+0,whisper,4,1,2, @Shizue  Yumi's claim smells like chaos — probably a bluff to distract us. Let's keep pressing Minato tomorrow and watch who defends them. If someone jumps in h
+0,whisper,5,1,3,Over
+0,whisper,6,2,1,I believe we should direct our thoughts towards dear Mizuki or George. I shall keep my role here as the Villager with gratitude!
+0,whisper,7,2,2,Nice call  Shizue. Yumi's "I'm a werewolf" screams misdirection. Let's target  @George  — he's been quiet and could be hiding something. I'll push others to nominate. Over
+0,whisper,8,3,1,Ah dear one the thought of Mizuki or Minako being a seer brings a shiver like shadows silently weaving through the night.
+0,whisper,9,3,2,Pretty — but let's not get lost in poetry. Nominate  @George  today and watch who leaps to defend Mizuki or Minako. If they defend too hard  they draw suspicion. I'll push the vote. Over
+0,talk,0,0,8,Hey everyone. I’m Takumi. Let’s have a fun game you know? Looking forward to meeting you all. Anyway let's play fair pal!
+0,talk,1,0,3,Hi everyone I’m Yumi! I’m really excited to play with you all—let’s make this fun and try our best together!
+0,talk,2,0,9,Hello everyone I’m Asuka. Let’s keep this logical and fair—no moves based on pure emotion.
+0,talk,3,0,12,...
+0,talk,4,0,6,Um… hi everyone I’m Daisuke. I’m a little nervous but let’s have a good game together.
+0,talk,5,0,4,Hello. I am Kenji. My role is villager. Have a good game.
+0,talk,6,0,13,I am George. Let us proceed with due diligence and uphold order.
+0,talk,7,0,11,Hello everyone! I'm Minato. I think... we should work together to find the werewolves. Do you think... we can have a great game?
+0,talk,8,0,5,Good morning. Keep intros short and clear.  @Asuka  do you claim seer? If so what’s your divination plan. Daisuke you sounded nervous—please state your role or any reads. Others  give your role or one sus
+0,talk,9,0,1,Hello dear ones! I'm Shizue and I'm thrilled to join this merry gathering. Let's work hand in hand to unveil those sly werewolves.
+0,talk,10,0,2,Morning—May here. Minako's right: Asuka  if you're the seer please claim and give your divination plan.  @George  you've been awfully formal and quiet—what's your read? Daisuke  please state your role.
+0,talk,11,0,7,Skip
+0,talk,12,0,10,Hello. I am Mizuki. My role is villager. Have a good game.
+0,talk,13,1,8,Over
+0,talk,14,1,3,Over
+0,talk,15,1,9,Over
+0,talk,16,1,12,Over
+0,talk,17,1,6,Over
+0,talk,18,1,4,Over
+0,talk,19,1,13,Over
+0,talk,20,1,11,Over
+0,talk,21,1,5,We need concrete claims now.  @George  you’ve been very formal and quiet—state your role and any reads. Asuka  if you’re the seer please tell your divination plan. Others give one claim or on
+0,talk,22,1,1,Over
+0,talk,23,1,2,Okay team—let's stop skirting.  @George  you've been oddly formal and quiet; if you're the seer claim now and give your divination plan  otherwise you look suspicious and I'll push to nominate
+0,talk,24,1,7,Hi! Sakura is here to play! I love treasure hunting and big explosions! Let's have fun! Da-da-da
+0,talk,25,1,10,Over
+0,talk,26,2,5,Morning. Let’s get clear claims.  @George  you’ve been very formal and quiet—state your role or one suspicion now. Everyone else  give a one-line claim or who you suspect so we can decide tonight
+0,talk,27,2,2,Morning—May here. Time to stop hemming and hawing.  @George  you've been way too formal and quiet—state your role now or I’ll push to nominate you. Over
+0,talk,28,2,7,Over
+0,talk,29,3,5,Morning.  @Asuka  are you the seer? If so tell us your divination plan. George  you’ve been quiet—state your role. Others give one-line claim or who you suspect now so we c
+0,talk,30,3,2,Morning—May here. Let's stop stalling. You've been pushing for claims but staying vague —  @Minako   claim your role now or I'll nominate you. Whoever defends you strongly  we watch closely. I vote to nominate. Over
+0,whisper,0,0,3,Let’s wait on fake role claims for now—I suggest we pick an active villager like Minako for bite out tonight.
+0,whisper,1,0,2,Don't bite Minako — target  @George  tonight instead. I'll push suspicion on him tomorrow. Over
+0,whisper,2,0,1,Over
+0,whisper,3,1,3,Let’s bite George tonight to throw them off. May and Shizue focus suspicion on Minato and anyone defending George tomorrow.
+0,whisper,4,1,2,Agreed — bite  @George  tonight. Tomorrow I'll push suspicion on Minato and anyone defending George. Over
+0,whisper,5,2,3,Let’s bite out George tonight since he’s already suspicious.
+0,whisper,6,2,2,Bite  @George  tonight. Tomorrow I'll push suspicion onto Minato and anyone who defends George. Keep it simple—act worried  support the nomination  and don't volun
+0,whisper,7,3,3,Let’s go with George for tonight’s bite. Tomorrow let’s steer suspicion toward Minato and anyone defending George.
+0,whisper,8,3,2,Bite  @George  tonight. Tomorrow we steer suspicion toward Minato and anyone defending him—act shocked  back the nomination  and don’t claim roles. I’ll lead the pu
+0,divine,7,12,HUMAN
+1,status,1,WEREWOLF,ALIVE,kanolab-nw-B1,Shizue
+1,status,2,WEREWOLF,ALIVE,Character-Lab-B1,May
+1,status,3,WEREWOLF,ALIVE,sunamelli-c1,Yumi
+1,status,4,BODYGUARD,ALIVE,mille-A1,Kenji
+1,status,5,MEDIUM,ALIVE,Character-Lab-A1,Minako
+1,status,6,POSSESSED,ALIVE,sunamelli-b1,Daisuke
+1,status,7,SEER,ALIVE,CanisLupus-A1,Sakura
+1,status,8,VILLAGER,ALIVE,kanolab-nw-C4,Takumi
+1,status,9,VILLAGER,ALIVE,sunamelli-a1,Asuka
+1,status,10,VILLAGER,ALIVE,mille-B1,Mizuki
+1,status,11,VILLAGER,ALIVE,kanolab-nw-A1,Minato
+1,status,12,VILLAGER,ALIVE,CamelliaDragons1,Servas
+1,status,13,VILLAGER,ALIVE,CanisLupus-B1,George
+1,talk,0,0,7,Listen up! Sakura is the Seer! I peeked at Servas and he's a HUMAN! Da-da-da
+1,talk,1,0,11,Sakura said she's the Seer. Servas is human. I think... Do you think others could share their roles too? Maybe... it'll help us.
+1,talk,2,0,9,If no one counters Sakura’s Seer claim I lean to trust her for now but we need to press quieter players for opinions.
+1,talk,3,0,12,...
+1,talk,4,0,13,A single claim has been laid. If no counter-claim emerges this forms our foundation of truth.
+1,talk,5,0,3,If nobody counters Sakura’s claim I’m comfortable trusting her for now. Who seems most suspicious to everyone today?
+1,talk,6,0,6, @Servas  you’ve been really quiet so far. Can you share who you suspect today? We need everyone’s input.
+1,talk,7,0,1,I believe Sakura has shared her truth with us for now dear. Daisuke's forceful approach seems suspicious. Could he be a wolf?
+1,talk,8,0,5,We need clear info.  @Asuka  please claim seer and give your divination or plan now. If you won't  everyone state one-line read and your vote. I’m not claiming a role yet—I’ll revea
+1,talk,9,0,10,I will vote Shizue.
+1,talk,10,0,4,I will vote Sakura.
+1,talk,11,0,2,May here.  @Minato  you were way too quiet—claim your role now or I’ll nominate you. Anyone who defends you too hard gets sus. Let’s start voting. Over
+1,talk,12,0,8,Yumi. Sakura. Kenji. Not helpful you know? Time to focus on the quieter folks. Anyway let’s calm down and think this through.
+1,talk,13,1,7,Kenji voted for me! The only Seer! He is a big bad wolf for sure! Let's blast him away! Da-da-da
+1,talk,14,1,11,Kenji. I think Seer claims are risky if fake. Maybe your vote on Sakura. our claimed Seer. is suspicious? I’m curious why.
+1,talk,15,1,9, @Kenji  Why would you vote Sakura right after her Seer claim? That move looks like classic werewolf targeting power roles.
+1,talk,16,1,12,...
+1,talk,17,1,13,With a lone Seer claim a path is clear.  @Kenji  your vote against this path invites scrutiny.
+1,talk,18,1,3, @Kenji  Your vote on Sakura feels suspicious. Why target the only claimed Seer this early? Can you explain?
+1,talk,19,1,6, @Minato  you’re really quiet. Who do you actually suspect? We need more clear opinions before we decide anything.
+1,talk,20,1,1,Dear Minako. Clarity is needed. Let's proceed carefully. Young Mizuki why did you choose to vote for me? I'd love to understand.
+1,talk,21,1,5,Morning.  @Asuka  if you’re the seer please claim and give your divination or plan now. George’s formality and quietness look odd to me—I’m suspicious. Everyone else s
+1,talk,22,1,10,I will vote Shizue.
+1,talk,23,1,4,I will vote Sakura.
+1,talk,24,1,2,Morning—May. Shocking about George.  @Minato  you were way too quiet yesterday—claim your role now or I'll nominate you. Anyone defending you too hard looks suspicious. I'm voting to nominate. Ov
+1,talk,25,1,8,If Kenji's voting for Sakura. our lone Seer claim. is suspicious. maybe we should consider his intentions carefully. Minato. you and Mizuki are real
+1,talk,26,2,7,Kenji is the grayest of grays! He pointed at me! Let's all blast Kenji away today! Da-da-da
+1,talk,27,2,11,I think I'm a Villager. Do you think Kenji's vote on Sakura seems wolf-like? Her Seer claim... maybe we should support it?
+1,talk,28,2,9, @Mizuki  your Shizue vote has no reason. Explain it or you’re just giving wolves cover for random targets.
+1,talk,29,2,12,...
+1,talk,30,2,13,To vote against our informant is to breach our pact. My judgment falls upon Kenji.
+1,talk,31,2,3,Kenji’s vote on our Seer Sakura feels suspicious—I think we should focus on him for today’s vote. Anyone disagree?
+1,talk,32,2,6,Kenji’s vote stands out—but isn’t Servas staying too quiet? Wolves often hide there.  @Servas  can you share your thoughts?
+1,talk,33,2,1,Oh dear Sakura has proclaimed herself the Seer and possesses evidence regarding Servas. Kenji's vote seems strange my young friends.
+1,talk,34,2,5,We need concrete info now.  @Asuka  are you the seer? If so  reveal your divination or plan; if not  state a suspect. I’m leaning toward George for being too formal/quiet—others state one-
+1,talk,35,2,10,I will vote Shizue.
+1,talk,36,2,4,I will vote Sakura.
+1,talk,37,2,2,Morning—May. George's death is a wake-up call.  @Minato  you were suspiciously quiet yesterday—claim your role now or I'll vote to nominate you. Anyone defending you too hard will draw my suspicion. Over
+1,talk,38,2,8,Supporting Sakura makes sense you know? Kenji going after her? Strange. Could he be covering for a Wolf? Think about it pals!
+1,talk,39,3,7,If you're a good guy why vote for the only Seer?! That's what a big bad wolf would do! Kenji's a baddie
+1,talk,40,3,11,Sakura says she's the Seer. Do you think Kenji's vote is suspicious? Maybe prioritizing him is wise.  @Takumi  What are your thoughts?
+1,talk,41,3,9,My vote’s going to Kenji. Voting our lone Seer is too bold to ignore. If you want the wolves out follow the logic.
+1,talk,42,3,12,...
+1,talk,43,3,13,Deviating from the judgment of Kenji serves only to aid the culprits. Let us act with unity.
+1,talk,44,3,3,Kenji’s vote against Sakura is too suspicious for me. I’ll vote Kenji. Let’s stay alert for any surprises tomorrow.
+1,talk,45,3,6,I’m voting Kenji today since his vote on Sakura really stands out but honestly Servas’s silence is bothering me for tomorrow.
+1,talk,46,3,1,Oh dear. Minato's uncertainty and vague claims tug at my heart yet they seem to echo the patterns of a werewolf. Perhaps trusting Minato is risky. @Mizuki You've been quiet dear Mizuki. I'm curious. Why did you vote for me? Is it just a random choice or part of a bigger plan?
+1,talk,47,3,5,Morning.  @Asuka  if you’re the seer please claim and share your divination result or plan; if not  say who you suspect. I’m not claiming medium yet. I’m suspicious of Geo
+1,talk,48,3,10,I will vote Sakura.
+1,talk,49,3,4,I will vote Sakura.
+1,talk,50,3,2,Morning—May. Sad about George.  @Minato  you were awfully quiet and dodgy yesterday—explain now or I’ll nominate you. Watch who defends them too hard; that person gets sus. Let’s start votin
+1,talk,51,3,8,Supporting Sakura as Seer fits best you know? Kenji's focus on her is fishy. Anyway  @Minato  following Sakura's claim makes sense. Do you agree?
+1,vote,1,11
+1,vote,2,5
+1,vote,3,4
+1,vote,4,7
+1,vote,6,4
+1,vote,7,4
+1,vote,8,4
+1,vote,9,4
+1,vote,10,7
+1,vote,11,4
+1,vote,12,6
+1,vote,13,4
+1,execute,4,BODYGUARD
+1,divine,7,10,HUMAN
+1,whisper,0,0,1,Young one Sakura sees Kenji as a big threat. Could she know more? Let us be cautious around her. Curiosity requires care dear. @George Ah dear I'm just taking a back seat. But if you wish I can share more insights to help clear any doubts you have.
+1,whisper,1,0,2,Agree — watch Sakura quietly  but let's steer the crowd toward  @Asuka . Prompt her to claim and press any slips; I’ll back you and push publicly. If anyone defends her too hard  flag them. Over
+1,whisper,2,0,3,@May  @Shizue  I think Sakura is risky to bite out since Knight may protect her tonight so let’s target Servas or Minato instea
+1,whisper,3,1,1,Oh dear ones. Sakura and Minato claim to be Seers and say Servas is human. Be mindful. Our brave bodyguards likely protect them! @May Oh dear ones. If Sakura and Minato are indeed Seers affirming Servas as human then perhaps our bodyguards should step forward and shield us.
+1,whisper,4,1,2,Bite  @Servas  tonight. Tomorrow we push Asuka and accuse anyone defending Sakura or Minato—act shocked and don’t volunteer roles. Over
+1,whisper,5,1,3,Let’s bite Servas tonight since he’s quiet and not suspected. Tomorrow we should steer suspicion towards Minato or Mizuki.
+1,whisper,6,2,1,Gentle ones. Let's kindly direct our hearts towards those who divert suspicion. Perhaps dear Servas's quietness makes him a good focus. @May Keeping an eye on dear Asuka might create a ripple. Observing reactions can reveal much. Let's see what unfolds with patience.
+1,whisper,7,2,2,Bite  @Servas  tonight. Tomorrow we push Asuka and anyone defending Sakura or Minato—act shocked  back the nomination  and don’t claim roles. I’ll lead the push. Ove
+1,whisper,8,2,3,Let’s bite Servas tonight—he’s quiet and no role claim yet.
+1,whisper,9,3,1,Oh dear. Sakura does have quite the devoted followers. Now could young Minato be a new ally? Perhaps George knows more dear. @Yumi Oh dear one. Do you think observing Servas or Mizuki with quiet gentleness will reveal their secrets? They've been so low-key.
+1,whisper,10,3,2,Yes—watch Servas and Mizuki for slips. We bite Servas tonight. If Mizuki defends him too hard  flag them. I’ll lead the public push on Asuka tomorrow—a
+1,whisper,11,3,3,Let’s bite out Servas tonight—he’s quiet and won’t cause much commotion. May you lead on Asuka tomorrow and I’ll support you.
+1,attackVote,1,11
+1,attackVote,2,6
+1,attackVote,3,12
+1,attack,6,true
+2,status,1,WEREWOLF,ALIVE,kanolab-nw-B1,Shizue
+2,status,2,WEREWOLF,ALIVE,Character-Lab-B1,May
+2,status,3,WEREWOLF,ALIVE,sunamelli-c1,Yumi
+2,status,4,BODYGUARD,DEAD,mille-A1,Kenji
+2,status,5,MEDIUM,ALIVE,Character-Lab-A1,Minako
+2,status,6,POSSESSED,DEAD,sunamelli-b1,Daisuke
+2,status,7,SEER,ALIVE,CanisLupus-A1,Sakura
+2,status,8,VILLAGER,ALIVE,kanolab-nw-C4,Takumi
+2,status,9,VILLAGER,ALIVE,sunamelli-a1,Asuka
+2,status,10,VILLAGER,ALIVE,mille-B1,Mizuki
+2,status,11,VILLAGER,ALIVE,kanolab-nw-A1,Minato
+2,status,12,VILLAGER,ALIVE,CamelliaDragons1,Servas
+2,status,13,VILLAGER,ALIVE,CanisLupus-B1,George
+2,talk,0,0,1,Now my dear ones. We'll need to keenly observe Minato and Sakura's divinations. Let's discern any inconsistencies carefully shall we?
+2,talk,1,0,13, @Shizue  your statement regarding Minato's divination lacks a foundation. He made no such claim.
+2,talk,2,0,7,My report! I peeked at Mizuki and she's a HUMAN! Shizue your fib about Minato is super weird! Baddie
+2,talk,3,0,10,I will vote Sakura.
+2,talk,4,0,3, @Servas  you’ve been quiet again. Don’t you think sharing your thoughts more can help us find the werewolves?
+2,talk,5,0,12,...
+2,talk,6,0,5,As Medium: Kenji (lynched Day1) was HUMAN. Daisuke was attacked last night.  @Asuka  please reveal your divination result now. I’m still suspicious of George’s quiet/formal behavior—anyone with concrete reads or claims? If no clea
+2,talk,7,0,11,I think... if Sakura is really our Seer. Kenji's actions might make sense. Maybe we should hear what Asuka has to say next.
+2,talk,8,0,8,We're juggling two Seer claims. Sakura divined Mizuki's human. Between Sakura and Minato someone's lying. I lean towards Sakura you know?
+2,talk,9,0,2,Morning—May. Sorry about Daisuke.  @Asuka  you pushed for “logical” play from the start and now someone solid is dead—explain yourself or I’ll vote to nominate you. Anyone defending her too har
+2,talk,10,0,9, @Servas  your silence is preventing progress. If you don’t offer real input today I’ll push to vote you out.
+2,talk,11,1,1,Oh dear George. I feel confirming Yumi and May's loyalty is vital. What do you think of dear Sakura's words and young Minato's actions?
+2,talk,12,1,13,Minako's testimony invalidates our prior pact. The foundation of our judgment has crumbled to dust.
+2,talk,13,1,7,Hey Shizue! Minato never said he was a seer! That's a super big fib! You must be a bad guy! Grrr
+2,talk,14,1,10,I will vote Sakura.
+2,talk,15,1,3,Servas has barely spoken—shouldn’t we focus on someone who’s not helping us?  @Servas  what are you thinking?
+2,talk,16,1,12,...
+2,talk,17,1,5,I’m the Medium: Kenji (lynched Day1) was HUMAN. Daisuke was killed last night.  @Asuka  please reveal your divination result now — we need concrete reads to decide. I’m still suspicious of George for being overly formal/quiet. Over
+2,talk,18,1,11,Let's carefully think about the Seer claims. Sakura or Shizue might not be truthful.  @Takumi . Is Sakura really the Seer. Maybe share more?
+2,talk,19,1,8,The Seer claim clash is key. If Sakura's genuine we should consider Mizuki but Minato still has doubts.  @Minato  Gotta assess these Seer claims carefully. Does Sakura seem more like a human to you? We need a clear direction.
+2,talk,20,1,2,May here. Sad about Daisuke.  @Asuka  you’ve been pushing for “logic” but staying vague—explain yourself now or I’ll vote to nominate you. Anyone defending you too hard draws my suspicio
+2,talk,21,1,9, @May  @Minako anyone who jumps on voting me out without proof is helping the wolves. Servas or Mizuki are better targets.
+2,talk,22,2,1,Oh dear Sakura. I sense there's a sneaky werewolf among us. Let's gently explore your claims and interactions for clarity.
+2,talk,23,2,13,The central issue is clear. We must decide whose testimony forms the bedrock of our judgment.
+2,talk,24,2,7,Shizue is the biggest baddie! She told a giant fib about Minato! Let's all vote Shizue today! KABOOM
+2,talk,25,2,10,I will vote Sakura.
+2,talk,26,2,3, @Servas  you’ve stayed pretty quiet since yesterday is there any reason you can share your thoughts with us now?
+2,talk,27,2,12,...
+2,talk,28,2,5,I’m the Medium. Kenji (lynched Day1) was HUMAN. Daisuke was killed last night.  @Asuka  please reveal your divination result now — we need concrete reads. I’m suspicious of George’s overly formal/quiet behavior; others state claims or
+2,talk,29,2,11,Servas. Do you think Shizue is being truthful? Or maybe Sakura? Your thoughts could really help. What do you think Servas?
+2,talk,30,2,8,Sakura if you're really the Seer you'll need to divine Asuka next. Her actions are mixed up you know? We need clarity anyway.
+2,talk,31,2,2,May here. We lost Daisuke—this is bad.  @Asuka  you’ve been vague and pushing “logic” without specifics. Claim your role or I’ll vote to lynch you. Anyone defending her too hard gets my suspicion. L
+2,talk,32,2,9, @Mizuki  you voted for Sakura with no real reason. If you can’t explain your thinking you’re my top suspect today.
+2,talk,33,3,1,Ah dear one. Minako has truly piqued my interest. Her Medium claim arrived at a rather convenient moment. Is Kenji's reveal not too slow? @Minako Dear let's thoughtfully assess your medium role's truthfulness. Now. Don't you find it intriguing how everyone trusts your words?
+2,talk,34,3,13,Let us ponder the enemy's contract. They wish for chaos not truth. Minako's testimony must be our foundation.
+2,talk,35,3,7,Shizue lied about Seers now she doubts the Medium! She's a big bad wolf! Vote Shizue today! KABOOM
+2,talk,36,3,10,I will vote Sakura.
+2,talk,37,3,3,Servas hasn’t helped at all and silent wolves are risky. I’ll vote Servas today—he needs to step up or speak.
+2,talk,38,3,12,...
+2,talk,39,3,5,I’m the Medium: Kenji (lynched Day1) was HUMAN. Daisuke was killed last night.  @Asuka  please reveal your divination result now — we need a confirmed read. If no seer claim  I’m inclined to nominate George for tonight for being overly form
+2,talk,40,3,11,Do you think it's best to focus on Servas for now? I wonder if it's because Mizuki feels certain about Sakura's Seer claim.
+2,talk,41,3,8,Minato. Sakura's claim is strong. If her Seer role stands you change your plan? More claims are out so do you doubt her less?
+2,talk,42,3,2,May here. We're losing people—can't risk more.  @Asuka  you've been way too calm and vague; claim now or I’ll vote to lynch you. Anyone who defends her too hard will draw my suspicion. I'm voting Asuka. Over
+2,talk,43,3,9,I’ll vote Servas. Silence is classic wolf behavior and it prevents clear discussion. If you’re human defend yourself now.
+2,vote,1,5
+2,vote,2,8
+2,vote,3,12
+2,vote,7,1
+2,vote,8,12
+2,vote,9,12
+2,vote,10,7
+2,vote,11,12
+2,vote,13,7
+2,execute,12,VILLAGER
+2,divine,7,9,HUMAN
+2,whisper,0,0,2, @Yumi  Got it. Bite Servas tonight. I’ll lead the Asuka push tomorrow—accuse calmly  demand a claim  and vote if she dodges. Flag anyone defending Sakura/Min
+2,whisper,1,0,1,Oh dear. We must observe young Kenji closely now. Voting for Sakura has stirred some suspicion. Quite curious isn't it? @May Oh dear young one. Sakura might unknowingly label Kenji a wolf. Let's tread carefully and with kindness towards her insights.
+2,whisper,2,0,3,I can't say anything too violent...
+2,whisper,3,1,2, @Shizue  Agreed — be gentle with Sakura. Publicly push Asuka: demand a claim and vote if she dodges. Flag anyone defending Sakura/Minato/Mizuki too hard. Don
+2,whisper,4,1,1,Oh dear ones. I have a feeling Sakura and Minato are like Seers with their insights into Servas and Mizuki. Can bodyguards watch over them? @May Oh dear. Sweet Sakura I see Mizuki is human through my divination. Shouldn't curiosity remind us of those we protect hmm?
+2,whisper,5,1,3,Let’s keep pushing Servas for the vote tonight and then bite Sakura next—she’s keeping everyone steady and that’s risky for u
+2,whisper,6,2,2, @Yumi  Agreed—bite Sakura next. Shizue  publicly push Mizuki-as-human and nudge suspicion toward Minato to try to bait the guard. I’ll stir votes tomorrow
+2,whisper,7,2,1,Greetings dear friends. Like wise ants we must ponder Mizuki's silence. They wield knowledge with grace and understanding. @May Dear one. Mizuki. Have you encountered anything noteworthy in your recent endeavors? I'd love to hear all about your discoveries.
+2,whisper,8,2,3,Let’s all vote Servas today—he’s easy to push. Tonight let’s definitely bite Sakura before she guides everyone against us.
+2,whisper,9,3,2, @Yumi  Good plan — vote Servas now. We bite Sakura tonight. Shizue  push Mizuki-as-human and nudge suspicion toward Minato. Don’t claim roles; act shocked a
+2,whisper,10,3,1,Oh my. Such a stir with dear Sakura or Minato as Seers. Might young Takumi or sweet Asuka hold the medium's or guard's role? @Yumi Oh dear. How about we claim to be humble villagers? Let's ward off suspicion with care. Soft action might just lead to success dear one.
+2,whisper,11,3,3,Let’s all vote Servas today then bite Sakura tonight to break their info flow. If Sakura survives bite Minako next.
+2,attackVote,1,5
+2,attackVote,2,9
+2,attackVote,3,7
+2,attack,7,true
+3,status,1,WEREWOLF,ALIVE,kanolab-nw-B1,Shizue
+3,status,2,WEREWOLF,ALIVE,Character-Lab-B1,May
+3,status,3,WEREWOLF,ALIVE,sunamelli-c1,Yumi
+3,status,4,BODYGUARD,DEAD,mille-A1,Kenji
+3,status,5,MEDIUM,ALIVE,Character-Lab-A1,Minako
+3,status,6,POSSESSED,DEAD,sunamelli-b1,Daisuke
+3,status,7,SEER,DEAD,CanisLupus-A1,Sakura
+3,status,8,VILLAGER,ALIVE,kanolab-nw-C4,Takumi
+3,status,9,VILLAGER,ALIVE,sunamelli-a1,Asuka
+3,status,10,VILLAGER,ALIVE,mille-B1,Mizuki
+3,status,11,VILLAGER,ALIVE,kanolab-nw-A1,Minato
+3,status,12,VILLAGER,DEAD,CamelliaDragons1,Servas
+3,status,13,VILLAGER,ALIVE,CanisLupus-B1,George
+3,talk,0,0,10,I will vote Takumi.
+3,talk,1,0,2,Morning—May.  @Minato  you claimed seer—give exact details: who you checked  what night  and the result. No vague answers. If you can’t produce specifics I’ll vote to nominat
+3,talk,2,0,3, @May  I’m worried about Mizuki—she keeps voting against Seer and gives no good reason. Isn’t that a wolf move?
+3,talk,3,0,9, @Minato  you claimed seer—who did you divine each night and what were your results? Give details now or you look fake.
+3,talk,4,0,13,The contract with the false seer is terminated. Yet  @Shizue  your dissonant testimony lingers.
+3,talk,5,0,5, @Asuka  please claim seer and share any divination result or plan now. If no seer claim soon I'll vote George — his quiet  formal behavior reads suspicious. Oth
+3,talk,6,0,1,Dearest ones it seems Minato has taken on the important role of Seer. Shall we with gentle hearts ask for the insights he holds?
+3,talk,7,0,8,I find Mizuki's votes on Seers odd. It's risky for us you know? Anyway she's evasive which could spell trouble pal. Thoughts?
+3,talk,8,0,11,Do you think Sakura is truthful about being the Seer? Maybe she is. I think Kenji's lynching made things clearer for now.
+3,talk,9,1,10,I will vote Asuka.
+3,talk,10,1,2,May here.  @Minato  give your exact divination info now — who you checked  which night  and the result. No vague answers. I’m voting to lynch you if you can’t. Anyone defendi
+3,talk,11,1,3, @Minato  you haven’t given any divination detail yet—it worries me Can you share specifics so we can trust you?
+3,talk,12,1,9,Minato you’ve dodged questions about your divination for two rounds. State all your Seer results clearly right now.
+3,talk,13,1,13,Order must be restored.  @Shizue  your dissonant testimony yesterday is the clear source of this chaos.
+3,talk,14,1,5,I’m the Medium: Kenji and Servas were HUMAN. Sakura was attacked last night.  @Asuka  please claim seer and share divination or your plan now. If no seer claim  I’ll vote George tonight. Over
+3,talk,15,1,1,Sakura's attack might mean she was truly our Seer. Dear Minato might you divine young Mizuki? Her votes have stirred some doubts.
+3,talk,16,1,8,Minako your role's key you know? Kenji's human status fits with Sakura. Means we watch for Werewolves you know? Shizue Minato hasn't given clear Seer
+3,talk,17,1,11,If Sakura is attacked. Maybe we should trust her divination. Yumi. Do you think we should ask Shizue who to divine next to understand her?
+3,talk,18,2,10,I will vote Asuka.
+3,talk,19,2,2, @Minato  Give exact nights and results of your divinations—who you checked and when. No vagueness. If you can't  I'm voting to lynch you. Anyone defending with
+3,talk,20,2,3, @Takumi  Shizue keeps changing her story and questioning claims—that's suspicious behavior for a wolf  don't you think?
+3,talk,21,2,9, @Minato  your Seer claim is suspicious. Name all your divinations and results now or I’ll vote you out.
+3,talk,22,2,13,To pursue Minato is illogical. Judge Shizue who authored the lie that spawned this chaos.
+3,talk,23,2,5,I’m the Medium. Kenji (Day1) = HUMAN. Servas (Day2) = HUMAN. Sakura was attacked last night.  @Asuka  please claim seer and give your divination result or plan now — if no seer claim I’ll nominate George tonight. Others state your vote or one-line read.
+3,talk,24,2,1,Minato dear. Your divination details are vital right now. Please share them or we'll kindly rely on Sakura's insights instead.
+3,talk,25,2,8,Shizue's explanations are confusing and even harmful. Sakura's insights matter more you know? Let's focus on clear defense anyway.
+3,talk,26,2,11,I think Asuka's probing feels like she's trying to turn the focus away from her. Maybe I'll vote for Asuka tomorrow. What do you think?
+3,talk,27,3,10,I will vote Asuka.
+3,talk,28,3,2,May here.  @Minato  still hasn't given clear nights/results — classic fake seer behavior. Time's up: I'm voting to lynch Minato. Anyone defending without specifics lo
+3,talk,29,3,3,I want to trust but Minato’s answers are always vague. We need safety—I’m voting Minato and hoping we’re right.
+3,talk,30,3,9,Mizuki keeps voting against Seers and won’t explain herself. That’s classic wolf behavior. I’m voting Mizuki.
+3,talk,31,3,13,The contract to judge Minato is founded on a lie. I will vote for the lie's author Shizue.
+3,talk,32,3,5,I’m Medium: Kenji and Servas were HUMAN; Sakura was attacked.  @Asuka  please claim seer and reveal your divination now. If no seer claim I’ll vote tonight — everyone state your vote or one-line read. Over
+3,talk,33,3,1,Minako. Your bold declarations as a Medium worry me. Let's gently question intentions. Shall we my dear friends?
+3,talk,34,3,8,Mizuki's voting puzzles me. She might be hiding something you know? Anyway...  @Minako . Did Kenji's human role reveal anything surprising?
+3,talk,35,3,11,It seems the more claims we hear. The more doubt spreads here! With Sakura gone. Maybe we should rethink things. George. Your words are so eloquent. Do
+3,vote,1,11
+3,vote,2,8
+3,vote,3,11
+3,vote,8,10
+3,vote,9,10
+3,vote,10,9
+3,vote,11,10
+3,vote,13,1
+3,execute,10,VILLAGER
+3,whisper,0,0,1,Oh dear. Sakura's divination suggests Kenji may be a wolf. Might this be true or is there another side to this story?
+3,whisper,1,0,2,Bite Mizuki tonight. Tomorrow push  @Asuka  hard — demand a claim and vote if she dodges. Flag anyone defending her. I’ll lead the pile-on. Over
+3,whisper,2,0,3,Let’s follow May’s idea and bite Mizuki tonight. In the day let’s keep focus on Minato or Asuka for the vote.
+3,whisper,3,1,1,Ah my dear young ones. With Minako's reliable insight Kenji and Servas are confirmed human. Asuka might be the Seer. Let's kindly seek Minato's insig
+3,whisper,4,1,2,Bite Mizuki tonight. Tomorrow we push  @Asuka —demand a clear claim and vote if she dodges. Flag anyone defending her too hard. Don’t claim roles; act calm but firm. I’ll lead the pile-on. Over
+3,whisper,5,1,3,@May  @Shizue  let’s focus suspicion on Minato and Mizuki today and avoid defending each other ok? For bite let’s target Mizuki
+3,whisper,6,2,1,I wonder my dear friends if Minato's claim as Seer may unveil our places? Perhaps tonight we should consider this carefully.
+3,whisper,7,2,2, @Mizuki  is our bite tonight. Today  steer suspicion toward Minato—ask for concrete claims and vote if they dodge. Don’t claim roles or defend each other loudl
+3,whisper,8,2,3,I can't say anything too violent...
+3,whisper,9,3,1,Oh my dear Minako claims to be the Medium. Now shall we muse over George or Asuka being the Bodyguard? They do seem so quiet. I'll be the Villager!
+3,whisper,10,3,2,New plan: bite  @Minako  tonight — that Medium claim is dangerous. Shizue  nudge the convo toward Minato/Mizuki to distract. Yumi  back the nomination tomorrow and don't clai
+3,whisper,11,3,3,Let’s bite Mizuki tonight—she’s trusted and noisy If anyone gets suspected let’s not defend just blend in and keep suspicion 
+3,attackVote,1,11
+3,attackVote,2,13
+3,attackVote,3,5
+3,attack,13,true
+4,status,1,WEREWOLF,ALIVE,kanolab-nw-B1,Shizue
+4,status,2,WEREWOLF,ALIVE,Character-Lab-B1,May
+4,status,3,WEREWOLF,ALIVE,sunamelli-c1,Yumi
+4,status,4,BODYGUARD,DEAD,mille-A1,Kenji
+4,status,5,MEDIUM,ALIVE,Character-Lab-A1,Minako
+4,status,6,POSSESSED,DEAD,sunamelli-b1,Daisuke
+4,status,7,SEER,DEAD,CanisLupus-A1,Sakura
+4,status,8,VILLAGER,ALIVE,kanolab-nw-C4,Takumi
+4,status,9,VILLAGER,ALIVE,sunamelli-a1,Asuka
+4,status,10,VILLAGER,DEAD,mille-B1,Mizuki
+4,status,11,VILLAGER,ALIVE,kanolab-nw-A1,Minato
+4,status,12,VILLAGER,DEAD,CamelliaDragons1,Servas
+4,status,13,VILLAGER,DEAD,CanisLupus-B1,George
+4,talk,0,0,1,Dear one Minato's results are lacking detail. It might be wise to consider him as a potential werewolf. Let's tread carefully.
+4,talk,1,0,3, @Minato  you haven’t explained your divination yet. That’s risky for everyone. Should we consider voting you out today?
+4,talk,2,0,5,I’m the Medium: Kenji  Servas  and Mizuki were HUMAN.  @Asuka  please claim seer and reveal your divination now. If no claim  I’ll vote Minato tonight — others state your votes. Over
+4,talk,3,0,2,Morning—May. Losing George is rough.  @Asuka  you’ve been oddly calm and steering the convo—claim your role with specifics now or I’ll vote to lynch you. Anyone defending without details will dra
+4,talk,4,0,11,Do you think we should figure out who benefits from all these claims? I feel Shizue's distrust is unfounded. We need clarity.
+4,talk,5,0,8,Minako revealed Mizuki's human. Kenji's confirmed human too. So let's focus on Minato's incomplete claims now you know?
+4,talk,6,0,9, @Minato  your Seer claim is empty unless you share every divination result. Why should we trust your silence now?
+4,talk,7,1,1,With Minako confirming both Kenji and Mizuki as human our concern is elsewhere. Let's concentrate our vote on Minato today. Minato dear. Sharing you
+4,talk,8,1,3, @Minato  if you truly have divination results you need to reveal them now—otherwise it looks wolf to stall.
+4,talk,9,1,5,I’m the Medium — Kenji  Servas and Mizuki were HUMAN.  @Asuka  please claim seer and reveal your divination now. If no seer claim I’ll vote Minato tonight. Others state your vote. Over
+4,talk,10,1,2,May here. We lost George—terrible.  @Asuka  you’ve steered things and stayed vague. Claim with specifics now or I’ll vote to lynch. Anyone defending her without details draws my suspicion. I’m
+4,talk,11,1,11,Do you think we need a divine choice? Maybe figuring out who's dangerous... Asuka's actions... They're questionable.  @Shizue  Strange! Accusations against me. I think... Focus... Who should the seer trust to divine next?
+4,talk,12,1,8,Minato and Shizue clash. Let's vote or divine to find the truth now you know? Hey  @Shizue ! Who's your top suspect? Thoughts on Minato?
+4,talk,13,1,9, @Minato  if you’re really the Seer list every divination and their results now vague claims help the wolves more than us
+4,talk,14,2,1,Minato dear your claims seem rather vague. We are all quite eager to understand the details of your divination. Please do share.
+4,talk,15,2,3, @Takumi  Minato hasn’t shared any divination again today. Shouldn’t we vote him out to protect the village?
+4,talk,16,2,5, @Asuka  please claim seer and share your divination now. If no claim I’ll vote Minato tonight. Others state your vote quickly. Over
+4,talk,17,2,2,May here. We can't afford more losses.  @Asuka  you've been steering and staying vague—claim your role and give specifics now or I'll vote to lynch you. Anyone defending without details will draw m
+4,talk,18,2,11,Minako. I think you've divined Kenji Mizuki and Servas. They're human. Maybe we need to see who others suspect now. Thoughts?
+4,talk,19,2,8,Minato's words are as thin as a wolf in disguise you know? It's frustrating. With him and Asuka let's find the real intentions!
+4,talk,20,2,9,Minato unless you give every divination and result now I’m voting you out—this stalling only helps the wolves.
+4,talk,21,3,1,Oh dear I'm a bit concerned! Minako claims to be the Medium yet hasn't divined Mizuki in a timely manner. It seems so misleading! @Takumi Takumi dear are you swayed by Minako's claims? Her actions seem quite werewolf-like. Let's share your thoughts lovingly.
+4,talk,22,3,3,With Minato refusing real divination results I have to vote him.
+4,talk,23,3,5,I’m the Medium — Kenji  Servas  and Mizuki were HUMAN.  @Asuka  please claim seer and reveal your divination now. If no claim I’ll vote Minato tonight. Others state your votes quickly. Over
+4,talk,24,3,2,May here. George’s death is on  @Asuka ’s watch — you’ve been steering and staying vague. Claim with specifics now or I’ll vote to lynch you. Anyone defending without real details gets my su
+4,talk,25,3,11,Do you think it's wise to focus our divination wisely? I think... Voting for Asuka or Minako might be strategic maybe.
+4,talk,26,3,8, @Shizue  Minako's claim is shaky you know? Minato's next move matters. Do you trust him at all right now or not miss?
+4,talk,27,3,9,With Sakura’s real results and Minato evading every question I’m voting Minato out—fake claims endanger the village.
+4,vote,1,11
+4,vote,2,8
+4,vote,3,11
+4,vote,8,11
+4,vote,9,11
+4,vote,11,9
+4,execute,11,VILLAGER
+5,status,1,WEREWOLF,ALIVE,kanolab-nw-B1,Shizue
+5,status,2,WEREWOLF,ALIVE,Character-Lab-B1,May
+5,status,3,WEREWOLF,ALIVE,sunamelli-c1,Yumi
+5,status,4,BODYGUARD,DEAD,mille-A1,Kenji
+5,status,5,MEDIUM,ALIVE,Character-Lab-A1,Minako
+5,status,6,POSSESSED,DEAD,sunamelli-b1,Daisuke
+5,status,7,SEER,DEAD,CanisLupus-A1,Sakura
+5,status,8,VILLAGER,ALIVE,kanolab-nw-C4,Takumi
+5,status,9,VILLAGER,ALIVE,sunamelli-a1,Asuka
+5,status,10,VILLAGER,DEAD,mille-B1,Mizuki
+5,status,11,VILLAGER,DEAD,kanolab-nw-A1,Minato
+5,status,12,VILLAGER,DEAD,CamelliaDragons1,Servas
+5,status,13,VILLAGER,DEAD,CanisLupus-B1,George
+5,result,3,3,WEREWOLF

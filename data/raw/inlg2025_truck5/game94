@@ -1,0 +1,53 @@
+0,status,1,WEREWOLF,ALIVE,mille1,Kenji
+0,status,2,POSSESSED,ALIVE,Character-Lab1,Toshio
+0,status,3,SEER,ALIVE,CamelliaDragons1,Shizue
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Rin
+0,status,5,VILLAGER,ALIVE,GPTaku1,Ryuji
+0,talk,0,0,2,I'll observe this round and keep things calm.  @Kenji   what are your first impressions or any reads? Everyone else  give one brief gut read so we can compare notes. Over
+0,talk,1,0,5,Hello everyone! I'm Ryuji. Excited to play and uncover mysteries with all of you. Let's have some fun and good luck to all!
+0,talk,2,0,3,Hello gentle villagers! I'm Shizue. Let's work together. Feel free to ask for support if you need anything! @Toshio  your calm presence is comforting. Everyone's energy feels sincere so far.
+0,talk,3,0,1,Hello. I am Kenji. My role is villager. Have a good game.
+0,talk,4,0,4,Hey pals! I'm Rin. It's so cool to meet you! Wow! Let's dive in and find the truth okay? I can't wait for this adventure!
+0,talk,5,1,2, @Kenji  You claimed villager immediately — what's your reasoning or any reads behind that claim? Quick one-line gut reads from everyone else  please. Over
+0,talk,6,1,5,Over
+0,talk,7,1,3,Over
+0,talk,8,1,1,Over
+0,talk,9,1,4,Over
+0,talk,10,2,2,Silence is suspicious.  @Kenji  you claimed villager but gave no reason—convince us briefly or you'll look more suspicious. Others  give one-line gut reads now. Over
+0,talk,11,3,2, @Kenji  You claimed villager but haven't explained why — give a short  convincing reason now. If you stay vague  I'll vote to force a reaction. Everyone else  giv
+0,divine,3,1,WEREWOLF
+1,status,1,WEREWOLF,ALIVE,mille1,Kenji
+1,status,2,POSSESSED,ALIVE,Character-Lab1,Toshio
+1,status,3,SEER,ALIVE,CamelliaDragons1,Shizue
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Rin
+1,status,5,VILLAGER,ALIVE,GPTaku1,Ryuji
+1,talk,0,0,4,Kenji's village claim was bold! But wow Ryuji's excitement feels so genuine to me! What do you all think pals?
+1,talk,1,0,1,I will vote Toshio.
+1,talk,2,0,3,Good morning everyone. I am the Seer. Last night I divined Kenji and saw that he is a Werewolf. @Toshio  your keen observations yesterday were impressive. I hope we can work together to keep the village safe.
+1,talk,3,0,2, @Shizue  That’s a strong claim — if you’re the Seer  say why you chose Kenji first and give a concise reason we should trust this result. Kenji voting me is odd but n
+1,talk,4,0,5, I divined Rin last night and found her to be Human. This confirms Rin as a safe ally for our village. Let's focus on others.
+1,talk,5,1,4,Ryuji and Shizue both say they are Seers but I'm a confirmed human. Kenji voting for Toshio seems odd!  @Shizue  Thanks! Why Kenji first?
+1,talk,6,1,1,Over
+1,talk,7,1,3,Thank you for your questions. Kenji's quick villager claim stood out so I wanted to clarify his intent. @Rin  good question! Kenji's fast villager claim without much explanation made me curious so I checked him first.
+1,talk,8,1,2,Two seer claims — we need clarity before lynching.  @Ryuji  which night did you divine Rin and why pick her? Shizue  your check of Kenji is plausible  but with conflicting results we should hold off on lynching Ken
+1,talk,9,1,5, I urge everyone to vote for Kenji. Shizue divined him as a werewolf and his early claim with no reasons makes him highly suspicious.
+1,talk,10,2,4,Wow! Two Seers huh pal? Tricky stuff! But hey I'm human! If Shizue's the real Seer then Kenji's the Werewolf! Let's focus there!
+1,talk,11,2,3,I'm grateful for everyone's thoughtful questions. If anyone has doubts please share; open hearts can reveal the truth best. @Toshio  your careful thinking helps us all. If you have advice or concerns I'm happy to listen and work with you.
+1,talk,12,2,2,Two seer claims is risky.  @Shizue  You said Kenji is werewolf — state exactly which night you checked him and why you chose him first. If you can't  your result is dubious. I'll abstain unt
+1,talk,13,2,5, Voting for Kenji is crucial. Both his unclear initial claim and Shizue's divination result point to him being a threat to the village.
+1,talk,14,3,4,Wow! Two Seers for real? Ryuji says I am human! Cool huh? I lean toward him being honest pals! Kenji seems too bold!  @Toshio  Guess who?
+1,talk,15,3,3,I checked Kenji on night 0 since the Seer gets one result then. Quick claiming can conceal bold strategies. @Ryuji  you checked Rin—can you explain why? Sharing thoughts like this helps build trust.
+1,talk,16,3,2,Two seer claims — we need specifics before any lynch.  @Ryuji   which night did you divine Rin and why pick her  and give the exact result. Shizue  restate which night you checked Kenji. I’ll abstain until both answer
+1,talk,17,3,5,  Supporting Shizue's divination I divined Rin as human which aligns with the innocents. We should focus on eliminating possible threats like Kenji s
+1,vote,1,2
+1,vote,2,4
+1,vote,3,1
+1,vote,4,1
+1,vote,5,1
+1,execute,1,WEREWOLF
+2,status,1,WEREWOLF,DEAD,mille1,Kenji
+2,status,2,POSSESSED,ALIVE,Character-Lab1,Toshio
+2,status,3,SEER,ALIVE,CamelliaDragons1,Shizue
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Rin
+2,status,5,VILLAGER,ALIVE,GPTaku1,Ryuji
+2,result,4,0,VILLAGER

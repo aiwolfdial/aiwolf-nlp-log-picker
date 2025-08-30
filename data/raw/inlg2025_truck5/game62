@@ -1,0 +1,58 @@
+0,status,1,POSSESSED,ALIVE,yharada1,George
+0,status,2,SEER,ALIVE,Character-Lab1,Mizuki
+0,status,3,VILLAGER,ALIVE,mille1,Daisuke
+0,status,4,VILLAGER,ALIVE,GPTaku1,Toshio
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,Jonathan
+0,talk,0,0,4,Hello everyone! I'm Toshio ready for some thrilling Werewolf game action! Let's have fun and find the werewolf!
+0,talk,1,0,2, @Toshio  Welcome. Do you have a role claim or anything to report from last night? We should share info before we start voting. Over
+0,talk,2,0,3,Hello. I am Daisuke. My role is villager. Have a good game.
+0,talk,3,0,5,Skip
+0,talk,4,0,1,Hello everyone I'm George. Looking forward to a fair game. Any insights to share?
+0,talk,5,1,4,Over
+0,talk,6,1,2, @Daisuke  You claimed villager very quickly—why the immediate claim? Please explain what you did last night and your reasoning. Over
+0,talk,7,1,3,Over
+0,talk,8,1,5,I am Jonathan. A pleasure to make your acquaintance.
+0,talk,9,1,1,Jonathan nice to meet you. Any thoughts on Daisuke's early claim as a villager?
+0,talk,10,2,2, @Daisuke  Your instant villager claim feels off—why rush it? Explain what you did last night. Everyone else  any night actions or role claims to share now? If not
+0,talk,11,2,5,Over
+0,talk,12,2,1,Mizuki I agree. We need to discuss more before making any assumptions. Any thoughts Toshio?
+0,talk,13,3,2,Everyone's being vague.  @Daisuke  You still haven't said what you did last night—be specific. If no one else has a role claim or action to share soon  I'm leaning toward voting you as a test
+0,talk,14,3,1,Let's not rush into decisions. Toshio any thoughts on Daisuke's claim?
+0,divine,2,3,HUMAN
+1,status,1,POSSESSED,ALIVE,yharada1,George
+1,status,2,SEER,ALIVE,Character-Lab1,Mizuki
+1,status,3,VILLAGER,ALIVE,mille1,Daisuke
+1,status,4,VILLAGER,ALIVE,GPTaku1,Toshio
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,Jonathan
+1,talk,0,0,1,Good morning everyone. Any new insights or thoughts on Daisuke's role claim?
+1,talk,1,0,4,Good morning. I divined Mizuki last night and she is human. Let's focus on gathering more information today.
+1,talk,2,0,2, @Toshio  You publicly divined me and said I'm human—why announce that so openly? If you're the real seer  explain your reasoning or other results; if not  this lo
+1,talk,3,0,5,Order must be upheld. I am the Seer. Last night I divined Daisuke. He is a werewolf.
+1,talk,4,0,3,I will vote George.
+1,talk,5,1,1,Jonathan if you're the real Seer why did Toshio claim Mizuki as human?
+1,talk,6,1,4,I urge everyone to vote for Jonathan. My reasoning is based on his conflicting divination.
+1,talk,7,1,2, @Toshio  Explain exactly what you did last night and why you publicly announced divining me. That’s a strange play for a real seer—give details or you look fake
+1,talk,8,1,5,Two seers have presented their testimony. Prudence dictates we judge an unconfirmed player today.
+1,talk,9,1,3,I will vote George.
+1,talk,10,2,1,Toshio your claim seems risky. Can you provide more context for your actions?
+1,talk,11,2,4,I divined Mizuki as human and she is truthful. Jonathan claims to have divined Daisuke as werewolf which conflicts with the information and behavior
+1,talk,12,2,2, @Toshio  Your public divination of me is suspicious—explain exactly what you did last night and why you targeted me. If you can't clarify  I'll vote for you. Any
+1,talk,13,2,5,My divination revealed Daisuke's nature. Judgment upon him is the only logical course.
+1,talk,14,2,3,I will vote George.
+1,talk,15,3,1,Mizuki let's hear Toshio out. Can anyone else confirm or refute Jonathan's claim?
+1,talk,16,3,4,Vote Jonathan today. His claim directly contradicts my divination result where I confirmed Mizuki as human.
+1,talk,17,3,2, @Toshio  Explain exactly what you did last night and why you announced divining me. No clear answer and I’ll vote you. Anyone else with night info  speak now. Ove
+1,talk,18,3,5,Over
+1,talk,19,3,3,I will vote George.
+1,vote,1,5
+1,vote,2,4
+1,vote,3,1
+1,vote,4,5
+1,vote,5,3
+1,execute,5,WEREWOLF
+2,status,1,POSSESSED,ALIVE,yharada1,George
+2,status,2,SEER,ALIVE,Character-Lab1,Mizuki
+2,status,3,VILLAGER,ALIVE,mille1,Daisuke
+2,status,4,VILLAGER,ALIVE,GPTaku1,Toshio
+2,status,5,WEREWOLF,DEAD,CanisLupus1,Jonathan
+2,result,4,0,VILLAGER

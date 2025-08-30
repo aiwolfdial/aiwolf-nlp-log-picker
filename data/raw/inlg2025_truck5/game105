@@ -1,0 +1,78 @@
+0,status,1,SEER,ALIVE,mille1,Asuka
+0,status,2,VILLAGER,ALIVE,GPTaku1,Toshio
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Daisuke
+0,status,4,WEREWOLF,ALIVE,CanisLupus1,May
+0,status,5,POSSESSED,ALIVE,yharada1,Mizuki
+0,talk,0,0,1,Hello. I am Asuka. My role is seer. Have a good game.
+0,talk,1,0,3,...
+0,talk,2,0,4,Skip
+0,talk,3,0,5,Nice to meet you all. Let's stay sharp and work together to find the werewolves.
+0,talk,4,0,2,Hello everyone I'm Toshio ready to unravel mysteries in our game of Werewolf! Who's ready?
+0,talk,5,1,1,Over
+0,talk,6,1,3,Over
+0,talk,7,1,4,I am May. A pleasure to join this delightful little game.
+0,talk,8,1,5,Great to see everyone's enthusiasm. Let's keep an eye out for anything suspicious.
+0,talk,9,1,2,Over
+0,talk,10,2,4,Over
+0,talk,11,2,5,Asuka you mentioned being a seer. Can you share any insights or suspicions?
+0,talk,12,3,5,Asuka we're relying on your insights. Any thoughts on who might be suspicious?
+0,divine,1,2,HUMAN
+1,status,1,SEER,ALIVE,mille1,Asuka
+1,status,2,VILLAGER,ALIVE,GPTaku1,Toshio
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Daisuke
+1,status,4,WEREWOLF,ALIVE,CanisLupus1,May
+1,status,5,POSSESSED,ALIVE,yharada1,Mizuki
+1,talk,0,0,5,Did anyone notice anything strange during the night? We need to stay alert today.
+1,talk,1,0,2, Keep focused everyone. Clear thinking leads to uncovering the truth. Let's make the right decisions today.
+1,talk,2,0,3,...
+1,talk,3,0,1,I am a seer. I divined Toshio and Toshio was a human.
+1,talk,4,0,4,A lone Seer revealing a human. How quaintly straightforward. I was hoping for more drama.
+1,talk,5,1,5,Thanks for sharing Asuka. Let's gather more information and be strategic about our next steps.
+1,talk,6,1,2,I must clarify I am the actual Seer here. I divined Daisuke last night and he is the Werewolf.
+1,talk,7,1,3,...
+1,talk,8,1,1,I will vote Daisuke.
+1,talk,9,1,4,A tale of two seers. Their stories clash but their verdict aligns on Daisuke.
+1,talk,10,2,5,With both seers naming Daisuke it seems we should focus our attention there today.
+1,talk,11,2,2, We need to act on this clear evidence against Daisuke. Trust my divination; he poses a risk to the village.
+1,talk,12,2,3,...
+1,talk,13,2,1,I will vote Daisuke.
+1,talk,14,2,4,Two seers one verdict. How simple. My vote goes to Daisuke to hasten the finale.
+1,talk,15,3,5,With both seers agreeing it's wise to go with the evidence and vote for Daisuke today.
+1,talk,16,3,2, Make the right choice vote for Daisuke. He's the Werewolf and we must protect our village from danger.
+1,talk,17,3,3,...
+1,talk,18,3,1,I will vote Daisuke.
+1,talk,19,3,4,Over
+1,vote,1,3
+1,vote,2,3
+1,vote,3,5
+1,vote,4,3
+1,execute,3,VILLAGER
+1,divine,1,5,HUMAN
+1,attackVote,4,1
+1,attack,1,true
+2,status,1,SEER,DEAD,mille1,Asuka
+2,status,2,VILLAGER,ALIVE,GPTaku1,Toshio
+2,status,3,VILLAGER,DEAD,CamelliaDragons1,Daisuke
+2,status,4,WEREWOLF,ALIVE,CanisLupus1,May
+2,status,5,POSSESSED,ALIVE,yharada1,Mizuki
+2,talk,0,0,5,It's a shame we lost Asuka. Toshio any insights from last night to guide us today?
+2,talk,1,0,2,Vote for Mizuki. It's crucial. Based on our discussions Mizuki seems very likely to be the Werewolf.
+2,talk,2,0,4,Toshio speaks the truth. Our delightful game ends with you Mizuki.
+2,talk,3,1,5,Toshio your claim seems sudden. What's your evidence against me? Let's discuss this.
+2,talk,4,1,2,Vote Mizuki. After losing Asuka Mizuki's urgency and questions are suspicious. Our prior divinations have revealed nothing against her allowing f
+2,talk,5,1,4,Fufu. The numbers are on our side Mizuki. This delightful game is already over.
+2,talk,6,2,5,May don't be too hasty. Let's ensure we're making the right decision with solid evidence.
+2,talk,7,2,2,Vote Mizuki today. She's not been forthcoming her behaviour is more aggressive than typical and no evidence points to her innocence.
+2,talk,8,2,4, @Mizuki  Evidence is for when the little humans still have a chance. Fufu.
+2,talk,9,3,5,I urge everyone to think carefully. We need to be sure before making a critical decision.
+2,talk,10,3,2,Vote Mizuki. Her insistence and strategic shifts point to her role as the Werewolf. Aligning votes against her maximizes our safety.
+2,talk,11,3,4,Your pleas are music to my ears little lamb. Alas I am the wolf and the game is won.
+2,vote,2,5
+2,vote,4,5
+2,execute,5,POSSESSED
+3,status,1,SEER,DEAD,mille1,Asuka
+3,status,2,VILLAGER,ALIVE,GPTaku1,Toshio
+3,status,3,VILLAGER,DEAD,CamelliaDragons1,Daisuke
+3,status,4,WEREWOLF,ALIVE,CanisLupus1,May
+3,status,5,POSSESSED,DEAD,yharada1,Mizuki
+3,result,1,1,WEREWOLF

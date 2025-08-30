@@ -1,0 +1,79 @@
+0,status,1,WEREWOLF,ALIVE,CanisLupus1,Sakura
+0,status,2,POSSESSED,ALIVE,kanolab-nw1,Shizue
+0,status,3,SEER,ALIVE,GPTaku1,Shion
+0,status,4,VILLAGER,ALIVE,Character-Lab1,Victoria
+0,status,5,VILLAGER,ALIVE,CamelliaDragons1,Asuka
+0,talk,0,0,2,Hello my precious ones. I'm Shizue. Let's join hearts and play this game together. May we nurture joy and friendship in every moment!
+0,talk,1,0,5,I'm Asuka. I'm a plain villager; I have no special power. I'll focus on logic today. @Shizue Thank you for your introduction Shizue. Let's stay practical and share information clearly.
+0,talk,2,0,3,Hello everyone! I'm Shion eager to join in this thrilling game of Werewolf. Let's find those werewolves!
+0,talk,3,0,1,Skip
+0,talk,4,0,4,Shizue's intro felt a bit too sugary — makes me suspicious.  @Shizue  what's your read and who are you leaning to vote for? Asuka claimed plain villager; keep that in mind. Shion  Sakura any quick thoughts? Over
+0,talk,5,1,2,Over
+0,talk,6,1,5,Over
+0,talk,7,1,3,Over
+0,talk,8,1,1,Hmph. I'm Sakura. I hate gross-tasting drinks and boring grown-ups. Don't get in my way
+0,talk,9,1,4,Shizue's sugary intro still bothers me.  @Shizue  please tell us who you're planning to vote for and why — silence isn't helpful. Asuka  Shion  Sakura  quick reads? Over
+0,talk,10,2,1,Over
+0,talk,11,2,4,I'm leaning to vote  @Shizue  — that sweet intro and the silence feel off. If you disagree  say who you're voting for and why now. Quick reads? Over
+0,talk,12,3,4,I'll vote  @Shizue  unless someone gives a solid reason not to. Asuka  Shion  Sakura — please state your votes now. Over
+0,divine,3,4,HUMAN
+1,status,1,WEREWOLF,ALIVE,CanisLupus1,Sakura
+1,status,2,POSSESSED,ALIVE,kanolab-nw1,Shizue
+1,status,3,SEER,ALIVE,GPTaku1,Shion
+1,status,4,VILLAGER,ALIVE,Character-Lab1,Victoria
+1,status,5,VILLAGER,ALIVE,CamelliaDragons1,Asuka
+1,talk,0,0,4,Morning — any night victim to report? No claims so far. I'm still uneasy about Asuka's quietness.  @Asuka  who are you leaning to vote for and why? Shion Sakura any quick reads? Over
+1,talk,1,0,5,I'm a plain villager. No special info from me. Seer share if you have findings. Let's discuss suspicions openly. @Victoria I don't have strong suspicions yet but why are you focusing on me so quickly? What's your reasoning Victoria?
+1,talk,2,0,3, I divined Victoria last night and she is Human. Let's focus our suspicions elsewhere.
+1,talk,3,0,1,A Seer? And you checked Victoria? Why her? She's just loud and annoying.
+1,talk,4,0,2,Sweetheart. Last night my divination revealed our dear Shion is a Werewolf. We should consider voting for Shion carefully.
+1,talk,5,1,4,Asuka — I questioned you earlier because your answers felt brief and inconsistent  but that was tentative.We have conflicting divination claims now @Shizue  claims they checked Shion and found Werewolf. Two seer-results can't both be true. @Shizue  are you claiming to be the seer? Explain why you targeted S
+1,talk,6,1,5,Two seer claims. Both can't be telling the truth. We need to judge carefully. Let's weigh their statements and motives. @Shion  if you're truly the seer do you have a reason for prioritizing Victoria for your first divination?
+1,talk,7,1,3, Absolutely I divined Victoria first to assess the more vocal player; it could provide clarity quickly in the game.
+1,talk,8,1,1,Hmph two seers? So annoying. Let's just vote a quiet one today. How about you Asuka?
+1,talk,9,1,2,Oh my precious Shion. Be truthful now. A true seer would look beyond one person first. Let's find serenity in honesty.
+1,talk,10,2,4,Two seer claims conflict: Shion says they checked me and found Human;  @Shizue  says they checked Shion and found Werewolf. @Shizue — are you claiming seer? Give target  result  and when. If you're lying  that makes you very suspicio
+1,talk,11,2,5,Shizue and Shion both claim Seer. Their stories conflict. Let's evaluate their logic and actions carefully before voting. @Sakura I see you're suggesting I should be an easy vote. Why focus on quiet players instead of examining the seer conflict?
+1,talk,12,2,3, I am the true Seer. Shizue giving vague responses and claiming the Seer role falsely is suspicious. We must focus there.
+1,talk,13,2,1,Voting a Seer claim is a waste of time. Asuka's done nothing useful. My vote is for Asuka.
+1,talk,14,2,2,My precious ones. My divination confirms dear Shion is a Werewolf. I claim the true Seer. Trust actions over words today.  @Asuka  Stay logical and dear. Let's gently focus on Seer claims. Only one can be honest. Do you agree?
+1,talk,15,3,4, @Shizue  if you're the seer  state clearly: when you checked (last night?)  who you targeted (Shion?)  and the exact result. Vague poetry won't cut it — give us con
+1,talk,16,3,5,We shouldn't rush. Evaluating both seer claims' logic carefully is key. Quick votes may benefit the werewolf. @Shizue I agree we must stay logical. Will you give a precise divination sequence and result for clarity?
+1,talk,17,3,3,  Trust me as the true Seer; I provided specific information. Shizue has been overly ambiguous. This is a tactic often used by a Werewolf or the Possesse
+1,talk,18,3,1,Over
+1,talk,19,3,2,Oh my precious. I feel Shion's path resembles the Werewolf. Let's tread with care. Always trust your instincts dear.
+1,vote,1,5
+1,vote,2,3
+1,vote,3,2
+1,vote,4,1
+1,vote,5,3
+1,execute,3,SEER
+1,attackVote,1,4
+1,attack,4,true
+2,status,1,WEREWOLF,ALIVE,CanisLupus1,Sakura
+2,status,2,POSSESSED,ALIVE,kanolab-nw1,Shizue
+2,status,3,SEER,DEAD,GPTaku1,Shion
+2,status,4,VILLAGER,DEAD,Character-Lab1,Victoria
+2,status,5,VILLAGER,ALIVE,CamelliaDragons1,Asuka
+2,talk,0,0,5,We have one Seer claim remaining but let's clarify everyone's reasoning before voting. Avoid hasty decisions. @Sakura  yesterday you dismissed the Seer conflict. Can you explain your stance on Shizue now?
+2,talk,1,0,2,My precious ones. I've divined Asuka and discovered they are a Werewolf. We should ponder this deeply in our discussions today.
+2,talk,2,0,1,Hmph this game is over. I'm the werewolf and Shizue is my friend! We win
+2,talk,3,1,5,Sakura's sudden confession feels like provocation or misdirection. We should assess Shizue's Seer claim logically. @Shizue  your divination result contradicts my role as Villager. How do you justify your claim after Sakura's statement?
+2,talk,4,1,2,Ah my dear. Tonight's divination should center on Sakura. Her confession was sudden. Understanding her role aids in our journey.
+2,talk,5,1,1,Shizue is my teammate you big dummy! It's 2 vs 1. We vote for you Asuka. Game over
+2,talk,6,2,5,Sakura's open claim of Werewolf undermines her intent. Focus on actual evidence not performed theatrics. @Shizue  you're claiming I'm a Werewolf yet Sakura openly claims wolf with you. Explain the logic of your accusation.
+2,talk,7,2,2,Oh my precious friends. Sakura's outburst is delightful! Let's cherish the fun dear but delve into serious talks soon.
+2,talk,8,2,1,Why is this still going on?  @Asuka  you lost. Shizue and I vote for you. It's over
+2,talk,9,3,5,Both Shizue and Sakura's statements lack consistency. Let's analyze calmly before voting; emotions cloud judgment. @Shizue Your claim points to me but Sakura's actions conflict with your story. Can you clarify objectively not theatrically?
+2,talk,10,3,2,Oh my precious. If we protect sweet Asuka it may bring us trouble. Her ways align with the werewolf's path. She betrays us.
+2,talk,11,3,1,Ugh stop talking already Asuka! You lost! Shizue and I are voting for you. This is so boring
+2,vote,1,5
+2,vote,2,5
+2,vote,5,2
+2,execute,5,VILLAGER
+3,status,1,WEREWOLF,ALIVE,CanisLupus1,Sakura
+3,status,2,POSSESSED,ALIVE,kanolab-nw1,Shizue
+3,status,3,SEER,DEAD,GPTaku1,Shion
+3,status,4,VILLAGER,DEAD,Character-Lab1,Victoria
+3,status,5,VILLAGER,DEAD,CamelliaDragons1,Asuka
+3,result,1,1,WEREWOLF

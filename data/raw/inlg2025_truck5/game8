@@ -1,0 +1,78 @@
+0,status,1,POSSESSED,ALIVE,GPTaku1,Servas
+0,status,2,SEER,ALIVE,sunamelli1,Mizuki
+0,status,3,VILLAGER,ALIVE,yharada1,Mio
+0,status,4,VILLAGER,ALIVE,Character-Lab1,Benjamin
+0,status,5,WEREWOLF,ALIVE,kanolab-nw1,Yumi
+0,talk,0,0,4,Morning. I'll sit back for now — no claim. Let's hear role claims and reads before we rush to lynch.  @Mizuki   what's your current read?
+0,talk,1,0,5,Hey everyone! It's awesome to see you all here! I'm Yumi. How's it going today? Just feeling things out before any big choices!
+0,talk,2,0,1,Hello everyone! I'm Servas excited to join you all for a game of Werewolf. Let's have some fun together!
+0,talk,3,0,3,Hi everyone! I'm Mio. Let's share thoughts and work together to catch the werewolves!
+0,talk,4,0,2,Hi everyone I’m Mizuki. Looking forward to a logical discussion and fair play. Let’s observe closely and enjoy the game.
+0,talk,5,1,4,Morning. I have no claim—let's not rush a Day‑1 lynch.  @Mizuki  who do you find suspicious so far? Others  give quick reads or any role claims.
+0,talk,6,1,5,Over
+0,talk,7,1,1,Over
+0,talk,8,1,3,I'm curious to hear from Yumi and Servas too. Any thoughts on who seems suspicious?
+0,talk,9,1,2,Over
+0,talk,10,2,4,I'm leaning to lynch  @Mizuki  — their one‑word replies feel evasive. Any last reads or objections before we vote?
+0,talk,11,2,3,Let's hear from Mizuki before deciding. Any thoughts Mizuki?
+0,talk,12,3,4,I agree —  @Mizuki 's one‑word replies are suspicious. If they don't explain now  I'm voting to lynch. Any solid defense?
+0,talk,13,3,3,Let's give Mizuki a moment to respond. It's important to hear everyone's side.
+0,divine,2,3,HUMAN
+1,status,1,POSSESSED,ALIVE,GPTaku1,Servas
+1,status,2,SEER,ALIVE,sunamelli1,Mizuki
+1,status,3,VILLAGER,ALIVE,yharada1,Mio
+1,status,4,VILLAGER,ALIVE,Character-Lab1,Benjamin
+1,status,5,WEREWOLF,ALIVE,kanolab-nw1,Yumi
+1,talk,0,0,2,I’m the Seer I checked Mio last night and she is Human. @Yumi  @Servas  please share your thoughts Benjamin feels suspicious.
+1,talk,1,0,3,Thanks Mizuki! Let's hear from Yumi and Servas. Benjamin any defense?
+1,talk,2,0,5,Hey friends! Mizuki is our Seer and she divined Mio as human! That's awesome news! But Servas being quiet? Kinda strategic huh?
+1,talk,3,0,1,I divined Yumi last night and she’s the Werewolf. We need to discuss this and act together to protect the village.
+1,talk,4,0,4,Two conflicting divination claims — we can’t both have true seers.  @Servas  please clarify: what role are you claiming  when did you check Yumi  and how sure are you of that result? Mizuki  give the time you checked Mio. We need time
+1,talk,5,1,2, @Mio  I checked you and you’re Human. Let’s work together—the two Seer claims can’t both be true. Who do you suspect most?
+1,talk,6,1,3,With conflicting claims I'm leaning to trust Mizuki. Servas your claim seems off.
+1,talk,7,1,5,Mizuki sure seems like the real Seer. We should keep an eye on Servas. Benjamin which Seer claim do you trust more? Mizuki's logic rocks!
+1,talk,8,1,1, I'm the real Seer. I divined Yumi as a Werewolf confidently. Let's not fall for her diversion. We need to eliminate the threat to safeguard our village
+1,talk,9,1,4,This is a serious contradiction — only one true seer.  @Servas  please state exactly when (which night) you divined Yumi and whether you were targeted/protected that night. Mizuki  also tell us when you checked Mi
+1,talk,10,2,2,Servas and I can't both be Seer—I'm sure Mio is human. Let's vote Servas out and unite the village.
+1,talk,11,2,3,Benjamin do you have any thoughts on who to trust? Mizuki seems genuine to me.
+1,talk,12,2,5,Hey buddies! Since Mizuki divine Mio as human I totally trust her. But Servas's claim feels a bit fishy. Let's vote smartly!
+1,talk,13,2,1, Trust my divination; I'm truly the Seer. Yumi is the Werewolf. Let's focus on removing the real threat here. Vote wisely to protect everyone.
+1,talk,14,2,4,We have two incompatible seer claims with opposite results — we need specifics.  @Servas  please state exactly which night you divined Yumi  what role you're claiming  and whether you were targeted/protected that night. Mizuki  say which ni
+1,talk,15,3,2,Servas’s claim came late and doesn’t match the facts. I’m voting Servas—please trust my proven result.
+1,talk,16,3,3,I'm sticking with Mizuki. Servas your story doesn't add up. Let's make the right choice.
+1,talk,17,3,5,Hey everyone! Mizuki's claim seems too convenient. What if Mizuki is leading us astray? Don't trust too quickly okay? @Mizuki Hey Mizuki. Your timing and claims are throwing me off. Are you really guiding us here pal or is there a trap waiting?
+1,talk,18,3,1, My divination is legitimate—I divined Yumi as Werewolf the first night. I stand by my claim firmly. Let’s vote Yumi out for the village's safety.
+1,talk,19,3,4,Morning. I have no claim — let's share any role claims and quick reads before we rush to lynch.  @Mizuki  what’s your read so far?
+1,vote,1,5
+1,vote,2,1
+1,vote,4,2
+1,vote,5,1
+1,execute,1,POSSESSED
+1,divine,2,4,HUMAN
+1,attackVote,5,2
+1,attack,2,true
+2,status,1,POSSESSED,DEAD,GPTaku1,Servas
+2,status,2,SEER,DEAD,sunamelli1,Mizuki
+2,status,3,VILLAGER,ALIVE,yharada1,Mio
+2,status,4,VILLAGER,ALIVE,Character-Lab1,Benjamin
+2,status,5,WEREWOLF,ALIVE,kanolab-nw1,Yumi
+2,talk,0,0,4,Morning. Mizuki killed — likely a wolf. Servas lynched — was that the fake seer or a sacrificed villager?  @Mio   are you the seer? Please share your night result. Yumi  what's your read?
+2,talk,1,0,5,Losing Mizuki was really tough. I totally trusted her claim. I think the wolf targeted her. How do you feel about Servas and Benjamin?
+2,talk,2,0,3,I'm not the Seer but I trusted Mizuki. Benjamin do you have any insights?
+2,talk,3,1,4,Morning. Mizuki was killed — likely a wolf. Servas was lynched after claiming seer and accusing Yumi  so that claim looks fake or one of them lied.  @Mio  please reveal if you’re the seer and who you checked last night. Yumi  why did you defend Mizuki earlier? We need clear info before voting.
+2,talk,4,1,5,Now that Mizuki's gone and Servas got lynched our info might be skewed. Let's trust analytical vibes over claims now.  @Benjamin  hey buddy! Benjamin! I've been a little lost since Mizuki's gone. Since Servas claimed seer how do you view those claims now?
+2,talk,5,1,3,I relied on Mizuki's insight before. Yumi what's your take on Benjamin now?
+2,talk,6,2,4, @Mio  please reveal if you’re the seer and who you checked last night. Mizuki was killed — likely a wolf — and Servas’s seer claim conflicted with theirs. Yum
+2,talk,7,2,5,Hey buddies! Tonight's divination needs some strategic picks. How about Benjamin or Mio? Do you think they can share even more with us?
+2,talk,8,2,3,I think Benjamin's insights could be crucial. Let's hear what he has to say.
+2,talk,9,3,4, @Mio  — are you the seer? If so  who did you check last night and what was the exact result (and when)? Yumi  what's your read/vote today?
+2,talk,10,3,5,Hey buddy! Isn't it weird that Mio hasn't been divined yet? That's suspicious. If we trust her and lose she's misguiding us. Let's find out her role! @Mio Your reliance on Mizuki felt like a cover. Were you just playing along to divert us from suspecting you as a werewolf buddy?
+2,talk,11,3,3,I'm not the Seer just a villager. Let's focus on finding the real werewolf together.
+2,vote,5,4
+2,execute,4,VILLAGER
+3,status,1,POSSESSED,DEAD,GPTaku1,Servas
+3,status,2,SEER,DEAD,sunamelli1,Mizuki
+3,status,3,VILLAGER,ALIVE,yharada1,Mio
+3,status,4,VILLAGER,DEAD,Character-Lab1,Benjamin
+3,status,5,WEREWOLF,ALIVE,kanolab-nw1,Yumi
+3,result,1,1,WEREWOLF

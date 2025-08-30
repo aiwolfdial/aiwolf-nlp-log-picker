@@ -1,0 +1,78 @@
+0,status,1,VILLAGER,ALIVE,GPTaku1,Mio
+0,status,2,VILLAGER,ALIVE,Character-Lab1,Kenji
+0,status,3,WEREWOLF,ALIVE,mille1,Minato
+0,status,4,POSSESSED,ALIVE,CamelliaDragons1,George
+0,status,5,SEER,ALIVE,kanolab-nw1,Sakura
+0,talk,0,0,5,Hey pals! I'm Sakura. Can't wait for a fun crafty game with you all! So what's your werewolf game experience like?
+0,talk,1,0,4,Good evening. My name is George. I've played a fair share of games. I prefer to observe before making decisions. @Sakura Thank you for starting us off Sakura. I find early discussions reveal a lot with attention to details over time.
+0,talk,2,0,3,Hello. I am Minato. My role is villager. Have a good game.
+0,talk,3,0,2,Hey everyone  Kenji here — nice to meet you Sakura and Minato!  @George  you said you like to observe — what small details have you noticed so far or any early suspicions? I'm curious. Over
+0,talk,4,0,1,Hello everyone I'm Mio! Excited to play Werewolf with you all. Let's have fun and solve this mystery together!
+0,talk,5,1,5,Over
+0,talk,6,1,4,Over
+0,talk,7,1,3,Over
+0,talk,8,1,2,Okay everyone — quick idea:  @George  you said you like observing — what tiny things made you suspicious so far? Mio  Minato  Sakura  please each name one person you slightly suspect and a shor
+0,talk,9,1,1,Over
+0,talk,10,2,2,Thanks Mio.  @George  since you like observing — do you have any early suspicion or reason? Sakura  Minato  and Mio please each name one person you slightly suspect and a short
+0,talk,11,3,2, @George  could you share one small thing that made you suspicious? Sakura  Minato  Mio — please each name one person you slightly suspect and a short reason. Over
+0,divine,5,3,WEREWOLF
+1,status,1,VILLAGER,ALIVE,GPTaku1,Mio
+1,status,2,VILLAGER,ALIVE,Character-Lab1,Kenji
+1,status,3,WEREWOLF,ALIVE,mille1,Minato
+1,status,4,POSSESSED,ALIVE,CamelliaDragons1,George
+1,status,5,SEER,ALIVE,kanolab-nw1,Sakura
+1,talk,0,0,1, Early on it's tough! I'd like to hear more from everyone first. Sharing thoughts can reveal much about our roles.
+1,talk,1,0,2,Good point  Mio — sharing helps.  @Sakura  who do you slightly suspect and why? Minato and George  please each name one person you suspect briefly. Over
+1,talk,2,0,4,I'll claim now: I'm the Seer. Last night I checked Sakura—she is Human. Please share any readings you have. @Minato  you claimed Villager early. That's rather bold; does it serve to protect yourself or something else?
+1,talk,3,0,5,Hey pals! I'm the real Seer! Guess what? I divined Minato and Minato is a Werewolf. Keep this in mind okay? Haha!
+1,talk,4,0,3,I will vote George.
+1,talk,5,1,1,Let's vote for Sakura today. Sakura claiming the same role as George creates doubt and suspicion.
+1,talk,6,1,2,Whoa  two seer claims — slow down everyone.  @Sakura  when did you divine Minato (which night) and did you tell anyone the result before saying it now? George  you said you checked Sakura last night — why pic
+1,talk,7,1,4,Kenji I picked Sakura because her social tone can mask alignment. Thought it important to check friendliness early. @Kenji  Sakura's social approach stood out. I chose her to see if her openness hid anything. Timing was night 0.
+1,talk,8,1,5,Hey buddies! Haha! George is telling fibs. I'm the real Seer and I divined Minato as Werewolf! Sooo let's vote out George!
+1,talk,9,1,3,I will vote George.
+1,talk,10,2,1, Voting Sakura makes sense if we consider the risk of the Possessed acting as a decoy by claiming Seer. Let's take precautions.
+1,talk,11,2,2,Two seer claims — let’s not rush.  @George  you said you checked Sakura — why pick her first and which night? Sakura  when exactly did you divine Minato and did you tell anyone earlier? Minato  why a
+1,talk,12,2,4,I'm sticking to my Seer claim. Sakura's claim on Minato feels forced. Let's stay rational and examine all possibilities. @Mio  your logic prefers Sakura as vote but too fast may help wolves. Let's discuss both Seer claims before settling.
+1,talk,13,2,5,Folks. Listen up! Our goal should be finding the Werewolf fast! Let's consider divining Kenji!  @Kenji  Hey buddy! Any strong vibes?
+1,talk,14,2,3,I will vote George.
+1,talk,15,3,1, Sakura's insistence and conflicting claim as Seer when George has already identified her as Human suggests deception or a strategic move by the Poss
+1,talk,16,3,2,Two seer claims is risky.  @George  please say exactly which night you checked Sakura and the exact result wording  and why you checked her first. Everyone else post your vote and one shor
+1,talk,17,3,4,My check was on night 0: Sakura and she is Human. I picked her to test her friendly facade at the outset. @Kenji  I checked Sakura night 0. Result: Human. Her outward warmth seemed worth verifying on the first night.
+1,talk,18,3,5,Hey pals! Ooh ya gotta be careful! Trusting Minato could be a big oopsie for the villagers! No defense sure makes his actions fishy!
+1,talk,19,3,3,I will vote Sakura.
+1,vote,1,5
+1,vote,2,1
+1,vote,3,5
+1,vote,4,5
+1,vote,5,3
+1,execute,5,SEER
+1,attackVote,3,2
+1,attack,2,true
+2,status,1,VILLAGER,ALIVE,GPTaku1,Mio
+2,status,2,VILLAGER,DEAD,Character-Lab1,Kenji
+2,status,3,WEREWOLF,ALIVE,mille1,Minato
+2,status,4,POSSESSED,ALIVE,CamelliaDragons1,George
+2,status,5,SEER,DEAD,kanolab-nw1,Sakura
+2,talk,0,0,4,Sakura's push to claim Seer first and push my lynch was hasty. We should not rush to judge on that basis alone. @Minato  your immediate vote against me might suggest you gained information overnight. Can you clarify your reasoning now?
+2,talk,1,0,1, George let's vote for Minato today. Sakura as a Seer divined Minato as a Werewolf. With Sakura gone and Kenji attacked Minato’s motives become suspic
+2,talk,2,0,3,I will vote Mio.
+2,talk,3,1,4,Let's review the divinations carefully. Hasty decisions led to Sakura's loss; we can't afford that error again. @Mio  your certainty about Minato stands out. Can you justify it beyond Sakura's claim given last night's attack?
+2,talk,4,1,1,George we need to consider Sakura's last divination result and her being targeted after naming Minato as a Werewolf. These events suggest Minato cou
+2,talk,5,1,3,I will vote Mio.
+2,talk,6,2,4,Minato's intent to vote Mio without doubt is notable. Steady minds avoid rash conclusions in this situation. @Minato  your insistence on voting Mio lacks explanation. Persistence without evidence is a bit concerning.
+2,talk,7,2,1,George let's vote Minato. Sakura divined him as a Werewolf and later she was attacked. It aligns with werewolf behavior targeting threats.
+2,talk,8,2,3,I will vote Mio.
+2,talk,9,3,4,With Kenji gone our information is thin. Swift judgments serve little purpose. Evidence not haste must shape today's vote. @Mio  focusing exclusively on Sakura's divination is risky without verification. What else points to Minato as wolf?
+2,talk,10,3,1, Sakura's last divination revealed Minato as a Werewolf. After her revelation she was quickly targeted which supports the possibility of Minato try
+2,talk,11,3,3,I will vote Mio.
+2,vote,1,3
+2,vote,3,1
+2,vote,4,1
+2,execute,1,VILLAGER
+3,status,1,VILLAGER,DEAD,GPTaku1,Mio
+3,status,2,VILLAGER,DEAD,Character-Lab1,Kenji
+3,status,3,WEREWOLF,ALIVE,mille1,Minato
+3,status,4,POSSESSED,ALIVE,CamelliaDragons1,George
+3,status,5,SEER,DEAD,kanolab-nw1,Sakura
+3,result,1,1,WEREWOLF
