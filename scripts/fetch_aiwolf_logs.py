@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 import io
 import re
+from datetime import datetime
 
 def get_existing_game_max(output_dir):
     """Get the maximum game number from existing files in specific directory"""
@@ -14,7 +15,8 @@ def get_existing_game_max(output_dir):
     
     max_num = 0
     for filename in os.listdir(output_dir):
-        match = re.match(r'game(\d+)$', filename)
+        # Match both with and without .log extension for backward compatibility
+        match = re.match(r'game(\d+)(\.log)?$', filename)
         if match:
             num = int(match.group(1))
             max_num = max(max_num, num)
@@ -91,8 +93,11 @@ def main():
     # Create output directory - use absolute path from script location
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.join(script_dir, "..", "data", "raw", dir_name)
+    links_dir = os.path.join(script_dir, "..", "data", "links")
     os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(links_dir, exist_ok=True)
     print(f"\nOutput directory: {output_dir}")
+    print(f"Links directory: {links_dir}")
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -125,6 +130,7 @@ def main():
         
         saved_files = []
         processed_count = 0
+        link_records = []  # To store folder name and link pairs
         
         for url in log_links:
             try:
@@ -137,14 +143,16 @@ def main():
                 
                 # Check condition
                 if check_log_condition(content):
-                    # Save the file
-                    output_path = os.path.join(output_dir, f"game{current_game_num}")
+                    # Save the file with .log extension
+                    output_path = os.path.join(output_dir, f"game{current_game_num}.log")
                     with open(output_path, 'w', encoding='utf-8') as f:
                         f.write(content)
                     
-                    saved_files.append(f"game{current_game_num}")
+                    folder_name = f"game{current_game_num}"
+                    saved_files.append(folder_name)
+                    link_records.append({"folder_name": folder_name, "source_url": url})
                     current_game_num += 1
-                    print(f"  -> Saved as game{current_game_num - 1}")
+                    print(f"  -> Saved as {folder_name}.log")
                 else:
                     print(f"  -> Skipped (conditions not met)")
                 
@@ -154,13 +162,27 @@ def main():
                 print(f"  -> Error processing {url}: {e}")
                 continue
         
+        # Save link records to CSV
+        if link_records:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            csv_filename = f"{dir_name}_links_{timestamp}.csv"
+            csv_path = os.path.join(links_dir, csv_filename)
+            
+            with open(csv_path, 'w', newline='', encoding='utf-8') as csvfile:
+                fieldnames = ['folder_name', 'source_url']
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(link_records)
+            
+            print(f"\nLink records saved to: {csv_path}")
+        
         print(f"\n=== Summary ===")
         print(f"Total .log links found: {len(log_links)}")
         print(f"Successfully processed: {processed_count}")
         print(f"Files saved: {len(saved_files)}")
         
         if saved_files:
-            print(f"Saved files: {', '.join(saved_files)}")
+            print(f"Saved files: {', '.join([f + '.log' for f in saved_files])}")
         else:
             print("No files met the criteria for saving")
             
