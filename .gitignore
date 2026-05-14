@@ -17,6 +17,6 @@ build/
 .vscode/
 .idea/
 
-# 旧配置の生成物を保険で無視
-checker/data/
-checker/table/
+# 生成物（pick_matches.py の出力）
+selected/
+table/
