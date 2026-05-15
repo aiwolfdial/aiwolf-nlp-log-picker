@@ -116,18 +116,44 @@ def build_pattern_data(track_dir: str, log_files: List[str]):
     return pattern_of_matches, idx_to_team, role_num_map, player_counts
 
 
-def make_solver(threads: int = None, time_limit: float = None) -> pulp.PULP_CBC_CMD:
-    """CBC solver configured for parallel branch-and-bound.
+def make_solver(threads: int = None, time_limit: float = None) -> pulp.LpSolver:
+    """Pick the fastest available exact MILP solver.
 
-    threads=None lets CBC pick; time_limit=None means no wall-clock cap.
-    No MIP gap is set so the solver still proves optimality before stopping.
+    Tries HiGHS (Python binding, then external binary) first because its
+    presolve and cut generation handle spread-minimisation MIPs much better
+    than CBC. Falls back to CBC if HiGHS is not installed. All three options
+    prove optimality before stopping, so the returned solution is unaffected
+    by which one is chosen — only speed differs.
+
+    threads=None lets the solver decide; time_limit=None disables the cap.
+    No MIP gap is set, so optimality is still proven.
     """
-    kwargs = {"msg": 0}
+    common_kwargs = {"msg": False}
     if threads is not None and threads > 0:
-        kwargs["threads"] = threads
+        common_kwargs["threads"] = threads
     if time_limit is not None and time_limit > 0:
-        kwargs["timeLimit"] = float(time_limit)
-    return pulp.PULP_CBC_CMD(**kwargs)
+        common_kwargs["timeLimit"] = float(time_limit)
+
+    for cls_name in ("HiGHS", "HiGHS_CMD"):
+        cls = getattr(pulp, cls_name, None)
+        if cls is None:
+            continue
+        try:
+            candidate = cls(**common_kwargs)
+        except Exception:
+            continue
+        try:
+            if candidate.available():
+                return candidate
+        except Exception:
+            continue
+
+    cbc_kwargs = {"msg": 0}
+    if threads is not None and threads > 0:
+        cbc_kwargs["threads"] = threads
+    if time_limit is not None and time_limit > 0:
+        cbc_kwargs["timeLimit"] = float(time_limit)
+    return pulp.PULP_CBC_CMD(**cbc_kwargs)
 
 
 def solve_ilp(
@@ -164,18 +190,37 @@ def solve_ilp(
         for ti in playing:
             participation[m, ti] = 1
 
+    # Tight per-variable upper bounds derived directly from the data — these
+    # don't change the optimum, only tighten the LP relaxation.
+    team_part_ub = {
+        ti: min(target_matches, int(participation[:, ti].sum()))
+        for ti in range(n_teams)
+    }
+    team_role_ub = {
+        (ti, r): min(target_matches, int(role_matrices[r][:, ti].sum()))
+        for ti in range(n_teams)
+        for r in roles
+    }
+
     prob = pulp.LpProblem("Match_Selection", pulp.LpMinimize)
 
     match_vars = {
         i: pulp.LpVariable(f"match_{i}", cat="Binary") for i in range(n_matches)
     }
     team_part = {
-        ti: pulp.LpVariable(f"part_{ti}", lowBound=0, cat="Integer")
+        ti: pulp.LpVariable(
+            f"part_{ti}", lowBound=0, upBound=team_part_ub[ti], cat="Integer"
+        )
         for ti in range(n_teams)
     }
     team_role = {
         ti: {
-            r: pulp.LpVariable(f"team_{ti}_role_{r}", lowBound=0, cat="Integer")
+            r: pulp.LpVariable(
+                f"team_{ti}_role_{r}",
+                lowBound=0,
+                upBound=team_role_ub[(ti, r)],
+                cat="Integer",
+            )
             for r in roles
         }
         for ti in range(n_teams)
@@ -193,23 +238,26 @@ def solve_ilp(
             )
 
     seen = {
-        (ti, r): any(role_matrices[r][m, ti] == 1 for m in range(n_matches))
+        (ti, r): team_role_ub[(ti, r)] > 0
         for ti in range(n_teams)
         for r in roles
     }
     w_vars: Dict[int, Dict[str, pulp.LpVariable]] = {ti: {} for ti in range(n_teams)}
-    BIG_M = n_matches
     for ti in range(n_teams):
         for r in roles:
             if role_num_map.get(r, 0) <= 0:
                 continue
             if count_only_seen_roles and not seen[(ti, r)]:
                 continue
+            ub = team_role_ub[(ti, r)]
             w = pulp.LpVariable(f"w_{ti}_{r}", cat="Binary")
             w_vars[ti][r] = w
             y = team_role[ti][r]
             prob += y >= w
-            prob += y <= BIG_M * w
+            # ub==0 forces w=0 and y=0, which keeps the unseen-role semantics
+            # while replacing the previous BIG_M=n_matches with the tightest
+            # possible per-cell bound.
+            prob += y <= ub * w
 
     if max_zero_roles_per_team is not None:
         for ti in range(n_teams):
@@ -223,8 +271,12 @@ def solve_ilp(
         for ti in range(n_teams):
             prob += team_part[ti] >= 1
 
-    max_p = pulp.LpVariable("max_p", lowBound=0, cat="Integer")
-    min_p = pulp.LpVariable("min_p", lowBound=0, cat="Integer")
+    max_p = pulp.LpVariable(
+        "max_p", lowBound=0, upBound=target_matches, cat="Integer"
+    )
+    min_p = pulp.LpVariable(
+        "min_p", lowBound=0, upBound=target_matches, cat="Integer"
+    )
     for ti in range(n_teams):
         prob += max_p >= team_part[ti]
         prob += min_p <= team_part[ti]
@@ -232,8 +284,12 @@ def solve_ilp(
     role_spread = {}
     for r in roles:
         if role_num_map.get(r, 0) > 0:
-            mx = pulp.LpVariable(f"max_{r}", lowBound=0, cat="Integer")
-            mn = pulp.LpVariable(f"min_{r}", lowBound=0, cat="Integer")
+            mx = pulp.LpVariable(
+                f"max_{r}", lowBound=0, upBound=target_matches, cat="Integer"
+            )
+            mn = pulp.LpVariable(
+                f"min_{r}", lowBound=0, upBound=target_matches, cat="Integer"
+            )
             role_spread[r] = (mx, mn)
             for ti in range(n_teams):
                 prob += mx >= team_role[ti][r]
@@ -320,18 +376,32 @@ def find_minimum_feasible_matches(
         for ti in playing:
             participation[m, ti] = 1
 
+    team_part_ub = {ti: int(participation[:, ti].sum()) for ti in range(n_teams)}
+    team_role_ub = {
+        (ti, r): int(role_matrices[r][:, ti].sum())
+        for ti in range(n_teams)
+        for r in roles
+    }
+
     prob = pulp.LpProblem("Min_Matches", pulp.LpMinimize)
 
     match_vars = {
         i: pulp.LpVariable(f"match_{i}", cat="Binary") for i in range(n_matches)
     }
     team_part = {
-        ti: pulp.LpVariable(f"part_{ti}", lowBound=0, cat="Integer")
+        ti: pulp.LpVariable(
+            f"part_{ti}", lowBound=0, upBound=team_part_ub[ti], cat="Integer"
+        )
         for ti in range(n_teams)
     }
     team_role = {
         ti: {
-            r: pulp.LpVariable(f"team_{ti}_role_{r}", lowBound=0, cat="Integer")
+            r: pulp.LpVariable(
+                f"team_{ti}_role_{r}",
+                lowBound=0,
+                upBound=team_role_ub[(ti, r)],
+                cat="Integer",
+            )
             for r in roles
         }
         for ti in range(n_teams)
@@ -347,23 +417,23 @@ def find_minimum_feasible_matches(
             )
 
     seen = {
-        (ti, r): any(role_matrices[r][m, ti] == 1 for m in range(n_matches))
+        (ti, r): team_role_ub[(ti, r)] > 0
         for ti in range(n_teams)
         for r in roles
     }
     w_vars: Dict[int, Dict[str, pulp.LpVariable]] = {ti: {} for ti in range(n_teams)}
-    BIG_M = n_matches
     for ti in range(n_teams):
         for r in roles:
             if role_num_map.get(r, 0) <= 0:
                 continue
             if count_only_seen_roles and not seen[(ti, r)]:
                 continue
+            ub = team_role_ub[(ti, r)]
             w = pulp.LpVariable(f"w_{ti}_{r}", cat="Binary")
             w_vars[ti][r] = w
             y = team_role[ti][r]
             prob += y >= w
-            prob += y <= BIG_M * w
+            prob += y <= ub * w
 
     if max_zero_roles_per_team is not None:
         for ti in range(n_teams):
@@ -428,18 +498,35 @@ def solve_ilp_best_effort(
         for ti in playing:
             participation[m, ti] = 1
 
+    team_part_ub = {
+        ti: min(target_matches, int(participation[:, ti].sum()))
+        for ti in range(n_teams)
+    }
+    team_role_ub = {
+        (ti, r): min(target_matches, int(role_matrices[r][:, ti].sum()))
+        for ti in range(n_teams)
+        for r in roles
+    }
+
     prob = pulp.LpProblem("Match_Selection_Best_Effort", pulp.LpMinimize)
 
     match_vars = {
         i: pulp.LpVariable(f"match_{i}", cat="Binary") for i in range(n_matches)
     }
     team_part = {
-        ti: pulp.LpVariable(f"part_{ti}", lowBound=0, cat="Integer")
+        ti: pulp.LpVariable(
+            f"part_{ti}", lowBound=0, upBound=team_part_ub[ti], cat="Integer"
+        )
         for ti in range(n_teams)
     }
     team_role = {
         ti: {
-            r: pulp.LpVariable(f"team_{ti}_role_{r}", lowBound=0, cat="Integer")
+            r: pulp.LpVariable(
+                f"team_{ti}_role_{r}",
+                lowBound=0,
+                upBound=team_role_ub[(ti, r)],
+                cat="Integer",
+            )
             for r in roles
         }
         for ti in range(n_teams)
@@ -457,23 +544,23 @@ def solve_ilp_best_effort(
             )
 
     seen = {
-        (ti, r): any(role_matrices[r][m, ti] == 1 for m in range(n_matches))
+        (ti, r): team_role_ub[(ti, r)] > 0
         for ti in range(n_teams)
         for r in roles
     }
     w_vars: Dict[int, Dict[str, pulp.LpVariable]] = {ti: {} for ti in range(n_teams)}
-    BIG_M = n_matches
     for ti in range(n_teams):
         for r in roles:
             if role_num_map.get(r, 0) <= 0:
                 continue
             if count_only_seen_roles and not seen[(ti, r)]:
                 continue
+            ub = team_role_ub[(ti, r)]
             w = pulp.LpVariable(f"w_{ti}_{r}", cat="Binary")
             w_vars[ti][r] = w
             y = team_role[ti][r]
             prob += y >= w
-            prob += y <= BIG_M * w
+            prob += y <= ub * w
 
     zero_excess = {
         ti: pulp.LpVariable(f"zero_excess_{ti}", lowBound=0, cat="Integer")
@@ -495,8 +582,12 @@ def solve_ilp_best_effort(
         for ti in range(n_teams):
             prob += team_part[ti] + missing[ti] >= 1
 
-    max_p = pulp.LpVariable("max_p", lowBound=0, cat="Integer")
-    min_p = pulp.LpVariable("min_p", lowBound=0, cat="Integer")
+    max_p = pulp.LpVariable(
+        "max_p", lowBound=0, upBound=target_matches, cat="Integer"
+    )
+    min_p = pulp.LpVariable(
+        "min_p", lowBound=0, upBound=target_matches, cat="Integer"
+    )
     for ti in range(n_teams):
         prob += max_p >= team_part[ti]
         prob += min_p <= team_part[ti]
@@ -504,8 +595,12 @@ def solve_ilp_best_effort(
     role_spread = {}
     for r in roles:
         if role_num_map.get(r, 0) > 0:
-            mx = pulp.LpVariable(f"max_{r}", lowBound=0, cat="Integer")
-            mn = pulp.LpVariable(f"min_{r}", lowBound=0, cat="Integer")
+            mx = pulp.LpVariable(
+                f"max_{r}", lowBound=0, upBound=target_matches, cat="Integer"
+            )
+            mn = pulp.LpVariable(
+                f"min_{r}", lowBound=0, upBound=target_matches, cat="Integer"
+            )
             role_spread[r] = (mx, mn)
             for ti in range(n_teams):
                 prob += mx >= team_role[ti][r]
@@ -835,8 +930,9 @@ def main() -> int:
         solver_time_limit = None
 
     solver = make_solver(threads=solver_threads, time_limit=solver_time_limit)
+    solver_name = type(solver).__name__
     print(
-        f"Solver: CBC threads={solver_threads}"
+        f"Solver: {solver_name} threads={solver_threads}"
         + (
             f", timeLimit={solver_time_limit}s"
             if solver_time_limit
