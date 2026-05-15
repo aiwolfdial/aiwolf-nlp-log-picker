@@ -268,6 +268,109 @@ def solve_ilp(
     )
 
 
+def find_minimum_feasible_matches(
+    pattern_of_matches: List[Dict[str, List[int]]],
+    idx_to_team: Dict[int, str],
+    role_num_map: Dict[str, int],
+    max_zero_roles_per_team: int = 0,
+    count_only_seen_roles: bool = True,
+    require_min_participation: bool = True,
+) -> Tuple[int, str]:
+    """Find the smallest target_matches that keeps the other constraints feasible.
+
+    Returns (min_matches, status). min_matches is 0 when the constraints are
+    structurally infeasible regardless of how many matches are selected.
+    """
+    n_matches = len(pattern_of_matches)
+    n_teams = len(idx_to_team)
+    roles = list(role_num_map.keys())
+
+    participation = np.zeros((n_matches, n_teams), dtype=int)
+    role_matrices: Dict[str, np.ndarray] = {
+        r: np.zeros((n_matches, n_teams), dtype=int) for r in roles
+    }
+    for m, match in enumerate(pattern_of_matches):
+        playing = set()
+        for role, idxs in match.items():
+            if role not in role_matrices:
+                continue
+            for ti in idxs:
+                if 0 <= ti < n_teams:
+                    role_matrices[role][m, ti] = 1
+                    playing.add(ti)
+        for ti in playing:
+            participation[m, ti] = 1
+
+    prob = pulp.LpProblem("Min_Matches", pulp.LpMinimize)
+
+    match_vars = {
+        i: pulp.LpVariable(f"match_{i}", cat="Binary") for i in range(n_matches)
+    }
+    team_part = {
+        ti: pulp.LpVariable(f"part_{ti}", lowBound=0, cat="Integer")
+        for ti in range(n_teams)
+    }
+    team_role = {
+        ti: {
+            r: pulp.LpVariable(f"team_{ti}_role_{r}", lowBound=0, cat="Integer")
+            for r in roles
+        }
+        for ti in range(n_teams)
+    }
+
+    for ti in range(n_teams):
+        prob += team_part[ti] == pulp.lpSum(
+            participation[m, ti] * match_vars[m] for m in range(n_matches)
+        )
+        for r in roles:
+            prob += team_role[ti][r] == pulp.lpSum(
+                role_matrices[r][m, ti] * match_vars[m] for m in range(n_matches)
+            )
+
+    seen = {
+        (ti, r): any(role_matrices[r][m, ti] == 1 for m in range(n_matches))
+        for ti in range(n_teams)
+        for r in roles
+    }
+    w_vars: Dict[int, Dict[str, pulp.LpVariable]] = {ti: {} for ti in range(n_teams)}
+    BIG_M = n_matches
+    for ti in range(n_teams):
+        for r in roles:
+            if role_num_map.get(r, 0) <= 0:
+                continue
+            if count_only_seen_roles and not seen[(ti, r)]:
+                continue
+            w = pulp.LpVariable(f"w_{ti}_{r}", cat="Binary")
+            w_vars[ti][r] = w
+            y = team_role[ti][r]
+            prob += y >= w
+            prob += y <= BIG_M * w
+
+    if max_zero_roles_per_team is not None:
+        for ti in range(n_teams):
+            if w_vars[ti]:
+                prob += (
+                    pulp.lpSum(1 - w_vars[ti][r] for r in w_vars[ti])
+                    <= max_zero_roles_per_team
+                )
+
+    if require_min_participation:
+        for ti in range(n_teams):
+            prob += team_part[ti] >= 1
+
+    prob += pulp.lpSum(match_vars.values())
+
+    prob.solve(pulp.PULP_CBC_CMD(msg=0))
+    status = pulp.LpStatus[prob.status]
+
+    if prob.status == pulp.LpStatusOptimal:
+        min_matches = int(
+            round(sum(pulp.value(match_vars[i]) for i in range(n_matches)))
+        )
+        return min_matches, status
+    return 0, status
+
+
 def display_result(result: OptimizationResult, role_num_map: Dict[str, int]) -> None:
     print("\n=== Optimization Results ===")
     print(f"Status: {result.optimization_status}")
@@ -472,6 +575,37 @@ def main() -> int:
 
     if result.total_matches > 0:
         save_outputs(result, track, track_dir, log_files, root_dir)
+    else:
+        print(
+            "\n指定された条件を満たす試合の組み合わせは見つかりませんでした。"
+        )
+        print("制約を据え置きで、必要最小試合数を探索中...")
+        min_n, min_status = find_minimum_feasible_matches(
+            pattern_of_matches=pattern_of_matches,
+            idx_to_team=idx_to_team,
+            role_num_map=role_num_map,
+            max_zero_roles_per_team=max_zero_roles_per_team,
+            count_only_seen_roles=count_only_seen_roles,
+            require_min_participation=require_min_participation,
+        )
+        if min_status == "Optimal" and min_n > 0:
+            print(
+                f"→ この条件を満たすには最低 {min_n} 試合 必要です。"
+            )
+            print(
+                f"  もう一度実行して、Target number of matches を {min_n} "
+                "以上に設定してください。"
+            )
+        else:
+            print(
+                "→ 現在の制約 (max zero-count roles per team / "
+                "require_min_participation 等) では、"
+                "どれだけ試合数を増やしても条件を満たせません。"
+            )
+            print(
+                "  max zero-count roles per team を増やす、または "
+                "require_min_participation を無効にすることを検討してください。"
+            )
 
     return 0
 
