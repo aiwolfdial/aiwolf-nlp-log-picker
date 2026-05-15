@@ -13,7 +13,7 @@ import os
 import re
 import shutil
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Dict, List, Tuple
 
 import numpy as np
@@ -33,6 +33,9 @@ class OptimizationResult:
     total_matches: int
     balance_score: float
     optimization_status: str
+    is_best_effort: bool = False
+    teams_missing: List[str] = field(default_factory=list)
+    teams_zero_role_excess: Dict[str, int] = field(default_factory=dict)
 
 
 def normalize_team_name(team_name: str) -> str:
@@ -371,6 +374,196 @@ def find_minimum_feasible_matches(
     return 0, status
 
 
+def solve_ilp_best_effort(
+    pattern_of_matches: List[Dict[str, List[int]]],
+    idx_to_team: Dict[int, str],
+    role_num_map: Dict[str, int],
+    target_matches: int,
+    max_zero_roles_per_team: int = 0,
+    count_only_seen_roles: bool = True,
+    require_min_participation: bool = True,
+    balance_weight: float = 1.0,
+) -> OptimizationResult:
+    """Pick exactly `target_matches` logs that come closest to satisfying the
+    constraints when no strict solution exists. The role-coverage and
+    participation constraints become slack-augmented soft constraints with a
+    very large penalty so the solver minimises constraint violations first and
+    then optimises team/role balance."""
+    n_matches = len(pattern_of_matches)
+    n_teams = len(idx_to_team)
+    roles = list(role_num_map.keys())
+
+    target_matches = max(1, min(target_matches, n_matches))
+
+    participation = np.zeros((n_matches, n_teams), dtype=int)
+    role_matrices: Dict[str, np.ndarray] = {
+        r: np.zeros((n_matches, n_teams), dtype=int) for r in roles
+    }
+    for m, match in enumerate(pattern_of_matches):
+        playing = set()
+        for role, idxs in match.items():
+            if role not in role_matrices:
+                continue
+            for ti in idxs:
+                if 0 <= ti < n_teams:
+                    role_matrices[role][m, ti] = 1
+                    playing.add(ti)
+        for ti in playing:
+            participation[m, ti] = 1
+
+    prob = pulp.LpProblem("Match_Selection_Best_Effort", pulp.LpMinimize)
+
+    match_vars = {
+        i: pulp.LpVariable(f"match_{i}", cat="Binary") for i in range(n_matches)
+    }
+    team_part = {
+        ti: pulp.LpVariable(f"part_{ti}", lowBound=0, cat="Integer")
+        for ti in range(n_teams)
+    }
+    team_role = {
+        ti: {
+            r: pulp.LpVariable(f"team_{ti}_role_{r}", lowBound=0, cat="Integer")
+            for r in roles
+        }
+        for ti in range(n_teams)
+    }
+
+    prob += pulp.lpSum(match_vars.values()) == target_matches
+
+    for ti in range(n_teams):
+        prob += team_part[ti] == pulp.lpSum(
+            participation[m, ti] * match_vars[m] for m in range(n_matches)
+        )
+        for r in roles:
+            prob += team_role[ti][r] == pulp.lpSum(
+                role_matrices[r][m, ti] * match_vars[m] for m in range(n_matches)
+            )
+
+    seen = {
+        (ti, r): any(role_matrices[r][m, ti] == 1 for m in range(n_matches))
+        for ti in range(n_teams)
+        for r in roles
+    }
+    w_vars: Dict[int, Dict[str, pulp.LpVariable]] = {ti: {} for ti in range(n_teams)}
+    BIG_M = n_matches
+    for ti in range(n_teams):
+        for r in roles:
+            if role_num_map.get(r, 0) <= 0:
+                continue
+            if count_only_seen_roles and not seen[(ti, r)]:
+                continue
+            w = pulp.LpVariable(f"w_{ti}_{r}", cat="Binary")
+            w_vars[ti][r] = w
+            y = team_role[ti][r]
+            prob += y >= w
+            prob += y <= BIG_M * w
+
+    zero_excess = {
+        ti: pulp.LpVariable(f"zero_excess_{ti}", lowBound=0, cat="Integer")
+        for ti in range(n_teams)
+    }
+    if max_zero_roles_per_team is not None:
+        for ti in range(n_teams):
+            if w_vars[ti]:
+                prob += (
+                    pulp.lpSum(1 - w_vars[ti][r] for r in w_vars[ti])
+                    - zero_excess[ti]
+                    <= max_zero_roles_per_team
+                )
+
+    missing = {
+        ti: pulp.LpVariable(f"missing_{ti}", cat="Binary") for ti in range(n_teams)
+    }
+    if require_min_participation:
+        for ti in range(n_teams):
+            prob += team_part[ti] + missing[ti] >= 1
+
+    max_p = pulp.LpVariable("max_p", lowBound=0, cat="Integer")
+    min_p = pulp.LpVariable("min_p", lowBound=0, cat="Integer")
+    for ti in range(n_teams):
+        prob += max_p >= team_part[ti]
+        prob += min_p <= team_part[ti]
+
+    role_spread = {}
+    for r in roles:
+        if role_num_map.get(r, 0) > 0:
+            mx = pulp.LpVariable(f"max_{r}", lowBound=0, cat="Integer")
+            mn = pulp.LpVariable(f"min_{r}", lowBound=0, cat="Integer")
+            role_spread[r] = (mx, mn)
+            for ti in range(n_teams):
+                prob += mx >= team_role[ti][r]
+                prob += mn <= team_role[ti][r]
+
+    balance_obj = (max_p - min_p) * balance_weight
+    for r, (mx, mn) in role_spread.items():
+        weight = role_num_map[r] if role_num_map[r] > 0 else 1
+        balance_obj += (mx - mn) * weight * balance_weight
+
+    # Penalty per violation must dominate the worst-case balance objective so
+    # constraint violations are minimised lexicographically before balance.
+    max_balance = n_matches * (sum(role_num_map.values()) + 1) * max(balance_weight, 1.0)
+    violation_penalty = max(1000.0, max_balance * 1000.0)
+
+    violation_terms = []
+    if max_zero_roles_per_team is not None:
+        violation_terms.append(pulp.lpSum(zero_excess.values()))
+    if require_min_participation:
+        violation_terms.append(pulp.lpSum(missing.values()))
+    violation_obj = (
+        violation_penalty * pulp.lpSum(violation_terms) if violation_terms else 0
+    )
+
+    prob += violation_obj + balance_obj
+
+    print(f"Solving best-effort ILP for {target_matches} matches...")
+    prob.solve(pulp.PULP_CBC_CMD(msg=0))
+    status = pulp.LpStatus[prob.status]
+
+    selected_indices: List[int] = []
+    team_participation_out: Dict[str, int] = {}
+    team_role_out: Dict[str, Dict[str, int]] = {}
+    teams_missing: List[str] = []
+    teams_zero_role_excess: Dict[str, int] = {}
+    score = float("inf")
+
+    if prob.status == pulp.LpStatusOptimal:
+        selected_indices = [
+            i for i in range(n_matches) if pulp.value(match_vars[i]) and pulp.value(match_vars[i]) >= 0.5
+        ]
+        for ti in range(n_teams):
+            team_name = idx_to_team[ti]
+            team_participation_out[team_name] = int(round(pulp.value(team_part[ti])))
+            team_role_out[team_name] = {
+                r: int(round(pulp.value(team_role[ti][r]))) for r in roles
+            }
+            if require_min_participation and pulp.value(missing[ti]) and pulp.value(missing[ti]) >= 0.5:
+                teams_missing.append(team_name)
+            if max_zero_roles_per_team is not None:
+                excess = int(round(pulp.value(zero_excess[ti]) or 0))
+                if excess > 0:
+                    teams_zero_role_excess[team_name] = excess
+        # Report only the balance portion so the score is comparable to strict mode.
+        score = float(pulp.value(balance_obj))
+    else:
+        for ti in range(n_teams):
+            team_name = idx_to_team[ti]
+            team_participation_out[team_name] = 0
+            team_role_out[team_name] = {r: 0 for r in roles}
+
+    return OptimizationResult(
+        selected_indices=selected_indices,
+        selected_files=[],
+        team_participation=team_participation_out,
+        team_role_counts=team_role_out,
+        total_matches=len(selected_indices),
+        balance_score=score,
+        optimization_status=status,
+        is_best_effort=True,
+        teams_missing=teams_missing,
+        teams_zero_role_excess=teams_zero_role_excess,
+    )
+
+
 def display_result(result: OptimizationResult, role_num_map: Dict[str, int]) -> None:
     print("\n=== Optimization Results ===")
     print(f"Status: {result.optimization_status}")
@@ -405,6 +598,22 @@ def display_result(result: OptimizationResult, role_num_map: Dict[str, int]) -> 
                 f"Min={min(counts)}  Max={max(counts)}"
             )
 
+    if result.is_best_effort:
+        print("\n=== Best-effort 違反内訳 ===")
+        if result.teams_missing:
+            print(
+                f"  未参加チーム ({len(result.teams_missing)}): "
+                + ", ".join(result.teams_missing)
+            )
+        else:
+            print("  未参加チーム: なし")
+        if result.teams_zero_role_excess:
+            print("  ゼロ回数役職が許容数を超えるチーム:")
+            for team, excess in sorted(result.teams_zero_role_excess.items()):
+                print(f"    {team}: 超過 {excess}")
+        else:
+            print("  ゼロ回数役職の超過: なし")
+
 
 def save_outputs(
     result: OptimizationResult,
@@ -416,7 +625,10 @@ def save_outputs(
     selected_files = [log_files[i] for i in result.selected_indices]
     result.selected_files = selected_files
 
-    out_dir = os.path.join(root_dir, "selected", track_name)
+    selected_root = "selected_best_effort" if result.is_best_effort else "selected"
+    file_prefix = "best_effort_" if result.is_best_effort else ""
+
+    out_dir = os.path.join(root_dir, selected_root, track_name)
     os.makedirs(out_dir, exist_ok=True)
     for name in selected_files:
         shutil.copy2(os.path.join(track_dir, name), os.path.join(out_dir, name))
@@ -431,40 +643,54 @@ def save_outputs(
         row["Total_Participation"] = result.team_participation[team]
         rows.append(row)
     df = pd.DataFrame(rows)
-    csv_path = os.path.join(table_dir, f"role_distribution_{track_name}.csv")
+    csv_path = os.path.join(
+        table_dir, f"{file_prefix}role_distribution_{track_name}.csv"
+    )
     df.to_csv(csv_path, index=False)
     print(f"Saved: {csv_path}")
     try:
-        xlsx_path = os.path.join(table_dir, f"role_distribution_{track_name}.xlsx")
+        xlsx_path = os.path.join(
+            table_dir, f"{file_prefix}role_distribution_{track_name}.xlsx"
+        )
         df.to_excel(xlsx_path, index=False)
         print(f"Saved: {xlsx_path}")
     except ImportError:
         pass
 
     parts = list(result.team_participation.values())
-    summary_df = pd.DataFrame(
-        {
-            "Metric": [
-                "Total Matches Selected",
-                "Balance Score",
-                "Optimization Status",
-                "Mean Team Participation",
-                "Std Dev Team Participation",
-                "Min Team Participation",
-                "Max Team Participation",
-            ],
-            "Value": [
-                result.total_matches,
-                f"{result.balance_score:.2f}",
-                result.optimization_status,
-                f"{np.mean(parts):.2f}" if parts else "0.00",
-                f"{np.std(parts):.2f}" if parts else "0.00",
-                min(parts) if parts else 0,
-                max(parts) if parts else 0,
-            ],
-        }
+    metrics = [
+        "Total Matches Selected",
+        "Balance Score",
+        "Optimization Status",
+        "Mean Team Participation",
+        "Std Dev Team Participation",
+        "Min Team Participation",
+        "Max Team Participation",
+    ]
+    values = [
+        result.total_matches,
+        f"{result.balance_score:.2f}",
+        result.optimization_status,
+        f"{np.mean(parts):.2f}" if parts else "0.00",
+        f"{np.std(parts):.2f}" if parts else "0.00",
+        min(parts) if parts else 0,
+        max(parts) if parts else 0,
+    ]
+    if result.is_best_effort:
+        metrics.extend(
+            ["Mode", "Teams Missing", "Teams With Zero-Role Excess"]
+        )
+        values.extend(
+            [
+                "best-effort (constraints relaxed)",
+                len(result.teams_missing),
+                len(result.teams_zero_role_excess),
+            ]
+        )
+    summary_df = pd.DataFrame({"Metric": metrics, "Value": values})
+    summary_path = os.path.join(
+        table_dir, f"{file_prefix}optimization_summary_{track_name}.csv"
     )
-    summary_path = os.path.join(table_dir, f"optimization_summary_{track_name}.csv")
     summary_df.to_csv(summary_path, index=False)
     print(f"Saved: {summary_path}")
 
@@ -474,9 +700,28 @@ def save_outputs(
             "Log_File": selected_files,
         }
     )
-    matches_path = os.path.join(table_dir, f"selected_matches_{track_name}.csv")
+    matches_path = os.path.join(
+        table_dir, f"{file_prefix}selected_matches_{track_name}.csv"
+    )
     matches_df.to_csv(matches_path, index=False)
     print(f"Saved: {matches_path}")
+
+    if result.is_best_effort:
+        violations_rows = []
+        for team in sorted(result.team_participation):
+            violations_rows.append(
+                {
+                    "Team": team,
+                    "Missing": team in result.teams_missing,
+                    "Zero_Role_Excess": result.teams_zero_role_excess.get(team, 0),
+                }
+            )
+        v_df = pd.DataFrame(violations_rows)
+        v_path = os.path.join(
+            table_dir, f"best_effort_violations_{track_name}.csv"
+        )
+        v_df.to_csv(v_path, index=False)
+        print(f"Saved: {v_path}")
 
 
 def prompt_choice(prompt: str, choices: List[str]) -> int:
@@ -561,11 +806,16 @@ def main() -> int:
         count_only_seen_roles = True
         require_min_participation = True
 
+    effective_target = (
+        target_matches if target_matches is not None
+        else max(1, len(pattern_of_matches) // 2)
+    )
+
     result = solve_ilp(
         pattern_of_matches=pattern_of_matches,
         idx_to_team=idx_to_team,
         role_num_map=role_num_map,
-        target_matches=target_matches,
+        target_matches=effective_target,
         max_zero_roles_per_team=max_zero_roles_per_team,
         count_only_seen_roles=count_only_seen_roles,
         require_min_participation=require_min_participation,
@@ -605,6 +855,28 @@ def main() -> int:
             print(
                 "  max zero-count roles per team を増やす、または "
                 "require_min_participation を無効にすることを検討してください。"
+            )
+
+        print(
+            f"\n指定された {effective_target} 試合の枠内で、"
+            "条件に最も近い組み合わせを探索中..."
+        )
+        best_effort = solve_ilp_best_effort(
+            pattern_of_matches=pattern_of_matches,
+            idx_to_team=idx_to_team,
+            role_num_map=role_num_map,
+            target_matches=effective_target,
+            max_zero_roles_per_team=max_zero_roles_per_team,
+            count_only_seen_roles=count_only_seen_roles,
+            require_min_participation=require_min_participation,
+        )
+        if best_effort.total_matches > 0:
+            display_result(best_effort, role_num_map)
+            save_outputs(best_effort, track, track_dir, log_files, root_dir)
+        else:
+            print(
+                f"\nBest-effort 解の探索にも失敗しました "
+                f"(status={best_effort.optimization_status})。"
             )
 
     return 0

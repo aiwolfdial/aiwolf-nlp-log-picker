@@ -1,8 +1,8 @@
 Metric,Value
-Total Matches Selected,10
-Balance Score,6.00
+Total Matches Selected,60
+Balance Score,4.00
 Optimization Status,Optimal
-Mean Team Participation,6.25
-Std Dev Team Participation,0.43
-Min Team Participation,6
-Max Team Participation,7
+Mean Team Participation,37.50
+Std Dev Team Participation,0.50
+Min Team Participation,37
+Max Team Participation,38
