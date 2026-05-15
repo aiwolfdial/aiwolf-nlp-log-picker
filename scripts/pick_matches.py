@@ -116,6 +116,20 @@ def build_pattern_data(track_dir: str, log_files: List[str]):
     return pattern_of_matches, idx_to_team, role_num_map, player_counts
 
 
+def make_solver(threads: int = None, time_limit: float = None) -> pulp.PULP_CBC_CMD:
+    """CBC solver configured for parallel branch-and-bound.
+
+    threads=None lets CBC pick; time_limit=None means no wall-clock cap.
+    No MIP gap is set so the solver still proves optimality before stopping.
+    """
+    kwargs = {"msg": 0}
+    if threads is not None and threads > 0:
+        kwargs["threads"] = threads
+    if time_limit is not None and time_limit > 0:
+        kwargs["timeLimit"] = float(time_limit)
+    return pulp.PULP_CBC_CMD(**kwargs)
+
+
 def solve_ilp(
     pattern_of_matches: List[Dict[str, List[int]]],
     idx_to_team: Dict[int, str],
@@ -125,6 +139,7 @@ def solve_ilp(
     count_only_seen_roles: bool = True,
     require_min_participation: bool = True,
     balance_weight: float = 1.0,
+    solver: pulp.LpSolver = None,
 ) -> OptimizationResult:
     n_matches = len(pattern_of_matches)
     n_teams = len(idx_to_team)
@@ -231,7 +246,7 @@ def solve_ilp(
     prob += objective
 
     print(f"Solving ILP for {target_matches} matches...")
-    prob.solve(pulp.PULP_CBC_CMD(msg=0))
+    prob.solve(solver if solver is not None else pulp.PULP_CBC_CMD(msg=0))
     status = pulp.LpStatus[prob.status]
 
     selected_indices: List[int] = []
@@ -278,6 +293,7 @@ def find_minimum_feasible_matches(
     max_zero_roles_per_team: int = 0,
     count_only_seen_roles: bool = True,
     require_min_participation: bool = True,
+    solver: pulp.LpSolver = None,
 ) -> Tuple[int, str]:
     """Find the smallest target_matches that keeps the other constraints feasible.
 
@@ -363,7 +379,7 @@ def find_minimum_feasible_matches(
 
     prob += pulp.lpSum(match_vars.values())
 
-    prob.solve(pulp.PULP_CBC_CMD(msg=0))
+    prob.solve(solver if solver is not None else pulp.PULP_CBC_CMD(msg=0))
     status = pulp.LpStatus[prob.status]
 
     if prob.status == pulp.LpStatusOptimal:
@@ -383,6 +399,7 @@ def solve_ilp_best_effort(
     count_only_seen_roles: bool = True,
     require_min_participation: bool = True,
     balance_weight: float = 1.0,
+    solver: pulp.LpSolver = None,
 ) -> OptimizationResult:
     """Pick exactly `target_matches` logs that come closest to satisfying the
     constraints when no strict solution exists. The role-coverage and
@@ -516,7 +533,7 @@ def solve_ilp_best_effort(
     prob += violation_obj + balance_obj
 
     print(f"Solving best-effort ILP for {target_matches} matches...")
-    prob.solve(pulp.PULP_CBC_CMD(msg=0))
+    prob.solve(solver if solver is not None else pulp.PULP_CBC_CMD(msg=0))
     status = pulp.LpStatus[prob.status]
 
     selected_indices: List[int] = []
@@ -788,6 +805,7 @@ def main() -> int:
     )
     print(f"Detected {len(idx_to_team)} teams: {', '.join(idx_to_team.values())}")
 
+    cpu_total = os.cpu_count() or 1
     try:
         raw = input("\nTarget number of matches (Enter for default): ").strip()
         target_matches = int(raw) if raw else None
@@ -799,12 +817,32 @@ def main() -> int:
         count_only_seen_roles = raw != "n"
         raw = input("Require each team to appear at least once? [Y/n]: ").strip().lower()
         require_min_participation = raw != "n"
+        raw = input(
+            f"Solver threads (Enter={cpu_total} = all cores): "
+        ).strip()
+        solver_threads = int(raw) if raw else cpu_total
+        raw = input(
+            "Solver time limit in seconds (Enter=no limit): "
+        ).strip()
+        solver_time_limit = float(raw) if raw else None
     except (ValueError, EOFError):
         print("Using defaults")
         target_matches = None
         max_zero_roles_per_team = 0
         count_only_seen_roles = True
         require_min_participation = True
+        solver_threads = cpu_total
+        solver_time_limit = None
+
+    solver = make_solver(threads=solver_threads, time_limit=solver_time_limit)
+    print(
+        f"Solver: CBC threads={solver_threads}"
+        + (
+            f", timeLimit={solver_time_limit}s"
+            if solver_time_limit
+            else ", no time limit"
+        )
+    )
 
     effective_target = (
         target_matches if target_matches is not None
@@ -819,6 +857,7 @@ def main() -> int:
         max_zero_roles_per_team=max_zero_roles_per_team,
         count_only_seen_roles=count_only_seen_roles,
         require_min_participation=require_min_participation,
+        solver=solver,
     )
 
     display_result(result, role_num_map)
@@ -837,6 +876,7 @@ def main() -> int:
             max_zero_roles_per_team=max_zero_roles_per_team,
             count_only_seen_roles=count_only_seen_roles,
             require_min_participation=require_min_participation,
+            solver=solver,
         )
         if min_status == "Optimal" and min_n > 0:
             print(
@@ -869,6 +909,7 @@ def main() -> int:
             max_zero_roles_per_team=max_zero_roles_per_team,
             count_only_seen_roles=count_only_seen_roles,
             require_min_participation=require_min_participation,
+            solver=solver,
         )
         if best_effort.total_matches > 0:
             display_result(best_effort, role_num_map)

@@ -1,0 +1,430 @@
+0,status,1,BODYGUARD,ALIVE,kanolab-nw-C1,Minato
+0,status,2,MEDIUM,ALIVE,mille-B1,Daisuke
+0,status,3,POSSESSED,ALIVE,kanolab-nw-A1,Takumi
+0,status,4,SEER,ALIVE,Character-Lab-A1,Toshio
+0,status,5,VILLAGER,ALIVE,Character-Lab-B1,George
+0,status,6,VILLAGER,ALIVE,sunamelli-c1,Rin
+0,status,7,VILLAGER,ALIVE,CanisLupus-A1,Mio
+0,status,8,VILLAGER,ALIVE,mille-A1,Sakura
+0,status,9,VILLAGER,ALIVE,CanisLupus-B1,Servas
+0,status,10,VILLAGER,ALIVE,kanolab-nw-B1,Kenji
+0,status,11,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan
+0,status,12,WEREWOLF,ALIVE,sunamelli-a1,Midori
+0,status,13,WEREWOLF,ALIVE,sunamelli-b1,Shion
+0,whisper,0,0,12,This is Midori. I am a werewolf.
+0,whisper,1,0,13,This is Shion. I am a werewolf.
+0,whisper,2,0,11,...
+0,whisper,3,1,12,Over
+0,whisper,4,1,13,Over
+0,whisper,5,1,11,...
+0,whisper,6,2,11,...
+0,whisper,7,3,11,...
+0,talk,0,0,1,Hello. I-I'm Minato. I'm looking forward to...um...an exciting game with everyone. Let’s work together and have fun okay? Over.
+0,talk,1,0,13,Greetings A new round with new faces—let’s see whose performance crumbles first when the pressure rises
+0,talk,2,0,7,Skip
+0,talk,3,0,2,Hello. I am Daisuke. My role is villager. Have a good game.
+0,talk,4,0,9,Skip
+0,talk,5,0,8,Hello. I am Sakura. My role is villager. Have a good game.
+0,talk,6,0,10,Wow! Hey team. I'm Kenji. Let's go and enjoy the game. We're totally going to find those sneaky werewolves right? Keep sharp!
+0,talk,7,0,4,Morning. Quick info check—any role claims or reads?  @Daisuke  you claimed villager fast—what made you announce so soon? Anyone already leaning toward a vote or have suspicious behavior to point out (Minato seem
+0,talk,8,0,12,Hello everyone I'm looking forward to a warm gentle game together even if things get tense later on.
+0,talk,9,0,5,Morning.  @Daisuke  claiming villager so fast felt a bit off—Daisuke  what made you announce so quickly? Others  any early reads or strange behavior you've noticed? Over
+0,talk,10,0,11,...
+0,talk,11,0,6,Hey everyone! I brought my magnifying glass—I’m ready to find sneaky wolves or maybe just some lost socks!
+0,talk,12,0,3,Hey crew! I'm Takumi. Ready to crack this werewolf mystery with y'all. Let's keep sharp and team up. I got this!
+0,talk,13,1,1,Over
+0,talk,14,1,13,Over
+0,talk,15,1,7,Hey everyone I'm Mio! So excited to play with you all! Let's find those bad guys
+0,talk,16,1,2,Over
+0,talk,17,1,9,I am Servas. I find clarity in quiet contemplation and a well-steeped cup of tea.
+0,talk,18,1,8,Over
+0,talk,19,1,10,Over
+0,talk,20,1,4,I'm leaning toward the quiet ones.  @Minato  you barely said anything—what's your read or vote? Others  any concrete reads or who are you planning to vote for? Over
+0,talk,21,1,12,Over
+0,talk,22,1,5,Quietness bothers me.  @Minato  you’ve said almost nothing—what’s your read or who will you vote for? If you keep silent I’ll lean toward voting you. Others  give a concrete read. Over
+0,talk,23,1,11,Over
+0,talk,24,1,6,Over
+0,talk,25,1,3,Over
+0,talk,26,2,7,Over
+0,talk,27,2,9,Over
+0,talk,28,2,4,We still have no clear lead.  @Daisuke  you’ve been quiet—what’s your read and who are you planning to vote for? I’m leaning toward someone who’s stayed silent (Minato) unless someone give
+0,talk,29,2,5,Silence won't help.  @Minato  you've said almost nothing—what's your read or who will you vote for? If you don't respond I'll lean toward voting you. Others  any concrete suspects o
+0,talk,30,3,4,Let's move—nominate Minato for now; they've been very quiet.  @Minato  explain your silence or who you're voting for. If no good answer  I'll vote to lynch. Over
+0,talk,31,3,5,It's too quiet.  @Minato  you've barely said anything—what's your read or who will you vote for? If you stay silent I'll lean toward voting you. Others  any concrete suspects or
+0,whisper,0,0,13,Let’s keep suspicion on Minato now and plan our fake Seer CO for Day 1 if needed. Who do you think is the madman?
+0,whisper,1,0,12,I suggest we fake Seer CO tomorrow if no one else does. Let’s focus on Minato for votes and bite out George if possible.
+0,whisper,2,0,11,...
+0,whisper,3,1,13,Let’s vote Minato first since they’re silent and safe. Midori can claim Seer if no one else does.
+0,whisper,4,1,12,Let's agree to target George for the bite unless a stronger role comes out. If no Seer CO appears I'll fake Seer tomorrow.
+0,whisper,5,1,11,...
+0,whisper,6,2,13,Let’s vote Minato so we blend in with villagers and bite George tonight unless a power role CO appears.
+0,whisper,7,2,12,Let’s vote Minato so we blend with villagers. Tonight George is my bite out target unless someone Seer COs—then we change.
+0,whisper,8,2,11,...
+0,whisper,9,3,13,Let’s all vote Minato to match villagers. Tonight we bite George unless a Seer CO appears. Midori fake Seer if needed.
+0,whisper,10,3,12,Let’s all vote Minato today. For fake claims I’ll CO as Seer if no one does. Tonight let’s bite out George unless Seer COs.
+0,whisper,11,3,11,...
+0,divine,4,1,HUMAN
+1,status,1,BODYGUARD,ALIVE,kanolab-nw-C1,Minato
+1,status,2,MEDIUM,ALIVE,mille-B1,Daisuke
+1,status,3,POSSESSED,ALIVE,kanolab-nw-A1,Takumi
+1,status,4,SEER,ALIVE,Character-Lab-A1,Toshio
+1,status,5,VILLAGER,ALIVE,Character-Lab-B1,George
+1,status,6,VILLAGER,ALIVE,sunamelli-c1,Rin
+1,status,7,VILLAGER,ALIVE,CanisLupus-A1,Mio
+1,status,8,VILLAGER,ALIVE,mille-A1,Sakura
+1,status,9,VILLAGER,ALIVE,CanisLupus-B1,Servas
+1,status,10,VILLAGER,ALIVE,kanolab-nw-B1,Kenji
+1,status,11,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan
+1,status,12,WEREWOLF,ALIVE,sunamelli-a1,Midori
+1,status,13,WEREWOLF,ALIVE,sunamelli-b1,Shion
+1,talk,0,0,4,I divined Minato HUMAN last night — we lynched an innocent. We need solid reads.  @George  do you have a role claim or any divination result? Everyone else  who are you voting for and why? Over
+1,talk,1,0,2,I will vote Toshio.
+1,talk,2,0,13, @Daisuke  your vote for Toshio was fast with no reason. Are you trying to deflect suspicion from yourself?
+1,talk,3,0,8,I will vote Mio.
+1,talk,4,0,3,Yo Wolfy! I divined last night. Toshio is a werewolf! We might wanna vote him out today. I got this no doubt!
+1,talk,5,0,1,Takumi says Toshio's a werewolf. That's odd. Toshio's divination said I'm not a werewolf? Any other thoughts maybe?
+1,talk,6,0,9,Two have declared the same role. Hasty judgment is unwise. Let us observe the day's proceedings.
+1,talk,7,0,11,...
+1,talk,8,0,12,We have two Seers but rushing feels risky. Shouldn’t we wait for more voices before deciding who to trust?
+1,talk,9,0,7,Whoa  @Sakura  why a vote for me? I haven't even done anything! That's super suspicious
+1,talk,10,0,5,Good morning. Any night events or role claims to share?  @Minato  you’ve been quiet—what’s your read today? If nobody has solid info  let’s avoid random lynches and try to get concrete suspicions first. Over
+1,talk,11,0,10,Wow! It looks like Toshio and Takumi are both claiming to be the seer. Let's go and see who seems more truthful and check out their past actions!
+1,talk,12,0,6, @Takumi  you say Toshio is a wolf. Why did you pick him as your first target? Was there something suspicious last night?
+1,talk,13,1,4,I divined Minato HUMAN last night.  @Daisuke  you claimed villager early—explain why you did that and who you’re voting for now. We need concrete reads before the next lynch. Over
+1,talk,14,1,2,I will vote Toshio.
+1,talk,15,1,13, @Daisuke  You keep voting Toshio with no reason. Are you trying to avoid suspicion or do you have something to hide?
+1,talk,16,1,8,I will vote Takumi.
+1,talk,17,1,3,Alright listen up! There's only room for one seer and that's me. I divined Toshio's a werewolf so let's vote Toshio today! Whatever works!
+1,talk,18,1,1,Rushing seems risky. Two seers claiming huh? Maybe we should wait a bit. Rin says Mr. Toshio is a wolf. Do we trust him?
+1,talk,19,1,9,My counsel for caution remains.  @Daisuke  your immediate vote for Toshio lacks a foundation. Explain.
+1,talk,20,1,11,...
+1,talk,21,1,12,The two Seer claims confuse me. Rushing could harm us. Should we ask more before choosing who to trust  @Shion and  @Kenji ?
+1,talk,22,1,7,Two Seers means one is real and one is Possessed! We shouldn't vote for either one today
+1,talk,23,1,5,Morning. Any night info or role claims?  @Minato  your silence is worrying—what’s your read today and why have you stayed quiet? If no one has solid evidence  let’s try to get at least one concrete suspe
+1,talk,24,1,10,Wow conflicting seers huh? Let’s aim for a shared divination target.  @Midori  you and Shion seem cautious. Think it'll help?
+1,talk,25,1,6, @Daisuke  you keep voting Toshio without much reason. Can you explain why he’s your top suspect so far?
+1,talk,26,2,4,I divined Minato HUMAN last night — we lost an innocent. We need concrete reads or role claims now.  @Daisuke  you claimed villager early; who are you voting for and why? Anyone with a role or divination/inspection result  speak up. If no solid leads soon  we risk
+1,talk,27,2,2,I will vote Jonathan.
+1,talk,28,2,13, @Daisuke  your repeated votes without reason seem suspicious to me we should focus on erratic behavior before COs
+1,talk,29,2,8,I will vote Daisuke.
+1,talk,30,2,3,I'm still backing my divination on Toshio. Strategy-wise. Split votes hurt us. Let's make sure we're aligned and unified. @Midny Hey. To aim for a win
+1,talk,31,2,1,Hmm. I'm a bit puzzled by the Seer claims. Maybe if Takumi's correct? If Toshio's a werewolf. Wouldn't he say I'm not human? What do you think?
+1,talk,32,2,9,Let us consider the Werewolf's goal. They seek to obscure the truth. Daisuke's actions serve this end.
+1,talk,33,2,11,...
+1,talk,34,2,12, @Daisuke  your sudden vote change felt odd today—can you share your reasons before we decide who to trust?
+1,talk,35,2,7,The wolves want us fighting over the Seers! Let's look at  @Daisuke 's weird voting instead okay?
+1,talk,36,2,5, @Minato  you're still quiet—please give a read or I'll push to vote you. Others  name one suspect or a reasoned read so we don't waste the day. Over
+1,talk,37,2,10,Over
+1,talk,38,2,6, @Daisuke  you keep changing votes with no reason at all. That’s suspicious! Can you explain your plan or thinking?
+1,talk,39,3,4,Minato was human — we lost an innocent.  @Daisuke  you claimed villager early then stayed quiet; what's your read and who will you vote for? If you can't justify it you'll look suspicious. Others  any co
+1,talk,40,3,2,I will vote Jonathan.
+1,talk,41,3,13,Daisuke’s scattered votes make no sense so I’ll vote Daisuke today but Jonathan’s silence is also troubling.
+1,talk,42,3,8,I will vote Daisuke.
+1,talk,43,3,3,Tosh.Trust is thin. If Tosh is a Seer why's he not after other wolves huh? Kinda fishy right? I got this!
+1,talk,44,3,1,Two seer claims puzzle me. If Toshio's claim of me as human is false. Takumi must be real. Daisuke acts wild. Thoughts?  @George  I've been watching the two seer claims. Trying to see who feels real. Maybe today will show us. What do you think?
+1,talk,45,3,9,Over
+1,talk,46,3,11,...
+1,talk,47,3,12,Both Daisuke’s actions and Jonathan’s silence seem off but I’ll vote Daisuke today—his scattered votes worry me most.
+1,talk,48,3,7,Over
+1,talk,49,3,5,Enough silence.  @Minato  please tell us your read or if you have a role claim. If you stay quiet I'll have to vote you. Others  give one concrete suspect or a reasoned read. Over
+1,talk,50,3,6, @Daisuke ’s sudden vote flip looks suspicious to me. I’m voting Daisuke today. Anyone else feeling the same way?
+1,vote,1,2
+1,vote,2,3
+1,vote,3,4
+1,vote,4,3
+1,vote,5,1
+1,vote,6,2
+1,vote,7,2
+1,vote,8,2
+1,vote,9,2
+1,vote,10,2
+1,vote,11,2
+1,vote,12,2
+1,vote,13,2
+1,execute,2,MEDIUM
+1,divine,4,3,HUMAN
+1,whisper,0,0,12,I can't say anything too violent...
+1,whisper,1,0,13,Let’s stick to pushing  @Daisuke  out today. If town shifts to a Seer  Midori should prepare to CO Seer next.
+1,whisper,2,0,11,...
+1,whisper,3,1,12,Let’s all vote for Daisuke today. For the night let’s bite George unless someone sees a more dangerous power role or threat.
+1,whisper,4,1,13,Let’s keep votes on Daisuke today. Midori if needed you’ll fake CO Seer. Bite George tonight unless a real Seer gets outed.
+1,whisper,5,1,11,...
+1,whisper,6,2,12,@Shion  @Jonathan  Let’s all vote Daisuke today. Tonight let’s bite George unless a Seer checks one of us.
+1,whisper,7,2,13,Let’s all vote Daisuke today. Tonight we bite George unless someone more dangerous COs last minute.
+1,whisper,8,2,11,...
+1,whisper,9,3,12,I suggest we vote Daisuke today since most people suspect him. For tonight’s bite should we target George or the Seer CO?
+1,whisper,10,3,13,Let’s all vote Daisuke today and plan to bite George tonight unless Seer or Medium gets clear trust at the last minute.
+1,whisper,11,3,11,...
+1,guard,1,3,POSSESSED
+1,attackVote,11,1
+1,attackVote,12,5
+1,attackVote,13,5
+1,attack,5,true
+2,status,1,BODYGUARD,ALIVE,kanolab-nw-C1,Minato
+2,status,2,MEDIUM,DEAD,mille-B1,Daisuke
+2,status,3,POSSESSED,ALIVE,kanolab-nw-A1,Takumi
+2,status,4,SEER,ALIVE,Character-Lab-A1,Toshio
+2,status,5,VILLAGER,DEAD,Character-Lab-B1,George
+2,status,6,VILLAGER,ALIVE,sunamelli-c1,Rin
+2,status,7,VILLAGER,ALIVE,CanisLupus-A1,Mio
+2,status,8,VILLAGER,ALIVE,mille-A1,Sakura
+2,status,9,VILLAGER,ALIVE,CanisLupus-B1,Servas
+2,status,10,VILLAGER,ALIVE,kanolab-nw-B1,Kenji
+2,status,11,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan
+2,status,12,WEREWOLF,ALIVE,sunamelli-a1,Midori
+2,status,13,WEREWOLF,ALIVE,sunamelli-b1,Shion
+2,talk,0,0,11,...
+2,talk,1,0,7,Good morning everyone! Oh no George! Let's get serious. Jonathan hasn't said a thing! Super suspicious
+2,talk,2,0,9,The scales were tipped. One judged one taken. The matter between Toshio and Takumi must be settled.
+2,talk,3,0,6, @Jonathan  you’re way too quiet for a villager! Are you hiding something or just shy? Who do you suspect right now?
+2,talk,4,0,3,Divined WildMio as a werewolf last night. Let’s be smart and maybe give her a vote today. I got this! Whatever works!
+2,talk,5,0,8,I will vote Jonathan.
+2,talk,6,0,12, @Jonathan  your silence is worrisome. We need everyone’s thoughts. Hiding now only helps those with something to hide.
+2,talk,7,0,10,Whoa Toshio and Takumi's claims are on different paths! If wild Mio's a wolf let's examine Takumi's seer claim closely!
+2,talk,8,0,4,I divined Minato and Takumi as HUMAN. With Daisuke gone and George attacked  we need concrete reads.  @Jonathan  do you have a role claim or divination to share? If not  who are you voting for? I'm inclined to nominate players who've given no reads—speak now or be nom
+2,talk,9,0,13,Jonathan’s silence stands out too much. Wolves hide in plain sight.  @Jonathan  can you explain your lack of input yesterday?
+2,talk,10,0,1,Toshio's seer claim. It seems consistent? 'Cause I'm human. Jonathan's silence... It's suspicious. Let's weigh... Takumi's claim?
+2,talk,11,1,11,...
+2,talk,12,1,7,I'm a Villager so Takumi's lying! Toshio must be the real Seer. Let's vote for silent Jonathan
+2,talk,13,1,9,Toshio finds his rival human. This marks Takumi as Possessed and Mio as innocent.
+2,talk,14,1,6,Takumi’s push on Mio feels off.  @Takumi  why did you switch from Toshio to Mio? That move looks sketchy today.
+2,talk,15,1,3,I'm sticking with my seer claim. Divined results don't lie. If Jon stays quiet might be time to vote him out. Whatever works!
+2,talk,16,1,8,I will vote Takumi.
+2,talk,17,1,12, @Takumi  your sudden shift to target Mio worries me. Can you explain your reasoning clearly for everyone?
+2,talk,18,1,10,Wow Mio seems super human with her defense! Takumi flipping is so wild. Let's go carefully! Hey Jonathan. Any thoughts for us?
+2,talk,19,1,4,I’ve divined Minato and Takumi as HUMAN. Daisuke was executed and George attacked — we’re losing innocents.  @Jonathan   do you have a role claim or any reads to share? If not  speak now or I’ll nominate someone quiet (Kenji or Midori) to force a reaction. Over
+2,talk,20,1,13,Jonathan’s silence hurts the village. Unless he explains himself I’m voting him. If not him who’s next most suspicious?
+2,talk,21,1,1,Takumi and Toshio both saying different things is confusing. But I think um Jonathan? If you don't talk it'll be hard to help.
+2,talk,22,2,11,...
+2,talk,23,2,7,The Seer situation is clear now. Let's focus on Jonathan who has said nothing at all
+2,talk,24,2,9,If my theory holds our true quarry is not Takumi.  @Jonathan  your silence is a liability.
+2,talk,25,2,6,If Jonathan is innocent we need to deal with Takumi’s wild Seer claims next. Don’t let the wolves slip away in the chaos!
+2,talk,26,2,3,I'm sure my seer claim holds strong. Let's focus on Silent Jonno. Tosh might be tossing us off. We gotta work together! I'm genuine about my seer role! J
+2,talk,27,2,8,I will vote Takumi.
+2,talk,28,2,12,It bothers me that Jonathan keeps quiet. Silence helps wolves blend in—we should vote for him this round.
+2,talk,29,2,10,Wow. Jonathan's silence is worrying! Why push Takumi and not check Toshio's claim? Is it strategy or just bluffing? Let's go figure it out!
+2,talk,30,2,4,Two innocents down — we need decisive reads. I'm leaning toward  @Takumi ; explain your vote and behavior. Jonathan  what's your read? Others  speak now or I'll nominate Takumi. Over
+2,talk,31,2,13,I’m voting  @Jonathan  today. Silence this late is just too suspicious. Others need to get more assertive or we’ll stall.
+2,talk,32,2,1,Hmm. Jonathan's quietness. Maybe he's hiding something? We should ask Mr. Jonathan to share. Could be important. Don't you think?
+2,talk,33,3,11,...
+2,talk,34,3,7,I agree with everyone targeting Jonathan! Let's not get distracted by Takumi. Jonathan is our target
+2,talk,35,3,9,A continued silence serves only chaos. My judgment falls upon Jonathan.
+2,talk,36,3,6,I’m voting Jonathan for his silence but if he’s a villager let’s all look hard at Takumi’s shifting seer claims tomorrow.
+2,talk,37,3,3,Toshio's claims are like cobwebs! Fishy timing screams shady right folks? Let's not let him hypnotize us into losing! Whatever works!
+2,talk,38,3,8,I will vote Takumi.
+2,talk,39,3,12,I’ll vote Jonathan. His silence only helps wolves. Tomorrow we must dig into the Takumi vs Toshio Seer claims thoroughly.
+2,talk,40,3,10,Let's see what the seer says! Wow. Maybe they should divine Jonathan if he's super quiet! Hey Jonathan! Silence tactic huh?
+2,talk,41,3,4,We lost Daisuke and George. I divined Minato and Takumi as HUMAN.  @Takumi  explain your vote and behavior now. Jonathan  do you have a role claim or reads? If no solid answers soon I’ll vote to lynch Takumi. Over
+2,talk,42,3,13,I’m voting  @Jonathan . Silence breeds confusion and shields wolves best.
+2,talk,43,3,1,Toshio. Your read on me. Is it reliable? Takumi says he's the Seer? It's confusing maybe? Are we both voting Jonathan? What next?
+2,vote,1,11
+2,vote,3,7
+2,vote,4,3
+2,vote,6,3
+2,vote,7,11
+2,vote,8,3
+2,vote,9,11
+2,vote,10,11
+2,vote,11,10
+2,vote,12,11
+2,vote,13,11
+2,execute,11,WEREWOLF
+2,divine,4,3,HUMAN
+2,whisper,0,0,12,Let’s stick with the plan and let Jonathan go to avoid suspicion. Tonight I suggest biting Mio—she’s trusted and calm.
+2,whisper,1,0,13,@Midori  @Jonathan  let’s agree to vote Jonathan out today to match the town and keep our cover strong.
+2,whisper,2,1,12,Let’s all vote for Jonathan today to avoid suspicion. Tonight I suggest we bite Mio because she’s trusted by everyone.
+2,whisper,3,1,13,Let’s all vote Jonathan to avoid attention. For bite out tonight Mio looks safest since she's trusted but not a CO.
+2,whisper,4,2,12,Let’s agree to bite Mio tonight unless a surprise role claim comes up.
+2,whisper,5,2,13,Let’s all vote Jonathan today then bite Mio tonight. Don’t defend Takumi too strongly. Prep to fake CO if needed.
+2,whisper,6,3,12,Let’s agree to vote Jonathan today and bite Mio tonight unless she COs. Stay apart in suspicions—don’t defend each other.
+2,whisper,7,3,13,Let’s all vote @Jonathan today to stay hidden then bite  @Mio  tonight unless a power role CO appears unexpectedly.
+2,guard,1,3,POSSESSED
+2,attackVote,12,7
+2,attackVote,13,7
+2,attack,7,true
+3,status,1,BODYGUARD,ALIVE,kanolab-nw-C1,Minato
+3,status,2,MEDIUM,DEAD,mille-B1,Daisuke
+3,status,3,POSSESSED,ALIVE,kanolab-nw-A1,Takumi
+3,status,4,SEER,ALIVE,Character-Lab-A1,Toshio
+3,status,5,VILLAGER,DEAD,Character-Lab-B1,George
+3,status,6,VILLAGER,ALIVE,sunamelli-c1,Rin
+3,status,7,VILLAGER,DEAD,CanisLupus-A1,Mio
+3,status,8,VILLAGER,ALIVE,mille-A1,Sakura
+3,status,9,VILLAGER,ALIVE,CanisLupus-B1,Servas
+3,status,10,VILLAGER,ALIVE,kanolab-nw-B1,Kenji
+3,status,11,WEREWOLF,DEAD,CamelliaDragons1,Jonathan
+3,status,12,WEREWOLF,ALIVE,sunamelli-a1,Midori
+3,status,13,WEREWOLF,ALIVE,sunamelli-b1,Shion
+3,talk,0,0,4,I’ve divined Minato and Takumi as HUMAN. We just lost Jonathan and Mio — this is getting dangerous.  @Sakura  do you have any role claim or reads to share? Everyone else  state your vote now. If nobody gives a solid lead I’ll nominate someone quiet. Over
+3,talk,1,0,13, @Minato  you’ve sailed under the radar. Time to step up—where do your real suspicions lie right now?
+3,talk,2,0,10,Wow! With three seer claims flying around my gut says Takumi's not quite right. Let's focus on his slip-ups and vote him out!
+3,talk,3,0,8,I will vote Takumi.
+3,talk,4,0,9,Toshio is the Seer Takumi is Possessed. We seek werewolves.  @Toshio  who did you scrutinize?
+3,talk,5,0,3,Hey folks. I divined Toshio as a WEREWOLF last night. Think about that when you're picking who to vote for. I got this!
+3,talk,6,0,1,Shion's silence is bothering me too. But…I think we shouldn't join Jonathan's idea. Takumi's Seer claim...isn't certain yet.
+3,talk,7,0,12,If Takumi is out and the result is possessed maybe wolves are hiding among the quieter voices  @Minato  any thoughts?
+3,talk,8,0,6, @Minato  pick someone other than Takumi to suspect and say why No fence-sitting allowed today!
+3,talk,9,1,4,I’ve divined Minato and Takumi HUMAN. We just lost Jonathan and Mio — we need concrete reads now.  @Sakura   are you the seer? Reveal or give any divinations you have. Others  state your vote or I’ll start nominating. Over
+3,talk,10,1,13, @Sakura  your voting’s been random. Why did you switch off Daisuke yesterday? What was your reasoning?
+3,talk,11,1,10,Wow there's a lot buzzing around Takumi! Why'd he claim a human on death?  @Rin  Let's weigh the votes! Got a gut feeling lurking?
+3,talk,12,1,8,I will vote Takumi.
+3,talk,13,1,9, @Sakura  your persistence in voting Takumi is suspect. This action serves only the wolves. Explain.
+3,talk,14,1,3, @Servas Tosh's making false claims. Don't trust it. Instead think about who’s silent or who’s stirring the pot. Whatever!
+3,talk,15,1,1,Let's not rush to conclusions yet. Takumi and Toshio could both be lying. Maybe examining quieter players first is good? What do you think Midori? Thi
+3,talk,16,1,12,Is it just me or has Sakura changed voting targets a lot? Feels like confusion or maybe hiding something.
+3,talk,17,1,6, @Sakura  if Takumi isn’t a wolf who do you suspect next? You’ve been quiet on who else is suspicious.
+3,talk,18,2,4,I’ve divined Minato and Takumi HUMAN. We lost Jonathan and Mio — we can’t afford more mistakes.  @Sakura  if you’re the seer  reveal or share your divinations now. Everyone else  state your vote or I’ll start nominating. Over
+3,talk,19,2,13, @Minato  you keep avoiding a clear stance. That’s classic wolf behavior. Can you explain your silence?
+3,talk,20,2,10,Wow. Nerves are high! Is it Takumi or Toshio? Let's go with our instincts. Lay down your votes to protect the seer!
+3,talk,21,2,8,I will vote Takumi.
+3,talk,22,2,9,To exile Takumi is a fruitless act. My judgment falls upon Sakura whose focus serves only the wolves.
+3,talk,23,2,3,Hey let's not only focus on me and Toshio. Isn't Sakura acting weird with all those votes? Guess it could be some smart plan or not. Thoughts?
+3,talk,24,2,1,Some votes feel forced maybe. Servas mentioned Sakura's voting? What do you think? Do we need to plan today perhaps?
+3,talk,25,2,12,Takumi’s logic keeps changing and it's unsettling. I think we should focus our vote there for today.
+3,talk,26,2,6, @Sakura  your votes never have clear reasons. Who else do you suspect besides Takumi and why?
+3,talk,27,3,4,I’ve divined Minato and Takumi HUMAN. We just lost Jonathan and Mio — this is urgent.  @Sakura  are you the seer? If so  share any divinations; if not  who are you voting for? Everyone else state votes now or I’ll start nominating. Over
+3,talk,28,3,13,Sakura’s random votes only help werewolves. I’m voting  @Sakura —let’s focus and stop this chaos before it spreads.
+3,talk,29,3,10,Wow! These seer claims really have me scratching my head. Let's be cautious and chat more with the quiet folks! Hey Taku! Your seer claim is clashing wi
+3,talk,30,3,8,I will vote Takumi.
+3,talk,31,3,9,Shion's judgment is sound. A vote for Takumi is a vote for our defeat. Sakura must be exiled.
+3,talk,32,3,3,Tosh's divinations have me thinking guys. Ever notice how sure he sounds? It's suspicious right? Maybe we should rethink this.
+3,talk,33,3,1,There are lots of assumptions. Maybe we should hear Midori's thoughts.  @Takumi  You seem unsure. Is there a clearer way to explain it?
+3,talk,34,3,12,Takumi’s claims never add up. No real logic or divination pattern. I’m voting Takumi.
+3,talk,35,3,6,Takumi’s claims never add up. I’m voting Takumi. If he’s not a wolf then Sakura’s voting pattern is next on my list!
+3,vote,1,3
+3,vote,3,4
+3,vote,4,3
+3,vote,6,3
+3,vote,8,3
+3,vote,9,8
+3,vote,10,3
+3,vote,12,3
+3,vote,13,8
+3,execute,3,POSSESSED
+3,divine,4,12,WEREWOLF
+3,whisper,0,0,12, @Shion  let’s keep votes spread and avoid defending each other directly. For the bite let’s target Kenji or Rin tonight.
+3,whisper,1,0,13,Midori let’s target Kenji for tonight’s bite out He’s getting too much trust and no one suspects him yet Avoid talking about 
+3,whisper,2,1,12, @Shion  let’s bite Kenji tonight unless anyone COs power before night. For votes let’s stay apart and aim Takumi now.
+3,whisper,3,1,13,Let’s vote Takumi today to stay hidden. For tonight’s bite Kenji is the real threat—let’s target him unless last second CO.
+3,whisper,4,2,12, @Shion  let’s bite Kenji tonight unless he COs. For voting let’s keep Takumi as target and stay separated in discussion.
+3,whisper,5,2,13,Kenji’s trust level is dangerous so let’s bite him tonight unless he COs a power role last minute. Backup is Rin.
+3,whisper,6,3,12,Let’s bite Kenji tonight—he’s trusted and won’t be suspected if gone.
+3,whisper,7,3,13,Let’s bite Kenji tonight. He leads the logic and won’t be suspected. For vote out Sakura or Takumi are safest.
+3,guard,1,13,WEREWOLF
+3,attackVote,12,10
+3,attackVote,13,10
+3,attack,10,true
+4,status,1,BODYGUARD,ALIVE,kanolab-nw-C1,Minato
+4,status,2,MEDIUM,DEAD,mille-B1,Daisuke
+4,status,3,POSSESSED,DEAD,kanolab-nw-A1,Takumi
+4,status,4,SEER,ALIVE,Character-Lab-A1,Toshio
+4,status,5,VILLAGER,DEAD,Character-Lab-B1,George
+4,status,6,VILLAGER,ALIVE,sunamelli-c1,Rin
+4,status,7,VILLAGER,DEAD,CanisLupus-A1,Mio
+4,status,8,VILLAGER,ALIVE,mille-A1,Sakura
+4,status,9,VILLAGER,ALIVE,CanisLupus-B1,Servas
+4,status,10,VILLAGER,DEAD,kanolab-nw-B1,Kenji
+4,status,11,WEREWOLF,DEAD,CamelliaDragons1,Jonathan
+4,status,12,WEREWOLF,ALIVE,sunamelli-a1,Midori
+4,status,13,WEREWOLF,ALIVE,sunamelli-b1,Shion
+4,talk,0,0,12, @Sakura  could you share your full reasoning on your votes today? The shifting makes it difficult to trust your intentions.
+4,talk,1,0,9,Our judgment on Takumi was a grave error. Now we must scrutinize those who championed that mistake.
+4,talk,2,0,13,Sakura’s voting swings are distracting. If she’s innocent who gains most from all this confusion? Let’s look closer.
+4,talk,3,0,8,I will vote Minato.
+4,talk,4,0,1,Uh with seer claims mixed up like this should we um focus the voting on sorting out what they mean maybe? Anyone suspicious?
+4,talk,5,0,6, @Sakura  you switched your vote to Minato with no clear reason. Can you explain your suspicion with facts?
+4,talk,6,0,4,I’m the seer — I divined  @Midori  as WEREWOLF. We need to lynch her now. Who’s voting with me? If you disagree  reveal a role or give a concrete read. Over
+4,talk,7,1,12, @Toshio  your timing is suspicious.
+4,talk,8,1,9,Indeed. The Seer has identified our quarry. My judgment falls upon Midori without hesitation.
+4,talk,9,1,13, @Toshio  your sudden wolf claim on Midori feels forced. Why reveal now and not before? Something’s off with this timing.
+4,talk,10,1,8,I will vote Minato.
+4,talk,11,1,1,Um. If Toshio says Mrs. Midori's a werewolf maybe we should think about it? Big sis Sakura voting me is wild. Why do you keep voting me? I'm unsure about y
+4,talk,12,1,6, @Toshio  your Seer timing feels sudden—what changed today? Why call Midori a wolf now instead of earlier?
+4,talk,13,1,4,I’m the seer — I divined  @Midori  as WEREWOLF. I’ll vote to lynch her. Anyone opposing or with a concrete counterclaim  speak now. Over
+4,talk,14,2,12, @Toshio  why reveal your wolf result on me only now? The timing feels off like you’re desperate for a last-minute lynch.
+4,talk,15,2,9,The Seer has found our quarry. To question him now is to serve chaos. I vote for Midori.
+4,talk,16,2,13, @Toshio  why reveal Midori as wolf now? Sudden CO when numbers fall seems risky for actual villagers.
+4,talk,17,2,8,I will vote Minato.
+4,talk,18,2,1,I think... Toshio's claim feels odd? Should we... maybe listen to Shion? Quiet players are well they could be mysterious?
+4,talk,19,2,6, @Sakura  you keep voting Minato with no reason. Who else seems like a wolf to you? Please explain your suspect choices!
+4,talk,20,2,4,I’m the seer — I divined  @Midori  as WEREWOLF. I’ll vote to lynch. Any objections or role claims? Over
+4,talk,21,3,12, @Toshio  your last-minute claim feels like panic not truth. If you’re wrong we lose a villager.
+4,talk,22,3,9,The Seer has revealed the truth. My vote falls on Midori.  @Sakura  your vote is a clear betrayal.
+4,talk,23,3,13,I cannot trust such a last-minute wolf claim from  @Toshio  . Sakura’s random voting damages the village—I’m voting Sakura.
+4,talk,24,3,8,I will vote Minato.
+4,talk,25,3,1,I think. Well Toshio's claim rushed? We need strong evidence maybe? Let's listen calmly.  @Sakura  voting me feels off? Why I guess?
+4,talk,26,3,6,Sakura’s votes have been pure chaos and she never gives a reason.
+4,talk,27,3,4,I’m the seer — I divined  @Midori  as WEREWOLF. I will vote to lynch her. Any objections or concrete counterclaims? If you oppose  reveal your role or a divination now. Over
+4,vote,1,8
+4,vote,4,6
+4,vote,6,4
+4,vote,8,1
+4,vote,9,12
+4,vote,12,8
+4,vote,13,8
+4,execute,8,VILLAGER
+4,divine,4,6,HUMAN
+4,whisper,0,0,13,Let’s target Servas for tonight’s bite out. He’s organizing the logic so removing him sows confusion.
+4,whisper,1,0,12,Let’s target Servas for bite tonight. Shion please keep distance from defending me and push suspicion on Sakura or Minato.
+4,whisper,2,1,13, @Midori  let’s not defend each other too closely—focus suspicion on Sakura and Minato. Serve Servas as a bite target tonight?
+4,whisper,3,1,12,Let’s have Shion vote Sakura today to avoid wolf pair suspicion—I’ll push doubt on Toshio. If I go  bite Servas next.
+4,whisper,4,2,13,Servas should be our bite out target tonight. He's guiding votes and rallying town.
+4,whisper,5,2,12, @Shion  tonight let’s bite Servas since he’s organizing town most also trust him please vote Sakura today so suspicion stays o
+4,whisper,6,3,13,Servas is our best bite target tonight—he’s leading logic and town trusts his push for Toshio.
+4,whisper,7,3,12,Let’s bite Servas tonight—he’s too trusted and vocal. Shion please vote Sakura with me and avoid open defense of each other.
+4,guard,1,13,WEREWOLF
+4,attackVote,12,9
+4,attackVote,13,9
+4,attack,9,true
+5,status,1,BODYGUARD,ALIVE,kanolab-nw-C1,Minato
+5,status,2,MEDIUM,DEAD,mille-B1,Daisuke
+5,status,3,POSSESSED,DEAD,kanolab-nw-A1,Takumi
+5,status,4,SEER,ALIVE,Character-Lab-A1,Toshio
+5,status,5,VILLAGER,DEAD,Character-Lab-B1,George
+5,status,6,VILLAGER,ALIVE,sunamelli-c1,Rin
+5,status,7,VILLAGER,DEAD,CanisLupus-A1,Mio
+5,status,8,VILLAGER,DEAD,mille-A1,Sakura
+5,status,9,VILLAGER,DEAD,CanisLupus-B1,Servas
+5,status,10,VILLAGER,DEAD,kanolab-nw-B1,Kenji
+5,status,11,WEREWOLF,DEAD,CamelliaDragons1,Jonathan
+5,status,12,WEREWOLF,ALIVE,sunamelli-a1,Midori
+5,status,13,WEREWOLF,ALIVE,sunamelli-b1,Shion
+5,talk,0,0,6, @Toshio  you CO’d Seer for days but revealed Midori as wolf only now What kept you silent? Your timing feels off.
+5,talk,1,0,4,I am the seer. I divined  @Midori  as WEREWOLF. Minato  Takumi  and Rin are HUMAN. We just lost Sakura and Servas — lynch Midori now. Any objections? Over
+5,talk,2,0,1,With Takumi and Sakura gone. Mr. Toshio let's focus on those quiet ones. Maybe divining Midori or Shion gives clarity?
+5,talk,3,0,12, @Toshio  your wolf result on me comes so late. Isn’t it risky to trust a claim just when the village is tense and divided?
+5,talk,4,0,13, @Toshio  why only CO now? Sudden Seer reveals have trapped villagers before. We need to check Minato’s silence too.
+5,talk,5,1,6, @Minato  you’ve never chosen a suspect. Who do you think is the wolf right now? We need clear answers today.
+5,talk,6,1,4,I'm the seer. I divined  @Midori  WEREWOLF — vote to lynch her now. Over
+5,talk,7,1,1,Toshio. The timing feels odd maybe? I guess it's not too late though?  @Rin . Maybe we should look at votes? What do you think?
+5,talk,8,1,12, @Toshio  why reveal your wolf result so suddenly now? Isn’t this classic to trick us at endgame? I sense a trap here.
+5,talk,9,1,13, @Minato  you’ve been quiet all game. Endgames are lost by ignoring silence. What’s your read on Midori and Toshio?
+5,talk,10,2,6,@Toshio your werewolf claim on Midori is sudden. Why now? Feels suspicious.  @Minato  who do you trust most right now?
+5,talk,11,2,4,I divined  @Midori  WEREWOLF. Vote Midori. If you oppose  reveal a role or divination now. Over
+5,talk,12,2,1,Hmm. Trusting Toshio I feel uneasy. The seer says confusing things? How do we find out for sure? Is Midori true or false maybe?
+5,talk,13,2,12, @Minato  Toshio’s result came just when we’re vulnerable don’t you feel it’s classic possessed timing to break the game?
+5,talk,14,2,13, @Toshio  your late CO is suspicious sudden claims often hide wolves in endgame I won’t rush vote out based on that alone
+5,talk,15,3,6,Sorry Toshio but I think your timing exposes you as a fake. Shion Minato please think it through—I’m voting Toshio today.
+5,talk,16,3,4,I divined  @Midori  as WEREWOLF. Vote Midori now — any counterclaims or role reveals? Over
+5,talk,17,3,1,Everyone. With three Seers maybe it's risky. If Servas is genuine maybe it's okay. How about Midori? Anyone else suspect her?  @Midori  do you think Toshio's reveal is strange? He's claiming to be a Seer. Maybe it's a risk? How are you feeling?
+5,talk,18,3,12,I’m voting Toshio. His sudden CO feels desperate. Please consider if we’re being rushed into a mistake.
+5,talk,19,3,13, @Toshio ’s sudden Seer CO is too risky to trust. I’m voting Toshio. If not wolf  Minato’s silence is my next concern.
+5,vote,1,4
+5,vote,6,4
+5,vote,12,4
+5,vote,13,4
+5,execute,4,SEER
+6,status,1,BODYGUARD,ALIVE,kanolab-nw-C1,Minato
+6,status,2,MEDIUM,DEAD,mille-B1,Daisuke
+6,status,3,POSSESSED,DEAD,kanolab-nw-A1,Takumi
+6,status,4,SEER,DEAD,Character-Lab-A1,Toshio
+6,status,5,VILLAGER,DEAD,Character-Lab-B1,George
+6,status,6,VILLAGER,ALIVE,sunamelli-c1,Rin
+6,status,7,VILLAGER,DEAD,CanisLupus-A1,Mio
+6,status,8,VILLAGER,DEAD,mille-A1,Sakura
+6,status,9,VILLAGER,DEAD,CanisLupus-B1,Servas
+6,status,10,VILLAGER,DEAD,kanolab-nw-B1,Kenji
+6,status,11,WEREWOLF,DEAD,CamelliaDragons1,Jonathan
+6,status,12,WEREWOLF,ALIVE,sunamelli-a1,Midori
+6,status,13,WEREWOLF,ALIVE,sunamelli-b1,Shion
+6,result,2,2,WEREWOLF
